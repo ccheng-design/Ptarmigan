@@ -1,0 +1,53 @@
+{
+  "id": "99a1eda8-81c6-4967-b683-d7dcd01e92ab",
+  "identity": {
+    "name": "UAP",
+    "version": "0.1.1",
+    "publisher": {
+      "email": "clark.cheng@uapcompany.com",
+      "name": "Clark Cheng",
+      "company": "UAP"
+    },
+    "copyright": "Copyright \u00A9 2024",
+    "image": {
+      "light": {
+        "type": "svg",
+        "data": "PHN2ZyB2ZXJzaW9uPSIxLjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKIHdpZHRoPSIxMDAwLjAwMDAwMHB0IiBoZWlnaHQ9Ijc2OS4wMDAwMDBwdCIgdmlld0JveD0iMCAwIDEwMDAuMDAwMDAwIDc2OS4wMDAwMDAiCiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ij4KCjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLDc2OS4wMDAwMDApIHNjYWxlKDAuMTAwMDAwLC0wLjEwMDAwMCkiCmZpbGw9IiMwMDAwMDAiIHN0cm9rZT0ibm9uZSI\u002BCjxwYXRoIGQ9Ik0xMDE0IDY2NjcgYy0zIC04IC0zIC0xMDc4IC0xIC0yMzc4IDMgLTE3NjAgNyAtMjM4NCAxNiAtMjQ0NCAzNwotMjUxIDEyNSAtNDQwIDI3NSAtNTkwIDQyOSAtNDI4IDEyMTkgLTQzMyAxNjUwIC0xMCAxNTYgMTUzIDIzNyAzMTMgMjcxIDUzNQozMiAyMDUgMzYgNTU4IDMzIDI3MzUgbC0zIDIxNjAgLTM5NyAzIC0zOTggMiAwIC0yMjY3IGMwIC0xNDIzIC00IC0yMzEwIC0xMAotMjM4MSAtMTYgLTE4MSAtNjAgLTI3MSAtMTU3IC0zMTkgLTUyIC0yNSAtNjggLTI4IC0xNTggLTI4IC04OSAwIC0xMDYgMwotMTUxIDI3IC02NSAzNCAtMTA3IDg0IC0xMzYgMTYyIGwtMjMgNjEgLTUgMjM3MCAtNSAyMzcwIC0zOTggMyBjLTMyOSAyIC0zOTgKMCAtNDAzIC0xMXoiLz4KPHBhdGggZD0iTTQ0NjUgNjY2OCBjLTMgLTEwIC03NTggLTU1NDggLTc2OCAtNTYzMyAtMiAtMjAgNSAtMjAgMzgwIC0yMyBsMzgxCi0yIDYgMzcgYzMgMjEgMzMgMjk5IDY2IDYxOCAzMyAzMTkgNjMgNTkwIDY2IDYwMyBsNCAyMiAzNTEgMCBjMjcxIDAgMzUxIC0zCjM1NCAtMTIgMiAtNyAzMyAtMjc4IDcwIC02MDMgMzYgLTMyNCA2OCAtNjA3IDcxIC02MjcgbDYgLTM4IDM4NCAwIDM4NCAwIDAKMjQgYzAgMzIgLTcyOCA1NjE3IC03MzUgNTYzNCAtMyA5IC0xMTUgMTIgLTUxMCAxMiAtMzk2IDAgLTUwNyAtMyAtNTEwIC0xMnoKbTc1NSAtMzYzMCBjMCAtNSAtMTIyIC04IC0yNzAgLTggbC0yNzEgMCA2IDMzIGMzIDE3IDYyIDU4MyAxMzAgMTI1NyA2OSA2NzQKMTI5IDEyMzYgMTMyIDEyNTAgNCAxNyAyNjYgLTI0MTggMjczIC0yNTMyeiIvPgo8cGF0aCBkPSJNNjc3NSA2NjY4IGMtMyAtNyAtNCAtMTI4MiAtMyAtMjgzMyBsMyAtMjgyMCAzOTggLTMgMzk3IC0yIDAgMTE1MAowIDExNTAgNzkgMCBjMTIwIDAgMzI0IDE5IDQzMSA0MCAzMjMgNjIgNTQwIDE5NyA2OTkgNDM0IDE0MiAyMTAgMTkwIDQwMSAyMTIKODUxIDE5IDM3MSAzIDgzNCAtMzYgMTA2NSAtNjggNDA0IC0zMTEgNzU0IC02MDUgODc0IC0yMDYgODQgLTQ0MSAxMDYgLTExNjMKMTA2IC0zMTcgMCAtNDA5IC0zIC00MTIgLTEyeiBtMTExNiAtNzYzIGMzNyAtNyA4NCAtMjIgMTA1IC0zMyA5NCAtNDkgMTY5Ci0xNjcgMTk4IC0zMTIgNDcgLTIzNSA0NyAtOTEzIDAgLTExNTAgLTggLTQxIC0yOCAtMTAzIC00MyAtMTM2IC03NiAtMTYzCi0xOTkgLTIyMyAtNDU4IC0yMjQgbC0xMjMgMCAwIDk0MSAwIDk0MSAxMjggLTcgYzcwIC0zIDE1NyAtMTMgMTkzIC0yMHoiLz4KPC9nPgo8L3N2Zz4K"
+      }
+    }
+  },
+  "settings": {
+    "buildPath": "build/",
+    "buildTarget": {
+      "appName": "Rhino3D",
+      "appVersion": {
+        "major": 8
+      },
+      "title": "Rhino3D (8.*)",
+      "slug": "rh8"
+    },
+    "publishTarget": {
+      "title": "McNeel Yak Server"
+    }
+  },
+  "codes": [
+    {
+      "id": "9cd35f3d-9348-41f4-8b08-889404fa0f51",
+      "language": {
+        "id": "*.*.python",
+        "version": "*.*.*"
+      },
+      "title": "RandomColors",
+      "uri": "_SOURCE CODE/RandomColors.py"
+    },
+    {
+      "id": "64b97737-2ce7-4a0b-8ef3-d5cec5a0fe8a",
+      "language": {
+        "id": "*.*.python",
+        "version": "*.*.*"
+      },
+      "title": "UP2",
+      "uri": "_SOURCE CODE/UP2.py"
+    }
+  ]
+}
