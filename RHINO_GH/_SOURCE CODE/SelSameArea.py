@@ -24,7 +24,7 @@ else:
         measured_obj.append(area)
     print(measured_obj)
     
-    unique=set(measured_obj)
+    #unique=set(measured_obj)
     #print(unique)
     
     occur={}
@@ -32,8 +32,11 @@ else:
         occur[i]=occur.get(i,0)+1
     
     mapped=[occur[i]>1 for i in measured_obj]
-
+    for i in mapped:
+        pattern=int(mapped=="True")
+        print(pattern)
     print(mapped)
+    
 
 
     #print(measured_obj)    
