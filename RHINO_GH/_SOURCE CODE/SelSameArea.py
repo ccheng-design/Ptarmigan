@@ -32,19 +32,25 @@ else:
         occur[i]=occur.get(i,0)+1
     
     mapped=[occur[i]>1 for i in measured_obj]
-    for i in mapped:
-        pattern=int(mapped=="True")
-        print(pattern)
-    print(mapped)
     
+    result=[]
 
+    #convert true and false into 1 and 0
+    #for i in mapped:
+        #p=int(i)
+        #result.append(p)
+    #print(result)
+    
+    obj_select=[]
+    uniquepts=[]
 
-    #print(measured_obj)    
-    #if len(measured_obj) !=len(set(measured_obj)):
-        #print("equal")
+    #cull pattern using list comprehension
+    same_area = [d for d, p in zip(area_obj, mapped) if p]
+    print("OBJ",same_area)
 
-    #else:
-        #print("None")
+    rs.SelectObjects(same_area)
+    
+    print(len(same_area), "objects has the same area")
 
 
 
