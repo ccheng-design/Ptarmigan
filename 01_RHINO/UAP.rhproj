@@ -2,7 +2,7 @@
   "id": "99a1eda8-81c6-4967-b683-d7dcd01e92ab",
   "identity": {
     "name": "UAP",
-    "version": "0.1.1",
+    "version": "0.2.1-beta",
     "publisher": {
       "email": "clark.cheng@uapcompany.com",
       "name": "Clark Cheng",
@@ -72,6 +72,15 @@
       },
       "title": "MovetoNewLayer",
       "uri": "_SOURCE CODE/MovetoNewLayer.py"
+    },
+    {
+      "id": "04fa4ec3-bd3d-4e25-a5a5-70ed98dcead4",
+      "language": {
+        "id": "*.*.python",
+        "version": "*.*.*"
+      },
+      "title": "NametoLayers",
+      "uri": "_SOURCE CODE/NametoLayers.py"
     }
   ]
 }

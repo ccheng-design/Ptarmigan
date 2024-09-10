@@ -46,6 +46,22 @@
             </text>
             <left_macro_id>ef6b6cd3-45de-4ac6-912c-f85de769890d</left_macro_id>
         </tool_bar_item>
+        <tool_bar_item guid="74fab7fb-bb5e-4282-9ecf-082febb2ead2"
+            button_display_mode="control_only"
+            button_style="normal">
+            <text>
+                <locale_1033>MovetoNewLayer</locale_1033>
+            </text>
+            <left_macro_id>74fab7fb-bb5e-4282-9ecf-082febb2ead2</left_macro_id>
+        </tool_bar_item>
+        <tool_bar_item guid="04fa4ec3-bd3d-4e25-a5a5-70ed98dcead4"
+            button_display_mode="control_only"
+            button_style="normal">
+            <text>
+                <locale_1033>NametoLayers</locale_1033>
+            </text>
+            <left_macro_id>04fa4ec3-bd3d-4e25-a5a5-70ed98dcead4</left_macro_id>
+        </tool_bar_item>
 
     </tool_bar>
   </tool_bars>
@@ -103,6 +119,42 @@
           <locale_1033>SelSameArea</locale_1033>
         </menu_text>
         <script>! _SelSameArea</script>
+      </macro_item>
+      <macro_item guid="74fab7fb-bb5e-4282-9ecf-082febb2ead2" bitmap_id="00000000-0000-0000-0000-000000000000">
+        <text>
+          <locale_1033>Macro.MovetoNewLayer</locale_1033>
+        </text>
+        <tooltip>
+          <locale_1033>MovetoNewLayer</locale_1033>
+        </tooltip>
+        <help_text>
+          <locale_1033>MovetoNewLayer</locale_1033>
+        </help_text>
+        <button_text>
+          <locale_1033>MovetoNewLayer</locale_1033>
+        </button_text>
+        <menu_text>
+          <locale_1033>MovetoNewLayer</locale_1033>
+        </menu_text>
+        <script>! _MovetoNewLayer</script>
+      </macro_item>
+      <macro_item guid="04fa4ec3-bd3d-4e25-a5a5-70ed98dcead4" bitmap_id="00000000-0000-0000-0000-000000000000">
+        <text>
+          <locale_1033>Macro.NametoLayers</locale_1033>
+        </text>
+        <tooltip>
+          <locale_1033>NametoLayers</locale_1033>
+        </tooltip>
+        <help_text>
+          <locale_1033>NametoLayers</locale_1033>
+        </help_text>
+        <button_text>
+          <locale_1033>NametoLayers</locale_1033>
+        </button_text>
+        <menu_text>
+          <locale_1033>NametoLayers</locale_1033>
+        </menu_text>
+        <script>! _NametoLayers</script>
       </macro_item>
 
   </macros>
