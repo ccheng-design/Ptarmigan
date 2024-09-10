@@ -89,16 +89,3 @@ else:
             #print(pattern)
             #print(same_geo)
             #print(area)
-
-
-
- 
-        
-
-
-        
-
-            
-
-
-
