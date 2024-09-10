@@ -38,6 +38,14 @@
             </text>
             <left_macro_id>64b97737-2ce7-4a0b-8ef3-d5cec5a0fe8a</left_macro_id>
         </tool_bar_item>
+        <tool_bar_item guid="ef6b6cd3-45de-4ac6-912c-f85de769890d"
+            button_display_mode="control_only"
+            button_style="normal">
+            <text>
+                <locale_1033>SelSameArea</locale_1033>
+            </text>
+            <left_macro_id>ef6b6cd3-45de-4ac6-912c-f85de769890d</left_macro_id>
+        </tool_bar_item>
 
     </tool_bar>
   </tool_bars>
@@ -77,6 +85,24 @@
           <locale_1033>UP2</locale_1033>
         </menu_text>
         <script>! _UP2</script>
+      </macro_item>
+      <macro_item guid="ef6b6cd3-45de-4ac6-912c-f85de769890d" bitmap_id="00000000-0000-0000-0000-000000000000">
+        <text>
+          <locale_1033>Macro.SelSameArea</locale_1033>
+        </text>
+        <tooltip>
+          <locale_1033>SelSameArea</locale_1033>
+        </tooltip>
+        <help_text>
+          <locale_1033>SelSameArea</locale_1033>
+        </help_text>
+        <button_text>
+          <locale_1033>SelSameArea</locale_1033>
+        </button_text>
+        <menu_text>
+          <locale_1033>SelSameArea</locale_1033>
+        </menu_text>
+        <script>! _SelSameArea</script>
       </macro_item>
 
   </macros>

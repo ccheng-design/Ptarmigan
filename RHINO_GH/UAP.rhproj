@@ -17,7 +17,7 @@
     }
   },
   "settings": {
-    "buildPath": "build/",
+    "buildPath": "build",
     "buildTarget": {
       "appName": "Rhino3D",
       "appVersion": {
