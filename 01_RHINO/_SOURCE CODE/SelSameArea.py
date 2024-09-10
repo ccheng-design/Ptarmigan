@@ -8,6 +8,10 @@ import math as m
 #This includes all objects that have multiple area
 #You have the option of changing between specific area and overall pieces
 
+#filter geo
+geo_types=rs.filter.polysurface | rs.filter.surface | rs.filter.curve
+
+
 #Get geometry
 area_obj=rs.GetObjects("Select surfaces, polysurfaces, hatches, closed planar curves or polygon meshes for area calculation",preselect=True)
 if not area_obj:
