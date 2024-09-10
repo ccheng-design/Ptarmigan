@@ -37,11 +37,3 @@ for obj in name_to_layer:
         rs.ObjectLayer(obj,a)
         names.append(a)
 print(names)
-
-
-
-
-
-
-
-

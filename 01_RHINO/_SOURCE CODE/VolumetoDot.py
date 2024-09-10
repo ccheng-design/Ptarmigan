@@ -3,6 +3,10 @@ import rhinoscriptsyntax as rs
 from System.Drawing import Color
 
 
+#written by Clark Cheng
+#email: ccheng@clarkcheng.design
+
+
 #Surface Volume
 #Gets the volume of each object and adds a text dot
 
