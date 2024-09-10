@@ -6,6 +6,7 @@ import math as m
 
 #Selects objects with the duplicate areas. 
 #This includes all objects that have multiple area
+#You have the option of changing between specific area and overall pieces
 
 #Get geometry
 area_obj=rs.GetObjects("Select surfaces, polysurfaces, hatches, closed planar curves or polygon meshes for area calculation",preselect=True)
@@ -58,21 +59,40 @@ else:
     else:
         #specific objects
         specific_obj=rs.GetObject()
+        if not specific_obj:
+            print("None Selected")
+        else:
+            specific_area=round(rs.Area(specific_obj),3)
 
-        #measure area
-        s_obj_area=round(rs.Area(specific_obj),3)
-        print(s_obj_area)
+            print(specific_area)
 
-        specific_area=[]
+            pattern=[]
+            same_geo=[]
+            
 
-        for i in measured_obj:
-            if i==s_obj_area:
-                print(f"Match found: {i}")
-                specific_area.append(area_obj)
-        print(area_obj)
-        print(len(area_obj))
+            for i in measured_obj:
+                if i == specific_area:
+                    pattern.append(True)
+                    #pattern.append(area_obj)
 
-        #rs.SelectObjects(specific_area)
+                else:
+                    pattern.append(False)
+            
+            for obj, p in zip(area_obj,pattern):
+                if p:
+                    same_geo.append(obj)
+            
+
+            rs.SelectObjects(same_geo)
+            print(len(same_geo),"objects have the same area of",specific_area, "square", rs.UnitSystemName(False,False,False))
+            #rs.UnitSystemName(False)
+            #print(pattern)
+            #print(same_geo)
+            #print(area)
+
+
+
+ 
         
 
 
