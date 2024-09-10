@@ -3,6 +3,13 @@ import random
 from System.Drawing import Color
 
 
+#written by Clark Cheng
+#email: ccheng@clarkcheng.design
+
+#Select Rhino Objs and move to the newly made layer based on the obj names
+#Random colors
+
+
 name_to_layer=rs.GetObjects()
 if not name_to_layer: print("None Selected")
 
