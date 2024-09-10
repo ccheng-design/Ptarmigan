@@ -2,7 +2,7 @@
   "id": "99a1eda8-81c6-4967-b683-d7dcd01e92ab",
   "identity": {
     "name": "UAP",
-    "version": "0.2.1-beta",
+    "version": "0.3.1-beta",
     "publisher": {
       "email": "clark.cheng@uapcompany.com",
       "name": "Clark Cheng",
@@ -90,6 +90,15 @@
       },
       "title": "UP3",
       "uri": "_SOURCE CODE/UP3.py"
+    },
+    {
+      "id": "2e8c81ae-dc9d-49a6-8bf9-263e3cb0912b",
+      "language": {
+        "id": "*.*.python",
+        "version": "*.*.*"
+      },
+      "title": "VolumetoDot",
+      "uri": "_SOURCE CODE/VolumetoDot.py"
     }
   ]
 }

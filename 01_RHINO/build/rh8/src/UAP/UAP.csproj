@@ -3,7 +3,7 @@
     <TargetFramework>net48</TargetFramework>
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
     <AssemblyName>UAP</AssemblyName>
-    <AssemblyVersion>0.2.1.9020</AssemblyVersion>
+    <AssemblyVersion>0.3.1.9020</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>

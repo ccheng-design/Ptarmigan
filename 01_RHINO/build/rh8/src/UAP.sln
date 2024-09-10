@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{99a1eda8-81c6-4967-b683-d7dcd01e92ab}") = "UAP", "UAP\UAP.csproj", "{1685a7d6-7289-410c-9b71-d6f1dc01ac0a}"
+Project("{99a1eda8-81c6-4967-b683-d7dcd01e92ab}") = "UAP", "UAP\UAP.csproj", "{d085385c-5bf3-4c2f-aa82-7dfd3668a30a}"
 EndProject
 
 Global
@@ -10,8 +10,8 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1685a7d6-7289-410c-9b71-d6f1dc01ac0a}.Debug|Any CPU.Build.0 = Debug|Any CPU
-{1685a7d6-7289-410c-9b71-d6f1dc01ac0a}.Release|Any CPU.Build.0 = Release|Any CPU
+		{d085385c-5bf3-4c2f-aa82-7dfd3668a30a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+{d085385c-5bf3-4c2f-aa82-7dfd3668a30a}.Release|Any CPU.Build.0 = Release|Any CPU
 
 	EndGlobalSection
 EndGlobal

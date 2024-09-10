@@ -62,6 +62,22 @@
             </text>
             <left_macro_id>04fa4ec3-bd3d-4e25-a5a5-70ed98dcead4</left_macro_id>
         </tool_bar_item>
+        <tool_bar_item guid="1d232f87-729e-440f-800b-0386c2c01c16"
+            button_display_mode="control_only"
+            button_style="normal">
+            <text>
+                <locale_1033>UP3</locale_1033>
+            </text>
+            <left_macro_id>1d232f87-729e-440f-800b-0386c2c01c16</left_macro_id>
+        </tool_bar_item>
+        <tool_bar_item guid="2e8c81ae-dc9d-49a6-8bf9-263e3cb0912b"
+            button_display_mode="control_only"
+            button_style="normal">
+            <text>
+                <locale_1033>VolumetoDot</locale_1033>
+            </text>
+            <left_macro_id>2e8c81ae-dc9d-49a6-8bf9-263e3cb0912b</left_macro_id>
+        </tool_bar_item>
 
     </tool_bar>
   </tool_bars>
@@ -155,6 +171,42 @@
           <locale_1033>NametoLayers</locale_1033>
         </menu_text>
         <script>! _NametoLayers</script>
+      </macro_item>
+      <macro_item guid="1d232f87-729e-440f-800b-0386c2c01c16" bitmap_id="00000000-0000-0000-0000-000000000000">
+        <text>
+          <locale_1033>Macro.UP3</locale_1033>
+        </text>
+        <tooltip>
+          <locale_1033>UP3</locale_1033>
+        </tooltip>
+        <help_text>
+          <locale_1033>UP3</locale_1033>
+        </help_text>
+        <button_text>
+          <locale_1033>UP3</locale_1033>
+        </button_text>
+        <menu_text>
+          <locale_1033>UP3</locale_1033>
+        </menu_text>
+        <script>! _UP3</script>
+      </macro_item>
+      <macro_item guid="2e8c81ae-dc9d-49a6-8bf9-263e3cb0912b" bitmap_id="00000000-0000-0000-0000-000000000000">
+        <text>
+          <locale_1033>Macro.VolumetoDot</locale_1033>
+        </text>
+        <tooltip>
+          <locale_1033>VolumetoDot</locale_1033>
+        </tooltip>
+        <help_text>
+          <locale_1033>VolumetoDot</locale_1033>
+        </help_text>
+        <button_text>
+          <locale_1033>VolumetoDot</locale_1033>
+        </button_text>
+        <menu_text>
+          <locale_1033>VolumetoDot</locale_1033>
+        </menu_text>
+        <script>! _VolumetoDot</script>
       </macro_item>
 
   </macros>
