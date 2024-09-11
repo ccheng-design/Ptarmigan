@@ -2,12 +2,14 @@
 import rhinoscriptsyntax as rs
 import random
 
+
 #AutoName
 #Creates name for each obj
 #1. Establish naming convention
 #2. Select objs in order
 #3. Create layers with the manually entered naming convention
-#4. Add text dot at obj
+#4. Rename all objs
+#5. Add text dot at obj
 
 
 #Get string prefix
@@ -26,30 +28,29 @@ else:
     
     start=rs.GetInteger("Start Value",1)
     step=rs.GetInteger("Step Value",1)
+    
     count=len(parts)
 
     series=range(start, start + count * step, step)
     seq=[]
-    #randcolor=[]
 
 
     for i in series:
+        #Concat labels
         labels=str(prefix)+str(i)
-        #print(labels)
-
+        
+        #Add to list
         seq.append(labels)
         color=random.randint(0,255),random.randint(0,255),random.randint(0,255)
-        #print(color)
+        
+        #adding color
         rs.AddLayer(labels,color=(color))
 
-    for obj in zip(parts,seq):
+    #Zip is using the list in tandum
+    for obj,seq in zip(parts,seq):
         rs.ObjectLayer(obj, seq)
-            
+        rs.ObjectName(obj,seq)
         
-    
-
-
-    #print(randcolor)
     
 
     
