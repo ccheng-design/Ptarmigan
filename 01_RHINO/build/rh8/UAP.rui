@@ -78,6 +78,14 @@
             </text>
             <left_macro_id>2e8c81ae-dc9d-49a6-8bf9-263e3cb0912b</left_macro_id>
         </tool_bar_item>
+        <tool_bar_item guid="a1af7bd3-a1fe-46bf-88e1-54ce87ced8af"
+            button_display_mode="control_only"
+            button_style="normal">
+            <text>
+                <locale_1033>AutoName</locale_1033>
+            </text>
+            <left_macro_id>a1af7bd3-a1fe-46bf-88e1-54ce87ced8af</left_macro_id>
+        </tool_bar_item>
 
     </tool_bar>
   </tool_bars>
@@ -207,6 +215,24 @@
           <locale_1033>VolumetoDot</locale_1033>
         </menu_text>
         <script>! _VolumetoDot</script>
+      </macro_item>
+      <macro_item guid="a1af7bd3-a1fe-46bf-88e1-54ce87ced8af" bitmap_id="00000000-0000-0000-0000-000000000000">
+        <text>
+          <locale_1033>Macro.AutoName</locale_1033>
+        </text>
+        <tooltip>
+          <locale_1033>AutoName</locale_1033>
+        </tooltip>
+        <help_text>
+          <locale_1033>AutoName</locale_1033>
+        </help_text>
+        <button_text>
+          <locale_1033>AutoName</locale_1033>
+        </button_text>
+        <menu_text>
+          <locale_1033>AutoName</locale_1033>
+        </menu_text>
+        <script>! _AutoName</script>
       </macro_item>
 
   </macros>

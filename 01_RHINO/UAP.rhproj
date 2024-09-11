@@ -2,7 +2,7 @@
   "id": "99a1eda8-81c6-4967-b683-d7dcd01e92ab",
   "identity": {
     "name": "UAP",
-    "version": "0.3.1-beta",
+    "version": "0.3.2-beta",
     "publisher": {
       "email": "clark.cheng@uapcompany.com",
       "name": "Clark Cheng",
@@ -99,6 +99,15 @@
       },
       "title": "VolumetoDot",
       "uri": "_SOURCE CODE/VolumetoDot.py"
+    },
+    {
+      "id": "a1af7bd3-a1fe-46bf-88e1-54ce87ced8af",
+      "language": {
+        "id": "*.*.python",
+        "version": "*.*.*"
+      },
+      "title": "AutoName",
+      "uri": "_SOURCE CODE/AutoName.py"
     }
   ]
 }
