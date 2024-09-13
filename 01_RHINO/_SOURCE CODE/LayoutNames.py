@@ -1,4 +1,4 @@
-import Rhino
+optimport Rhino
 import rhinoscriptsyntax as rs
 import time
 
