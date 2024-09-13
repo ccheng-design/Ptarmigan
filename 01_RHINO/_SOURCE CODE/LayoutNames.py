@@ -13,7 +13,7 @@ if not pt:print("None Selected")
 
 
 else:
-    start_time = time.time()  
+     
 
     #hard coded spacing in the
     spacing=0.25
@@ -39,18 +39,20 @@ else:
     title=[]
     page_numbers=[]
 
-    #all_text=rs.AddGroup("titles")
+    all_text=rs.AddGroup("titles")
 
     items=("Group","No","Yes")
     group=rs.GetBoolean("Group Text?",items, True)
-    print(group)
+    print(group[0])
+    start_time = time.time() 
+
     if layouts:
         for l in layouts:
             #rhino common page number
             page_name=l.PageName
 
             #Convert int to string
-            page_num=str(l.PageNumber)
+            page_num=str((l.PageNumber)+1)
             
             
             #move points for names of pages
@@ -70,7 +72,11 @@ else:
             #Page numbers justification number added 2=center 131072=middle
             text_num=rs.AddText(page_num, start_pg_pt,height=0.1, justification=131074)
             page_numbers.append(text_num)
-            
+
+            if group[0]==True:
+                #Add to group
+                rs.AddObjectsToGroup(text_name,"titles")
+                rs.AddObjectsToGroup(text_num,"titles")
             
             
             
@@ -83,12 +89,6 @@ else:
     else:
         print("No layouts found.")
 
-
-#if group==True:
-    #Add to groups
-rs.AddObjectsToGroup(title,"titles")
-rs.AddObjectsToGroup(page_numbers,"titles")
-            
 
 #Info on runtime
 end_time = time.time()
