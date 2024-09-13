@@ -3,4 +3,4 @@
 
 Installation Instructions
 
-1. Download .yak file here: 01_RHINO/build/rh8/uap-0.3.4.9023-rh8-any.yak
+1. Download .yak file here: [01_RHINO/build/rh8/uap-0.3.4.9023-rh8-any.yak](https://github.com/ccheng-design/UAP-Plugins/tree/c3adc05772cd9eee4f0a05b1cf7abd3a988902ec/01_RHINO/build/rh8)
