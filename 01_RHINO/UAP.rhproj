@@ -2,7 +2,7 @@
   "id": "99a1eda8-81c6-4967-b683-d7dcd01e92ab",
   "identity": {
     "name": "UAP",
-    "version": "0.3.2-beta",
+    "version": "0.3.4-beta",
     "publisher": {
       "email": "clark.cheng@uapcompany.com",
       "name": "Clark Cheng",
@@ -108,6 +108,15 @@
       },
       "title": "AutoName",
       "uri": "_SOURCE CODE/AutoName.py"
+    },
+    {
+      "id": "3be9ff17-976c-4054-a8e0-4d741426dd9c",
+      "language": {
+        "id": "*.*.python",
+        "version": "*.*.*"
+      },
+      "title": "LayoutNames",
+      "uri": "_SOURCE CODE/LayoutNames.py"
     }
   ]
 }

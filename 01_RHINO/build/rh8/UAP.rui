@@ -86,6 +86,14 @@
             </text>
             <left_macro_id>a1af7bd3-a1fe-46bf-88e1-54ce87ced8af</left_macro_id>
         </tool_bar_item>
+        <tool_bar_item guid="3be9ff17-976c-4054-a8e0-4d741426dd9c"
+            button_display_mode="control_only"
+            button_style="normal">
+            <text>
+                <locale_1033>LayoutNames</locale_1033>
+            </text>
+            <left_macro_id>3be9ff17-976c-4054-a8e0-4d741426dd9c</left_macro_id>
+        </tool_bar_item>
 
     </tool_bar>
   </tool_bars>
@@ -233,6 +241,24 @@
           <locale_1033>AutoName</locale_1033>
         </menu_text>
         <script>! _AutoName</script>
+      </macro_item>
+      <macro_item guid="3be9ff17-976c-4054-a8e0-4d741426dd9c" bitmap_id="00000000-0000-0000-0000-000000000000">
+        <text>
+          <locale_1033>Macro.LayoutNames</locale_1033>
+        </text>
+        <tooltip>
+          <locale_1033>LayoutNames</locale_1033>
+        </tooltip>
+        <help_text>
+          <locale_1033>LayoutNames</locale_1033>
+        </help_text>
+        <button_text>
+          <locale_1033>LayoutNames</locale_1033>
+        </button_text>
+        <menu_text>
+          <locale_1033>LayoutNames</locale_1033>
+        </menu_text>
+        <script>! _LayoutNames</script>
       </macro_item>
 
   </macros>
