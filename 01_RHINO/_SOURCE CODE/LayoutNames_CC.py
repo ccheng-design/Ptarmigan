@@ -8,36 +8,35 @@ import rhinoscriptsyntax as rs
 
 #Get Starting pts
 pt=rs.GetPoint("Pick Point")
-#print(pt[1])
+
+#hard coded spacing
+spacing=3
+
+#define vector
+vector_y=Rhino.Geometry.Vector3d(0,-spacing,0)
 
 #Get all layout views (page views) in the current Rhino document
 #layouts = sc.doc.Views.GetPageViews()
 layouts=Rhino.RhinoDoc.ActiveDoc.Views.GetPageViews()
-
+num_pages=len(layouts)
 # Check if there are any layout views
 
 
 
 if layouts:
+    for l in layouts:
+        page_name=l.PageName
+        page_num=l.PageNumber
 
-    basepts=[]
-    y_move=[]
-    results=[]
-    pagenum=len(layouts)
-    transform=range(0,pagenum*5,pagenum)
+        #move points for names of pages
+        pt=pt+vector_y
+        rs.AddPoint(pt)
 
-    for i in transform:
-        y_move.append(i)
-    print(y_move)
-    
-    spacing=5
+        #move points for page numbers
 
-    for l,layouts in enumerate(layouts):
-        pagename=layouts.PageName
-
-        text=rs.AddText(pagename,pt)
-
-        text_pos=pt+Rhino.Geometry.Vector3d(0, -2 * spacing, 0)
+        text_name=rs.AddText(page_name,pt,justification=131072)
+        text_num=rs.AddText(pagenum,)
+        
 
         
 
