@@ -1,5 +1,7 @@
 # UAP-Plugins
+ ![uap-company-logo-vector](https://github.com/user-attachments/assets/d2b43332-33e1-488c-b949-e90dfed130a9)
  Scripts for UAP
+
 
 Installation Instructions
 
