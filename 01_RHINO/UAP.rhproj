@@ -17,14 +17,14 @@
     }
   },
   "settings": {
-    "buildPath": "file:///C:/Users/clark.cheng/OneDrive - UAP Company/Desktop/_COMMONS/UAP-Plugins/01_RHINO/build",
+    "buildPath": "build",
     "buildTarget": {
       "appName": "Rhino3D",
       "appVersion": {
-        "major": 7
+        "major": 8
       },
-      "title": "Rhino3D (7.*)",
-      "slug": "rh7"
+      "title": "Rhino3D (8.*)",
+      "slug": "rh8"
     },
     "publishTarget": {
       "title": "McNeel Yak Server"
