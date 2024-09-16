@@ -60,7 +60,7 @@ else:
             #debugging
             #rs.AddPoint(pt)
 
-            #move points for page numbers
+            #move points for page numbers a=a+1
             start_pg_pt=start_pg_pt+vector_y
             #debugging
             #rs.AddPoint(start_pg_pt)
