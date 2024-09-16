@@ -1,5 +1,5 @@
 import rhinoscriptsyntax as rs
-
+import Rhino
 
 
 #Read from the Layer BOM
@@ -34,12 +34,25 @@ for string in counts:
     key_list.append(string)
     values_list.append(counts[string])
 
-
+#debugging
 print(key_list)
 print(values_list)
 
+pt=Rhino.Geometry.Point3d(0,0,0)
+
+spacing=20
+vector_y=Rhino.Geometry.Vector3d(0,-spacing,0)
+vector_x=Rhino.Geometry.Vector3d(100,0,0)
+
+number=pt+vector_x
+
+#Add text
 for items in key_list:
-    rs.AddText(items,(0,0,0))
+    pt=pt+vector_y
+
+    rs.AddText(items,pt)
 
 for i in values_list:
-    rs.AddText(i,(0,0,0))
+    number=number+vector_y
+
+    rs.AddText(i,number)
