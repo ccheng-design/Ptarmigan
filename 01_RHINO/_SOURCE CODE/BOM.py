@@ -14,20 +14,24 @@ block_names = rs.BlockNames()
 #print(block_names)
 
 block_BOM=[]
-test1=[]
+counts={}
 
 for obj in layer:
     if rs.IsBlockInstance(obj):
         block_names=rs.BlockInstanceName(obj)
         block_BOM.append(block_names)
 
-
-
-unique=set(block_BOM)
-test1.append(unique)
-        
-test=block_BOM.count(test1[0])
+for string in block_BOM:
+    if string in counts:
+        counts[string]+=1
+    else:
+        counts[string]=1
 
 print(block_BOM)
-print(test1)
+print(counts)
+
+txt=str(counts)
+
+test=txt.split(":")
 print(test)
+
