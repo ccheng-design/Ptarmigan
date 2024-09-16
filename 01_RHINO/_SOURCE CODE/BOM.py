@@ -1,6 +1,9 @@
 import rhinoscriptsyntax as rs
 import Rhino
 
+#BOM
+#Creates bill of materials based on the blocks being in the BOM layer (user defined)
+
 
 #Read from the Layer BOM
 layername=rs.LayerName("BOM")
@@ -38,21 +41,33 @@ for string in counts:
 print(key_list)
 print(values_list)
 
-pt=Rhino.Geometry.Point3d(0,0,0)
+pt=rs.GetPoint("Pick Point")
+#pt=Rhino.Geometry.Point3d(0,0,0)
 
-spacing=20
+spacing=1
 vector_y=Rhino.Geometry.Vector3d(0,-spacing,0)
-vector_x=Rhino.Geometry.Vector3d(100,0,0)
+vector_x=Rhino.Geometry.Vector3d(1,0,0)
 
+#define the x direction
 number=pt+vector_x
+
+vector_x.Unitize() #unitize
+length=10
+scaled_vector=vector_x*length
+
+print(pt+scaled_vector)
 
 #Add text
 for items in key_list:
-    pt=pt+vector_y
+    pt+=vector_y
+    rs.AddPoint(pt)
+    #pt+scaled_vector
+    
+    rs.AddLine(pt,(pt+scaled_vector))
 
-    rs.AddText(items,pt)
+    rs.AddText(items,pt,height=0.1)
 
 for i in values_list:
     number=number+vector_y
 
-    rs.AddText(i,number)
+    rs.AddText(i,number,height=0.1)
