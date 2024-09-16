@@ -44,7 +44,7 @@ print(values_list)
 pt=rs.GetPoint("Pick Point")
 #pt=Rhino.Geometry.Point3d(0,0,0)
 
-spacingy=1
+spacingy=0.12
 spacingx=1
 vector_y=Rhino.Geometry.Vector3d(0,-spacingy,0)
 vector_x=Rhino.Geometry.Vector3d(spacingx,0,0)
@@ -56,6 +56,10 @@ vector_x.Unitize() #unitize
 length=spacingx
 scaled_vector=vector_x*length
 
+
+
+text_height=0.1
+
 print(pt+scaled_vector)
 
 #Add text
@@ -63,14 +67,20 @@ for items in key_list:
     pt+=vector_y
     rs.AddPoint(pt)
     #pt+scaled_vector
-    
-    rs.AddLine(pt,(pt+scaled_vector))
 
-    rs.AddText(items,pt,height=0.1,justification=131073)
+    #Top Line
+    offset_y=Rhino.Geometry.Vector3d(0,(text_height/2)+0.01,0)
+    rs.AddLine(pt+offset_y,(pt+scaled_vector+offset_y))
+
+    #Bottom Line
+    rs.AddLine(pt-offset_y,(pt+scaled_vector-offset_y))
+
+
+    rs.AddText(items,pt,text_height,justification=131073)
 
 for i in values_list:
     number=number+vector_y
 
     rs.AddPoint(number)
 
-    rs.AddText(i,number,height=0.1,justification=131076)
+    rs.AddText(i,number,text_height,justification=131076)
