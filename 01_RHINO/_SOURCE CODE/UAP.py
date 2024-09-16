@@ -2,6 +2,8 @@ import Rhino
 import scriptcontext as sc
 import rhinoscriptsyntax as rs
 
+
+
 def load_and_get_plugin_version(plugin_name):
     # Get the plugin ID by name
     plugin_id = Rhino.PlugIns.PlugIn.IdFromName(plugin_name)
@@ -32,8 +34,11 @@ def load_and_get_plugin_version(plugin_name):
     # Get the version (including build number) if plugin is loaded
     version = plugin.Version
     print(f"Plugin '{plugin_name}' version: {version}")
+    
     return version
 
 # Example usage for a .yak-installed plugin
 plugin_name = "UAP"  # Replace with the actual .yak plugin name
-load_and_get_plugin_version(plugin_name)
+names=load_and_get_plugin_version(plugin_name)
+
+rs.MessageBox("UAP PlugIn Version "+names,0,"UAP")
