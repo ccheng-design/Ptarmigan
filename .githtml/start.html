@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/plugins/prism/prism.css">
     <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">  
     <link rel="stylesheet" href="assets/plugins/simplelightbox/simple-lightbox.min.css">
+      
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
     
@@ -115,32 +116,15 @@
                                     <div class="code-block">
                                         <h6>HTML Code Example</h6>
                                         <pre><code class="language-markup">&lt;!DOCTYPE html&gt; 
-
-                                            import rhinoscriptsyntax as rs
-
-                                            #written by Clark Cheng
-                                            #email: ccheng@clarkcheng.design
-                                            
-                                            #Select Rhino Objs and move to the newly made layer or an existing layer
-                                            #layer01::layer02
-                                            
-                                            name_layer_obj=rs.GetObjects(preselect=True)
-                                            if not name_layer_obj:
-                                                print("None Selected")
-                                                
-                                            else:
-                                                layer = rs.StringBox("New layer name. For child layers, format like layer01::layer02" )
-                                            
-                                                #Add Layer
-                                                if layer: rs.AddLayer( layer )
-                                            
-                                                #Move obj to newly named layer
-                                                if layer:
-                                                    rs.ObjectLayer(name_layer_obj,layer)
-                                                    print("Moved",len(name_layer_obj), "objects to", layer)
-                                                else:
-                                                    print("No Layer Name Given")
-                                                
+&lt;html lang=&quot;en&quot;&gt; 
+    ...
+    &lt;div class=&quot;jumbotron&quot;&gt; 
+        &lt;h1&gt;Hello, world!&lt;/h1&gt; 
+        &lt;p&gt;...&lt;/p&gt; 
+        &lt;p&gt;&lt;a class=&quot;btn btn-primary btn-lg&quot; href=&quot;#&quot; role=&quot;button&quot;&gt;Learn more&lt;/a&gt;&lt;/p&gt; 
+    &lt;/div&gt;
+    ...
+&lt;/html&gt;</code></pre>
                                     </div><!--//code-block-->
                                 </div><!--//section-block-->
                                 
