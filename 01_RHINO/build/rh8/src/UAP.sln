@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{99a1eda8-81c6-4967-b683-d7dcd01e92ab}") = "UAP", "UAP\UAP.csproj", "{61b97f11-0e03-421e-a1ee-be9da988362f}"
+Project("{99a1eda8-81c6-4967-b683-d7dcd01e92ab}") = "UAP", "UAP\UAP.csproj", "{3ca3ae96-a315-4996-ad34-87fe8a67d004}"
 EndProject
 
 Global
@@ -10,9 +10,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{61b97f11-0e03-421e-a1ee-be9da988362f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61b97f11-0e03-421e-a1ee-be9da988362f}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61b97f11-0e03-421e-a1ee-be9da988362f}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61b97f11-0e03-421e-a1ee-be9da988362f}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ca3ae96-a315-4996-ad34-87fe8a67d004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ca3ae96-a315-4996-ad34-87fe8a67d004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ca3ae96-a315-4996-ad34-87fe8a67d004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ca3ae96-a315-4996-ad34-87fe8a67d004}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
