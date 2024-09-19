@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="ICON" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 528.9 324.25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bdc9fa;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3, .cls-8 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-width: 3.1px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #2e4ab5;
+      }
+
+      .cls-6 {
+        fill: #b5b5b5;
+      }
+
+      .cls-7 {
+        fill: #6380fa;
+      }
+
+      .cls-8 {
+        stroke-width: 7px;
+      }
+
+      .cls-9 {
+        opacity: .5;
+      }
+    </style>
+  </defs>
+  <g class="cls-9">
+    <g>
+      <polygon class="cls-7" points="381.48 96.64 417.42 108.1 417.42 71.64 381.48 60.18 381.48 96.64"/>
+      <polygon class="cls-1" points="381.48 60.18 417.42 71.64 440.85 52.89 405.6 41.95 381.48 60.18"/>
+      <polygon class="cls-5" points="417.42 71.64 417.42 108.1 440.85 89.35 440.85 52.89 417.42 71.64"/>
+      <polygon class="cls-3" points="381.48 60.18 381.48 96.64 417.42 108.1 440.85 89.35 440.85 52.89 405.6 41.95 381.48 60.18"/>
+    </g>
+    <polygon class="cls-4" points="385.48 97.54 417.38 108.1 417.38 74.21 385.48 63.65 385.48 97.54"/>
+    <polygon class="cls-6" points="417.38 74.21 417.38 108.1 437.53 92.03 437.81 58.36 417.38 74.21"/>
+    <polygon class="cls-2" points="385.48 63.65 385.48 97.54 417.38 108.1 436.77 92.79 436.88 59.09 417.38 74.21 385.48 63.65"/>
+  </g>
+  <path class="cls-8" d="M425.6,94.19h-25.64v-3.58l19.55-21c1.78-1.95,2.89-4.68,2.89-7.69,0-5.94-4.31-10.76-9.62-10.76h-6.4c-5.31,0-9.62,4.82-9.62,10.76"/>
+</svg>
