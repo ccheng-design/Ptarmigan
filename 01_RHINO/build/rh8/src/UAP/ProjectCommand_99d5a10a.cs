@@ -6,15 +6,15 @@ using Rhino.Commands;
 namespace RhinoCodePlatform.Rhino3D.Projects.Plugin
 {
   [CommandStyle(Rhino.Commands.Style.ScriptRunner)]
-  public class ProjectCommand_SelSameArea : Command
+  public class ProjectCommand_99d5a10a : Command
   {
-    public Guid CommandId { get; } = new Guid("ef6b6cd3-45de-4ac6-912c-f85de769890d");
+    public Guid CommandId { get; } = new Guid("99d5a10a-0015-4fe8-a08f-65a5fdd4e9d5");
 
-    public ProjectCommand_SelSameArea() { Instance = this; }
+    public ProjectCommand_99d5a10a() { Instance = this; }
 
-    public static ProjectCommand_SelSameArea Instance { get; private set; }
+    public static ProjectCommand_99d5a10a Instance { get; private set; }
 
-    public override string EnglishName => "SelSameArea";
+    public override string EnglishName => "UAP";
 
     protected override Rhino.Commands.Result RunCommand(RhinoDoc doc, RunMode mode)
     {

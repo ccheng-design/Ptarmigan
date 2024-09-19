@@ -6,15 +6,15 @@ using Rhino.Commands;
 namespace RhinoCodePlatform.Rhino3D.Projects.Plugin
 {
   [CommandStyle(Rhino.Commands.Style.ScriptRunner)]
-  public class ProjectCommand_NametoLayers : Command
+  public class ProjectCommand_64b97737 : Command
   {
-    public Guid CommandId { get; } = new Guid("04fa4ec3-bd3d-4e25-a5a5-70ed98dcead4");
+    public Guid CommandId { get; } = new Guid("64b97737-2ce7-4a0b-8ef3-d5cec5a0fe8a");
 
-    public ProjectCommand_NametoLayers() { Instance = this; }
+    public ProjectCommand_64b97737() { Instance = this; }
 
-    public static ProjectCommand_NametoLayers Instance { get; private set; }
+    public static ProjectCommand_64b97737 Instance { get; private set; }
 
-    public override string EnglishName => "NametoLayers";
+    public override string EnglishName => "UP2";
 
     protected override Rhino.Commands.Result RunCommand(RhinoDoc doc, RunMode mode)
     {

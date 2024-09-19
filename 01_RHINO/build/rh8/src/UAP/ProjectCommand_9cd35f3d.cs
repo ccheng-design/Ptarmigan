@@ -6,15 +6,15 @@ using Rhino.Commands;
 namespace RhinoCodePlatform.Rhino3D.Projects.Plugin
 {
   [CommandStyle(Rhino.Commands.Style.ScriptRunner)]
-  public class ProjectCommand_AutoName : Command
+  public class ProjectCommand_9cd35f3d : Command
   {
-    public Guid CommandId { get; } = new Guid("a1af7bd3-a1fe-46bf-88e1-54ce87ced8af");
+    public Guid CommandId { get; } = new Guid("9cd35f3d-9348-41f4-8b08-889404fa0f51");
 
-    public ProjectCommand_AutoName() { Instance = this; }
+    public ProjectCommand_9cd35f3d() { Instance = this; }
 
-    public static ProjectCommand_AutoName Instance { get; private set; }
+    public static ProjectCommand_9cd35f3d Instance { get; private set; }
 
-    public override string EnglishName => "AutoName";
+    public override string EnglishName => "RandomColors";
 
     protected override Rhino.Commands.Result RunCommand(RhinoDoc doc, RunMode mode)
     {

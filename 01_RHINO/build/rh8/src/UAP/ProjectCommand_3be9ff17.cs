@@ -6,15 +6,15 @@ using Rhino.Commands;
 namespace RhinoCodePlatform.Rhino3D.Projects.Plugin
 {
   [CommandStyle(Rhino.Commands.Style.ScriptRunner)]
-  public class ProjectCommand_VolumetoDot : Command
+  public class ProjectCommand_3be9ff17 : Command
   {
-    public Guid CommandId { get; } = new Guid("2e8c81ae-dc9d-49a6-8bf9-263e3cb0912b");
+    public Guid CommandId { get; } = new Guid("3be9ff17-976c-4054-a8e0-4d741426dd9c");
 
-    public ProjectCommand_VolumetoDot() { Instance = this; }
+    public ProjectCommand_3be9ff17() { Instance = this; }
 
-    public static ProjectCommand_VolumetoDot Instance { get; private set; }
+    public static ProjectCommand_3be9ff17 Instance { get; private set; }
 
-    public override string EnglishName => "VolumetoDot";
+    public override string EnglishName => "LayoutNames";
 
     protected override Rhino.Commands.Result RunCommand(RhinoDoc doc, RunMode mode)
     {

@@ -6,15 +6,15 @@ using Rhino.Commands;
 namespace RhinoCodePlatform.Rhino3D.Projects.Plugin
 {
   [CommandStyle(Rhino.Commands.Style.ScriptRunner)]
-  public class ProjectCommand_LayoutNames : Command
+  public class ProjectCommand_4fe846a5 : Command
   {
-    public Guid CommandId { get; } = new Guid("3be9ff17-976c-4054-a8e0-4d741426dd9c");
+    public Guid CommandId { get; } = new Guid("4fe846a5-02da-4177-8659-077fca598e75");
 
-    public ProjectCommand_LayoutNames() { Instance = this; }
+    public ProjectCommand_4fe846a5() { Instance = this; }
 
-    public static ProjectCommand_LayoutNames Instance { get; private set; }
+    public static ProjectCommand_4fe846a5 Instance { get; private set; }
 
-    public override string EnglishName => "LayoutNames";
+    public override string EnglishName => "UnhideAll";
 
     protected override Rhino.Commands.Result RunCommand(RhinoDoc doc, RunMode mode)
     {
