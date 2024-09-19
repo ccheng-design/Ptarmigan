@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 528.9 324.25">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #231f20;
+      }
+
+      .cls-3 {
+        fill: url(#Radial_Gradient_24-2);
+      }
+
+      .cls-3, .cls-2, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+        stroke-width: 3.1px;
+      }
+
+      .cls-4, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #7e726e;
+      }
+
+      .cls-8 {
+        font-family: TrebuchetMS-Bold, 'Trebuchet MS';
+        font-size: 26.94px;
+        font-weight: 700;
+      }
+
+      .cls-6 {
+        fill: url(#Radial_Gradient_24);
+      }
+
+      .cls-7 {
+        fill: #c4c4c4;
+      }
+    </style>
+    <radialGradient id="Radial_Gradient_24" data-name="Radial Gradient 24" cx="404.56" cy="61.92" fx="404.56" fy="61.92" r="17.09" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#414141"/>
+      <stop offset="1" stop-color="#010101"/>
+    </radialGradient>
+    <radialGradient id="Radial_Gradient_24-2" data-name="Radial Gradient 24" cx="404.69" cy="75.58" fx="404.69" fy="75.58" r="17.1" xlink:href="#Radial_Gradient_24"/>
+  </defs>
+  <g id="KEEP_ON_FOR_EXPORT">
+    <line class="cls-1" x1="373" y1="37.57" x2="373.71" y2="36.86"/>
+    <line class="cls-1" x1="448" y1="112.57" x2="448.71" y2="111.86"/>
+  </g>
+  <g id="ICON">
+    <polygon class="cls-7" points="387.21 93.54 416.9 102.91 416.9 71.66 387.21 62.29 387.21 93.54"/>
+    <polygon class="cls-4" points="387.21 62.29 416.9 71.66 437.21 56.04 407.53 46.66 387.21 62.29"/>
+    <polygon class="cls-5" points="416.9 71.66 416.9 102.91 437.21 87.29 437.21 56.04 416.9 71.66"/>
+    <polygon class="cls-2" points="387.21 62.29 387.21 93.54 416.9 102.91 437.21 87.29 437.21 56.04 407.53 46.66 387.21 62.29"/>
+    <path class="cls-6" d="M397.89,76.79c-1.1-8.57,4.96-16.42,13.54-17.53,8.57-1.1,16.42,4.95,17.52,13.53"/>
+    <path class="cls-3" d="M428.94,72.78c1.1,8.57-4.95,16.43-13.52,17.54-8.58,1.11-16.43-4.95-17.53-13.54"/>
+    <text class="cls-8" transform="translate(404.75 85.05)"><tspan x="0" y="0">V</tspan></text>
+  </g>
+</svg>
