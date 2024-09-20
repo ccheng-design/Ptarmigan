@@ -70,30 +70,45 @@
                                 <div id="RandomColors" class="section-block">
                                     <div class="content">
                                         <img src="assets/images/Components/RandomColors.svg" alt="Random Colors" class="svg-image">
-                                        <h3 class="block-title">Random Colors</h3>
+                                        <div class="text-blocks">
+                                            <h3 class="block-title">Random Colors</h3>
+                                            <h5 class="data-type">Data Type: Any</h5>
+                                        </div>
                                     </div>
+                                    
                                     <style>
-                                        .content {
-                                          display: flex;
-                                          align-items: center;
-                                        }
-                                      
-                                        .block-title {
-                                          margin-right: 10px; /* Adjust spacing between text and image */
-                                        }
-                                      
-                                        .svg-image {
-                                          width: 100px; /* Set desired width */
-                                          height: auto; /* Maintain aspect ratio */
-                                        }
-                                      </style>
-                                    <h6>Data Type: Any</h6>
-                                    <p>Provides a random color for the geometry selected.</p>
-                                    <a href="assets/images/Components/RandomColors.png">
-                                        <img class="img-fluid" src="assets/images/Components/RandomColors.png" alt="screenshot" width="500" height="1000" />
+                                      .content {
+                                        display: flex;
+                                        align-items: center; /* Vertically align elements */
+                                      }
+                                    
+                                      .svg-image {
+                                        width: 100px; /* Set desired width */
+                                        height: auto; /* Maintain aspect ratio */
+                                        margin-right: 5px; /* Adds space between image and text block */
+                                      }
+                                    
+                                      .text-blocks {
+                                        display: flex;
+                                        flex-direction: column; /* Stack the title and data type vertically */
+                                      }
+                                    
+                                      .block-title {
+                                        margin: 0;
+                                        margin-bottom: 5px; /* Adds space between the two headings */
+                                      }
+                                    
+                                      .data-type {
+                                        margin: 0;
+                                      }
+                                    </style>
+                                    
+                                    <p>Gives a random color for each object selected. Colors range from 0-255 using RGB values as the method for randomization.</p>
+                                    <a href="assets/images/Components/RandomColors.gif">
+                                        <img class="img-fluid" src="assets/images/Components/RandomColors.gif" alt="screenshot" width="500" height="1000" />
                                     </a>
                                     <p>Output: Geometry with random colors, based in given parameters.</p>
-                                    /*spacing here*/
+                                    
                                     <br>
                                     <br>
                                     <h5 style="background-color: rgb(185, 185, 185);">Command Line Options</h5>
