@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 75 75">
+  <defs>
+    <style>
+      .c {
+        fill: none;
+        stroke: #2f1012;
+        stroke-width: .5px;
+      }
+
+      .c, .d {
+        fill-rule: evenodd;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .d {
+        fill: url(#b);
+        stroke: #2a0f10;
+        stroke-width: 2px;
+      }
+    </style>
+    <radialGradient id="b" cx="29.25" cy="28.27" fx="29.25" fy="28.27" r="35.03" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fde596"/>
+      <stop offset=".28" stop-color="#6dbe45"/>
+      <stop offset=".48" stop-color="#4f7b8f"/>
+      <stop offset=".57" stop-color="#4256a6"/>
+      <stop offset=".67" stop-color="#2a327f"/>
+      <stop offset="1" stop-color="#ed2124"/>
+    </radialGradient>
+  </defs>
+  <path class="d" d="M14.06,36.36c.08-12.93,10.65-23.37,23.59-23.28,12.93.08,23.37,10.64,23.29,23.58-.09,12.94-10.65,23.37-23.59,23.29s-23.37-10.65-23.29-23.59Z"/>
+  <path class="c" d="M60.93,36.6c-.08,6.03-10.64,10.89-23.58,10.85-12.94-.04-23.37-4.96-23.29-10.99"/>
+  <path class="c" d="M37.36,59.95c-6-.08-10.84-10.65-10.8-23.58.04-12.94,4.94-23.37,10.94-23.29"/>
+</svg>
