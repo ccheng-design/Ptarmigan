@@ -107,7 +107,9 @@
                                     <a href="assets/images/Components/RandomColors.gif">
                                         <img class="img-fluid" src="assets/images/Components/RandomColors.gif" alt="screenshot" width="500" height="1000" />
                                     </a>
-                                    <p>Output: Geometry with random colors, based in given parameters. Ranging from 5-255. Did not add 0-4 because they looked too similar to white. You can even see 5-10 values becoming too far from red channel.</p>
+                                    <p>Output: Geometry with random colors, based in given parameters. Ranging from 5-255. Did not add 0-4 because they looked too similar to white. You can even see 5-10 values becoming too far from red channel.
+                                        It is to note that other combinations like True, True, False would still output a random color and not a gradient of using those 2 color channels.
+                                    </p>
                                     
                                     <br>
                                     <br>
@@ -122,7 +124,7 @@
                                         <img class="img-fluid" src="assets/images/Components/RandomColors_Red.png" alt="screenshot" width="500" height="1000" />
                                     </a>
                                     <br>
-                                    <p>Random red gradient, ranging from 5-255. Did not add 0-4 because they looked too similar to white. You can even see 5 becoming too far from red channel.</p>
+                                    <p>Random red gradient</p>
                                     </a>
                                     <p>Random colors between ranges of 0-255 of the RGB channels.</p>
                                     <pre style="background-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"><code>RandomRed=False RandomGreen=True RandomBlue=False</code></pre>
@@ -136,13 +138,12 @@
                                     </a>
                                     <br>
                                     <p>Random green gradient</p>
-                                    <h6>Geometry Classes</h6>
                                 </div><!--//section-block-->
 
                                 <!-- Start of AutoName section -->
                                 <div id="AutoName" class="section-block">
                                     <div class="content">
-                                        <img src="assets/images/Components/AutoName.svg" alt="Random Colors" class="svg-image">
+                                        <img src="assets/images/Components/AutoName.svg" alt="AutoName" class="svg-image">
                                         <div class="text-blocks">
                                             <h3 class="block-title">AutoName</h3>
                                             <h5 class="data-type">Data Type: All</h5>
@@ -203,15 +204,67 @@
                                 </div><!--//section-block-->
                                 <!-- End of AutoName section -->
 
-                                <!-- Start of members section -->
-                                <div id="members" class="section-block">
-                                    <h3 class="block-title">Members</h3>
-                                    <div class="row simplelightbox-gallery-4">
-                                        <div class="col-md-6 col-12">
-                                            <h6>Members Overview</h6>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                                <!-- Start of LayoutNames section -->
+                                <div id="LayOutNames" class="section-block">
+                                    <div class="content">
+                                        <img src="assets/images/Components/LayoutNames.svg" alt="LayoutNames" class="svg-image">
+                                        <div class="text-blocks">
+                                            <h3 class="block-title">LayoutNames</h3>
+                                            <h5 class="data-type">Data Type: All</h5>
                                         </div>
-                                    </div><!--//row-->  
+                                    </div>
+                                    
+                                    <style>
+                                      .content {
+                                        display: flex;
+                                        align-items: center; /* Vertically align elements */
+                                      }
+                                    
+                                      .svg-image {
+                                        width: 100px; /* Set desired width */
+                                        height: auto; /* Maintain aspect ratio */
+                                        margin-right: 5px; /* Adds space between image and text block */
+                                      }
+                                    
+                                      .text-blocks {
+                                        display: flex;
+                                        flex-direction: column; /* Stack the title and data type vertically */
+                                      }
+                                    
+                                      .block-title {
+                                        margin: 0;
+                                        margin-bottom: 5px; /* Adds space between the two headings */
+                                      }
+                                    
+                                      .data-type {
+                                        margin: 0;
+                                      }
+                                    </style>
+                                    
+                                    <p>Names objects based on a given selection order. Prompts a naming convention and the starting value (default is 1) and a step value (default is 1). 
+                                        <em>*For now, it only accepts integers and not numbers with decimals</em><br>
+                                        <em>*You must delete layers created with this command to re-run with same naming convention</em>
+                                    </p>
+                                    <a href="assets/images/Components/AutoName.gif">
+                                        <img class="img-fluid" src="assets/images/Components/AutoName.gif" alt="screenshot" width="500" height="1000" />
+                                    </a>
+                                    <p>Output: Geometry with random colors, based in given parameters.</p>
+                                    
+                                    <br>
+                                    <br>
+                                    <h5 style="background-color: rgb(185, 185, 185);">Command Line Options</h5>
+                                    <pre style="background-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"><code>Name/Abbreviation for Part</code></pre>
+                                    <a href="assets/images/Components/RandomColors.png">
+                                        <img class="img-fluid" src="assets/images/Components/RandomColors.png" alt="screenshot" width="500" height="1000" />
+                                    </a>
+                                    <p>Random colors between ranges of 0-255 of the RGB channels.</p>
+                                    <pre style="background-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"><code>Select in Order of Labels</code></pre>
+                                    <a href="assets/images/Components/RandomColors_Red.png">
+                                        <img class="img-fluid" src="assets/images/Components/RandomColors_Red.png" alt="screenshot" width="500" height="1000" />
+                                    </a>
+                                    <br>
+                                    <p>Select each object in the order you want the labels to be.</p>
+                                    <h6>Geometry Classes</h6>
                                 </div><!--//section-block-->
                                 <!-- End of members section -->
 
@@ -246,7 +299,7 @@
                                             <a class="nav-link scrollto" href="#AutoName">AutoName</a>
 	                                    </li>
 	                                    <li class="nav-item">
-                                            <a class="nav-link scrollto" href="#members">Members</a>
+                                            <a class="nav-link scrollto" href="#LayOutNames">LayOutNames</a>
 	                                    </li>
 	                                    <li class="nav-item">
                                             <a class="nav-link scrollto" href="#account">User Account</a>
