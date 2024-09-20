@@ -190,22 +190,38 @@
                                     <br>
                                     <h5 style="background-color: rgb(185, 185, 185);">Command Line Options</h5>
                                     <pre style="background-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"><code>Name/Abbreviation for Part</code></pre>
-                                    <a href="assets/images/Components/RandomColors.png">
-                                        <img class="img-fluid" src="assets/images/Components/RandomColors.png" alt="screenshot" width="500" height="1000" />
-                                    </a>
-                                    <p>Random colors between ranges of 0-255 of the RGB channels.</p>
+                                    <p>Add the name/abbreviations for all the selected parts.</p>
+                                    <!-- SectionEnd -->
+                                    <!-- SectionStart -->
                                     <pre style="background-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"><code>Select in Order of Labels</code></pre>
                                     <a href="assets/images/Components/RandomColors_Red.png">
                                         <img class="img-fluid" src="assets/images/Components/RandomColors_Red.png" alt="screenshot" width="500" height="1000" />
                                     </a>
+                                    <p>Random colors between ranges of 0-255 of the RGB channels.</p>
                                     <br>
-                                    <p>Select each object in the order you want the labels to be.</p>
-                                    <h6>Geometry Classes</h6>
+                                    <!-- SectionEnd -->
+                                    <!-- SectionStart -->
+                                    <pre style="background-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"><code>Start Value<1></1></code></pre>
+                                    <a href="assets/images/Components/AutoName_St_Val.png">
+                                        <img class="img-fluid" src="assets/images/Components/AutoName_St_Val.png" alt="screenshot" width="500" height="1000" />
+                                    </a>
+                                    <p>Starting Value. Default is 1.</p>
+                                    <br>
+                                    <!-- SectionEnd -->
+                                    <!-- SectionStart -->
+                                    <pre style="background-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"><code>Step Value<1></1></code></pre>
+                                    <a href="assets/images/Components/AutoName_Step_Val.png">
+                                        <img class="img-fluid" src="assets/images/Components/AutoName_Step_Val.png" alt="screenshot" width="500" height="1000" />
+                                    </a>
+                                    <br>
+                                    <p>Step Value. Default is 1.</p>
+                                    <p>This would sequentially a loop of a=a+step_value. Changing the default value would make it add any integer spacing you are looking for.</p>
+                                    
                                 </div><!--//section-block-->
                                 <!-- End of AutoName section -->
 
                                 <!-- Start of LayoutNames section -->
-                                <div id="LayOutNames" class="section-block">
+                                <div id="LayoutNames" class="section-block">
                                     <div class="content">
                                         <img src="assets/images/Components/LayoutNames.svg" alt="LayoutNames" class="svg-image">
                                         <div class="text-blocks">
@@ -241,9 +257,7 @@
                                       }
                                     </style>
                                     
-                                    <p>Names objects based on a given selection order. Prompts a naming convention and the starting value (default is 1) and a step value (default is 1). 
-                                        <em>*For now, it only accepts integers and not numbers with decimals</em><br>
-                                        <em>*You must delete layers created with this command to re-run with same naming convention</em>
+                                    <p>Creates a table of contents based on the title of each layout and the corresponding page numbers.
                                     </p>
                                     <a href="assets/images/Components/AutoName.gif">
                                         <img class="img-fluid" src="assets/images/Components/AutoName.gif" alt="screenshot" width="500" height="1000" />
@@ -299,7 +313,7 @@
                                             <a class="nav-link scrollto" href="#AutoName">AutoName</a>
 	                                    </li>
 	                                    <li class="nav-item">
-                                            <a class="nav-link scrollto" href="#LayOutNames">LayOutNames</a>
+                                            <a class="nav-link scrollto" href="#LayoutNames">LayoutNames</a>
 	                                    </li>
 	                                    <li class="nav-item">
                                             <a class="nav-link scrollto" href="#account">User Account</a>
