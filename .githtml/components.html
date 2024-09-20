@@ -62,6 +62,17 @@
                                 <h2 class="section-title">Introduction</h2>
                                 <div class="section-block">
                                     <p>All documentation for Rhino Commands will be here.</p>
+                                    <img src="assets/images/Components/RandomColors.svg" alt="Random Colors" class="svg-image">
+                                    <img src="assets/images/Components/AutoName.svg" alt="AutoName" class="svg-image">
+                                    <img src="assets/images/Components/LayoutNames.svg" alt="LayoutNames" class="svg-image">
+                                    <img src="assets/images/Components/MoveToNewLayer.svg" alt="MoveToNewLayer" class="svg-image">
+
+
+
+
+
+
+
                                 </div><!--//section-block-->
                             </section><!--//RandomName-section-->
 
@@ -139,6 +150,7 @@
                                     </a>
                                     <br>
                                     <p>Random green gradient</p>
+                                    <h6 style="font-size: 20px;"><span class="bolded">---------------------------------------------------------------------------------------------------------------------</span></h6>
                                 </div><!--//section-block-->
 
                                 <!-- Start of AutoName section -->
@@ -217,7 +229,7 @@
                                     <br>
                                     <p>Step Value. Default is 1.</p>
                                     <p>This would sequentially a loop of a=a+step_value. Changing the default value would make it add any integer spacing you are looking for.</p>
-                                    
+                                    <h6 style="font-size: 20px;"><span class="bolded">---------------------------------------------------------------------------------------------------------------------</span></h6>
                                 </div><!--//section-block-->
                                 <!-- End of AutoName section -->
 
@@ -268,30 +280,81 @@
                                     <br>
                                     <br>
                                     <h5 style="background-color: rgb(185, 185, 185);">Command Line Options</h5>
-                                    <pre style="background-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"><code>Name/Abbreviation for Part</code></pre>
-                                    <a href="assets/images/Components/RandomColors.png">
-                                        <img class="img-fluid" src="assets/images/Components/RandomColors.png" alt="screenshot" width="500" height="1000" />
+                                    <pre style="background-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"><code>Pick Point</code></pre>
+                                    <a href="assets/images/Components/LayoutNames_SheetIndex_ZO.png">
+                                        <img class="img-fluid" src="assets/images/Components/LayoutNames_SheetIndex_ZO.png" alt="screenshot" width="500" height="1000" />
                                     </a>
-                                    <p>Random colors between ranges of 0-255 of the RGB channels.</p>
-                                    <pre style="background-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"><code>Select in Order of Labels</code></pre>
-                                    <a href="assets/images/Components/RandomColors_Red.png">
-                                        <img class="img-fluid" src="assets/images/Components/RandomColors_Red.png" alt="screenshot" width="500" height="1000" />
+                                    <p>Pick Point to start the array of page names & numbers. Refer to the UAP COVER PAGE template for the pick point.</p>
+                                    <p>If pick point is not on the template, here are the dimensions for placement:</p>
+                                    <a href="assets/images/Components/LayoutNames_SheetIndex_ZI.png">
+                                        <img class="img-fluid" src="assets/images/Components/LayoutNames_SheetIndex_ZI.png" alt="screenshot" width="500" height="1000" />
                                     </a>
                                     <br>
-                                    <p>Select each object in the order you want the labels to be.</p>
-                                    <h6>Geometry Classes</h6>
+                                    <br>
+                                    <pre style="background-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"><code>Group Text?(Group=Yes)</code></pre>
+                                    <a href="assets/images/Components/LayoutNames_Group_Text.png">
+                                        <img class="img-fluid" src="assets/images/Components/LayoutNames_Group_Text.png" alt="screenshot" width="500" height="1000" />
+                                    </a>
+                                    <br>
+                                    <p>Option to group all the text generated by the command. Group=Yes will group everything, while Group=No will keep them separated.</p>
+                                    <h6 style="font-size: 20px;"><span class="bolded">---------------------------------------------------------------------------------------------------------------------</span></h6>
                                 </div><!--//section-block-->
-                                <!-- End of members section -->
+                                <!-- End of LayoutNames section -->
 
                                 <!-- Start of user account section -->
-                                <div id="account" class="section-block">
-                                    <h3 class="block-title">User Account</h3>
-                                    <div class="row simplelightbox-gallery-5">
-                                        <div class="col-md-6 col-12">
-                                            <h6>User Account Overview</h6>
-                                            <p>Intro goes here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+                                <div id="MoveToNewLayer" class="section-block">
+                                    <div class="content">
+                                        <img src="assets/images/Components/MoveToNewLayer.svg" alt="MoveToNewLayer" class="svg-image">
+                                        <div class="text-blocks">
+                                            <h3 class="block-title">MoveToNewLayer</h3>
+                                            <h5 class="data-type">Data Type: All</h5>
                                         </div>
-                                    </div><!--//row-->  
+                                    </div>
+                                    
+                                    <style>
+                                      .content {
+                                        display: flex;
+                                        align-items: center; /* Vertically align elements */
+                                      }
+                                    
+                                      .svg-image {
+                                        width: 100px; /* Set desired width */
+                                        height: auto; /* Maintain aspect ratio */
+                                        margin-right: 5px; /* Adds space between image and text block */
+                                      }
+                                    
+                                      .text-blocks {
+                                        display: flex;
+                                        flex-direction: column; /* Stack the title and data type vertically */
+                                      }
+                                    
+                                      .block-title {
+                                        margin: 0;
+                                        margin-bottom: 5px; /* Adds space between the two headings */
+                                      }
+                                    
+                                      .data-type {
+                                        margin: 0;
+                                      }
+                                    </style>
+                                    
+                                    <p>Moves selected objects to a new layer.
+                                    </p>
+                                    <a href="assets/images/Components/MoveToNewLayer.gif">
+                                        <img class="img-fluid" src="assets/images/Components/MoveToNewLayer.gif" alt="screenshot" width="500" height="1000" />
+                                    </a>
+                                    <p>Output: New layer with all the parts inside.</p>
+                                    
+                                    <br>
+                                    <br>
+                                    <h5 style="background-color: rgb(185, 185, 185);">Command Line Options</h5>
+                                    <pre style="background-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"><code>New layer name. For child layers, format like layer01::layer02</code></pre>
+                                    <a href="assets/images/Components/MoveToNewLayer_DailogueB.png">
+                                        <img class="img-fluid" src="assets/images/Components/MoveToNewLayer_DailogueB.png" alt="screenshot" width="500" height="1000" />
+                                    </a>
+                                    <p>Type in new layer name. For child layers, use layer01::layer02 format</p>
+
+                                    <h6 style="font-size: 20px;"><span class="bolded">---------------------------------------------------------------------------------------------------------------------</span></h6>
                                 </div><!--//section-block-->
                                 <!-- End of user account section -->
                             </section><!--//doc-section-->
@@ -317,7 +380,7 @@
                                             <a class="nav-link scrollto" href="#LayoutNames">LayoutNames</a>
 	                                    </li>
 	                                    <li class="nav-item">
-                                            <a class="nav-link scrollto" href="#account">User Account</a>
+                                            <a class="nav-link scrollto" href="#MoveToNewLayer">MoveToNewLayer</a>
 	                                    </li>
                                     </ul>
 	                            </li>
