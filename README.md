@@ -11,14 +11,14 @@ Installation Instructions
 
 
 Command List:
-AutoName
-LayoutNames
-MoveToNewLayer
-NametoLayers
-RandomColors
-SelSameArea
-UAP
-UnhideAll
-UP2
-UP3
-VolumetoDot
+*AutoName
+*LayoutNames
+*MoveToNewLayer
+*NametoLayers
+*RandomColors
+*SelSameArea
+*UAP
+*UnhideAll
+*UP2
+*UP3
+*VolumetoDot
