@@ -9,7 +9,7 @@ Installation Instructions
 2. Double click or drag-and-drop into Rhino 8
 3. Restart Rhino 8
 
-
+Link to Documentation is [here.](https://ccheng-design.github.io/UAP-Plugins/)
 
 Command List:
 + AutoName
