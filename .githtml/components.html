@@ -414,7 +414,7 @@
                                         <img src="assets/images/Components/SelSameArea.svg" alt="SelSameArea" class="svg-image">
                                         <div class="text-blocks">
                                             <h3 class="block-title">SelSameArea</h3>
-                                            <h5 class="data-type">Data Type: All</h5>
+                                            <h5 class="data-type">Data Type: Surface, PolySruface, Mesh, Solids</h5>
                                         </div>
                                     </div>
                                     
@@ -445,21 +445,26 @@
                                       }
                                     </style>
                                     
-                                    <p>Moves selected objects to a new layer.
+                                    <p>Selects objects with the same area. Tolerance is 0.001 units.
                                     </p>
-                                    <a href="assets/images/Components/MoveToNewLayer.gif">
-                                        <img class="img-fluid" src="assets/images/Components/MoveToNewLayer.gif" alt="screenshot" width="500" height="1000" />
+                                    <a href="assets/images/Components/SelSameArea_Demo.gif">
+                                        <img class="img-fluid" src="assets/images/Components/SelSameArea_Demo.gif" alt="screenshot" width="500" height="1000" />
                                     </a>
-                                    <p>Output: New layer with all the parts inside.</p>
+                                    <p>Output: Selection of objects that are the same area OR sets of objects that share the same area. Gives the area calculated in the command line.</p>
                                     
                                     <br>
                                     <br>
                                     <h4 style="text-decoration: underline;">Command Line Options</h4>
-                                    <pre style="background-color: rgb(255, 255, 255); color: rgb(255, 255, 255);"><code>New layer name. For child layers, format like layer01::layer02</code></pre>
-                                    <a href="assets/images/Components/MoveToNewLayer_DailogueB.png">
-                                        <img class="img-fluid" src="assets/images/Components/MoveToNewLayer_DailogueB.png" alt="screenshot" width="500" height="1000" />
+                                    <h4><i>[Select surface, polysurfaces, hatches, closed planar curves or polygon meshes for area calculation]</i></h4>
                                     </a>
-                                    <p>Type in new layer name. For child layers, use layer01::layer02 format</p>
+                                    <p>Select the objects within the object types.</p>
+                                    <h4><i>[Boolean options: All Objects=False]</i></h4>
+                                    </a>
+                                    <p>All objects meaning it will measure everything and find objects with the same area. For example, if you have 6 cubes with an area of 1 units squared and 5 cubes with an area of 4 units squared, 
+                                        then it will select the 6 cubes and the 5 cubes, due to the areas of those objects having other objects that share the same area. Essentially, it is like grouping objects that share the same area.</p>
+                                    <h4><i>[Select surface, polysurfaces, hatches, closed planar curves or polygon meshes for area calculation]</i></h4>
+                                    </a>
+                                    <p>Select the objects within the object types.</p>
                                 </div><!--//section-block-->
                                 <!-- End of user account section -->
                             </section><!--//doc-section-->
