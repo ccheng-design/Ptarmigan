@@ -70,6 +70,11 @@
                        button_style="normal">
             <text><locale_1033>UnhideAll</locale_1033></text>
             <left_macro_id>4fe846a5-02da-4177-8659-077fca598e75</left_macro_id>
+        </tool_bar_item>        <tool_bar_item guid="8762228d-088e-4c5a-a36d-1725b142f374"
+                       button_display_mode="control_only"
+                       button_style="normal">
+            <text><locale_1033>BOM</locale_1033></text>
+            <left_macro_id>8762228d-088e-4c5a-a36d-1725b142f374</left_macro_id>
         </tool_bar_item>
     </tool_bar>
   </tool_bars>
@@ -151,6 +156,13 @@
         <button_text><locale_1033>UnhideAll</locale_1033></button_text>
         <menu_text><locale_1033>UnhideAll</locale_1033></menu_text>
         <script>! _UnhideAll</script>
+      </macro_item>      <macro_item guid="8762228d-088e-4c5a-a36d-1725b142f374" bitmap_id="00000000-0000-0000-0000-000000000000">
+        <text><locale_1033>Macro.BOM</locale_1033></text>
+        <tooltip><locale_1033>BOM</locale_1033></tooltip>
+        <help_text><locale_1033>BOM</locale_1033></help_text>
+        <button_text><locale_1033>BOM</locale_1033></button_text>
+        <menu_text><locale_1033>BOM</locale_1033></menu_text>
+        <script>! _BOM</script>
       </macro_item>
   </macros>
   <icons>
