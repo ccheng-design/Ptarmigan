@@ -13,8 +13,8 @@ def block_list_count():
         block_list=[]
         counts={}
 
-        block_desc=[]
         desc_counts={}
+        block_desc=[]
 
         #for each object in the layer, test if its a block
         for obj in layer:
@@ -47,24 +47,25 @@ def block_list_count():
         #create lists for 
         key_list=[]
         values_list=[]
+        uniq_desc=[]
 
+        #Appending the count into a list
         for string in counts:
             key_list.append(string)
             values_list.append(counts[string])
 
-        #debugging
-        #print(key_list)
-        #print(values_list)
+        #Appending description
+        for string in desc_counts:
+            uniq_desc.append(string)
+        
 
+        #Getting maximum length for the strings
         key_list_length=[]
         for string in key_list:
             key_list_length.append(len(string))
-
-        
-        
+    
         max_length=max(key_list_length)
-        #debugging
-        #print(max_length)
+        
 
         pt=rs.GetPoint("Pick Point")
 
@@ -81,9 +82,11 @@ def block_list_count():
         spacingx=max_length*text_height
         vector_y=Rhino.Geometry.Vector3d(0,-spacingy,0)
         vector_x=Rhino.Geometry.Vector3d(spacingx,0,0)
+        pg_num_vector=Rhino.Geometry.Vector3d(spacingx+(text_height*3),0,0)
 
         #define the x direction
-        number=pt+vector_x
+        x_dir=pt+vector_x
+        blk_desc=pt+pg_num_vector
 
         vector_x.Unitize() #unitize
         length=spacingx
@@ -94,38 +97,70 @@ def block_list_count():
         #Debugging
         #print(pt+scaled_vector)
 
+        middle=[]
+        left=[]
+
         #Add text
         for items in key_list:
             pt+=vector_y
 
-            #debugging
             #rs.AddPoint(pt)
             
 
             #Top Line
-            offset_y=Rhino.Geometry.Vector3d(0,(text_height/2)+0.01,0)
+            offset_y=Rhino.Geometry.Vector3d(0,(spacingy/2),0)
             rs.AddLine(pt+offset_y,(pt+scaled_vector+offset_y))
+            
+
+            
+            #rs.AddPoint(pt+blk_desc)
+
 
             #Bottom Line
             rs.AddLine(pt-offset_y,(pt+scaled_vector-offset_y))
 
             #Left Line
-            rs.AddLine((pt+offset_y),(pt-offset_y))
+            l=rs.AddLine((pt+offset_y),(pt-offset_y))
 
-            #Right Line
-            rs.AddLine((pt+scaled_vector+offset_y),(pt+scaled_vector-offset_y))
+            #middle Line
+            m=rs.AddLine((pt+scaled_vector+offset_y),(pt+scaled_vector-offset_y))
+
+
+            middle.append(m)
+            left.append(l)
 
             rs.AddText(items,pt,text_height,justification=131073)
 
-        for i in values_list:
-            number=number+vector_y
+        for i in uniq_desc: #block description
+            x_dir=x_dir+vector_y
 
             #debugging
-            #rs.AddPoint(number)
+            #rs.AddPoint(x_dir)
+            
+            rs.AddText(i,x_dir,text_height,justification=131076)
 
-            rs.AddText(i,number,text_height,justification=131076)
+        for items in values_list: #page number
+            blk_desc+=vector_y
 
+            #Right Line
+            rs.AddLine((blk_desc-(vector_y/2)),(blk_desc+(vector_y/2)))
+            
+            pt=vector_y
 
+            rs.AddPoint(pt)
+            rs.AddPoint(blk_desc)
+
+            rs.AddText(items,blk_desc,text_height,justification=131076)
+
+        #Join middle side of curves and simplify
+        if len(middle)!=1:
+            a=rs.JoinCurves(middle,True)
+            rs.SimplifyCurve(a)
+
+        #Join left side of curves and simplify
+        if len(left)!=1:
+            a=rs.JoinCurves(left,True)
+            rs.SimplifyCurve(a)
 
 
 if results==[True]:
