@@ -360,20 +360,20 @@
     },
     {
       "type": "components",
-      "id": "fc4d8b0b-c153-4583-8d86-34b001572a13",
+      "id": "b3e9ebdd-83cf-43c8-b20f-3d2501987c91",
       "language": {
         "id": "*.gh1.grasshopper",
         "version": "1.*.*"
       },
       "title": "MT_Boolean_Difference.gh",
-      "uri": "file:///C:/Users/clark.cheng/OneDrive - UAP Company/Desktop/_COMMONS/UAP-Plugins/02_GH/MT_Boolean_Difference.gh",
+      "uri": "file:///D:/_MAIN/Architectural Templates/UAP-Plugins/02_GH/MT_Boolean_Difference.gh",
       "scripts": [
         {
           "id": "6d927349-cacd-4b97-85bc-ab97adba50e6",
           "name": "MT_BooleanDifference",
           "nickname": "MT_BD",
-          "description": "Boolean Difference but Multi-Threaded.",
-          "subcat": "Optimizations",
+          "description": "Boolean Difference but Muli-Threaded.",
+          "subcat": "Solids",
           "image": {
             "light": {
               "type": "svg",
