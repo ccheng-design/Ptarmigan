@@ -14,7 +14,10 @@
       "name": "Clark Cheng",
       "company": "UAP"
     },
+    "description": "This UAP plugin is designed to enhance workflow efficiency by addressing missing features in Rhino. It simplifies and consolidates common Grasshopper scripts into Rhino commands, making them more accessible to team members. The plugin introduces improvements to layouts, selection tools, and object naming functionality, offering a more streamlined and user-friendly experience. These upgrades aim to enhance productivity and provide a smoother design process within Rhino.",
     "copyright": "Copyright \u00A9 2024",
+    "license": "MIT",
+    "url": "https://github.com/ccheng-design/UAP-Plugins",
     "image": {
       "light": {
         "type": "svg",
@@ -26,11 +29,21 @@
           "width": 24,
           "height": 24
         },
+        "dark": {
+          "bytes": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABhJREFUSEvtwQEBAAAAgiD/r64hQAAAXA0JGAAB0AJbXgAAAABJRU5ErkJggg==",
+          "width": 24,
+          "height": 24
+        },
         "icoData": "AAABAAEAGBgAAAEAIACbAQAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAAYAAAAGAgGAAAA4Hc9\u002BAAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsIAAA7CARUoSoAAAAE9SURBVEhL7ZSxTYMxEIV/YAHYgI4SOkpgAzaADUgmCKPABLABbABsEDpK6OjI\u002B2w/y3GMZJeR8klPPjvOnc93v6et5yCNcCydSj/Sr3QhHUlfEhxK5xL7vAfOpBOJ9XL/BvfSn3QZZtF\u002BjWZgJrFW7gH2eB09SZn9NPZABoZT1zxKH9J1UmAkAE4/o7kWzDxI3ALkA4xmsIxmMwP4TmNmJABFxwEFbmXQpDeAHb4n0W0tyuIHegPUV9LK4EVaSGRIPQKjGdCSbt36tHQQncS6azWcwY1ELVrwndxKXGGmFYAvssZrOPDJN\u002B67xX8B6jt2gCtpHs0\u002BygDuYTrkLppraxSP\u002B39mQXRlUMKpKY7fFJzbCfPyXWL\u002BFs38FjUD7qXREIR3hJGTuhv4MwFdQDvDOQ3Afn5zxjt2bA/TtAI2vj7\u002BxujySwAAAABJRU5ErkJggg=="
       },
       "categoryIcon": {
         "light": {
           "bytes": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAAN9JREFUOE/t0iGzAVEYh/ENgigIonA/gCAIgnCDDyCIouBDCIIPcaMgiLobBU3R3CYwIwiCwPO4zg6zZ6SN/jO/2fW\u002BZ985u0eSVypooIgWSjDWav\u002B3aU9lC8/p4Q9VXOEic4Z1E3on7PAyJDbAXTnA3wWE3hcO6CJNbEATK1zgQ6Hn1bU\u002BkyY2wNoc1tt47h3RQZrYgBF\u002B8Is\u002BQk/uLHzoe2IDplhgjTFCr45MYgOW2GALh4We10x8H49nABf50fb4ftTc8tsBHtME7mII/zS\u002Bu4vdzQweqzWvn\u002BSXJLkBXXNADAx/AyEAAAAASUVORK5CYII=",
+          "width": 16,
+          "height": 16
+        },
+        "dark": {
+          "bytes": "iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAAABNJREFUOE9jGAWjYBSMAjBgYAAABBAAAadEfGMAAAAASUVORK5CYII=",
           "width": 16,
           "height": 16
         }

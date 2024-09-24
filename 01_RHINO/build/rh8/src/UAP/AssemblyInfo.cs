@@ -11,11 +11,11 @@ using Rhino.PlugIns;
 [assembly: PlugInDescription(DescriptionType.Address, "")]
 [assembly: PlugInDescription(DescriptionType.Country, "")]
 [assembly: PlugInDescription(DescriptionType.WebSite, "")]
-[assembly: PlugInDescription(DescriptionType.UpdateUrl, "")]
+[assembly: PlugInDescription(DescriptionType.UpdateUrl, "https://github.com/ccheng-design/UAP-Plugins")]
 [assembly: PlugInDescription(DescriptionType.Icon, "UAP.Resources.projectIcon.ico")]
 
 [assembly: AssemblyTitle("UAP")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("This UAP plugin is designed to enhance workflow efficiency by addressing missing features in Rhino. It simplifies and consolidates common Grasshopper scripts into Rhino commands, making them more accessible to team members. The plugin introduces improvements to layouts, selection tools, and object naming functionality, offering a more streamlined and user-friendly experience. These upgrades aim to enhance productivity and provide a smoother design process within Rhino.")]
 [assembly: AssemblyCompany("UAP")]
 [assembly: AssemblyProduct("UAP")]
 [assembly: AssemblyCopyright("Copyright © 2024")]
