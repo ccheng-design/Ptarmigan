@@ -1,0 +1,4281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg5756"
+   sodipodi:docname="tissueproperties.svg"
+   inkscape:version="1.2-dev (7be2d9a5, 2021-09-13)"
+   inkscape:export-filename="E:\dev\src\houdini\support\icons\MISC\fascia.png"
+   inkscape:export-xdpi="1024"
+   inkscape:export-ydpi="1024"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview5758"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="17.500893"
+     inkscape:cx="23.998775"
+     inkscape:cy="24.027345"
+     inkscape:window-width="2880"
+     inkscape:window-height="1557"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5756" />
+  <defs
+     id="defs4602">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient296489">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop296485" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop296487" />
+    </linearGradient>
+    <style
+       id="style4506">.cls-1,.cls-107,.cls-108,.cls-76,.cls-96{fill:none;}.cls-2{isolation:isolate;}.cls-3{fill:url(#radial-gradient);}.cls-4{fill:url(#radial-gradient-2);}.cls-5{fill:#e5a83c;}.cls-6{fill:#cc7b1b;}.cls-7{fill:#d08222;}.cls-8{fill:#d48928;}.cls-9{fill:#d8902f;}.cls-10{fill:#dc9735;}.cls-11{fill:#e09e3c;}.cls-12{fill:#e4a543;}.cls-13{fill:#e7ac49;}.cls-14{fill:#ebb350;}.cls-15{fill:#efba57;}.cls-16{fill:#f3c15d;}.cls-17{fill:#f7c864;}.cls-18{fill:#fbcf6a;}.cls-19{fill:#ffd671;}.cls-20{fill:#d99332;}.cls-21{fill:#dc9837;}.cls-22{fill:#df9d3c;}.cls-23{fill:#e2a241;}.cls-24{fill:#e5a845;}.cls-25{fill:#e8ad4a;}.cls-26{fill:#ebb24f;}.cls-27{fill:#edb754;}.cls-28{fill:#f0bc59;}.cls-29{fill:#f3c15e;}.cls-30{fill:#f6c762;}.cls-31{fill:#f9cc67;}.cls-32{fill:#fcd16c;}.cls-33{fill:#d38827;}.cls-34{fill:#d68e2d;}.cls-35{fill:#da9432;}.cls-36{fill:#dd9a38;}.cls-37{fill:#e1a03e;}.cls-38{fill:#e4a643;}.cls-39{fill:#eeb855;}.cls-40{fill:#f1be5a;}.cls-41{fill:#f5c460;}.cls-42{fill:#f8ca66;}.cls-43{fill:#fcd06b;}.cls-44{fill:url(#radial-gradient-3);}.cls-45{fill:url(#linear-gradient);}.cls-46{fill:#f0a99e;}.cls-47{fill:#ffd9ca;}.cls-48{clip-path:url(#clip-path);}.cls-49{fill:#ffdbcd;}.cls-50{fill:#ffded1;}.cls-51{fill:#ffe0d4;}.cls-52{fill:#ffe3d7;}.cls-53{fill:#ffe5db;}.cls-54{fill:#ffe7de;}.cls-55{fill:#ffeae1;}.cls-56{fill:#ffece4;}.cls-57{fill:#ffeee8;}.cls-58{fill:#fff1eb;}.cls-59{fill:#fff3ee;}.cls-60{fill:#fff6f2;}.cls-61{fill:#fff8f5;}.cls-62{fill:#ffdbcc;}.cls-63{fill:#ffdcce;}.cls-64{fill:#ffded0;}.cls-65{fill:#ffdfd3;}.cls-66{fill:#ffe1d5;}.cls-67{fill:#ffe2d7;}.cls-68{fill:#ffe4d9;}.cls-69{fill:#ffe7dd;}.cls-70{fill:#ffe8e0;}.cls-71{fill:#ffeae2;}.cls-72{fill:#ffebe4;}.cls-73{fill:#ffede6;}.cls-74{fill:url(#linear-gradient-2);}.cls-75{fill:url(#radial-gradient-4);}.cls-76{stroke:#c84b4b;}.cls-107,.cls-108,.cls-76,.cls-96{stroke-linecap:round;stroke-linejoin:round;}.cls-107,.cls-76,.cls-96{stroke-width:0.35px;}.cls-77{fill:#ffc1bb;}.cls-78{fill:url(#linear-gradient-3);}.cls-79{opacity:0.72;fill:url(#radial-gradient-5);}.cls-79,.cls-83{mix-blend-mode:multiply;}.cls-80{fill:url(#radial-gradient-6);}.cls-81{fill:url(#radial-gradient-7);}.cls-82{fill:url(#radial-gradient-8);}.cls-83{fill:url(#radial-gradient-9);}.cls-84{fill:url(#radial-gradient-10);}.cls-85{clip-path:url(#clip-path-2);}.cls-86{fill:url(#linear-gradient-4);}.cls-87{fill:url(#linear-gradient-5);}.cls-88{fill:url(#linear-gradient-6);}.cls-89{fill:url(#linear-gradient-7);}.cls-90{fill:url(#linear-gradient-8);}.cls-91{fill:url(#linear-gradient-9);}.cls-92{fill:url(#linear-gradient-10);}.cls-93{fill:url(#linear-gradient-11);}.cls-94{fill:url(#linear-gradient-12);}.cls-95{fill:url(#linear-gradient-13);}.cls-96{stroke:#844d24;}.cls-97{fill:url(#radial-gradient-11);}.cls-98{clip-path:url(#clip-path-3);}.cls-99{fill:url(#linear-gradient-14);}.cls-100{fill:url(#linear-gradient-15);}.cls-101{fill:url(#linear-gradient-16);}.cls-102{fill:url(#linear-gradient-17);}.cls-103{fill:url(#linear-gradient-18);}.cls-104{fill:url(#linear-gradient-19);}.cls-105{fill:url(#linear-gradient-20);}.cls-106{fill:#fff1f0;}.cls-107{stroke:#fff1f0;}.cls-108{stroke:#a40000;stroke-width:0.7px;}</style>
+    <radialGradient
+       id="radial-gradient"
+       cx="-1.84"
+       cy="90.48"
+       r="17.62"
+       gradientTransform="matrix(1.27,0,0,0.63,28.36,-21.24)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.28"
+         stop-color="#2c2c2c"
+         stop-opacity="0.4"
+         id="stop4508" />
+      <stop
+         offset="0.54"
+         stop-color="#2c2c2c"
+         stop-opacity="0.2"
+         id="stop4510" />
+      <stop
+         offset="0.94"
+         stop-color="#2c2c2c"
+         stop-opacity="0"
+         id="stop4512" />
+    </radialGradient>
+    <radialGradient
+       id="radial-gradient-2"
+       cx="13.33"
+       cy="28.25"
+       r="11.2"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#fde9bf"
+         id="stop4515" />
+      <stop
+         offset="1"
+         stop-color="#fcdc97"
+         id="stop4517" />
+    </radialGradient>
+    <radialGradient
+       id="radial-gradient-3"
+       cx="38.6"
+       cy="17.04"
+       r="23.61"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#fde9bf"
+         id="stop4520" />
+      <stop
+         offset="1"
+         stop-color="#fcdc97"
+         stop-opacity="0"
+         id="stop4522" />
+    </radialGradient>
+    <linearGradient
+       id="linear-gradient"
+       x1="6.58"
+       y1="27.79"
+       x2="20.97"
+       y2="27.79"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#fef1d5"
+         id="stop4525" />
+      <stop
+         offset="1"
+         stop-color="#fcdc97"
+         stop-opacity="0"
+         id="stop4527" />
+    </linearGradient>
+    <clipPath
+       id="clip-path">
+      <path
+         class="cls-1"
+         d="M9.22,13.88,27.31,8S32.38,6.08,36,9.17s3.58,5.95,3.58,5.95L21,21.58a23.55,23.55,0,0,0-6.22-6.15c-2.29-1.48-3.67-1.8-4.63-1.68C9.55,13.82,9.22,13.88,9.22,13.88Z"
+         id="path4530" />
+    </clipPath>
+    <linearGradient
+       id="linear-gradient-2"
+       x1="22.56"
+       y1="12.84"
+       x2="21.84"
+       y2="10.62"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#fedaca"
+         stop-opacity="0"
+         id="stop4533" />
+      <stop
+         offset="1"
+         stop-color="#fff5f0"
+         id="stop4535" />
+    </linearGradient>
+    <radialGradient
+       id="radial-gradient-4"
+       cx="13.81"
+       cy="24.31"
+       r="14.32"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.34"
+         stop-color="#fddee6"
+         id="stop4538" />
+      <stop
+         offset="1"
+         stop-color="#e15873"
+         id="stop4540" />
+    </radialGradient>
+    <linearGradient
+       id="linear-gradient-3"
+       x1="6.58"
+       y1="19.72"
+       x2="20.97"
+       y2="19.72"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#ffd4d0"
+         id="stop4543" />
+      <stop
+         offset="1"
+         stop-color="#ffc1bb"
+         id="stop4545" />
+      <stop
+         offset="1"
+         stop-color="#f5c5ac"
+         id="stop4547" />
+    </linearGradient>
+    <radialGradient
+       id="radial-gradient-5"
+       cx="13.91"
+       cy="21.88"
+       r="5.65"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.3"
+         stop-color="#f4bfba"
+         id="stop4550" />
+      <stop
+         offset="1"
+         stop-color="#ed9991"
+         id="stop4552" />
+    </radialGradient>
+    <radialGradient
+       id="radial-gradient-6"
+       cx="30.87"
+       cy="28.06"
+       r="16.2"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.34"
+         stop-color="#fcc3d2"
+         id="stop4555" />
+      <stop
+         offset="1"
+         stop-color="#e15873"
+         id="stop4557" />
+    </radialGradient>
+    <radialGradient
+       id="radial-gradient-7"
+       cx="29.13"
+       cy="24.63"
+       r="17.63"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0.27"
+         stop-color="#fcc3d2"
+         id="stop4560" />
+      <stop
+         offset="1"
+         stop-color="#e15873"
+         id="stop4562" />
+    </radialGradient>
+    <radialGradient
+       id="radial-gradient-8"
+       cx="28.97"
+       cy="28.05"
+       r="12.89"
+       xlink:href="#radial-gradient-5" />
+    <radialGradient
+       id="radial-gradient-9"
+       cx="30.01"
+       cy="21.81"
+       r="7.14"
+       xlink:href="#radial-gradient-5" />
+    <radialGradient
+       id="radial-gradient-10"
+       cx="29.09"
+       cy="35.73"
+       r="7.77"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#fa9db5"
+         id="stop4567" />
+      <stop
+         offset="0.29"
+         stop-color="#f992ad"
+         id="stop4569" />
+      <stop
+         offset="1"
+         stop-color="#d83252"
+         id="stop4571" />
+    </radialGradient>
+    <clipPath
+       id="clip-path-2">
+      <path
+         class="cls-1"
+         d="M38.15,29.51c-.14,1.28-.28,2.6-.42,3.94L20,41.94c0-1.48.07-3,.12-4.43v0Z"
+         id="path4574" />
+    </clipPath>
+    <linearGradient
+       id="linear-gradient-4"
+       x1="23.26"
+       y1="38.91"
+       x2="23.75"
+       y2="39.93"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#a40000"
+         stop-opacity="0"
+         id="stop4577" />
+      <stop
+         offset="1"
+         stop-color="#a40000"
+         id="stop4579" />
+    </linearGradient>
+    <linearGradient
+       id="linear-gradient-5"
+       x1="29.15"
+       y1="36.31"
+       x2="29.53"
+       y2="37.13"
+       xlink:href="#linear-gradient-4" />
+    <linearGradient
+       id="linear-gradient-6"
+       x1="25.95"
+       y1="36.54"
+       x2="26.45"
+       y2="37.56"
+       gradientTransform="rotate(-0.24,33.377489,21.555886)"
+       xlink:href="#linear-gradient-4" />
+    <linearGradient
+       id="linear-gradient-7"
+       x1="20.27"
+       y1="39.26"
+       x2="20.79"
+       y2="40.34"
+       gradientTransform="rotate(1.93,26.098348,33.409903)"
+       xlink:href="#linear-gradient-4" />
+    <linearGradient
+       id="linear-gradient-8"
+       x1="31.85"
+       y1="33.94"
+       x2="32.23"
+       y2="34.77"
+       gradientTransform="rotate(-0.24,33.377489,21.555886)"
+       xlink:href="#linear-gradient-4" />
+    <linearGradient
+       id="linear-gradient-9"
+       x1="34.69"
+       y1="33.85"
+       x2="35.04"
+       y2="34.62"
+       gradientTransform="rotate(-3.08,31.359619,31.179815)"
+       xlink:href="#linear-gradient-4" />
+    <linearGradient
+       id="linear-gradient-10"
+       x1="23.48"
+       y1="36.4"
+       x2="23.97"
+       y2="37.42"
+       gradientTransform="rotate(0.44,19.662556,33.781431)"
+       xlink:href="#linear-gradient-4" />
+    <linearGradient
+       id="linear-gradient-11"
+       x1="29.37"
+       y1="33.81"
+       x2="29.75"
+       y2="34.63"
+       gradientTransform="rotate(0.44,19.662556,33.781431)"
+       xlink:href="#linear-gradient-4" />
+    <linearGradient
+       id="linear-gradient-12"
+       x1="35.04"
+       y1="31.36"
+       x2="35.4"
+       y2="32.13"
+       gradientTransform="rotate(-2.64,33.160607,30.724768)"
+       xlink:href="#linear-gradient-4" />
+    <linearGradient
+       id="linear-gradient-13"
+       x1="37.78"
+       y1="31.07"
+       x2="38.16"
+       y2="31.89"
+       gradientTransform="rotate(1.93,26.098348,33.409903)"
+       xlink:href="#linear-gradient-4" />
+    <radialGradient
+       id="radial-gradient-11"
+       cx="13.55"
+       cy="34.39"
+       r="14.8"
+       xlink:href="#radial-gradient-10" />
+    <clipPath
+       id="clip-path-3">
+      <path
+         class="cls-1"
+         d="M20.26,37.49,20,41.94a31.21,31.21,0,0,0-6.83-5.73,29.13,29.13,0,0,0-5.07-2.1s0-1.63-.17-4c7.5,1.25,12.2,7.41,12.2,7.41Z"
+         id="path4592" />
+    </clipPath>
+    <linearGradient
+       id="linear-gradient-14"
+       x1="11.28"
+       y1="32.58"
+       x2="10.82"
+       y2="33.53"
+       gradientTransform="matrix(0.97,-0.04,0,1,0.28,0.39)"
+       xlink:href="#linear-gradient-4" />
+    <linearGradient
+       id="linear-gradient-15"
+       x1="18.3"
+       y1="34.98"
+       x2="17.82"
+       y2="35.96"
+       gradientTransform="rotate(12.85,13.303243,30.29158)"
+       xlink:href="#linear-gradient-4" />
+    <linearGradient
+       id="linear-gradient-16"
+       x1="14.19"
+       y1="35.15"
+       x2="13.7"
+       y2="36.16"
+       gradientTransform="rotate(6.39,13.682621,29.426124)"
+       xlink:href="#linear-gradient-4" />
+    <linearGradient
+       id="linear-gradient-17"
+       x1="14.99"
+       y1="32.86"
+       x2="14.53"
+       y2="33.81"
+       gradientTransform="rotate(6.39,13.682621,29.426124)"
+       xlink:href="#linear-gradient-4" />
+    <linearGradient
+       id="linear-gradient-18"
+       x1="6.99"
+       y1="31.96"
+       x2="6.53"
+       y2="32.91"
+       gradientTransform="rotate(-12.06,0.94467203,25.945038)"
+       xlink:href="#linear-gradient-4" />
+    <linearGradient
+       id="linear-gradient-19"
+       x1="20.64"
+       y1="37.79"
+       x2="19.93"
+       y2="39.26"
+       gradientTransform="rotate(11.83,14.719461,30.961446)"
+       xlink:href="#linear-gradient-4" />
+    <linearGradient
+       id="linear-gradient-20"
+       x1="6.83"
+       y1="32.73"
+       x2="6.37"
+       y2="33.68"
+       gradientTransform="rotate(-11.69,7.8341926,30.01976)"
+       xlink:href="#linear-gradient-4" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#radial-gradient-5"
+       id="radialGradient5817"
+       gradientUnits="userSpaceOnUse"
+       cx="13.91"
+       cy="21.88"
+       r="5.65" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#radial-gradient-10"
+       id="radialGradient5819"
+       gradientUnits="userSpaceOnUse"
+       cx="29.09"
+       cy="35.73"
+       r="7.77" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linear-gradient-4"
+       id="linearGradient5821"
+       gradientUnits="userSpaceOnUse"
+       x1="23.26"
+       y1="38.91"
+       x2="23.75"
+       y2="39.93" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient296489"
+       id="radialGradient296491"
+       cx="24"
+       cy="35.41"
+       fx="24"
+       fy="35.41"
+       r="21.51"
+       gradientTransform="matrix(1,0,0,0.49930263,0,17.729694)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="New_Gradient_Swatch_13"
+       x1="9.0500002"
+       y1="5.4899998"
+       x2="25.280001"
+       y2="5.4899998"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1136761,0,0,1.1136703,-31.05433,-5.5422361)">
+      <stop
+         offset="0"
+         stop-color="#608bc3"
+         id="stop5585" />
+      <stop
+         offset="1"
+         stop-color="#285092"
+         id="stop5587" />
+    </linearGradient>
+    <linearGradient
+       id="New_Gradient_Swatch_13-0"
+       x1="9.0500002"
+       y1="5.4899998"
+       x2="25.280001"
+       y2="5.4899998"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.1136761,0,0,1.1136703,-34.470782,-4.2605213)">
+      <stop
+         offset="0"
+         stop-color="#608bc3"
+         id="stop5585-1" />
+      <stop
+         offset="1"
+         stop-color="#285092"
+         id="stop5587-5" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient296489"
+       id="radialGradient11800"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.49930263,0,17.729694)"
+       cx="24"
+       cy="35.41"
+       fx="24"
+       fy="35.41"
+       r="21.51" />
+  </defs>
+  <title
+     id="title4604">5-Fascia</title>
+  <g
+     id="shadow"
+     style="isolation:isolate;fill:url(#radialGradient296491);fill-opacity:1;stroke-width:1.06725"
+     transform="matrix(0.93698588,0,0,0.93698588,5.4550915,4.7567059)">
+    <ellipse
+       class="cls-3"
+       cx="24"
+       cy="35.41"
+       rx="21.51"
+       ry="10.74"
+       id="ellipse4606"
+       style="fill:url(#radialGradient11800);fill-opacity:1;stroke-width:1.06725" />
+  </g>
+  <g
+     id="ART"
+     style="isolation:isolate;stroke-width:0.885908"
+     transform="matrix(1.1287863,0,0,1.1287863,1.5425558,-0.46101846)">
+    <path
+       class="cls-4"
+       d="M 20.72,26.47 20,41.94 A 31.21,31.21 0 0 0 13.17,36.21 29.13,29.13 0 0 0 8.1,34.11 C 8.1,34.11 8,25.73 7.19,20 7.02,18.73 6.82,17.49 6.58,16.36 c 0,0 1.21,-3.59 5.9,-2.48 4.69,1.11 8.52,7.71 8.52,7.71 l -0.25,4.88"
+       id="path4609"
+       style="fill:url(#radial-gradient-2);stroke-width:0.885908" />
+    <path
+       class="cls-5"
+       d="m 39.66,15.12 c 0,0 -0.46,5.57 -1,10.6 -0.26,2.35 -0.56,5 -0.84,7.73 l -17.7,8.49 c 0.05,-3 0.18,-6 0.31,-8.71 0.28,-5.49 0.63,-9.69 0.63,-9.69 z"
+       id="path4611"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-6"
+       cx="36.09"
+       cy="28.450001"
+       r="0.94"
+       id="circle4613"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-7"
+       cx="36.080002"
+       cy="28.440001"
+       r="0.88999999"
+       id="circle4615"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-8"
+       cx="36.07"
+       cy="28.43"
+       r="0.85000002"
+       id="circle4617"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-9"
+       cx="36.049999"
+       cy="28.41"
+       r="0.80000001"
+       id="circle4619"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-10"
+       cx="36.040001"
+       cy="28.4"
+       r="0.75"
+       id="circle4621"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-11"
+       cx="36.02"
+       cy="28.389999"
+       r="0.70999998"
+       id="circle4623"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-12"
+       cx="36.009998"
+       cy="28.379999"
+       r="0.66000003"
+       id="circle4625"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-13"
+       cx="36"
+       cy="28.370001"
+       r="0.61000001"
+       id="circle4627"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-14"
+       cx="35.98"
+       cy="28.360001"
+       r="0.56"
+       id="circle4629"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-15"
+       cx="35.970001"
+       cy="28.34"
+       r="0.51999998"
+       id="circle4631"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-16"
+       cx="35.959999"
+       cy="28.33"
+       r="0.47"
+       id="circle4633"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-17"
+       cx="35.939999"
+       cy="28.32"
+       r="0.41999999"
+       id="circle4635"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-18"
+       cx="35.93"
+       cy="28.309999"
+       r="0.38"
+       id="circle4637"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="35.91"
+       cy="28.299999"
+       r="0.33000001"
+       id="circle4639"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-20"
+       cx="22.9"
+       cy="34.18"
+       r="0.98000002"
+       id="circle4641"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-21"
+       cx="22.889999"
+       cy="34.169998"
+       r="0.93000001"
+       id="circle4643"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-22"
+       cx="22.870001"
+       cy="34.16"
+       r="0.88"
+       id="circle4645"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-23"
+       cx="22.860001"
+       cy="34.150002"
+       r="0.82999998"
+       id="circle4647"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-24"
+       cx="22.84"
+       cy="34.130001"
+       r="0.79000002"
+       id="circle4649"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-25"
+       cx="22.83"
+       cy="34.119999"
+       r="0.74000001"
+       id="circle4651"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="22.82"
+       cy="34.110001"
+       r="0.69"
+       id="circle4653"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-27"
+       cx="22.799999"
+       cy="34.099998"
+       r="0.63999999"
+       id="circle4655"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-28"
+       cx="22.790001"
+       cy="34.09"
+       r="0.58999997"
+       id="circle4657"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-29"
+       cx="22.77"
+       cy="34.07"
+       r="0.54000002"
+       id="circle4659"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-30"
+       cx="22.76"
+       cy="34.060001"
+       r="0.49000001"
+       id="circle4661"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-31"
+       cx="22.74"
+       cy="34.049999"
+       r="0.44"
+       id="circle4663"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-32"
+       cx="22.73"
+       cy="34.040001"
+       r="0.38999999"
+       id="circle4665"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="22.709999"
+       cy="34.029999"
+       r="0.34"
+       id="circle4667"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-20"
+       cx="17.84"
+       cy="32.779999"
+       r="0.80000001"
+       id="circle4669"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-21"
+       cx="17.83"
+       cy="32.77"
+       r="0.75999999"
+       id="circle4671"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-22"
+       cx="17.82"
+       cy="32.759998"
+       r="0.72000003"
+       id="circle4673"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-23"
+       cx="17.809999"
+       cy="32.75"
+       r="0.68000001"
+       id="circle4675"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-24"
+       cx="17.790001"
+       cy="32.740002"
+       r="0.63999999"
+       id="circle4677"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-25"
+       cx="17.780001"
+       cy="32.73"
+       r="0.60000002"
+       id="circle4679"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="17.77"
+       cy="32.720001"
+       r="0.56"
+       id="circle4681"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-27"
+       cx="17.76"
+       cy="32.709999"
+       r="0.51999998"
+       id="circle4683"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-28"
+       cx="17.75"
+       cy="32.700001"
+       r="0.47999999"
+       id="circle4685"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-29"
+       cx="17.74"
+       cy="32.689999"
+       r="0.44"
+       id="circle4687"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-30"
+       cx="17.719999"
+       cy="32.68"
+       r="0.40000001"
+       id="circle4689"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-31"
+       cx="17.709999"
+       cy="32.669998"
+       r="0.36000001"
+       id="circle4691"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-32"
+       cx="17.700001"
+       cy="32.66"
+       r="0.31999999"
+       id="circle4693"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="17.690001"
+       cy="32.650002"
+       r="0.28"
+       id="circle4695"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-33"
+       cx="33.66"
+       cy="30.02"
+       r="0.69999999"
+       id="circle4697"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-34"
+       cx="33.650002"
+       cy="30.02"
+       r="0.67000002"
+       id="circle4699"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-35"
+       cx="33.639999"
+       cy="30.01"
+       r="0.63"
+       id="circle4701"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-36"
+       cx="33.630001"
+       cy="30"
+       r="0.60000002"
+       id="circle4703"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-37"
+       cx="33.619999"
+       cy="29.99"
+       r="0.56"
+       id="circle4705"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-38"
+       cx="33.610001"
+       cy="29.98"
+       r="0.52999997"
+       id="circle4707"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-13"
+       cx="33.599998"
+       cy="29.969999"
+       r="0.49000001"
+       id="circle4709"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="33.59"
+       cy="29.959999"
+       r="0.46000001"
+       id="circle4711"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-39"
+       cx="33.580002"
+       cy="29.959999"
+       r="0.41999999"
+       id="circle4713"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-40"
+       cx="33.57"
+       cy="29.950001"
+       r="0.38999999"
+       id="circle4715"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-41"
+       cx="33.560001"
+       cy="29.940001"
+       r="0.34999999"
+       id="circle4717"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-42"
+       cx="33.549999"
+       cy="29.93"
+       r="0.31999999"
+       id="circle4719"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-43"
+       cx="33.529999"
+       cy="29.92"
+       r="0.28"
+       id="circle4721"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="33.52"
+       cy="29.91"
+       r="0.25"
+       id="circle4723"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-33"
+       cx="34.150002"
+       cy="27.83"
+       r="0.54000002"
+       id="circle4725"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-34"
+       cx="34.139999"
+       cy="27.82"
+       r="0.51999998"
+       id="circle4727"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-35"
+       cx="34.130001"
+       cy="27.82"
+       r="0.49000001"
+       id="circle4729"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-36"
+       cx="34.119999"
+       cy="27.809999"
+       r="0.46000001"
+       id="circle4731"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-37"
+       cx="34.110001"
+       cy="27.799999"
+       r="0.43000001"
+       id="circle4733"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-38"
+       cx="34.110001"
+       cy="27.799999"
+       r="0.41"
+       id="circle4735"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-13"
+       cx="34.099998"
+       cy="27.790001"
+       r="0.38"
+       id="circle4737"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="34.09"
+       cy="27.780001"
+       r="0.34999999"
+       id="circle4739"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-39"
+       cx="34.080002"
+       cy="27.780001"
+       r="0.33000001"
+       id="circle4741"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-40"
+       cx="34.07"
+       cy="27.77"
+       r="0.30000001"
+       id="circle4743"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-41"
+       cx="34.07"
+       cy="27.76"
+       r="0.27000001"
+       id="circle4745"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-42"
+       cx="34.060001"
+       cy="27.76"
+       r="0.23999999"
+       id="circle4747"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-43"
+       cx="34.049999"
+       cy="27.75"
+       r="0.22"
+       id="circle4749"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="34.040001"
+       cy="27.74"
+       r="0.19"
+       id="circle4751"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-33"
+       cx="15.34"
+       cy="28.93"
+       r="0.67000002"
+       id="circle4753"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-34"
+       cx="15.33"
+       cy="28.92"
+       r="0.63999999"
+       id="circle4755"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-35"
+       cx="15.32"
+       cy="28.91"
+       r="0.61000001"
+       id="circle4757"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-36"
+       cx="15.31"
+       cy="28.9"
+       r="0.56999999"
+       id="circle4759"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-37"
+       cx="15.3"
+       cy="28.889999"
+       r="0.54000002"
+       id="circle4761"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-38"
+       cx="15.29"
+       cy="28.889999"
+       r="0.50999999"
+       id="circle4763"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-13"
+       cx="15.28"
+       cy="28.879999"
+       r="0.47"
+       id="circle4765"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="15.27"
+       cy="28.870001"
+       r="0.44"
+       id="circle4767"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-39"
+       cx="15.26"
+       cy="28.860001"
+       r="0.41"
+       id="circle4769"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-40"
+       cx="15.25"
+       cy="28.85"
+       r="0.37"
+       id="circle4771"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-41"
+       cx="15.24"
+       cy="28.84"
+       r="0.34"
+       id="circle4773"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-42"
+       cx="15.23"
+       cy="28.84"
+       r="0.30000001"
+       id="circle4775"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-43"
+       cx="15.22"
+       cy="28.83"
+       r="0.27000001"
+       id="circle4777"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="15.21"
+       cy="28.82"
+       r="0.23999999"
+       id="circle4779"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-33"
+       cx="31.950001"
+       cy="28.82"
+       r="0.99000001"
+       id="circle4781"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-34"
+       cx="31.93"
+       cy="28.809999"
+       r="0.94"
+       id="circle4783"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-35"
+       cx="31.92"
+       cy="28.799999"
+       r="0.88999999"
+       id="circle4785"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-36"
+       cx="31.9"
+       cy="28.780001"
+       r="0.83999997"
+       id="circle4787"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-37"
+       cx="31.889999"
+       cy="28.77"
+       r="0.79000002"
+       id="circle4789"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-38"
+       cx="31.870001"
+       cy="28.76"
+       r="0.74000001"
+       id="circle4791"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-13"
+       cx="31.860001"
+       cy="28.75"
+       r="0.69"
+       id="circle4793"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="31.84"
+       cy="28.73"
+       r="0.63999999"
+       id="circle4795"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-39"
+       cx="31.83"
+       cy="28.719999"
+       r="0.60000002"
+       id="circle4797"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-40"
+       cx="31.809999"
+       cy="28.709999"
+       r="0.55000001"
+       id="circle4799"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-41"
+       cx="31.799999"
+       cy="28.700001"
+       r="0.5"
+       id="circle4801"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-42"
+       cx="31.780001"
+       cy="28.690001"
+       r="0.44999999"
+       id="circle4803"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-43"
+       cx="31.77"
+       cy="28.67"
+       r="0.40000001"
+       id="circle4805"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="31.76"
+       cy="28.66"
+       r="0.34999999"
+       id="circle4807"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-33"
+       cx="13.53"
+       cy="30.43"
+       r="0.80000001"
+       id="circle4809"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-34"
+       cx="13.52"
+       cy="30.42"
+       r="0.75999999"
+       id="circle4811"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-35"
+       cx="13.51"
+       cy="30.41"
+       r="0.72000003"
+       id="circle4813"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-36"
+       cx="13.49"
+       cy="30.4"
+       r="0.68000001"
+       id="circle4815"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-37"
+       cx="13.48"
+       cy="30.389999"
+       r="0.63999999"
+       id="circle4817"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-38"
+       cx="13.47"
+       cy="30.379999"
+       r="0.60000002"
+       id="circle4819"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-13"
+       cx="13.46"
+       cy="30.370001"
+       r="0.56"
+       id="circle4821"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="13.45"
+       cy="30.360001"
+       r="0.51999998"
+       id="circle4823"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-39"
+       cx="13.44"
+       cy="30.35"
+       r="0.47999999"
+       id="circle4825"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-40"
+       cx="13.42"
+       cy="30.34"
+       r="0.44"
+       id="circle4827"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-41"
+       cx="13.41"
+       cy="30.33"
+       r="0.40000001"
+       id="circle4829"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-42"
+       cx="13.4"
+       cy="30.32"
+       r="0.36000001"
+       id="circle4831"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-43"
+       cx="13.39"
+       cy="30.309999"
+       r="0.31999999"
+       id="circle4833"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="13.38"
+       cy="30.299999"
+       r="0.28"
+       id="circle4835"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-33"
+       cx="28.66"
+       cy="32.560001"
+       r="0.5"
+       id="circle4837"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-34"
+       cx="28.66"
+       cy="32.549999"
+       r="0.47"
+       id="circle4839"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-35"
+       cx="28.65"
+       cy="32.549999"
+       r="0.44999999"
+       id="circle4841"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-36"
+       cx="28.639999"
+       cy="32.540001"
+       r="0.41999999"
+       id="circle4843"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-37"
+       cx="28.629999"
+       cy="32.529999"
+       r="0.40000001"
+       id="circle4845"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-38"
+       cx="28.629999"
+       cy="32.529999"
+       r="0.37"
+       id="circle4847"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-13"
+       cx="28.620001"
+       cy="32.52"
+       r="0.34999999"
+       id="circle4849"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="28.610001"
+       cy="32.52"
+       r="0.31999999"
+       id="circle4851"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-39"
+       cx="28.610001"
+       cy="32.509998"
+       r="0.30000001"
+       id="circle4853"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-40"
+       cx="28.6"
+       cy="32.5"
+       r="0.27000001"
+       id="circle4855"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-41"
+       cx="28.59"
+       cy="32.5"
+       r="0.25"
+       id="circle4857"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-42"
+       cx="28.58"
+       cy="32.490002"
+       r="0.22"
+       id="circle4859"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-43"
+       cx="28.58"
+       cy="32.490002"
+       r="0.2"
+       id="circle4861"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="28.57"
+       cy="32.48"
+       r="0.17"
+       id="circle4863"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-20"
+       cx="21.549999"
+       cy="35.630001"
+       r="0.57999998"
+       id="circle4865"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-21"
+       cx="21.540001"
+       cy="35.630001"
+       r="0.55000001"
+       id="circle4867"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-22"
+       cx="21.530001"
+       cy="35.619999"
+       r="0.51999998"
+       id="circle4869"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-23"
+       cx="21.52"
+       cy="35.610001"
+       r="0.49000001"
+       id="circle4871"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-24"
+       cx="21.51"
+       cy="35.610001"
+       r="0.46000001"
+       id="circle4873"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-25"
+       cx="21.5"
+       cy="35.599998"
+       r="0.43000001"
+       id="circle4875"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="21.49"
+       cy="35.59"
+       r="0.41"
+       id="circle4877"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-27"
+       cx="21.49"
+       cy="35.59"
+       r="0.38"
+       id="circle4879"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-28"
+       cx="21.48"
+       cy="35.580002"
+       r="0.34999999"
+       id="circle4881"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-29"
+       cx="21.469999"
+       cy="35.57"
+       r="0.31999999"
+       id="circle4883"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-30"
+       cx="21.459999"
+       cy="35.560001"
+       r="0.28999999"
+       id="circle4885"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-31"
+       cx="21.450001"
+       cy="35.560001"
+       r="0.25999999"
+       id="circle4887"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-32"
+       cx="21.440001"
+       cy="35.549999"
+       r="0.23"
+       id="circle4889"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="21.43"
+       cy="35.540001"
+       r="0.2"
+       id="circle4891"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-33"
+       cx="30.549999"
+       cy="31.559999"
+       r="0.58999997"
+       id="circle4893"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-34"
+       cx="30.549999"
+       cy="31.549999"
+       r="0.56"
+       id="circle4895"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-35"
+       cx="30.540001"
+       cy="31.549999"
+       r="0.52999997"
+       id="circle4897"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-36"
+       cx="30.530001"
+       cy="31.540001"
+       r="0.5"
+       id="circle4899"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-37"
+       cx="30.52"
+       cy="31.530001"
+       r="0.47"
+       id="circle4901"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-38"
+       cx="30.51"
+       cy="31.52"
+       r="0.44999999"
+       id="circle4903"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-13"
+       cx="30.5"
+       cy="31.52"
+       r="0.41999999"
+       id="circle4905"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="30.49"
+       cy="31.51"
+       r="0.38999999"
+       id="circle4907"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-39"
+       cx="30.48"
+       cy="31.5"
+       r="0.36000001"
+       id="circle4909"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-40"
+       cx="30.48"
+       cy="31.49"
+       r="0.33000001"
+       id="circle4911"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-41"
+       cx="30.469999"
+       cy="31.49"
+       r="0.30000001"
+       id="circle4913"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-42"
+       cx="30.459999"
+       cy="31.48"
+       r="0.27000001"
+       id="circle4915"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-43"
+       cx="30.450001"
+       cy="31.469999"
+       r="0.23999999"
+       id="circle4917"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="30.440001"
+       cy="31.469999"
+       r="0.20999999"
+       id="circle4919"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-33"
+       cx="29.4"
+       cy="30.02"
+       r="0.81999999"
+       id="circle4921"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-34"
+       cx="29.389999"
+       cy="30.01"
+       r="0.77999997"
+       id="circle4923"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-35"
+       cx="29.379999"
+       cy="30"
+       r="0.74000001"
+       id="circle4925"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-36"
+       cx="29.370001"
+       cy="29.99"
+       r="0.69999999"
+       id="circle4927"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-37"
+       cx="29.35"
+       cy="29.98"
+       r="0.66000003"
+       id="circle4929"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-38"
+       cx="29.34"
+       cy="29.969999"
+       r="0.62"
+       id="circle4931"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-13"
+       cx="29.33"
+       cy="29.959999"
+       r="0.57999998"
+       id="circle4933"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="29.32"
+       cy="29.950001"
+       r="0.54000002"
+       id="circle4935"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-39"
+       cx="29.309999"
+       cy="29.940001"
+       r="0.49000001"
+       id="circle4937"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-40"
+       cx="29.290001"
+       cy="29.93"
+       r="0.44999999"
+       id="circle4939"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-41"
+       cx="29.280001"
+       cy="29.92"
+       r="0.41"
+       id="circle4941"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-42"
+       cx="29.27"
+       cy="29.91"
+       r="0.37"
+       id="circle4943"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-43"
+       cx="29.26"
+       cy="29.9"
+       r="0.33000001"
+       id="circle4945"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="29.25"
+       cy="29.889999"
+       r="0.28999999"
+       id="circle4947"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-33"
+       cx="15.61"
+       cy="31.52"
+       r="0.73000002"
+       id="circle4949"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-34"
+       cx="15.6"
+       cy="31.51"
+       r="0.69999999"
+       id="circle4951"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-35"
+       cx="15.59"
+       cy="31.5"
+       r="0.66000003"
+       id="circle4953"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-36"
+       cx="15.58"
+       cy="31.49"
+       r="0.62"
+       id="circle4955"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-37"
+       cx="15.57"
+       cy="31.48"
+       r="0.58999997"
+       id="circle4957"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-38"
+       cx="15.56"
+       cy="31.48"
+       r="0.55000001"
+       id="circle4959"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-13"
+       cx="15.55"
+       cy="31.469999"
+       r="0.50999999"
+       id="circle4961"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="15.54"
+       cy="31.459999"
+       r="0.47999999"
+       id="circle4963"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-39"
+       cx="15.53"
+       cy="31.450001"
+       r="0.44"
+       id="circle4965"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-40"
+       cx="15.52"
+       cy="31.440001"
+       r="0.40000001"
+       id="circle4967"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-41"
+       cx="15.51"
+       cy="31.43"
+       r="0.37"
+       id="circle4969"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-42"
+       cx="15.5"
+       cy="31.42"
+       r="0.33000001"
+       id="circle4971"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-43"
+       cx="15.48"
+       cy="31.41"
+       r="0.28999999"
+       id="circle4973"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="15.47"
+       cy="31.4"
+       r="0.25999999"
+       id="circle4975"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-33"
+       cx="9.2200003"
+       cy="27.08"
+       r="0.60000002"
+       id="circle4977"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-34"
+       cx="9.21"
+       cy="27.07"
+       r="0.56999999"
+       id="circle4979"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-35"
+       cx="9.1999998"
+       cy="27.059999"
+       r="0.54000002"
+       id="circle4981"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-36"
+       cx="9.1999998"
+       cy="27.059999"
+       r="0.50999999"
+       id="circle4983"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-37"
+       cx="9.1899996"
+       cy="27.049999"
+       r="0.47999999"
+       id="circle4985"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-38"
+       cx="9.1800003"
+       cy="27.040001"
+       r="0.44999999"
+       id="circle4987"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-13"
+       cx="9.1700001"
+       cy="27.040001"
+       r="0.41999999"
+       id="circle4989"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="9.1599998"
+       cy="27.030001"
+       r="0.38999999"
+       id="circle4991"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-39"
+       cx="9.1499996"
+       cy="27.02"
+       r="0.36000001"
+       id="circle4993"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-40"
+       cx="9.1400003"
+       cy="27.01"
+       r="0.33000001"
+       id="circle4995"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-41"
+       cx="9.1300001"
+       cy="27.01"
+       r="0.30000001"
+       id="circle4997"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-42"
+       cx="9.1199999"
+       cy="27"
+       r="0.27000001"
+       id="circle4999"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-43"
+       cx="9.1199999"
+       cy="26.99"
+       r="0.23999999"
+       id="circle5001"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="9.1099997"
+       cy="26.98"
+       r="0.20999999"
+       id="circle5003"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-33"
+       cx="11.42"
+       cy="27.08"
+       r="0.73000002"
+       id="circle5005"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-34"
+       cx="11.41"
+       cy="27.07"
+       r="0.69999999"
+       id="circle5007"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-35"
+       cx="11.4"
+       cy="27.059999"
+       r="0.66000003"
+       id="circle5009"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-36"
+       cx="11.39"
+       cy="27.049999"
+       r="0.62"
+       id="circle5011"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-37"
+       cx="11.38"
+       cy="27.040001"
+       r="0.58999997"
+       id="circle5013"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-38"
+       cx="11.37"
+       cy="27.030001"
+       r="0.55000001"
+       id="circle5015"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-13"
+       cx="11.36"
+       cy="27.030001"
+       r="0.50999999"
+       id="circle5017"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="11.35"
+       cy="27.02"
+       r="0.47999999"
+       id="circle5019"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-39"
+       cx="11.33"
+       cy="27.01"
+       r="0.44"
+       id="circle5021"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-40"
+       cx="11.32"
+       cy="27"
+       r="0.40000001"
+       id="circle5023"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-41"
+       cx="11.31"
+       cy="26.99"
+       r="0.37"
+       id="circle5025"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-42"
+       cx="11.3"
+       cy="26.98"
+       r="0.33000001"
+       id="circle5027"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-43"
+       cx="11.29"
+       cy="26.969999"
+       r="0.28999999"
+       id="circle5029"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="11.28"
+       cy="26.959999"
+       r="0.25999999"
+       id="circle5031"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-20"
+       cx="27.030001"
+       cy="31.08"
+       r="1.17"
+       id="circle5033"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-21"
+       cx="27.01"
+       cy="31.07"
+       r="1.11"
+       id="circle5035"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-22"
+       cx="27"
+       cy="31.049999"
+       r="1.05"
+       id="circle5037"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-23"
+       cx="26.98"
+       cy="31.040001"
+       r="0.99000001"
+       id="circle5039"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-24"
+       cx="26.959999"
+       cy="31.02"
+       r="0.94"
+       id="circle5041"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-25"
+       cx="26.940001"
+       cy="31.01"
+       r="0.88"
+       id="circle5043"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="26.93"
+       cy="30.99"
+       r="0.81999999"
+       id="circle5045"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-27"
+       cx="26.91"
+       cy="30.98"
+       r="0.75999999"
+       id="circle5047"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-28"
+       cx="26.889999"
+       cy="30.969999"
+       r="0.69999999"
+       id="circle5049"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-29"
+       cx="26.879999"
+       cy="30.950001"
+       r="0.63999999"
+       id="circle5051"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-30"
+       cx="26.860001"
+       cy="30.940001"
+       r="0.58999997"
+       id="circle5053"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-31"
+       cx="26.84"
+       cy="30.92"
+       r="0.52999997"
+       id="circle5055"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-32"
+       cx="26.82"
+       cy="30.91"
+       r="0.47"
+       id="circle5057"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="26.809999"
+       cy="30.889999"
+       r="0.41"
+       id="circle5059"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-20"
+       cx="24.26"
+       cy="31.91"
+       r="0.77999997"
+       id="circle5061"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-21"
+       cx="24.25"
+       cy="31.9"
+       r="0.74000001"
+       id="circle5063"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-22"
+       cx="24.24"
+       cy="31.889999"
+       r="0.70999998"
+       id="circle5065"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-23"
+       cx="24.23"
+       cy="31.879999"
+       r="0.67000002"
+       id="circle5067"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-24"
+       cx="24.219999"
+       cy="31.870001"
+       r="0.63"
+       id="circle5069"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-25"
+       cx="24.200001"
+       cy="31.860001"
+       r="0.58999997"
+       id="circle5071"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="24.190001"
+       cy="31.85"
+       r="0.55000001"
+       id="circle5073"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-27"
+       cx="24.18"
+       cy="31.84"
+       r="0.50999999"
+       id="circle5075"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-28"
+       cx="24.17"
+       cy="31.83"
+       r="0.47"
+       id="circle5077"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-29"
+       cx="24.16"
+       cy="31.82"
+       r="0.43000001"
+       id="circle5079"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-30"
+       cx="24.15"
+       cy="31.809999"
+       r="0.38999999"
+       id="circle5081"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-31"
+       cx="24.139999"
+       cy="31.799999"
+       r="0.34999999"
+       id="circle5083"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-32"
+       cx="24.120001"
+       cy="31.790001"
+       r="0.31"
+       id="circle5085"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="24.110001"
+       cy="31.780001"
+       r="0.28"
+       id="circle5087"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-20"
+       cx="17.48"
+       cy="30.18"
+       r="1"
+       id="circle5089"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-21"
+       cx="17.469999"
+       cy="30.17"
+       r="0.94999999"
+       id="circle5091"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-22"
+       cx="17.450001"
+       cy="30.16"
+       r="0.89999998"
+       id="circle5093"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-23"
+       cx="17.440001"
+       cy="30.15"
+       r="0.85000002"
+       id="circle5095"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-24"
+       cx="17.42"
+       cy="30.129999"
+       r="0.80000001"
+       id="circle5097"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-25"
+       cx="17.41"
+       cy="30.120001"
+       r="0.75"
+       id="circle5099"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="17.389999"
+       cy="30.110001"
+       r="0.69999999"
+       id="circle5101"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-27"
+       cx="17.379999"
+       cy="30.1"
+       r="0.64999998"
+       id="circle5103"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-28"
+       cx="17.360001"
+       cy="30.09"
+       r="0.60000002"
+       id="circle5105"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-29"
+       cx="17.35"
+       cy="30.07"
+       r="0.55000001"
+       id="circle5107"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-30"
+       cx="17.33"
+       cy="30.059999"
+       r="0.5"
+       id="circle5109"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-31"
+       cx="17.32"
+       cy="30.049999"
+       r="0.44999999"
+       id="circle5111"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-32"
+       cx="17.299999"
+       cy="30.040001"
+       r="0.40000001"
+       id="circle5113"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="17.290001"
+       cy="30.02"
+       r="0.34999999"
+       id="circle5115"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-20"
+       cx="11.86"
+       cy="29.02"
+       r="0.57999998"
+       id="circle5117"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-21"
+       cx="11.85"
+       cy="29.01"
+       r="0.55000001"
+       id="circle5119"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-22"
+       cx="11.84"
+       cy="29.01"
+       r="0.51999998"
+       id="circle5121"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-23"
+       cx="11.83"
+       cy="29"
+       r="0.49000001"
+       id="circle5123"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-24"
+       cx="11.82"
+       cy="28.99"
+       r="0.46000001"
+       id="circle5125"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-25"
+       cx="11.81"
+       cy="28.98"
+       r="0.43000001"
+       id="circle5127"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="11.8"
+       cy="28.98"
+       r="0.41"
+       id="circle5129"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-27"
+       cx="11.8"
+       cy="28.969999"
+       r="0.38"
+       id="circle5131"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-28"
+       cx="11.79"
+       cy="28.959999"
+       r="0.34999999"
+       id="circle5133"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-29"
+       cx="11.78"
+       cy="28.959999"
+       r="0.31999999"
+       id="circle5135"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-30"
+       cx="11.77"
+       cy="28.950001"
+       r="0.28999999"
+       id="circle5137"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-31"
+       cx="11.76"
+       cy="28.940001"
+       r="0.25999999"
+       id="circle5139"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-32"
+       cx="11.75"
+       cy="28.93"
+       r="0.23"
+       id="circle5141"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="11.74"
+       cy="28.93"
+       r="0.2"
+       id="circle5143"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-20"
+       cx="21.99"
+       cy="32.580002"
+       r="0.44"
+       id="circle5145"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-21"
+       cx="21.98"
+       cy="32.580002"
+       r="0.41999999"
+       id="circle5147"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-22"
+       cx="21.969999"
+       cy="32.57"
+       r="0.40000001"
+       id="circle5149"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-23"
+       cx="21.969999"
+       cy="32.560001"
+       r="0.38"
+       id="circle5151"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-24"
+       cx="21.959999"
+       cy="32.560001"
+       r="0.34999999"
+       id="circle5153"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-25"
+       cx="21.959999"
+       cy="32.549999"
+       r="0.33000001"
+       id="circle5155"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="21.950001"
+       cy="32.549999"
+       r="0.31"
+       id="circle5157"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-27"
+       cx="21.940001"
+       cy="32.540001"
+       r="0.28999999"
+       id="circle5159"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-28"
+       cx="21.940001"
+       cy="32.540001"
+       r="0.27000001"
+       id="circle5161"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-29"
+       cx="21.93"
+       cy="32.529999"
+       r="0.23999999"
+       id="circle5163"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-30"
+       cx="21.92"
+       cy="32.529999"
+       r="0.22"
+       id="circle5165"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-31"
+       cx="21.92"
+       cy="32.52"
+       r="0.2"
+       id="circle5167"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-32"
+       cx="21.91"
+       cy="32.52"
+       r="0.18000001"
+       id="circle5169"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="21.9"
+       cy="32.509998"
+       r="0.16"
+       id="circle5171"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-20"
+       cx="19.4"
+       cy="34.560001"
+       r="0.44"
+       id="circle5173"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-21"
+       cx="19.389999"
+       cy="34.560001"
+       r="0.41999999"
+       id="circle5175"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-22"
+       cx="19.389999"
+       cy="34.549999"
+       r="0.40000001"
+       id="circle5177"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-23"
+       cx="19.379999"
+       cy="34.549999"
+       r="0.38"
+       id="circle5179"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-24"
+       cx="19.370001"
+       cy="34.540001"
+       r="0.34999999"
+       id="circle5181"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-25"
+       cx="19.370001"
+       cy="34.540001"
+       r="0.33000001"
+       id="circle5183"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="19.360001"
+       cy="34.529999"
+       r="0.31"
+       id="circle5185"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-27"
+       cx="19.35"
+       cy="34.52"
+       r="0.28999999"
+       id="circle5187"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-28"
+       cx="19.35"
+       cy="34.52"
+       r="0.27000001"
+       id="circle5189"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-29"
+       cx="19.34"
+       cy="34.509998"
+       r="0.23999999"
+       id="circle5191"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-30"
+       cx="19.34"
+       cy="34.509998"
+       r="0.22"
+       id="circle5193"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-31"
+       cx="19.33"
+       cy="34.5"
+       r="0.2"
+       id="circle5195"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-32"
+       cx="19.32"
+       cy="34.5"
+       r="0.18000001"
+       id="circle5197"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="19.32"
+       cy="34.490002"
+       r="0.16"
+       id="circle5199"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-20"
+       cx="13.33"
+       cy="27.68"
+       r="0.44"
+       id="circle5201"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-21"
+       cx="13.32"
+       cy="27.68"
+       r="0.41999999"
+       id="circle5203"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-22"
+       cx="13.32"
+       cy="27.67"
+       r="0.40000001"
+       id="circle5205"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-23"
+       cx="13.31"
+       cy="27.67"
+       r="0.38"
+       id="circle5207"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-24"
+       cx="13.3"
+       cy="27.66"
+       r="0.34999999"
+       id="circle5209"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-25"
+       cx="13.3"
+       cy="27.65"
+       r="0.33000001"
+       id="circle5211"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="13.29"
+       cy="27.65"
+       r="0.31"
+       id="circle5213"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-27"
+       cx="13.28"
+       cy="27.639999"
+       r="0.28999999"
+       id="circle5215"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-28"
+       cx="13.28"
+       cy="27.639999"
+       r="0.27000001"
+       id="circle5217"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-29"
+       cx="13.27"
+       cy="27.629999"
+       r="0.23999999"
+       id="circle5219"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-30"
+       cx="13.26"
+       cy="27.629999"
+       r="0.22"
+       id="circle5221"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-31"
+       cx="13.26"
+       cy="27.620001"
+       r="0.2"
+       id="circle5223"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-32"
+       cx="13.25"
+       cy="27.620001"
+       r="0.18000001"
+       id="circle5225"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="13.24"
+       cy="27.610001"
+       r="0.16"
+       id="circle5227"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-20"
+       cx="19.469999"
+       cy="32.130001"
+       r="0.44"
+       id="circle5229"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-21"
+       cx="19.459999"
+       cy="32.130001"
+       r="0.41999999"
+       id="circle5231"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-22"
+       cx="19.459999"
+       cy="32.119999"
+       r="0.40000001"
+       id="circle5233"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-23"
+       cx="19.450001"
+       cy="32.119999"
+       r="0.38"
+       id="circle5235"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-24"
+       cx="19.450001"
+       cy="32.110001"
+       r="0.34999999"
+       id="circle5237"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-25"
+       cx="19.440001"
+       cy="32.110001"
+       r="0.33000001"
+       id="circle5239"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="19.43"
+       cy="32.099998"
+       r="0.31"
+       id="circle5241"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-27"
+       cx="19.43"
+       cy="32.09"
+       r="0.28999999"
+       id="circle5243"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-28"
+       cx="19.42"
+       cy="32.09"
+       r="0.27000001"
+       id="circle5245"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-29"
+       cx="19.41"
+       cy="32.080002"
+       r="0.23999999"
+       id="circle5247"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-30"
+       cx="19.41"
+       cy="32.080002"
+       r="0.22"
+       id="circle5249"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-31"
+       cx="19.4"
+       cy="32.07"
+       r="0.2"
+       id="circle5251"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-32"
+       cx="19.389999"
+       cy="32.07"
+       r="0.18000001"
+       id="circle5253"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="19.389999"
+       cy="32.060001"
+       r="0.16"
+       id="circle5255"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-20"
+       cx="9.9200001"
+       cy="29.02"
+       r="0.44"
+       id="circle5257"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-21"
+       cx="9.9099998"
+       cy="29.01"
+       r="0.41999999"
+       id="circle5259"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-22"
+       cx="9.9099998"
+       cy="29.01"
+       r="0.40000001"
+       id="circle5261"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-23"
+       cx="9.8999996"
+       cy="29"
+       r="0.38"
+       id="circle5263"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-24"
+       cx="9.8900003"
+       cy="29"
+       r="0.34999999"
+       id="circle5265"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-25"
+       cx="9.8900003"
+       cy="28.99"
+       r="0.33000001"
+       id="circle5267"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="9.8800001"
+       cy="28.99"
+       r="0.31"
+       id="circle5269"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-27"
+       cx="9.8699999"
+       cy="28.98"
+       r="0.28999999"
+       id="circle5271"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-28"
+       cx="9.8699999"
+       cy="28.98"
+       r="0.27000001"
+       id="circle5273"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-29"
+       cx="9.8599997"
+       cy="28.969999"
+       r="0.23999999"
+       id="circle5275"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-30"
+       cx="9.8500004"
+       cy="28.959999"
+       r="0.22"
+       id="circle5277"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-31"
+       cx="9.8500004"
+       cy="28.959999"
+       r="0.2"
+       id="circle5279"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-32"
+       cx="9.8400002"
+       cy="28.950001"
+       r="0.18000001"
+       id="circle5281"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="9.8400002"
+       cy="28.950001"
+       r="0.16"
+       id="circle5283"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-20"
+       cx="36.93"
+       cy="26.48"
+       r="0.44"
+       id="circle5285"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-21"
+       cx="36.919998"
+       cy="26.469999"
+       r="0.41999999"
+       id="circle5287"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-22"
+       cx="36.919998"
+       cy="26.469999"
+       r="0.40000001"
+       id="circle5289"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-23"
+       cx="36.91"
+       cy="26.459999"
+       r="0.38"
+       id="circle5291"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-24"
+       cx="36.900002"
+       cy="26.459999"
+       r="0.34999999"
+       id="circle5293"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-25"
+       cx="36.900002"
+       cy="26.450001"
+       r="0.33000001"
+       id="circle5295"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="36.889999"
+       cy="26.450001"
+       r="0.31"
+       id="circle5297"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-27"
+       cx="36.880001"
+       cy="26.440001"
+       r="0.28999999"
+       id="circle5299"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-28"
+       cx="36.880001"
+       cy="26.43"
+       r="0.27000001"
+       id="circle5301"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-29"
+       cx="36.869999"
+       cy="26.43"
+       r="0.23999999"
+       id="circle5303"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-30"
+       cx="36.860001"
+       cy="26.42"
+       r="0.22"
+       id="circle5305"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-31"
+       cx="36.860001"
+       cy="26.42"
+       r="0.2"
+       id="circle5307"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-32"
+       cx="36.849998"
+       cy="26.41"
+       r="0.18000001"
+       id="circle5309"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="36.84"
+       cy="26.41"
+       r="0.16"
+       id="circle5311"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-20"
+       cx="25.719999"
+       cy="33.52"
+       r="0.69"
+       id="circle5313"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-21"
+       cx="25.709999"
+       cy="33.509998"
+       r="0.64999998"
+       id="circle5315"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-22"
+       cx="25.700001"
+       cy="33.509998"
+       r="0.62"
+       id="circle5317"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-23"
+       cx="25.690001"
+       cy="33.5"
+       r="0.57999998"
+       id="circle5319"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-24"
+       cx="25.68"
+       cy="33.490002"
+       r="0.55000001"
+       id="circle5321"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-25"
+       cx="25.67"
+       cy="33.48"
+       r="0.51999998"
+       id="circle5323"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-26"
+       cx="25.66"
+       cy="33.470001"
+       r="0.47999999"
+       id="circle5325"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-27"
+       cx="25.65"
+       cy="33.459999"
+       r="0.44999999"
+       id="circle5327"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-28"
+       cx="25.639999"
+       cy="33.450001"
+       r="0.41"
+       id="circle5329"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-29"
+       cx="25.629999"
+       cy="33.450001"
+       r="0.38"
+       id="circle5331"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-30"
+       cx="25.620001"
+       cy="33.439999"
+       r="0.34"
+       id="circle5333"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-31"
+       cx="25.610001"
+       cy="33.43"
+       r="0.31"
+       id="circle5335"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-32"
+       cx="25.6"
+       cy="33.419998"
+       r="0.28"
+       id="circle5337"
+       style="stroke-width:0.885908" />
+    <circle
+       class="cls-19"
+       cx="25.59"
+       cy="33.41"
+       r="0.23999999"
+       id="circle5339"
+       style="stroke-width:0.885908" />
+    <path
+       class="cls-44"
+       d="m 39.66,15.12 c 0,0 -0.46,5.57 -1,10.6 -0.26,2.35 -0.56,5 -0.84,7.73 l -17.7,8.49 c 0.05,-3 0.18,-6 0.31,-8.71 0.28,-5.49 0.63,-9.69 0.63,-9.69 z"
+       id="path5341"
+       style="fill:url(#radial-gradient-3);stroke-width:0.885908" />
+    <path
+       class="cls-45"
+       d="M 20.72,26.47 20,41.94 A 31.21,31.21 0 0 0 13.17,36.21 29.13,29.13 0 0 0 8.1,34.11 C 8.1,34.11 8,25.73 7.19,20 7.02,18.73 6.82,17.49 6.58,16.36 c 0,0 1.21,-3.59 5.9,-2.48 4.69,1.11 8.52,7.71 8.52,7.71 l -0.25,4.88"
+       id="path5343"
+       style="fill:url(#linear-gradient);stroke-width:0.885908" />
+    <path
+       class="cls-46"
+       d="M 9.22,13.88 27.31,8 c 0,0 5.24,-1.33 8.88,1.76 3.64,3.09 3.41,5.41 3.41,5.41 L 21,21.58 a 23.55,23.55 0 0 0 -6.22,-6.15 c -2.29,-1.48 -3.67,-1.8 -4.63,-1.68 -0.6,0.07 -0.93,0.13 -0.93,0.13 z"
+       id="path5345"
+       style="stroke-width:0.885908" />
+    <path
+       class="cls-47"
+       d="m 23.66,17.25 c -0.51,0.49 -1.12,1.66 -0.53,2.23 0.59,0.57 1.59,0 2,-0.47 0.41,-0.47 1.07,-0.94 1.36,-1.33 0.29,-0.39 0.07,-1.45 -1.14,-1.2 a 3,3 0 0 0 -1.69,0.77 z"
+       id="path5347"
+       style="stroke-width:0.885908" />
+    <path
+       class="cls-47"
+       d="m 20.48,16.94 c -0.41,0.38 -0.27,0.78 0.49,0.76 a 2.1,2.1 0 0 0 1.72,-0.9 C 23,16.34 21.57,15.88 20.48,16.94 Z"
+       id="path5349"
+       style="stroke-width:0.885908" />
+    <g
+       class="cls-48"
+       clip-path="url(#clip-path)"
+       id="g5675"
+       style="stroke-width:0.885908">
+      <path
+         class="cls-47"
+         d="m 32.86,15.55 a 1.06,1.06 0 0 0 -1.45,-1.38 3.34,3.34 0 0 0 -1.88,2.41 c -0.07,0.82 2.47,1.18 3.33,-1.03 z"
+         id="path5351"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 37,11.7 c -1.07,0 -2.48,0.66 -2.32,1.51 0.09,0.53 0.78,0.6 1.21,0.6 0.43,0 0.86,-0.11 1.3,-0.14 0.44,-0.03 1.07,0.13 1.62,0.14 C 39.36,13.82 40,13 39,12.34 A 3.5,3.5 0 0 0 37,11.7 Z"
+         id="path5353"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 27.67,13.45 a 0.9,0.9 0 0 0 -0.9,1 c 0.07,0.57 0.76,0.67 1.41,0.57 0.65,-0.1 0.95,-0.66 0.76,-1.06 -0.19,-0.4 -0.8,-0.51 -1.27,-0.51 z"
+         id="path5355"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 23.92,17.4 c -0.29,0.27 -0.64,0.93 -0.31,1.25 0.33,0.32 0.9,0 1.14,-0.26 0.24,-0.26 0.6,-0.53 0.76,-0.75 0.16,-0.22 0,-0.82 -0.64,-0.68 a 1.67,1.67 0 0 0 -0.95,0.44 z"
+         id="path5357"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-49"
+         d="m 25.46,17.64 c 0.15,-0.21 0,-0.78 -0.62,-0.65 a 1.56,1.56 0 0 0 -0.91,0.42 c -0.28,0.26 -0.61,0.9 -0.29,1.2 0.32,0.3 0.86,0 1.08,-0.25 0.22,-0.25 0.58,-0.51 0.74,-0.72 z"
+         id="path5359"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-50"
+         d="m 25.4,17.64 c 0.15,-0.2 0,-0.75 -0.59,-0.62 a 1.55,1.55 0 0 0 -0.87,0.4 c -0.27,0.25 -0.58,0.86 -0.28,1.16 0.3,0.3 0.83,0 1,-0.25 0.17,-0.25 0.59,-0.49 0.74,-0.69 z"
+         id="path5361"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-51"
+         d="m 25.35,17.64 c 0.14,-0.19 0,-0.71 -0.57,-0.59 a 1.44,1.44 0 0 0 -0.83,0.38 c -0.25,0.24 -0.56,0.82 -0.27,1.11 0.29,0.29 0.79,0 1,-0.24 0.21,-0.24 0.53,-0.46 0.67,-0.66 z"
+         id="path5363"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-52"
+         d="m 25.3,17.65 c 0.13,-0.19 0,-0.69 -0.54,-0.57 a 1.37,1.37 0 0 0 -0.8,0.36 c -0.24,0.23 -0.53,0.79 -0.25,1.06 0.28,0.27 0.75,0 0.95,-0.22 0.2,-0.22 0.5,-0.45 0.64,-0.63 z"
+         id="path5365"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-53"
+         d="m 25.24,17.65 c 0.13,-0.18 0,-0.65 -0.51,-0.54 a 1.39,1.39 0 0 0 -0.76,0.34 c -0.23,0.23 -0.51,0.75 -0.24,1 0.27,0.25 0.72,0 0.9,-0.21 0.18,-0.21 0.48,-0.42 0.61,-0.59 z"
+         id="path5367"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-54"
+         d="m 25.19,17.65 c 0.12,-0.17 0,-0.62 -0.49,-0.51 a 1.22,1.22 0 0 0 -0.72,0.33 c -0.22,0.21 -0.48,0.71 -0.23,1 0.25,0.29 0.68,0 0.86,-0.2 0.18,-0.2 0.46,-0.45 0.58,-0.62 z"
+         id="path5369"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-55"
+         d="m 25.14,17.65 c 0.11,-0.16 0,-0.59 -0.47,-0.49 a 1.26,1.26 0 0 0 -0.68,0.32 c -0.21,0.2 -0.45,0.67 -0.22,0.9 0.23,0.23 0.65,0 0.82,-0.19 C 24.76,18 25,17.81 25.14,17.65 Z"
+         id="path5371"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-56"
+         d="m 25.08,17.65 c 0.11,-0.15 0,-0.55 -0.43,-0.46 A 1.18,1.18 0 0 0 24,17.49 c -0.19,0.19 -0.43,0.64 -0.2,0.85 0.23,0.21 0.61,0 0.77,-0.18 0.16,-0.18 0.43,-0.36 0.51,-0.51 z"
+         id="path5373"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-57"
+         d="m 25,17.66 c 0.11,-0.15 0,-0.53 -0.41,-0.44 a 1.11,1.11 0 0 0 -0.61,0.28 c -0.18,0.18 -0.4,0.6 -0.19,0.8 0.21,0.2 0.57,0 0.72,-0.16 0.15,-0.16 0.42,-0.34 0.49,-0.48 z"
+         id="path5375"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-58"
+         d="m 25,17.66 c 0.1,-0.13 0,-0.49 -0.39,-0.41 a 1.06,1.06 0 0 0 -0.57,0.26 c -0.17,0.17 -0.38,0.56 -0.18,0.76 0.2,0.2 0.54,0 0.68,-0.16 0.14,-0.16 0.34,-0.32 0.46,-0.45 z"
+         id="path5377"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-59"
+         d="m 24.92,17.66 c 0.1,-0.12 0,-0.46 -0.36,-0.38 a 1,1 0 0 0 -0.53,0.24 c -0.16,0.16 -0.35,0.53 -0.16,0.71 0.19,0.18 0.5,0 0.63,-0.15 0.13,-0.15 0.33,-0.3 0.42,-0.42 z"
+         id="path5379"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-60"
+         d="m 24.87,17.66 c 0.09,-0.11 0,-0.42 -0.33,-0.35 a 0.83,0.83 0 0 0 -0.49,0.23 c -0.15,0.14 -0.33,0.48 -0.16,0.65 0.17,0.17 0.46,0 0.58,-0.14 a 5,5 0 0 0 0.4,-0.39 z"
+         id="path5381"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-61"
+         d="m 24.06,17.55 c -0.14,0.13 -0.31,0.45 -0.15,0.6 0.16,0.15 0.43,0 0.54,-0.13 0.11,-0.13 0.29,-0.25 0.37,-0.36 0.08,-0.11 0,-0.39 -0.31,-0.32 a 0.78,0.78 0 0 0 -0.45,0.21 z"
+         id="path5383"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 27.63,13.65 a 0.5,0.5 0 0 0 -0.51,0.55 c 0,0.32 0.43,0.38 0.8,0.32 0.37,-0.06 0.54,-0.37 0.44,-0.6 -0.1,-0.23 -0.46,-0.27 -0.73,-0.27 z"
+         id="path5385"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-49"
+         d="m 27.9,14.5 c 0.35,-0.06 0.52,-0.36 0.42,-0.58 -0.1,-0.22 -0.43,-0.26 -0.69,-0.26 a 0.49,0.49 0 0 0 -0.49,0.53 c 0.04,0.31 0.41,0.36 0.76,0.31 z"
+         id="path5387"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-50"
+         d="m 27.89,14.47 a 0.43,0.43 0 0 0 0.4,-0.55 c -0.1,-0.21 -0.42,-0.25 -0.67,-0.25 a 0.47,0.47 0 0 0 -0.47,0.51 c 0.04,0.29 0.4,0.35 0.74,0.29 z"
+         id="path5389"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-51"
+         d="m 27.87,14.45 a 0.41,0.41 0 0 0 0.38,-0.53 c -0.09,-0.19 -0.39,-0.23 -0.63,-0.23 a 0.45,0.45 0 0 0 -0.45,0.48 c 0.04,0.28 0.38,0.33 0.7,0.28 z"
+         id="path5391"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-52"
+         d="m 27.86,14.42 a 0.39,0.39 0 0 0 0.36,-0.5 C 28.13,13.74 27.84,13.7 27.62,13.7 a 0.43,0.43 0 0 0 -0.43,0.46 c 0.04,0.26 0.36,0.32 0.67,0.26 z"
+         id="path5393"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-53"
+         d="m 27.84,14.4 c 0.29,-0.05 0.43,-0.29 0.34,-0.47 -0.09,-0.18 -0.35,-0.22 -0.57,-0.22 a 0.4,0.4 0 0 0 -0.4,0.44 c 0.03,0.25 0.34,0.3 0.63,0.25 z"
+         id="path5395"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-54"
+         d="m 27.82,14.38 c 0.28,-0.05 0.41,-0.28 0.33,-0.45 -0.08,-0.17 -0.34,-0.2 -0.54,-0.2 a 0.39,0.39 0 0 0 -0.39,0.41 c 0.04,0.24 0.33,0.28 0.6,0.24 z"
+         id="path5397"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-55"
+         d="m 27.81,14.35 c 0.25,0 0.38,-0.26 0.3,-0.42 -0.08,-0.16 -0.32,-0.19 -0.51,-0.19 a 0.37,0.37 0 0 0 -0.36,0.39 c 0.03,0.22 0.31,0.27 0.57,0.22 z"
+         id="path5399"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-56"
+         d="m 27.79,14.33 c 0.24,0 0.36,-0.25 0.29,-0.4 -0.07,-0.15 -0.3,-0.18 -0.48,-0.18 a 0.34,0.34 0 0 0 -0.34,0.37 c 0.03,0.21 0.29,0.25 0.53,0.21 z"
+         id="path5401"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-57"
+         d="m 27.77,14.3 c 0.23,0 0.34,-0.23 0.27,-0.37 -0.07,-0.14 -0.28,-0.16 -0.44,-0.16 a 0.32,0.32 0 0 0 -0.32,0.34 c 0.03,0.19 0.27,0.23 0.49,0.19 z"
+         id="path5403"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-58"
+         d="m 27.76,14.28 a 0.27,0.27 0 0 0 0.25,-0.35 C 27.95,13.8 27.75,13.78 27.59,13.78 A 0.29,0.29 0 0 0 27.3,14.1 c 0.02,0.18 0.25,0.22 0.46,0.18 z"
+         id="path5405"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-59"
+         d="m 27.74,14.26 c 0.2,0 0.29,-0.2 0.23,-0.32 -0.06,-0.12 -0.24,-0.15 -0.38,-0.15 a 0.28,0.28 0 0 0 -0.28,0.3 c 0.03,0.17 0.24,0.2 0.43,0.17 z"
+         id="path5407"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-60"
+         d="m 27.73,14.23 c 0.18,0 0.26,-0.18 0.21,-0.29 -0.05,-0.11 -0.22,-0.13 -0.36,-0.13 a 0.25,0.25 0 0 0 -0.25,0.26 c 0.02,0.16 0.22,0.19 0.4,0.16 z"
+         id="path5409"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-61"
+         d="m 27.58,13.82 a 0.23,0.23 0 0 0 -0.23,0.24 c 0,0.15 0.19,0.18 0.36,0.15 0.17,-0.03 0.24,-0.17 0.19,-0.27 -0.05,-0.1 -0.2,-0.12 -0.32,-0.12 z"
+         id="path5411"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="M 30.57,10.84 A 1.54,1.54 0 0 0 30,11.22 c -0.3,0.29 -0.76,0.94 -0.46,1.36 0.3,0.42 1.22,0.46 2.14,-0.17 0.36,-0.24 1,-1 0.56,-1.43 a 0.85,0.85 0 0 0 -0.38,-0.19 2.1,2.1 0 0 0 -1.29,0.05 z"
+         id="path5413"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-49"
+         d="m 32.15,11.05 a 0.67,0.67 0 0 0 -0.34,-0.22 1.9,1.9 0 0 0 -1.2,0 1.79,1.79 0 0 0 -0.57,0.35 c -0.28,0.27 -0.71,0.87 -0.44,1.27 0.27,0.4 1.1,0.43 2,-0.12 0.3,-0.17 0.93,-0.86 0.55,-1.28 z"
+         id="path5415"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-50"
+         d="m 32.06,11.11 a 0.67,0.67 0 0 0 -0.3,-0.24 1.69,1.69 0 0 0 -1.11,0 1.43,1.43 0 0 0 -0.56,0.32 c -0.27,0.25 -0.66,0.8 -0.42,1.18 0.24,0.38 1,0.41 1.78,-0.07 0.32,-0.16 0.91,-0.77 0.61,-1.19 z"
+         id="path5417"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-51"
+         d="m 32,11.18 a 0.46,0.46 0 0 0 -0.24,-0.28 1.58,1.58 0 0 0 -1,0 1.37,1.37 0 0 0 -0.56,0.29 c -0.25,0.23 -0.61,0.74 -0.4,1.08 0.21,0.34 0.85,0.4 1.61,0 0.22,-0.14 0.79,-0.69 0.59,-1.09 z"
+         id="path5419"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-52"
+         d="m 31.87,11.25 c 0,-0.1 -0.05,-0.24 -0.2,-0.31 a 1.44,1.44 0 0 0 -0.94,0 1.33,1.33 0 0 0 -0.55,0.26 c -0.24,0.21 -0.57,0.67 -0.39,1 0.18,0.33 0.73,0.38 1.43,0 0.28,-0.08 0.78,-0.57 0.65,-0.95 z"
+         id="path5421"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-53"
+         d="m 31.77,11.31 c 0,-0.09 0,-0.26 -0.15,-0.33 a 1.3,1.3 0 0 0 -0.85,0 1.42,1.42 0 0 0 -0.55,0.24 c -0.22,0.19 -0.51,0.61 -0.36,0.9 0.15,0.29 0.61,0.35 1.25,0.09 0.26,-0.1 0.75,-0.53 0.66,-0.9 z"
+         id="path5423"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-54"
+         d="m 31.68,11.38 c 0,-0.1 0.06,-0.28 -0.11,-0.36 a 1.23,1.23 0 0 0 -0.76,0 1.33,1.33 0 0 0 -0.54,0.21 c -0.2,0.17 -0.47,0.54 -0.35,0.8 0.12,0.26 0.49,0.34 1.07,0.15 0.25,-0.09 0.71,-0.45 0.69,-0.8 z"
+         id="path5425"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-55"
+         d="m 31.58,11.44 c 0,-0.1 0.11,-0.3 -0.06,-0.38 a 1,1 0 0 0 -0.67,0 1.19,1.19 0 0 0 -0.53,0.18 c -0.19,0.15 -0.43,0.48 -0.34,0.71 0.09,0.23 0.38,0.32 0.9,0.21 0.23,-0.08 0.67,-0.39 0.7,-0.72 z"
+         id="path5427"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-56"
+         d="m 31.49,11.51 c 0,-0.11 0.16,-0.32 0,-0.42 a 1,1 0 0 0 -0.58,0 1.08,1.08 0 0 0 -0.53,0.15 c -0.17,0.13 -0.37,0.41 -0.31,0.62 0.06,0.21 0.29,0.4 0.71,0.26 a 1,1 0 0 0 0.71,-0.61 z"
+         id="path5429"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-57"
+         d="m 31.39,11.57 c 0.05,-0.1 0.21,-0.34 0,-0.44 a 0.81,0.81 0 0 0 -0.49,0 0.94,0.94 0 0 0 -0.52,0.13 0.63,0.63 0 0 0 -0.3,0.52 c 0,0.22 0.17,0.39 0.54,0.31 0.23,0.02 0.63,-0.23 0.77,-0.52 z"
+         id="path5431"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-58"
+         d="m 31.3,11.64 c 0.07,-0.1 0.26,-0.36 0.08,-0.47 a 0.72,0.72 0 0 0 -0.41,0 0.92,0.92 0 0 0 -0.52,0.1 0.56,0.56 0 0 0 -0.27,0.42 c 0,0.2 0.05,0.39 0.35,0.37 0.3,-0.02 0.57,-0.15 0.77,-0.42 z"
+         id="path5433"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-59"
+         d="m 31.2,11.7 c 0.1,-0.1 0.31,-0.37 0.13,-0.49 A 0.72,0.72 0 0 0 31,11.15 a 1,1 0 0 0 -0.5,0.08 0.53,0.53 0 0 0 -0.26,0.33 c 0,0.17 -0.06,0.38 0.18,0.42 C 30.66,12.02 31,12 31.2,11.7 Z"
+         id="path5435"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-60"
+         d="m 31.11,11.77 c 0.12,-0.1 0.35,-0.38 0.17,-0.52 a 0.51,0.51 0 0 0 -0.24,-0.07 0.86,0.86 0 0 0 -0.5,0.05 0.62,0.62 0 0 0 -0.24,0.24 c -0.07,0.14 -0.16,0.34 0,0.47 a 0.71,0.71 0 0 0 0.81,-0.17 z"
+         id="path5437"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-61"
+         d="m 30.59,11.23 a 0.64,0.64 0 0 0 -0.22,0.14 c -0.12,0.12 -0.3,0.37 -0.18,0.53 0.12,0.16 0.47,0.17 0.82,-0.07 0.14,-0.09 0.39,-0.38 0.22,-0.55 a 0.35,0.35 0 0 0 -0.15,-0.07 0.82,0.82 0 0 0 -0.49,0.02 z"
+         id="path5439"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 36.84,11.9 c -0.7,0 -1.61,0.44 -1.51,1 0.06,0.34 0.51,0.39 0.79,0.39 0.28,0 0.56,-0.08 0.84,-0.09 0.28,-0.01 0.7,0.08 1.06,0.09 0.36,0.01 0.72,-0.52 0.1,-1 A 2.31,2.31 0 0 0 36.84,11.9 Z"
+         id="path5441"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-49"
+         d="m 36.83,11.92 c -0.67,0 -1.55,0.41 -1.45,0.95 0.06,0.33 0.48,0.37 0.75,0.37 0.27,0 0.55,-0.07 0.82,-0.08 0.27,-0.01 0.67,0.07 1,0.08 0.33,0.01 0.7,-0.49 0.09,-0.92 a 2.14,2.14 0 0 0 -1.21,-0.4 z"
+         id="path5443"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-50"
+         d="m 36.82,11.93 c -0.64,0 -1.49,0.4 -1.4,0.92 0.06,0.31 0.47,0.36 0.73,0.36 0.26,0 0.52,-0.07 0.79,-0.09 0.27,-0.02 0.65,0.08 1,0.09 0.35,0.01 0.68,-0.48 0.1,-0.89 a 2.14,2.14 0 0 0 -1.22,-0.39 z"
+         id="path5445"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-51"
+         d="m 36.81,12 c -0.62,0 -1.43,0.38 -1.34,0.88 0.06,0.3 0.45,0.34 0.7,0.34 0.25,0 0.5,-0.06 0.75,-0.08 0.25,-0.02 0.63,0.07 0.94,0.08 0.31,0.01 0.65,-0.46 0.1,-0.85 A 2,2 0 0 0 36.81,12 Z"
+         id="path5447"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-52"
+         d="m 36.81,12 c -0.6,0 -1.38,0.37 -1.29,0.84 0,0.3 0.43,0.34 0.67,0.34 0.24,0 0.48,-0.07 0.72,-0.08 a 8.85,8.85 0 0 1 0.9,0.08 c 0.34,0 0.62,-0.44 0.09,-0.82 A 1.93,1.93 0 0 0 36.81,12 Z"
+         id="path5449"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-53"
+         d="m 36.8,12 c -0.57,0 -1.32,0.36 -1.24,0.81 0,0.28 0.42,0.32 0.65,0.32 0.23,0 0.46,-0.06 0.69,-0.07 a 8.31,8.31 0 0 1 0.86,0.07 c 0.33,0 0.6,-0.42 0.09,-0.78 A 1.94,1.94 0 0 0 36.8,12 Z"
+         id="path5451"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-54"
+         d="m 36.79,12 c -0.54,0 -1.26,0.34 -1.18,0.77 0,0.27 0.4,0.3 0.61,0.3 0.21,0 0.44,-0.05 0.67,-0.06 0.23,-0.01 0.54,0.06 0.82,0.06 0.28,0 0.57,-0.4 0.08,-0.74 a 1.77,1.77 0 0 0 -1,-0.33 z"
+         id="path5453"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-55"
+         d="m 36.78,12 c -0.52,0 -1.2,0.33 -1.12,0.74 0,0.26 0.37,0.29 0.58,0.29 0.21,0 0.42,0 0.63,-0.07 0.21,-0.07 0.53,0.06 0.79,0.07 0.26,0.01 0.54,-0.38 0.08,-0.71 A 1.77,1.77 0 0 0 36.78,12 Z"
+         id="path5455"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-56"
+         d="m 36.77,12 c -0.49,0 -1.14,0.31 -1.07,0.7 0,0.24 0.36,0.27 0.56,0.27 0.2,0 0.4,-0.05 0.6,-0.06 0.2,-0.01 0.5,0.06 0.75,0.06 0.25,0 0.52,-0.36 0.07,-0.67 A 1.58,1.58 0 0 0 36.77,12 Z"
+         id="path5457"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-57"
+         d="m 36.77,12 c -0.47,0 -1.09,0.3 -1,0.67 0.09,0.37 0.34,0.26 0.53,0.26 0.19,0 0.38,-0.05 0.57,-0.06 0.19,-0.01 0.47,0 0.71,0.06 0.24,0.06 0.49,-0.35 0.07,-0.64 A 1.56,1.56 0 0 0 36.77,12 Z"
+         id="path5459"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-58"
+         d="m 36.76,12.05 c -0.45,0 -1,0.28 -1,0.63 0,0.35 0.32,0.24 0.5,0.24 0.18,0 0.36,0 0.54,-0.05 0.18,-0.05 0.44,0.05 0.67,0.05 0.23,0 0.46,-0.32 0.06,-0.6 a 1.39,1.39 0 0 0 -0.77,-0.27 z"
+         id="path5461"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-59"
+         d="m 36.75,12.06 c -0.42,0 -1,0.26 -0.91,0.6 0.09,0.34 0.31,0.23 0.47,0.23 0.16,0 0.34,0 0.51,-0.05 a 4.6,4.6 0 0 1 0.64,0.05 c 0.23,0 0.43,-0.31 0.06,-0.57 a 1.4,1.4 0 0 0 -0.77,-0.26 z"
+         id="path5463"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-60"
+         d="m 36.74,12.08 c -0.39,0 -0.91,0.24 -0.85,0.56 0.06,0.32 0.28,0.21 0.44,0.21 0.16,0 0.32,0 0.48,0 0.16,0 0.4,0 0.6,0 0.2,0 0.41,-0.29 0.05,-0.54 a 1.24,1.24 0 0 0 -0.72,-0.23 z"
+         id="path5465"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-61"
+         d="m 36.73,12.09 c -0.37,0 -0.85,0.23 -0.8,0.52 0.05,0.29 0.27,0.21 0.42,0.21 0.15,0 0.3,0 0.45,-0.05 a 4.89,4.89 0 0 1 0.55,0.05 c 0.21,0 0.39,-0.27 0.06,-0.51 a 1.25,1.25 0 0 0 -0.68,-0.22 z"
+         id="path5467"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 23.52,12 a 5.32,5.32 0 0 0 -1.84,1.2 0.89,0.89 0 0 0 0.26,1.35 2.25,2.25 0 0 0 2.41,-0.6 c 0.82,-0.74 0.82,-1.63 0.52,-1.9 A 1.38,1.38 0 0 0 23.52,12 Z"
+         id="path5469"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-49"
+         d="m 24.26,13.85 c 0.79,-0.7 0.79,-1.54 0.5,-1.8 a 1.28,1.28 0 0 0 -1.28,0 4.85,4.85 0 0 0 -1.74,1.13 0.84,0.84 0 0 0 0.26,1.24 2.11,2.11 0 0 0 2.26,-0.57 z"
+         id="path5471"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-50"
+         d="m 24.18,13.8 c 0.75,-0.67 0.75,-1.47 0.47,-1.71 a 1.2,1.2 0 0 0 -1.21,0 4.75,4.75 0 0 0 -1.65,1.07 0.79,0.79 0 0 0 0.21,1.17 2,2 0 0 0 2.18,-0.53 z"
+         id="path5473"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-51"
+         d="m 24.1,13.74 c 0.7,-0.63 0.7,-1.38 0.44,-1.61 a 1.16,1.16 0 0 0 -1.14,0 4.57,4.57 0 0 0 -1.56,1 0.76,0.76 0 0 0 0.22,1.15 1.89,1.89 0 0 0 2.04,-0.54 z"
+         id="path5475"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-52"
+         d="m 24,13.69 c 0.66,-0.6 0.66,-1.3 0.41,-1.52 a 1.08,1.08 0 0 0 -1.07,0 4.24,4.24 0 0 0 -1.47,0.95 0.71,0.71 0 0 0 0.21,1.08 1.79,1.79 0 0 0 1.92,-0.51 z"
+         id="path5477"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-53"
+         d="m 23.93,13.63 c 0.62,-0.55 0.62,-1.22 0.4,-1.42 a 1,1 0 0 0 -1,0 4,4 0 0 0 -1.38,0.89 0.67,0.67 0 0 0 0.2,1 1.67,1.67 0 0 0 1.78,-0.47 z"
+         id="path5479"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-54"
+         d="m 23.85,13.57 c 0.58,-0.51 0.58,-1.13 0.37,-1.32 a 0.92,0.92 0 0 0 -0.94,0 3.54,3.54 0 0 0 -1.28,0.83 0.61,0.61 0 0 0 0.18,0.94 1.54,1.54 0 0 0 1.67,-0.45 z"
+         id="path5481"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-55"
+         d="m 23.77,13.52 c 0.54,-0.48 0.54,-1.06 0.34,-1.23 a 0.89,0.89 0 0 0 -0.87,0 3.49,3.49 0 0 0 -1.19,0.77 0.57,0.57 0 0 0 0.16,0.87 1.44,1.44 0 0 0 1.56,-0.41 z"
+         id="path5483"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-56"
+         d="m 23.69,13.46 c 0.49,-0.44 0.49,-1 0.31,-1.13 a 0.82,0.82 0 0 0 -0.81,0 3.31,3.31 0 0 0 -1.09,0.67 0.53,0.53 0 0 0 0.15,0.81 1.35,1.35 0 0 0 1.44,-0.35 z"
+         id="path5485"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-57"
+         d="m 23.61,13.41 c 0.45,-0.41 0.45,-0.89 0.28,-1 a 0.74,0.74 0 0 0 -0.74,0 3,3 0 0 0 -1,0.65 0.48,0.48 0 0 0 0.14,0.74 1.23,1.23 0 0 0 1.32,-0.39 z"
+         id="path5487"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-58"
+         d="m 23.52,13.35 c 0.41,-0.37 0.41,-0.81 0.26,-0.94 a 0.66,0.66 0 0 0 -0.67,0 2.65,2.65 0 0 0 -0.91,0.59 0.44,0.44 0 0 0 0.13,0.67 1.12,1.12 0 0 0 1.19,-0.32 z"
+         id="path5489"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-59"
+         d="m 23.44,13.29 c 0.37,-0.33 0.37,-0.72 0.23,-0.84 a 0.6,0.6 0 0 0 -0.6,0 2.42,2.42 0 0 0 -0.82,0.53 0.39,0.39 0 0 0 0.12,0.6 1,1 0 0 0 1.07,-0.29 z"
+         id="path5491"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-60"
+         d="m 23.36,13.24 c 0.32,-0.29 0.32,-0.65 0.2,-0.75 a 0.52,0.52 0 0 0 -0.53,0 2.09,2.09 0 0 0 -0.72,0.47 0.34,0.34 0 0 0 0.1,0.53 0.87,0.87 0 0 0 0.95,-0.25 z"
+         id="path5493"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-61"
+         d="m 23,12.51 a 1.8,1.8 0 0 0 -0.63,0.41 0.3,0.3 0 0 0 0.09,0.47 0.76,0.76 0 0 0 0.83,-0.21 c 0.28,-0.25 0.28,-0.56 0.18,-0.65 A 0.48,0.48 0 0 0 23,12.51 Z"
+         id="path5495"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 18.48,14.31 c -0.25,0.14 -0.71,0.91 -0.4,1.31 a 1.25,1.25 0 0 0 1.61,0.08 c 0.55,-0.36 0.75,-1.22 0.34,-1.47 a 1.74,1.74 0 0 0 -1.55,0.08 z"
+         id="path5497"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-49"
+         d="m 20,14.3 a 1.56,1.56 0 0 0 -1.41,0 c -0.24,0.13 -0.7,0.84 -0.41,1.22 a 1.14,1.14 0 0 0 1.47,0.11 c 0.47,-0.3 0.68,-1.1 0.35,-1.33 z"
+         id="path5499"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-50"
+         d="m 19.9,14.36 a 1.46,1.46 0 0 0 -1.29,0 c -0.23,0.12 -0.67,0.77 -0.42,1.12 a 1,1 0 0 0 1.33,0.14 c 0.48,-0.31 0.7,-1.03 0.38,-1.26 z"
+         id="path5501"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-51"
+         d="m 19.83,14.43 a 1.27,1.27 0 0 0 -1.16,-0.07 c -0.22,0.1 -0.64,0.7 -0.43,1 a 0.93,0.93 0 0 0 1.2,0.17 c 0.45,-0.23 0.67,-0.89 0.39,-1.1 z"
+         id="path5503"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-52"
+         d="m 19.77,14.49 a 1.09,1.09 0 0 0 -1,-0.11 C 18.55,14.46 18.14,15 18.32,15.3 a 0.83,0.83 0 0 0 1.07,0.2 c 0.38,-0.21 0.61,-0.8 0.38,-1.01 z"
+         id="path5505"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-53"
+         d="M 19.71,14.56 A 1,1 0 0 0 18.8,14.4 c -0.21,0.07 -0.6,0.55 -0.45,0.82 a 0.72,0.72 0 0 0 0.93,0.23 c 0.38,-0.17 0.61,-0.7 0.43,-0.89 z"
+         id="path5507"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-54"
+         d="m 19.64,14.62 a 0.78,0.78 0 0 0 -0.78,-0.2 c -0.19,0.05 -0.58,0.47 -0.46,0.72 a 0.62,0.62 0 0 0 0.8,0.26 c 0.34,-0.13 0.57,-0.59 0.44,-0.78 z"
+         id="path5509"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-55"
+         d="m 19.58,14.68 a 0.62,0.62 0 0 0 -0.65,-0.24 c -0.19,0 -0.56,0.4 -0.48,0.62 a 0.54,0.54 0 0 0 0.67,0.29 c 0.31,-0.1 0.54,-0.48 0.46,-0.67 z"
+         id="path5511"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-56"
+         d="m 19.51,14.75 a 0.48,0.48 0 0 0 -0.52,-0.29 c -0.18,0 -0.54,0.32 -0.49,0.52 a 0.46,0.46 0 0 0 0.54,0.32 c 0.27,-0.06 0.51,-0.38 0.47,-0.55 z"
+         id="path5513"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-57"
+         d="m 19.45,14.81 a 0.37,0.37 0 0 0 -0.4,-0.33 c -0.17,0 -0.51,0.24 -0.49,0.42 a 0.38,0.38 0 0 0 0.39,0.35 0.59,0.59 0 0 0 0.5,-0.44 z"
+         id="path5515"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-58"
+         d="M 19.38,14.88 A 0.3,0.3 0 0 0 19.12,14.5 c -0.17,0 -0.49,0.16 -0.51,0.32 a 0.33,0.33 0 0 0 0.26,0.37 0.54,0.54 0 0 0 0.51,-0.31 z"
+         id="path5517"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-59"
+         d="m 19.32,14.94 a 0.27,0.27 0 0 0 -0.14,-0.42 0.56,0.56 0 0 0 -0.52,0.22 c 0,0.1 -0.05,0.34 0.13,0.4 a 0.5,0.5 0 0 0 0.53,-0.2 z"
+         id="path5519"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-60"
+         d="m 19.25,15 c 0.15,-0.14 0.16,-0.41 0,-0.47 a 0.54,0.54 0 0 0 -0.52,0.12 c -0.07,0.07 -0.15,0.33 0,0.43 A 0.48,0.48 0 0 0 19.25,15 Z"
+         id="path5521"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-61"
+         d="m 18.77,14.58 c -0.09,0.05 -0.25,0.32 -0.14,0.46 a 0.43,0.43 0 0 0 0.56,0 c 0.19,-0.13 0.26,-0.43 0.12,-0.51 a 0.6,0.6 0 0 0 -0.54,0.05 z"
+         id="path5523"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 20.41,11.09 c -0.6,0.21 -1,0.51 -0.82,0.91 0.18,0.4 0.9,0.45 1.41,0.16 0.51,-0.29 0.56,-0.76 0.36,-1 a 1.05,1.05 0 0 0 -0.95,-0.07 z"
+         id="path5525"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 24.85,8.6 a 1.32,1.32 0 0 0 -1.5,0.8 C 23,10.17 23.24,10.68 23.72,10.84 24.2,11 24.78,10.71 25.17,10.02 25.56,9.33 25.3,8.71 24.85,8.6 Z"
+         id="path5527"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 29.15,9.53 a 8.65,8.65 0 0 0 -1.86,0.62 c -0.63,0.2 -1.77,0.48 -1.43,1.4 0.34,0.92 1.63,0.72 2.22,0.39 0.59,-0.33 1.58,-1.19 1.62,-1.77 0.04,-0.58 -0.31,-0.65 -0.55,-0.64 z"
+         id="path5529"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-49"
+         d="m 29.07,9.6 a 7.22,7.22 0 0 0 -1.77,0.59 c -0.6,0.18 -1.69,0.45 -1.36,1.32 0.33,0.87 1.54,0.69 2.11,0.37 0.57,-0.32 1.5,-1.13 1.53,-1.68 0.03,-0.55 -0.29,-0.62 -0.51,-0.6 z"
+         id="path5531"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-50"
+         d="m 29,9.66 a 7.06,7.06 0 0 0 -1.68,0.56 c -0.57,0.17 -1.59,0.42 -1.29,1.25 0.3,0.83 1.47,0.65 2,0.36 0.53,-0.29 1.43,-1.08 1.46,-1.6 C 29.52,9.71 29.19,9.64 29,9.66 Z"
+         id="path5533"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-51"
+         d="m 28.89,9.72 a 6.68,6.68 0 0 0 -1.58,0.53 c -0.54,0.16 -1.51,0.4 -1.22,1.18 0.29,0.78 1.38,0.62 1.89,0.34 0.51,-0.28 1.34,-1 1.37,-1.51 0.03,-0.51 -0.26,-0.55 -0.46,-0.54 z"
+         id="path5535"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-52"
+         d="m 28.8,9.78 a 6.53,6.53 0 0 0 -1.49,0.5 c -0.5,0.15 -1.42,0.38 -1.14,1.11 0.28,0.73 1.3,0.58 1.78,0.32 0.48,-0.26 1.26,-1 1.29,-1.42 C 29.27,9.87 29,9.77 28.8,9.78 Z"
+         id="path5537"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-53"
+         d="m 28.71,9.85 a 5.54,5.54 0 0 0 -1.39,0.46 c -0.48,0.15 -1.33,0.36 -1.08,1 0.25,0.64 1.22,0.55 1.67,0.3 0.45,-0.25 1.19,-0.89 1.21,-1.33 0.02,-0.44 -0.23,-0.45 -0.41,-0.43 z"
+         id="path5539"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-54"
+         d="m 28.62,9.91 a 6,6 0 0 0 -1.3,0.43 c -0.44,0.14 -1.24,0.33 -1,1 0.24,0.67 1.14,0.5 1.56,0.27 C 28.3,11.38 29,10.76 29,10.35 29,9.94 28.79,9.9 28.62,9.91 Z"
+         id="path5541"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-55"
+         d="m 28.54,10 a 5.54,5.54 0 0 0 -1.21,0.4 c -0.41,0.13 -1.16,0.31 -0.93,0.91 0.23,0.6 1.05,0.47 1.44,0.25 0.39,-0.22 1,-0.77 1.05,-1.15 C 28.94,10.03 28.69,10 28.54,10 Z"
+         id="path5543"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-56"
+         d="m 28.45,10 a 5.26,5.26 0 0 0 -1.12,0.37 c -0.38,0.12 -1.06,0.29 -0.86,0.84 0.2,0.55 1,0.43 1.34,0.24 0.34,-0.19 0.94,-0.72 1,-1.07 C 28.87,10.03 28.59,10 28.45,10 Z"
+         id="path5545"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-57"
+         d="m 28.36,10.09 a 4.89,4.89 0 0 0 -1,0.34 c -0.35,0.11 -1,0.27 -0.79,0.77 0.21,0.5 0.89,0.4 1.22,0.22 0.33,-0.18 0.87,-0.66 0.89,-1 0.02,-0.34 -0.19,-0.34 -0.32,-0.33 z"
+         id="path5547"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-58"
+         d="m 28.27,10.16 a 3.91,3.91 0 0 0 -0.93,0.31 c -0.31,0.09 -0.89,0.23 -0.72,0.69 0.17,0.46 0.82,0.36 1.12,0.2 0.3,-0.16 0.79,-0.6 0.81,-0.89 0.02,-0.29 -0.16,-0.32 -0.28,-0.31 z"
+         id="path5549"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-59"
+         d="m 28.18,10.22 a 3.38,3.38 0 0 0 -0.83,0.28 c -0.29,0.08 -0.8,0.21 -0.65,0.62 0.15,0.41 0.73,0.33 1,0.18 0.27,-0.15 0.71,-0.53 0.73,-0.8 0.02,-0.27 -0.14,-0.29 -0.25,-0.28 z"
+         id="path5551"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-60"
+         d="m 28.1,10.28 a 3.15,3.15 0 0 0 -0.75,0.25 c -0.25,0.08 -0.71,0.19 -0.57,0.55 0.14,0.36 0.65,0.29 0.89,0.16 0.24,-0.13 0.63,-0.47 0.64,-0.71 0.01,-0.24 -0.12,-0.26 -0.21,-0.25 z"
+         id="path5553"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-61"
+         d="m 28,10.34 a 2.93,2.93 0 0 0 -0.65,0.22 c -0.22,0.07 -0.62,0.17 -0.51,0.49 0.11,0.32 0.57,0.25 0.78,0.14 0.21,-0.11 0.56,-0.42 0.57,-0.63 0.01,-0.21 -0.1,-0.22 -0.19,-0.22 z"
+         id="path5555"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 32.78,8.58 a 1,1 0 0 0 -1.23,0.67 c -0.12,0.47 0.42,0.92 1.14,0.71 0.72,-0.21 0.78,-1.23 0.09,-1.38 z"
+         id="path5557"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-62"
+         d="M 32.67,9.91 A 0.68,0.68 0 0 0 32.75,8.6 0.94,0.94 0 0 0 31.59,9.23 C 31.47,9.68 32,10.1 32.67,9.91 Z"
+         id="path5559"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-63"
+         d="m 32.64,9.86 c 0.64,-0.19 0.7,-1.1 0.08,-1.24 a 0.9,0.9 0 0 0 -1.1,0.59 C 31.51,9.64 32,10 32.64,9.86 Z"
+         id="path5561"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-64"
+         d="m 32.62,9.8 c 0.6,-0.17 0.65,-1 0.07,-1.16 a 0.84,0.84 0 0 0 -1,0.56 C 31.56,9.6 32,10 32.62,9.8 Z"
+         id="path5563"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-65"
+         d="m 32.6,9.75 c 0.56,-0.16 0.61,-1 0.06,-1.09 a 0.77,0.77 0 0 0 -1,0.52 C 31.6,9.56 32,9.91 32.6,9.75 Z"
+         id="path5565"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-66"
+         d="m 32.57,9.69 c 0.53,-0.15 0.57,-0.9 0.07,-1 a 0.73,0.73 0 0 0 -0.9,0.49 c -0.09,0.34 0.31,0.67 0.83,0.51 z"
+         id="path5567"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-67"
+         d="M 32.55,9.64 A 0.49,0.49 0 0 0 32.61,8.7 0.69,0.69 0 0 0 31.77,9.15 c -0.08,0.33 0.29,0.63 0.78,0.49 z"
+         id="path5569"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-68"
+         d="m 32.53,9.59 a 0.45,0.45 0 0 0 0,-0.87 0.63,0.63 0 0 0 -0.77,0.42 c -0.02,0.3 0.32,0.58 0.77,0.45 z"
+         id="path5571"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-53"
+         d="m 32.5,9.53 c 0.41,-0.11 0.45,-0.7 0,-0.79 a 0.57,0.57 0 0 0 -0.7,0.38 c -0.02,0.27 0.29,0.53 0.7,0.41 z"
+         id="path5573"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-69"
+         d="m 32.48,9.48 c 0.37,-0.11 0.4,-0.64 0,-0.72 a 0.51,0.51 0 0 0 -0.63,0.35 c -0.03,0.24 0.26,0.48 0.63,0.37 z"
+         id="path5575"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-70"
+         d="m 32.46,9.43 a 0.34,0.34 0 0 0 0,-0.65 0.46,0.46 0 0 0 -0.57,0.31 c -0.02,0.22 0.23,0.43 0.57,0.34 z"
+         id="path5577"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-71"
+         d="m 32.43,9.37 a 0.3,0.3 0 0 0 0,-0.57 0.42,0.42 0 0 0 -0.51,0.28 c -0.01,0.19 0.22,0.38 0.51,0.29 z"
+         id="path5579"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-72"
+         d="m 32.41,9.32 a 0.26,0.26 0 0 0 0,-0.5 0.36,0.36 0 0 0 -0.44,0.24 c 0.03,0.17 0.18,0.33 0.44,0.26 z"
+         id="path5581"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-73"
+         d="m 32.41,8.84 a 0.3,0.3 0 0 0 -0.37,0.21 c 0,0.14 0.13,0.28 0.35,0.22 a 0.22,0.22 0 0 0 0.02,-0.43 z"
+         id="path5583"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 35.8,8.66 a 1.55,1.55 0 0 0 -1.5,0.88 0.79,0.79 0 0 0 0.75,1.07 1.08,1.08 0 0 0 1.14,-0.9 C 36.34,9.17 36.29,8.68 35.8,8.66 Z"
+         id="path5585"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-49"
+         d="m 35,10.54 a 1,1 0 0 0 1.09,-0.86 c 0.14,-0.5 0.09,-1 -0.37,-1 A 1.47,1.47 0 0 0 34.29,9.51 0.75,0.75 0 0 0 35,10.54 Z"
+         id="path5587"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-50"
+         d="M 35,10.47 A 1,1 0 0 0 36,9.66 C 36.14,9.18 36.09,8.73 35.66,8.72 A 1.41,1.41 0 0 0 34.3,9.51 0.71,0.71 0 0 0 35,10.47 Z"
+         id="path5589"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-51"
+         d="M 35,10.4 A 0.92,0.92 0 0 0 36,9.64 C 36.12,9.19 36.08,8.76 35.67,8.75 A 1.29,1.29 0 0 0 34.4,9.49 0.67,0.67 0 0 0 35,10.4 Z"
+         id="path5591"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-52"
+         d="M 35,10.33 A 0.87,0.87 0 0 0 35.91,9.61 C 36.02,9.19 35.99,8.79 35.6,8.78 a 1.25,1.25 0 0 0 -1.2,0.7 0.63,0.63 0 0 0 0.6,0.85 z"
+         id="path5593"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-53"
+         d="M 35,10.26 A 0.8,0.8 0 0 0 35.85,9.59 C 35.96,9.19 35.93,8.82 35.57,8.81 A 1.18,1.18 0 0 0 34.44,9.46 0.6,0.6 0 0 0 35,10.26 Z"
+         id="path5595"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-54"
+         d="M 35,10.19 A 0.75,0.75 0 0 0 35.79,9.57 C 35.89,9.2 35.86,8.85 35.52,8.84 a 1.08,1.08 0 0 0 -1,0.61 0.55,0.55 0 0 0 0.48,0.74 z"
+         id="path5597"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-55"
+         d="M 35,10.12 A 0.7,0.7 0 0 0 35.74,9.54 C 35.83,9.2 35.8,8.88 35.49,8.87 a 1,1 0 0 0 -1,0.57 0.5,0.5 0 0 0 0.51,0.68 z"
+         id="path5599"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-56"
+         d="M 35,10.05 A 0.62,0.62 0 0 0 35.67,9.52 C 35.76,9.21 35.73,8.91 35.44,8.9 A 0.9,0.9 0 0 0 34.56,9.42 0.46,0.46 0 0 0 35,10.05 Z"
+         id="path5601"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-57"
+         d="M 35,10 A 0.58,0.58 0 0 0 35.62,9.52 C 35.7,9.23 35.67,8.96 35.41,8.95 A 0.84,0.84 0 0 0 34.6,9.43 0.42,0.42 0 0 0 35,10 Z"
+         id="path5603"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-58"
+         d="m 35,9.91 a 0.52,0.52 0 0 0 0.56,-0.43 c 0.07,-0.27 0,-0.51 -0.19,-0.52 A 0.78,0.78 0 0 0 34.63,9.39 0.38,0.38 0 0 0 35,9.91 Z"
+         id="path5605"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-59"
+         d="M 35,9.84 A 0.47,0.47 0 0 0 35.5,9.45 C 35.57,9.22 35.5,9 35.33,8.99 A 0.68,0.68 0 0 0 34.68,9.38 0.33,0.33 0 0 0 35,9.84 Z"
+         id="path5607"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-60"
+         d="m 35,9.77 a 0.42,0.42 0 0 0 0.44,-0.34 c 0.06,-0.21 0,-0.4 -0.15,-0.41 A 0.63,0.63 0 0 0 34.71,9.36 0.3,0.3 0 0 0 35,9.77 Z"
+         id="path5609"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-61"
+         d="m 35.24,9.06 a 0.52,0.52 0 0 0 -0.51,0.29 0.28,0.28 0 0 0 0.25,0.36 0.38,0.38 0 0 0 0.39,-0.3 C 35.41,9.23 35.4,9.06 35.24,9.06 Z"
+         id="path5611"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 29,7.25 c -0.56,0.17 -1.14,0.58 -1.07,1 0.07,0.42 0.71,0.75 1.53,0.57 0.82,-0.18 1.06,-0.8 0.83,-1.2 A 1.19,1.19 0 0 0 29,7.25 Z"
+         id="path5613"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 20.7,17 c -0.28,0.28 -0.19,0.55 0.34,0.54 a 1.47,1.47 0 0 0 1.2,-0.63 C 22.42,16.54 21.46,16.22 20.7,17 Z"
+         id="path5615"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-49"
+         d="m 21.05,17.46 a 1.44,1.44 0 0 0 1.15,-0.6 c 0.17,-0.31 -0.75,-0.61 -1.48,0.09 -0.27,0.26 -0.18,0.52 0.33,0.51 z"
+         id="path5617"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-50"
+         d="m 21.05,17.43 a 1.36,1.36 0 0 0 1.1,-0.58 c 0.16,-0.29 -0.71,-0.58 -1.41,0.09 -0.25,0.25 -0.17,0.5 0.31,0.49 z"
+         id="path5619"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-51"
+         d="m 21.06,17.39 a 1.25,1.25 0 0 0 1,-0.54 c 0.16,-0.28 -0.68,-0.55 -1.33,0.08 -0.21,0.24 -0.13,0.47 0.33,0.46 z"
+         id="path5621"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-52"
+         d="m 21.07,17.36 a 1.2,1.2 0 0 0 1,-0.51 c 0.15,-0.27 -0.64,-0.53 -1.26,0.07 -0.25,0.23 -0.18,0.45 0.26,0.44 z"
+         id="path5623"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-53"
+         d="m 21.07,17.33 a 1.16,1.16 0 0 0 0.94,-0.49 c 0.13,-0.25 -0.61,-0.49 -1.2,0.07 -0.22,0.22 -0.14,0.43 0.26,0.42 z"
+         id="path5625"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-54"
+         d="m 21.08,17.3 a 1.11,1.11 0 0 0 0.88,-0.46 c 0.13,-0.23 -0.57,-0.47 -1.13,0.07 -0.2,0.19 -0.13,0.39 0.25,0.39 z"
+         id="path5627"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-55"
+         d="m 21.09,17.27 a 1,1 0 0 0 0.82,-0.44 c 0.12,-0.21 -0.53,-0.43 -1.05,0.07 -0.2,0.18 -0.13,0.37 0.23,0.37 z"
+         id="path5629"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-56"
+         d="m 21.09,17.23 a 0.93,0.93 0 0 0 0.77,-0.4 c 0.12,-0.2 -0.5,-0.41 -1,0.06 -0.16,0.17 -0.1,0.35 0.23,0.34 z"
+         id="path5631"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-57"
+         d="m 21.1,17.2 a 0.87,0.87 0 0 0 0.71,-0.37 c 0.11,-0.19 -0.46,-0.38 -0.91,0.05 -0.17,0.12 -0.11,0.33 0.2,0.32 z"
+         id="path5633"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-58"
+         d="m 21.11,17.17 a 0.82,0.82 0 0 0 0.66,-0.35 c 0.09,-0.17 -0.43,-0.35 -0.85,0.06 -0.15,0.12 -0.1,0.29 0.19,0.29 z"
+         id="path5635"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-59"
+         d="m 21.12,17.14 a 0.76,0.76 0 0 0 0.6,-0.32 c 0.09,-0.16 -0.39,-0.32 -0.77,0.05 -0.14,0.13 -0.1,0.27 0.17,0.27 z"
+         id="path5637"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-60"
+         d="m 21.12,17.1 a 0.68,0.68 0 0 0 0.55,-0.28 c 0.08,-0.15 -0.35,-0.29 -0.7,0 -0.13,0.18 -0.09,0.29 0.15,0.28 z"
+         id="path5639"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-61"
+         d="m 21,16.85 c -0.11,0.11 -0.08,0.22 0.14,0.22 a 0.58,0.58 0 0 0 0.49,-0.26 C 21.7,16.68 21.3,16.55 21,16.85 Z"
+         id="path5641"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 32.25,15.5 a 0.7,0.7 0 0 0 -1,-0.92 2.21,2.21 0 0 0 -1.25,1.61 c 0,0.55 1.66,0.81 2.25,-0.69 z"
+         id="path5643"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-49"
+         d="M 32.2,15.49 A 0.68,0.68 0 0 0 31.27,14.6 2.17,2.17 0 0 0 30.06,16.15 C 30,16.68 31.64,16.91 32.2,15.49 Z"
+         id="path5645"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-50"
+         d="m 32.15,15.48 a 0.65,0.65 0 0 0 -0.89,-0.85 2,2 0 0 0 -1.16,1.49 c -0.05,0.51 1.51,0.73 2.05,-0.64 z"
+         id="path5647"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-51"
+         d="m 32.11,15.47 a 0.63,0.63 0 0 0 -0.86,-0.82 2,2 0 0 0 -1.12,1.43 c -0.04,0.49 1.45,0.7 1.98,-0.61 z"
+         id="path5649"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-52"
+         d="m 32.06,15.46 a 0.6,0.6 0 0 0 -0.82,-0.78 1.91,1.91 0 0 0 -1.08,1.37 c -0.04,0.46 1.4,0.67 1.9,-0.59 z"
+         id="path5651"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-53"
+         d="m 32,15.45 a 0.57,0.57 0 0 0 -0.79,-0.75 1.82,1.82 0 0 0 -1,1.31 c -0.05,0.45 1.32,0.64 1.79,-0.56 z"
+         id="path5653"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-54"
+         d="m 32,15.44 a 0.55,0.55 0 0 0 -0.75,-0.72 1.76,1.76 0 0 0 -1,1.25 C 30.2,16.4 31.5,16.59 32,15.44 Z"
+         id="path5655"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-55"
+         d="m 31.91,15.43 a 0.52,0.52 0 0 0 -0.71,-0.68 1.63,1.63 0 0 0 -0.93,1.19 c -0.04,0.4 1.21,0.58 1.64,-0.51 z"
+         id="path5657"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-56"
+         d="M 31.86,15.42 A 0.49,0.49 0 0 0 31.19,14.77 1.56,1.56 0 0 0 30.3,15.9 c -0.03,0.39 1.15,0.55 1.56,-0.48 z"
+         id="path5659"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-57"
+         d="m 31.81,15.41 a 0.46,0.46 0 0 0 -0.64,-0.61 1.46,1.46 0 0 0 -0.83,1.07 c -0.03,0.36 1.08,0.52 1.47,-0.46 z"
+         id="path5661"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-58"
+         d="m 31.77,15.4 a 0.44,0.44 0 0 0 -0.61,-0.58 1.4,1.4 0 0 0 -0.79,1 c -0.03,0.35 1.03,0.5 1.4,-0.42 z"
+         id="path5663"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-59"
+         d="m 31.72,15.39 a 0.42,0.42 0 0 0 -0.57,-0.55 1.3,1.3 0 0 0 -0.74,0.95 c -0.03,0.33 0.96,0.47 1.31,-0.4 z"
+         id="path5665"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-60"
+         d="m 31.67,15.38 a 0.39,0.39 0 0 0 -0.53,-0.51 1.23,1.23 0 0 0 -0.7,0.89 c -0.03,0.3 0.9,0.43 1.23,-0.38 z"
+         id="path5667"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-61"
+         d="m 31.62,15.37 a 0.37,0.37 0 0 0 -0.5,-0.48 1.18,1.18 0 0 0 -0.65,0.83 c -0.02,0.28 0.85,0.41 1.15,-0.35 z"
+         id="path5669"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-47"
+         d="m 17.4,10.93 c 0.67,0.26 0.81,0.84 0.14,1.55 a 2.8,2.8 0 0 1 -2.77,0.63 c -0.76,-0.34 0.19,-1.07 0.92,-1.57 a 2.67,2.67 0 0 1 1.71,-0.61 z"
+         id="path5671"
+         style="stroke-width:0.885908" />
+      <path
+         class="cls-74"
+         d="m 34.94,8.84 -19,6.8 -0.45,0.28 -0.73,-0.49 C 12.47,13.95 11.1,13.63 10.13,13.75 9.57,13.82 9.24,13.88 9.24,13.88 L 27.31,8 a 11.57,11.57 0 0 1 7.63,0.84 z"
+         id="path5673"
+         style="fill:url(#linear-gradient-2);stroke-width:0.885908" />
+    </g>
+    <path
+       class="cls-75"
+       d="m 21,21.59 -0.25,4.88 -0.18,5.05 C 18.35,28.19 14.22,25.29 7.7,24.8 7.58,23.38 7.42,21.42 7.22,19.98 7.05,18.71 6.85,17.47 6.61,16.34 c 0,0 1.21,-3.59 5.9,-2.48 4.69,1.11 8.49,7.73 8.49,7.73 z"
+       id="path5677"
+       style="fill:url(#radial-gradient-4);stroke-width:0.885908" />
+    <path
+       class="cls-76"
+       d="M 20.54,31.52 C 18.32,28.19 14.19,25.29 7.67,24.8"
+       id="path5679" />
+    <path
+       class="cls-77"
+       d="m 21,21.59 -0.14,4.17 v 0 a 7,7 0 0 1 -3,-2.5 c -1,-1.46 -1.34,-3.54 -3,-3.54 -1.66,0 -1.88,1 -3.46,0.61 C 9.82,19.94 9.04,18.25 7.18,19.14 v 0 C 7.01,17.87 6.93,17.43 6.69,16.3 c 0,0 1.21,-3.59 5.9,-2.48 4.69,1.11 8.41,7.77 8.41,7.77 z"
+       id="path5681"
+       style="stroke-width:0.885908" />
+    <path
+       class="cls-78"
+       d="m 21,21.59 -0.14,4.17 v 0 a 4.19,4.19 0 0 1 -2.74,-2 c -1,-1.46 -1.59,-4 -3.3,-4 -1.71,0 -1.88,1 -3.46,0.61 C 9.78,19.98 9,18.29 7.14,19.18 v 0 C 6.97,17.91 6.89,17.47 6.65,16.34 c 0,0 1.21,-3.59 5.9,-2.48 4.69,1.11 8.45,7.73 8.45,7.73 z"
+       id="path5683"
+       style="fill:url(#linear-gradient-3);stroke-width:0.885908" />
+    <path
+       class="cls-79"
+       d="m 20.88,24.47 v 1.28 a 4.15,4.15 0 0 1 -2.74,-2 c -1,-1.46 -1.59,-4.05 -3.3,-4.05 -1.71,0 -1.88,1 -3.46,0.61 C 9.8,19.92 9.02,18.24 7.16,19.13 v 0 C 7,18.8 7,18.5 6.94,18.23 c 2.07,-0.93 2.9,0.88 4.23,1.27 1.33,0.39 1.24,-0.5 3.56,-0.5 2.32,0 2.85,2.37 3.5,3.47 0.65,1.1 1.75,2 2.56,2 z"
+       id="path5685"
+       style="fill:url(#radialGradient5817);stroke-width:0.885908" />
+    <path
+       class="cls-76"
+       d="m 20.8,25.8 c 0,0 -0.84,0.5 -2.74,-2 -1.07,-1.41 -1.59,-4 -3.3,-4 -1.71,0 -1.88,1 -3.46,0.61 C 9.72,20.02 8.94,18.33 7.08,19.22"
+       id="path5687" />
+    <path
+       class="cls-80"
+       d="m 39.61,15.12 c 0,0 -0.23,4 -0.81,9 -3.8,1.34 -18.25,7.42 -18.25,7.42 a 2,2 0 0 0 -0.14,-0.2 c 0.28,-5.49 0.56,-7.81 0.56,-7.81 z"
+       id="path5689"
+       style="fill:url(#radial-gradient-6);stroke-width:0.885908" />
+    <path
+       class="cls-81"
+       d="m 39.61,15.12 c 0,0 -0.23,4 -0.81,9 -3.8,1.34 -18.25,7.42 -18.25,7.42 a 2,2 0 0 0 -0.14,-0.2 c 0.28,-5.49 0.56,-7.81 0.56,-7.81 z"
+       id="path5691"
+       style="fill:url(#radial-gradient-7);stroke-width:0.885908" />
+    <path
+       class="cls-76"
+       d="M 38.8,24.13 C 35,25.47 20.55,31.55 20.55,31.55"
+       id="path5693" />
+    <path
+       class="cls-82"
+       d="m 39.2,18.6 c -1.09,0.24 -0.84,1.5 -2.37,2 -0.7,0.25 -1.39,-0.35 -2.2,0 -0.81,0.35 -1.13,1.46 -2.32,1.92 -1.19,0.46 -2.21,-0.27 -3.25,0.23 -1.04,0.5 -1.06,1.47 -2.31,1.91 -1.25,0.44 -1.62,-0.22 -2.59,-0.35 A 4.23,4.23 0 0 0 20.8,25.8 h -0.07 c 0.19,-3 0.24,-4.18 0.24,-4.18 l 18.64,-6.47 c 0,0 -0.1,0.9 -0.4,3.47 v 0"
+       id="path5695"
+       style="fill:url(#radial-gradient-8);stroke-width:0.885908" />
+    <path
+       class="cls-83"
+       d="m 39.3,17.83 c 0,0.23 0,0.48 -0.08,0.75 v 0 c -1.1,0.24 -0.85,1.5 -2.37,2.05 -0.7,0.25 -1.39,-0.35 -2.2,0 -0.81,0.35 -1.13,1.46 -2.32,1.92 -1.19,0.46 -2.22,-0.27 -3.25,0.23 -1.03,0.5 -1.08,1.43 -2.32,1.87 -1.24,0.44 -1.62,-0.22 -2.6,-0.35 a 4.25,4.25 0 0 0 -3.36,1.49 h -0.07 c 0,-0.43 0.05,-0.83 0.08,-1.18 0.44,-0.39 1.77,-1.48 2.88,-1.25 1.36,0.28 2.09,0.66 2.82,0.55 0.73,-0.11 1.79,-2 2.74,-2.11 0.95,-0.11 2.33,0.46 3.17,-0.06 0.84,-0.52 1.3,-1.78 2.3,-1.84 1,-0.06 1.55,0.35 2.33,-0.05 0.78,-0.4 1.07,-2.05 2.25,-2.02 z"
+       id="path5697"
+       style="fill:url(#radial-gradient-9);stroke-width:0.885908" />
+    <path
+       class="cls-76"
+       d="m 39.2,18.6 c -1.09,0.24 -0.84,1.5 -2.37,2 -0.7,0.25 -1.39,-0.35 -2.2,0 -0.81,0.35 -1.13,1.46 -2.32,1.92 -1.19,0.46 -2.21,-0.27 -3.25,0.23 -1.04,0.5 -1.06,1.47 -2.31,1.91 -1.25,0.44 -1.62,-0.22 -2.59,-0.35 A 4.23,4.23 0 0 0 20.8,25.8 h -0.07"
+       id="path5699" />
+    <path
+       class="cls-84"
+       d="m 38.15,29.51 c -0.14,1.28 -0.28,2.6 -0.42,3.94 L 20,41.94 c 0,-1.48 0.07,-3 0.12,-4.43 v 0 z"
+       id="path5701"
+       style="fill:url(#radialGradient5819);stroke-width:0.885908" />
+    <g
+       class="cls-85"
+       clip-path="url(#clip-path-2)"
+       id="g5723"
+       style="stroke-width:0.885908">
+      <path
+         class="cls-86"
+         d="m 20.26,40.1 a 3.22,3.22 0 0 1 1.86,-0.17 2.92,2.92 0 0 0 1.88,-0.27 3.06,3.06 0 0 0 1.41,-1.31 2.88,2.88 0 0 1 0.81,-0.82"
+         id="path5703"
+         style="fill:url(#linearGradient5821);stroke-width:0.885908" />
+      <path
+         class="cls-87"
+         d="m 26.17,37.53 a 2.31,2.31 0 0 1 1.47,-0.31 4.18,4.18 0 0 0 2.19,-0.37 4.07,4.07 0 0 0 1.43,-1.24 2.31,2.31 0 0 1 0.82,-0.65"
+         id="path5705"
+         style="fill:url(#linear-gradient-5);stroke-width:0.885908" />
+      <path
+         class="cls-88"
+         d="M 23,37.77 A 3.35,3.35 0 0 1 24.87,37.59 2.81,2.81 0 0 0 26.7,37.31 3.07,3.07 0 0 0 28.12,36 2.88,2.88 0 0 1 28.93,35.18"
+         id="path5707"
+         style="fill:url(#linear-gradient-6);stroke-width:0.885908" />
+      <path
+         class="cls-89"
+         d="m 17,40.14 a 3.33,3.33 0 0 1 1.9,-0.14 2.17,2.17 0 0 0 1.68,0 3.62,3.62 0 0 0 1.6,-1.41 3.07,3.07 0 0 1 0.84,-0.79"
+         id="path5709"
+         style="fill:url(#linear-gradient-7);stroke-width:0.885908" />
+      <path
+         class="cls-90"
+         d="m 28.93,35.18 a 2.29,2.29 0 0 1 1.46,-0.32 4.23,4.23 0 0 0 2.2,-0.37 4.11,4.11 0 0 0 1.41,-1.26 2.3,2.3 0 0 1 0.83,-0.64"
+         id="path5711"
+         style="fill:url(#linear-gradient-8);stroke-width:0.885908" />
+      <path
+         class="cls-91"
+         d="m 32.08,35 a 2.31,2.31 0 0 1 1.37,-0.37 4,4 0 0 0 2,-0.45 3.86,3.86 0 0 0 1.27,-1.24 2,2 0 0 1 0.75,-0.65"
+         id="path5713"
+         style="fill:url(#linear-gradient-9);stroke-width:0.885908" />
+      <path
+         class="cls-92"
+         d="m 20.44,37.6 a 3.25,3.25 0 0 1 1.87,-0.16 2.83,2.83 0 0 0 1.83,-0.26 3.08,3.08 0 0 0 1.42,-1.29 2.73,2.73 0 0 1 0.82,-0.81"
+         id="path5715"
+         style="fill:url(#linear-gradient-10);stroke-width:0.885908" />
+      <path
+         class="cls-93"
+         d="m 26.38,35.08 a 2.31,2.31 0 0 1 1.47,-0.31 4.25,4.25 0 0 0 2.2,-0.34 4.17,4.17 0 0 0 1.43,-1.24 2.22,2.22 0 0 1 0.83,-0.64"
+         id="path5717"
+         style="fill:url(#linear-gradient-11);stroke-width:0.885908" />
+      <path
+         class="cls-94"
+         d="m 32.31,32.55 a 2.23,2.23 0 0 1 1.37,-0.36 4,4 0 0 0 2,-0.43 3.81,3.81 0 0 0 1.32,-1.24 2.2,2.2 0 0 1 0.75,-0.64"
+         id="path5719"
+         style="fill:url(#linear-gradient-12);stroke-width:0.885908" />
+      <path
+         class="cls-95"
+         d="M 34.83,32.59 A 2.38,2.38 0 0 1 36.31,32.32 4.21,4.21 0 0 0 38.52,32 4.12,4.12 0 0 0 40,30.83 2.18,2.18 0 0 1 40.85,30.22"
+         id="path5721"
+         style="fill:url(#linear-gradient-13);stroke-width:0.885908" />
+    </g>
+    <line
+       class="cls-96"
+       x1="20.16"
+       y1="37.529999"
+       x2="38.150002"
+       y2="29.51"
+       id="line5725" />
+    <path
+       class="cls-97"
+       d="M 20.26,37.49 20,41.94 A 31.21,31.21 0 0 0 13.17,36.21 29.13,29.13 0 0 0 8.1,34.11 c 0,0 0,-1.63 -0.17,-4 7.5,1.25 12.2,7.41 12.2,7.41 z"
+       id="path5727"
+       style="fill:url(#radial-gradient-11);stroke-width:0.885908" />
+    <g
+       class="cls-98"
+       clip-path="url(#clip-path-3)"
+       id="g5743"
+       style="stroke-width:0.885908">
+      <path
+         class="cls-99"
+         d="m 8.42,31.29 a 5.68,5.68 0 0 0 2.35,1.93 c 1.72,0.65 2.91,0.05 3.69,0.46"
+         id="path5729"
+         style="fill:url(#linear-gradient-14);stroke-width:0.885908" />
+      <path
+         class="cls-100"
+         d="m 14.46,33.68 c 0.58,0.5 0.38,1.57 1.94,2.65 1.56,1.08 2.38,0.56 3.72,1.52"
+         id="path5731"
+         style="fill:url(#linear-gradient-15);stroke-width:0.885908" />
+      <path
+         class="cls-101"
+         d="m 10.74,33.32 c 0.69,0.32 0.42,1.4 2.09,2.31 1.67,0.91 2.33,0.18 3.77,1"
+         id="path5733"
+         style="fill:url(#linear-gradient-16);stroke-width:0.885908" />
+      <path
+         class="cls-102"
+         d="m 11.78,31.15 c 0.69,0.32 0.5,1.37 2.17,2.28 1.67,0.91 2.25,0.21 3.69,1"
+         id="path5735"
+         style="fill:url(#linear-gradient-17);stroke-width:0.885908" />
+      <path
+         class="cls-103"
+         d="m 4.86,29.72 c 0.76,0.08 0.9,1.14 2.78,1.47 1.88,0.33 2.2,-0.51 3.82,-0.21"
+         id="path5737"
+         style="fill:url(#linear-gradient-18);stroke-width:0.885908" />
+      <path
+         class="cls-104"
+         d="m 16.6,36.61 c 0.66,0.39 0.11,1.75 1.58,3 1.47,1.25 2.59,-0.05 3.95,0.89"
+         id="path5739"
+         style="fill:url(#linear-gradient-19);stroke-width:0.885908" />
+      <path
+         class="cls-105"
+         d="m 4.15,32 a 5.92,5.92 0 0 0 2.76,1.5 c 1.87,0.34 3,-0.44 3.83,-0.18"
+         id="path5741"
+         style="fill:url(#linear-gradient-20);stroke-width:0.885908" />
+    </g>
+    <path
+       class="cls-96"
+       d="m 8,30.12 c 7.5,1.25 12.2,7.41 12.2,7.41"
+       id="path5745" />
+    <path
+       class="cls-106"
+       d="m 39.21,15.62 c -0.13,1.52 -0.52,6 -1,10.06 L 38.07,27 c -0.22,1.94 -0.45,4 -0.67,6.19 l -17,8.16 c 0.05,-2.85 0.18,-5.7 0.3,-8.13 0.24,-4.83 0.55,-10.23 0.61,-11.41 l 17.91,-6.22 m 0.4,-0.5 -18.62,6.5 c 0,0 -0.35,6.15 -0.63,11.64 -0.13,2.71 -0.26,5.73 -0.31,8.71 l 17.7,-8.49 c 0.28,-2.73 0.58,-5.38 0.84,-7.73 0.58,-5 1,-10.6 1,-10.6 z"
+       id="path5747"
+       style="stroke-width:0.885908" />
+    <path
+       class="cls-107"
+       d="M 20.72,26.47 20,41.94 A 31.21,31.21 0 0 0 13.17,36.21 29.13,29.13 0 0 0 8.1,34.11 C 8.1,34.11 8,25.73 7.19,20 7.02,18.73 6.82,17.49 6.58,16.36 c 0,0 1.21,-3.59 5.9,-2.48 4.69,1.11 8.52,7.71 8.52,7.71 l -0.25,4.88"
+       id="path5749" />
+    <path
+       class="cls-108"
+       d="M 36.19,9.71 C 32.55,6.62 27.31,8 27.31,8 L 9.22,13.88 h 0.06 a 4.25,4.25 0 0 0 -2.7,2.47 c 0.24,1.13 0.44,2.37 0.61,3.64 0.79,5.75 0.94,14.13 0.94,14.13 a 29.13,29.13 0 0 1 5.07,2.1 31.21,31.21 0 0 1 6.8,5.72 l 17.7,-8.49 c 0.28,-2.73 0.58,-5.38 0.84,-7.73 0.58,-5 1,-10.6 1,-10.6 v 0 c 0,0 0.26,-2.35 -3.35,-5.41 z"
+       id="path5751" />
+  </g>
+  <metadata
+     id="metadata7045">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>5-Fascia</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g11798"
+     transform="translate(30.284169,0.11427988)">
+    <polyline
+       class="cls-17"
+       points="12.65 15.2 12.65 20.03 19.08 26.45"
+       id="polyline5626"
+       transform="matrix(1.113676,0,0,1.1136703,-34.470782,-4.2605213)"
+       style="fill:none;stroke:#8ae234;stroke-width:2.1px;stroke-miterlimit:10" />
+    <rect
+       class="cls-18"
+       x="-29.782206"
+       y="0.35007495"
+       width="25.280447"
+       height="14.934319"
+       id="rect5628"
+       style="fill:#ffffff;stroke-width:1" />
+    <polygon
+       class="cls-19"
+       points="4.21,4.14 4.21,17.55 26.91,4.14 "
+       id="polygon5630"
+       transform="matrix(1.113676,0,0,1.1136703,-34.470782,-4.2605213)"
+       style="opacity:0.2;fill:#729fcf;stroke-width:0.897929" />
+    <rect
+       class="cls-20"
+       x="-29.782206"
+       y="0.35007495"
+       width="25.280447"
+       height="3.0069101"
+       id="rect5632"
+       style="fill:#3465a4;stroke-width:1" />
+    <rect
+       class="cls-21"
+       x="-29.782206"
+       y="0.35007495"
+       width="25.280447"
+       height="3.0069101"
+       id="rect5634"
+       style="fill:url(#New_Gradient_Swatch_13-0);stroke-width:1" />
+    <rect
+       class="cls-22"
+       x="-17.698822"
+       y="10.707207"
+       width="4.3210635"
+       height="1.1693538"
+       id="rect5636"
+       style="fill:#73d216;stroke-width:1" />
+    <rect
+       class="cls-23"
+       x="-17.698822"
+       y="12.711815"
+       width="2.6171386"
+       height="0.73502243"
+       id="rect5638"
+       style="fill:#8ae234;stroke-width:1" />
+    <rect
+       class="cls-24"
+       x="-29.782206"
+       y="0.35007495"
+       width="25.280447"
+       height="3.0069101"
+       id="rect5640"
+       style="fill:none;stroke:#204a87;stroke-width:0.35px;stroke-miterlimit:10" />
+    <rect
+       class="cls-25"
+       x="-29.782206"
+       y="0.35007495"
+       width="25.280447"
+       height="14.934319"
+       id="rect5642"
+       style="fill:none;stroke:#8ae234;stroke-width:0.7px;stroke-miterlimit:10" />
+    <ellipse
+       class="cls-26"
+       cx="-13.221843"
+       cy="25.19606"
+       id="circle5644"
+       rx="1.7596083"
+       ry="1.7595992"
+       style="fill:none;stroke:#8ae234;stroke-width:1.4px;stroke-miterlimit:10" />
+    <ellipse
+       class="cls-18"
+       cx="-13.221843"
+       cy="25.19606"
+       id="circle5646"
+       style="fill:#ffffff;stroke-width:1"
+       rx="1.7596083"
+       ry="1.7595992" />
+    <polyline
+       class="cls-27"
+       points="12.65 15.2 12.65 20.03 19.08 26.45"
+       id="polyline5648"
+       transform="matrix(1.113676,0,0,1.1136703,-34.470782,-4.2605213)"
+       style="fill:none;stroke:#ffffff;stroke-width:0.7px;stroke-miterlimit:10" />
+    <ellipse
+       class="cls-28"
+       cx="-23.411978"
+       cy="9.3485298"
+       id="circle5650"
+       style="fill:#204a87;stroke-width:1"
+       rx="4.0871911"
+       ry="4.0871701" />
+    <path
+       class="cls-19"
+       d="m -19.324787,9.3485297 a 4.9224482,4.9224228 0 0 1 -0.07796,0.8241163 4.1094648,4.1094435 0 0 1 -1.614831,2.494621 l -2.3944,-3.3410103 v -4.076033 a 4.0871912,4.0871701 0 0 1 4.087191,4.098306 z"
+       id="path5652"
+       style="opacity:0.2;fill:#729fcf;stroke-width:1" />
+    <path
+       class="cls-23"
+       d="m -19.324787,9.3485297 a 4.9224482,4.9224228 0 0 1 -0.07796,0.8241163 l -4.009232,-0.8241163 v -4.098306 a 4.0871912,4.0871701 0 0 1 4.087192,4.098306 z"
+       id="path5654"
+       style="fill:#8ae234;stroke-width:1" />
+    <path
+       class="cls-29"
+       d="m -19.402744,10.217193 a 4.1094648,4.1094435 0 0 1 -1.614831,2.494622 l -2.394404,-3.3410123 z"
+       id="path5656"
+       style="fill:#4e9a06;stroke-width:1" />
+    <rect
+       class="cls-30"
+       x="-17.698822"
+       y="5.617733"
+       width="3.5526266"
+       height="3.9201195"
+       id="rect5658"
+       style="fill:#729fcf;stroke-width:1" />
+    <polygon
+       class="cls-31"
+       points="18.25,12.38 15.06,12.38 18.25,8.87 "
+       id="polygon5660"
+       transform="matrix(1.113676,0,0,1.1136703,-34.470782,-4.2605213)"
+       style="opacity:0.39;fill:#3465a4;stroke-width:0.897929" />
+    <rect
+       class="cls-22"
+       x="-11.150405"
+       y="10.707207"
+       width="4.3210635"
+       height="1.1693538"
+       id="rect5662"
+       style="fill:#73d216;stroke-width:1" />
+    <rect
+       class="cls-23"
+       x="-11.150405"
+       y="12.711815"
+       width="2.6171386"
+       height="0.73502243"
+       id="rect5664"
+       style="fill:#8ae234;stroke-width:1" />
+    <rect
+       class="cls-30"
+       x="-11.150405"
+       y="5.617733"
+       width="3.5526266"
+       height="3.9201195"
+       id="rect5666"
+       style="fill:#729fcf;stroke-width:1" />
+    <polygon
+       class="cls-31"
+       points="24.13,12.38 20.94,12.38 24.13,8.87 "
+       id="polygon5668"
+       transform="matrix(1.113676,0,0,1.1136703,-34.470782,-4.2605213)"
+       style="opacity:0.39;fill:#3465a4;stroke-width:0.897929" />
+  </g>
+</svg>

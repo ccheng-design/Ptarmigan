@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16.0px"
+   height="16.0px"
+   viewBox="0 0 16.0 16.0"
+   version="1.1"
+   id="SVGRoot"
+   sodipodi:docname="set_initial.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview829"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="42.931986"
+     inkscape:cx="12.193706"
+     inkscape:cy="8.5600512"
+     inkscape:window-width="2880"
+     inkscape:window-height="1557"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g51456"
+     inkscape:lockguides="true"
+     inkscape:snap-global="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid892" />
+  </sodipodi:namedview>
+  <defs
+     id="defs824">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5384">
+      <stop
+         style="stop-color:#888a85;stop-opacity:1"
+         offset="0"
+         id="stop5380" />
+      <stop
+         style="stop-color:#2e3436;stop-opacity:1"
+         offset="0.80103946"
+         id="stop5772" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop5382" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4359-0"
+       id="linearGradient4361"
+       x1="7.2563815"
+       y1="5.6295915"
+       x2="10.147676"
+       y2="8.3801479"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5384"
+       id="linearGradient5386"
+       x1="4.8187633"
+       y1="6.8978119"
+       x2="9.258276"
+       y2="10.817766"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4359-0">
+      <stop
+         style="stop-color:#babdb6;stop-opacity:1"
+         offset="0"
+         id="stop4355-3" />
+      <stop
+         style="stop-color:#eeeeec;stop-opacity:1"
+         offset="0.37633106"
+         id="stop4811-2" />
+      <stop
+         style="stop-color:#61635e;stop-opacity:1"
+         offset="1"
+         id="stop4357-0" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7103-8"
+       id="linearGradient7105-6"
+       x1="1.4324983"
+       y1="12.950718"
+       x2="3.1445088"
+       y2="13.800899"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0.02106509,1.2418385e-4)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7103-8">
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0"
+         id="stop7099-7" />
+      <stop
+         style="stop-color:#babdb6;stop-opacity:1"
+         offset="0.35555533"
+         id="stop7797-0" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop7101-9" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:url(#linearGradient4361);fill-rule:evenodd;stroke:url(#linearGradient5386);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1.0"
+       d="M 1.5599934,14.456477 2.6752862,9.8306023 10.324714,1.4776415 c 1.789718,-0.61080716 4.207476,0.8532406 4.164704,3.0494111 L 6.3294079,13.308244 Z"
+       id="path950"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 2.2564441,13.785721 0.8564606,-3.689369 c 1.3812769,0.449078 2.3462946,1.412358 2.9811415,2.783497 z"
+       id="path4189"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#000000;fill-opacity:0.25403225;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 10.596287,1.9143908 9.3558701,3.2531161 C 10.95484,3.3966065 12.274544,4.3108489 12.592604,5.8307745 L 13.981367,4.3337121 C 13.888555,2.741168 12.228333,1.5018514 10.596287,1.9143908 Z"
+       id="path6109"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:url(#linearGradient7105-6);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 0.88289309,15.140351 1.7330751,11.832793 c 1.011398,0.546929 1.913212,1.266063 2.492314,2.492315 z"
+       id="path6955-9"
+       sodipodi:nodetypes="cccc" />
+    <g
+       id="g51456"
+       transform="translate(0.93170626,1.0248769)">
+      <path
+         d="M 14.077361,13.957581 H 9.09638 V 12.95235 h 1.910387 V 8.0292853 H 9.1196729 V 7.129868 C 10.57172,7.0943543 10.625076,6.7617068 10.925364,5.7542885 h 1.141535 V 12.95235 h 2.010462 z"
+         id="path52054"
+         style="font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;stroke:#2e3436;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:nodetypes="cccccccccccc" />
+      <path
+         d="M 14.077361,13.957581 H 9.09638 V 12.95235 h 1.910387 V 8.0292853 H 9.1196729 V 7.129868 C 10.57172,7.0943543 10.625076,6.7617068 10.925364,5.7542885 h 1.141535 V 12.95235 h 2.010462 z"
+         id="path51352"
+         style="font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#eeeeec;stroke:none;stroke-width:0.999996px"
+         sodipodi:nodetypes="cccccccccccc" />
+    </g>
+  </g>
+</svg>

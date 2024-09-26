@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg24"
+   sodipodi:docname="1-Invert_Group.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview24"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="17.416667"
+     inkscape:cx="25.607656"
+     inkscape:cy="23.971292"
+     inkscape:window-width="1392"
+     inkscape:window-height="1245"
+     inkscape:window-x="433"
+     inkscape:window-y="64"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg24" />
+  <defs
+     id="defs11">
+    <radialGradient
+       id="radial-gradient"
+       cx="-122.48"
+       cy="115.4"
+       fx="-122.48"
+       fy="115.4"
+       r="8.76"
+       gradientTransform="matrix(2.7,0,0,0.62,355.13,-29.51)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset=".04"
+         stop-color="#1a1718"
+         stop-opacity=".5"
+         id="stop1" />
+      <stop
+         offset=".68"
+         stop-color="#1a1718"
+         stop-opacity=".15"
+         id="stop2" />
+      <stop
+         offset=".93"
+         stop-color="#1a1718"
+         stop-opacity="0"
+         id="stop3" />
+    </radialGradient>
+    <linearGradient
+       id="linear-gradient"
+       x1="29.03"
+       y1="12.5"
+       x2="38.38"
+       y2="12.5"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#ad7fa8"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#755076"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="linear-gradient-2"
+       x1="38.38"
+       y1="35.29"
+       x2="29.03"
+       y2="35.29"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#f57900"
+         id="stop6" />
+      <stop
+         offset="1"
+         stop-color="#fcaf3e"
+         id="stop7" />
+    </linearGradient>
+    <linearGradient
+       id="New_Gradient_Swatch_24"
+       x1="10.29"
+       y1="12.77"
+       x2="18.29"
+       y2="12.77"
+       gradientTransform="matrix(1, 0, 0, 1, 0, 0)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#c2ef96"
+         id="stop8" />
+      <stop
+         offset="1"
+         stop-color="#8ae234"
+         id="stop9" />
+    </linearGradient>
+    <linearGradient
+       id="New_Gradient_Swatch_24-2"
+       x1="29.71"
+       y1="24.16"
+       x2="37.71"
+       y2="24.16"
+       xlink:href="#New_Gradient_Swatch_24" />
+    <linearGradient
+       id="New_Gradient_Swatch_24-3"
+       x1="29.71"
+       y1="22.93"
+       x2="37.71"
+       y2="22.93"
+       gradientTransform="matrix(1,0,0,-1,0,47.09)"
+       xlink:href="#New_Gradient_Swatch_24" />
+    <linearGradient
+       id="linear-gradient-3"
+       x1="9.62"
+       y1="23.89"
+       x2="18.97"
+       y2="23.89"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#fce94f"
+         id="stop10" />
+      <stop
+         offset="1"
+         stop-color="#c4a000"
+         id="stop11" />
+    </linearGradient>
+    <linearGradient
+       id="New_Gradient_Swatch_24-4"
+       x1="10.29"
+       y1="35.55"
+       x2="18.29"
+       y2="35.55"
+       xlink:href="#New_Gradient_Swatch_24" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#New_Gradient_Swatch_24"
+       id="linearGradient24"
+       gradientUnits="userSpaceOnUse"
+       x1="10.29"
+       y1="12.77"
+       x2="18.29"
+       y2="12.77" />
+  </defs>
+  <g
+     id="shadow"
+     style="opacity:0.45;isolation:isolate;mix-blend-mode:multiply"
+     transform="matrix(1.0529531,0,0,0.91158729,-1.2708739,4.4260402)">
+    <ellipse
+       cx="24"
+       cy="42.529999"
+       rx="22.77"
+       ry="5.2800002"
+       style="opacity:0.9;fill:url(#radial-gradient)"
+       id="ellipse11" />
+  </g>
+  <g
+     id="ART"
+     transform="matrix(1.3332958,0,0,1.3332958,-7.3720498,-10.632152)"
+     style="isolation:isolate">
+    <g
+       id="g23">
+      <line
+         x1="18.139999"
+         y1="12.77"
+         x2="29.860001"
+         y2="24.16"
+         style="fill:none;stroke:#204a87;stroke-linecap:round;stroke-linejoin:round"
+         id="line11" />
+      <polygon
+         points="29.03,16.55 33.71,8.45 38.38,16.55 "
+         style="fill:url(#linear-gradient)"
+         id="polygon11" />
+      <polygon
+         points="29.03,16.55 33.71,8.45 38.38,16.55 "
+         style="fill:none;stroke:#5c3566;stroke-width:0.7px;stroke-linecap:round;stroke-linejoin:round"
+         id="polygon12" />
+      <polygon
+         points="29.03,39.34 33.71,31.23 38.38,39.34 "
+         style="fill:url(#linear-gradient-2)"
+         id="polygon13" />
+      <polygon
+         points="29.03,39.34 33.71,31.23 38.38,39.34 "
+         style="fill:none;stroke:#8f5902;stroke-width:0.7px;stroke-linecap:round;stroke-linejoin:round"
+         id="polygon14" />
+      <rect
+         x="10.29"
+         y="8.7700005"
+         width="8"
+         height="8"
+         style="fill:url(#linearGradient24)"
+         id="rect14" />
+      <rect
+         x="10.29"
+         y="8.7700005"
+         width="8"
+         height="8"
+         style="fill:none;stroke:#204a87;stroke-linecap:round;stroke-linejoin:round"
+         id="rect15" />
+      <rect
+         x="29.709999"
+         y="20.16"
+         width="8"
+         height="8"
+         style="fill:url(#New_Gradient_Swatch_24-2)"
+         id="rect16" />
+      <rect
+         x="29.709999"
+         y="20.16"
+         width="8"
+         height="8"
+         style="fill:none;stroke:#204a87;stroke-width:0.7px;stroke-linecap:round;stroke-linejoin:round"
+         id="rect17" />
+      <line
+         x1="18.139999"
+         y1="35.549999"
+         x2="29.860001"
+         y2="24.16"
+         style="fill:none;stroke:#204a87;stroke-linecap:round;stroke-linejoin:round"
+         id="line17" />
+      <rect
+         x="29.709999"
+         y="20.16"
+         width="8"
+         height="8"
+         style="fill:url(#New_Gradient_Swatch_24-3)"
+         id="rect18" />
+      <rect
+         x="29.709999"
+         y="20.16"
+         width="8"
+         height="8"
+         style="fill:none;stroke:#204a87;stroke-linecap:round;stroke-linejoin:round"
+         id="rect19" />
+      <g
+         id="g20">
+        <polygon
+           points="9.62,27.95 14.29,19.84 18.97,27.95 "
+           style="fill:url(#linear-gradient-3)"
+           id="polygon19" />
+        <polygon
+           points="9.62,27.95 14.29,19.84 18.97,27.95 "
+           style="fill:none;stroke:#8f5902;stroke-width:0.7px;stroke-linecap:round;stroke-linejoin:round"
+           id="polygon20" />
+      </g>
+      <rect
+         x="10.29"
+         y="31.549999"
+         width="8"
+         height="8"
+         style="fill:url(#New_Gradient_Swatch_24-4)"
+         id="rect20" />
+      <rect
+         x="10.29"
+         y="31.549999"
+         width="8"
+         height="8"
+         style="fill:none;stroke:#204a87;stroke-linecap:round;stroke-linejoin:round"
+         id="rect21" />
+      <polyline
+         points="12.22 35.39 13.49 37.03 16.37 33.54"
+         style="fill:none;stroke:#204a87;stroke-width:1.2px;stroke-miterlimit:10"
+         id="polyline21" />
+      <polyline
+         points="12.22 12.61 13.49 14.24 16.37 10.76"
+         style="fill:none;stroke:#204a87;stroke-width:1.2px;stroke-miterlimit:10"
+         id="polyline22" />
+      <polyline
+         points="31.63 24 32.9 25.63 35.78 22.15"
+         style="fill:none;stroke:#204a87;stroke-width:1.2px;stroke-miterlimit:10"
+         id="polyline23" />
+    </g>
+  </g>
+</svg>

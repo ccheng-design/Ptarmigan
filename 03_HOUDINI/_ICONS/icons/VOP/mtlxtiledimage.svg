@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg56"
+   sodipodi:docname="mtlxtiledimage.svg"
+   inkscape:version="1.3-dev (fdc7329b, 2022-05-31)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview56"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="27.812867"
+     inkscape:cx="22.489591"
+     inkscape:cy="24.017661"
+     inkscape:window-width="2880"
+     inkscape:window-height="1557"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg56" />
+  <defs
+     id="defs12">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient58">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop57" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop58" />
+    </linearGradient>
+    <radialGradient
+       id="radial-gradient"
+       cx="-387.04"
+       cy="93.19"
+       fx="-387.04"
+       fy="93.19"
+       r="17.17"
+       gradientTransform="translate(-14.17 730.92) rotate(97.1) scale(1.67 .52) skewX(-19.31)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset=".37"
+         stop-color="#212121"
+         stop-opacity=".4"
+         id="stop1" />
+      <stop
+         offset=".93"
+         stop-color="#212121"
+         stop-opacity="0"
+         id="stop2" />
+    </radialGradient>
+    <linearGradient
+       id="linear-gradient"
+       x1=".3"
+       y1="29.5"
+       x2="24.56"
+       y2="29.5"
+       gradientTransform="matrix(1, 0, 0, 1, 0, 0)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#8a5902"
+         id="stop3" />
+      <stop
+         offset="1"
+         stop-color="#e4b46e"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="linear-gradient-2"
+       x1="23.7"
+       y1="40.57"
+       x2="41.55"
+       y2="22.21"
+       xlink:href="#linear-gradient" />
+    <linearGradient
+       id="linear-gradient-3"
+       x1="18.83"
+       y1="37.58"
+       x2="4.8"
+       y2="12.4"
+       gradientTransform="matrix(1, 0, 0, 1, 0, 0)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#eeeeec"
+         id="stop5" />
+      <stop
+         offset="1"
+         stop-color="#888a85"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="linear-gradient-4"
+       x1="47.89"
+       y1="35.87"
+       x2="26.31"
+       y2="23.35"
+       xlink:href="#linear-gradient-3" />
+    <linearGradient
+       id="linear-gradient-5"
+       x1="8.24"
+       y1="30.96"
+       x2="10.34"
+       y2="25.57"
+       xlink:href="#linear-gradient-3" />
+    <linearGradient
+       id="linear-gradient-6"
+       x1="15.52"
+       y1="33.8"
+       x2="17.62"
+       y2="28.41"
+       xlink:href="#linear-gradient-3" />
+    <linearGradient
+       id="linear-gradient-7"
+       x1="20.52"
+       y1="15.3"
+       x2="38.88"
+       y2="51.94"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#fff"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="#888a85"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="linear-gradient-8"
+       x1="21.89"
+       y1="5.2"
+       x2="24.39"
+       y2="25.28"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#fff"
+         id="stop9" />
+      <stop
+         offset=".75"
+         stop-color="#fff"
+         stop-opacity=".1"
+         id="stop10" />
+    </linearGradient>
+    <linearGradient
+       id="linear-gradient-9"
+       x1="24"
+       y1="37.29"
+       x2="24"
+       y2="10.71"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset=".53"
+         stop-color="#8a5902"
+         id="stop11" />
+      <stop
+         offset=".54"
+         stop-color="#b5b8b1"
+         id="stop12" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient58"
+       id="radialGradient58"
+       cx="23.837889"
+       cy="27.451323"
+       fx="23.837889"
+       fy="27.451323"
+       r="23.658115"
+       gradientTransform="matrix(1,0,0,0.51139816,0.03595458,14.239722)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linear-gradient"
+       id="linearGradient59"
+       gradientUnits="userSpaceOnUse"
+       x1=".3"
+       y1="29.5"
+       x2="24.56"
+       y2="29.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linear-gradient-3"
+       id="linearGradient60"
+       gradientUnits="userSpaceOnUse"
+       x1="18.83"
+       y1="37.58"
+       x2="4.8"
+       y2="12.4" />
+  </defs>
+  <ellipse
+     style="color:#000000;overflow:visible;fill:url(#radialGradient58);fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:round;stop-color:#000000"
+     id="path57"
+     cx="23.873844"
+     cy="28.278278"
+     rx="23.658115"
+     ry="12.098717" />
+  <g
+     id="ART"
+     transform="matrix(1.1260158,0,0,1.1273464,-3.0119771,-4.7030109)"
+     style="stroke-width:0.887563">
+    <g
+       id="g56"
+       style="stroke-width:0.887563">
+      <polygon
+         points="24,36.9 3.06,25.89 3.06,22.11 24,33.11 "
+         style="fill:url(#linearGradient59);stroke-width:0.887563"
+         id="polygon12" />
+      <polygon
+         points="24,36.9 44.93,25.89 44.93,22.11 24,33.11 "
+         style="fill:url(#linear-gradient-2);stroke-width:0.887563"
+         id="polygon13" />
+      <g
+         id="g15"
+         style="stroke-width:0.887563">
+        <polygon
+           points="3.06,22.11 24,33.11 24.02,34.07 3.08,23.06 "
+           style="fill:url(#linearGradient60);stroke-width:0.887563"
+           id="polygon14" />
+        <polygon
+           points="44.93,22.11 24,33.11 24.02,34.07 44.95,23.06 "
+           style="fill:url(#linear-gradient-4);stroke-width:0.887563"
+           id="polygon15" />
+      </g>
+      <g
+         id="g55"
+         style="stroke-width:0.887563">
+        <g
+           id="g20"
+           style="stroke-width:0.887563">
+          <polygon
+             points="17.01,22.11 10.03,25.77 3.05,22.11 10.03,18.44 "
+             style="fill:#eeeeec;stroke-width:0.887563"
+             id="polygon16" />
+          <g
+             id="g19"
+             style="stroke-width:0.887563">
+            <polygon
+               points="8.64,25.11 10.03,24.37 11.43,25.11 10.03,25.84 "
+               style="fill:#c4a000;stroke-width:0.887563"
+               id="polygon17" />
+            <polygon
+               points="10.03,22.84 12.83,24.31 14.22,23.57 10.03,21.37 5.84,23.57 7.24,24.31 "
+               style="fill:#729fcf;stroke-width:0.887563"
+               id="polygon18" />
+            <polygon
+               points="10.03,19.91 15.62,22.84 17.01,22.11 10.03,18.44 3.05,22.11 4.45,22.84 "
+               style="fill:#3465a4;stroke-width:0.887563"
+               id="polygon19" />
+          </g>
+        </g>
+        <g
+           id="g24"
+           style="stroke-width:0.887563">
+          <polygon
+             points="10.03,18.44 17.01,14.77 24,18.44 17.01,22.11 "
+             style="fill:#eeeeec;stroke-width:0.887563"
+             id="polygon20" />
+          <g
+             id="g23"
+             style="stroke-width:0.887563">
+            <polygon
+               points="18.41,15.5 17.01,16.24 15.62,15.5 17.01,14.77 "
+               style="fill:#c4a000;stroke-width:0.887563"
+               id="polygon21" />
+            <polygon
+               points="17.01,17.71 14.22,16.24 12.83,16.97 17.01,19.17 21.2,16.97 19.81,16.24 "
+               style="fill:#729fcf;stroke-width:0.887563"
+               id="polygon22" />
+            <polygon
+               points="17.01,20.64 11.43,17.71 10.03,18.44 17.01,22.11 24,18.44 22.6,17.71 "
+               style="fill:#3465a4;stroke-width:0.887563"
+               id="polygon23" />
+          </g>
+        </g>
+        <g
+           id="g28"
+           style="stroke-width:0.887563">
+          <polygon
+             points="30.98,14.77 24,18.44 17.01,14.77 24,11.1 "
+             style="fill:#eeeeec;stroke-width:0.887563"
+             id="polygon24" />
+          <g
+             id="g27"
+             style="stroke-width:0.887563">
+            <polygon
+               points="22.6,17.71 24,16.97 25.39,17.71 24,18.44 "
+               style="fill:#c4a000;stroke-width:0.887563"
+               id="polygon25" />
+            <polygon
+               points="24,15.5 26.79,16.97 28.19,16.24 24,14.04 19.81,16.24 21.2,16.97 "
+               style="fill:#729fcf;stroke-width:0.887563"
+               id="polygon26" />
+            <polygon
+               points="24,12.57 29.58,15.5 30.98,14.77 24,11.1 17.01,14.77 18.41,15.5 "
+               style="fill:#3465a4;stroke-width:0.887563"
+               id="polygon27" />
+          </g>
+        </g>
+        <g
+           id="g32"
+           style="stroke-width:0.887563">
+          <polygon
+             points="30.98,29.44 24,33.11 17.01,29.44 24,25.77 "
+             style="fill:#eeeeec;stroke-width:0.887563"
+             id="polygon28" />
+          <g
+             id="g31"
+             style="stroke-width:0.887563">
+            <polygon
+               points="22.6,32.44 24,31.71 25.39,32.44 24,33.18 "
+               style="fill:#c4a000;stroke-width:0.887563"
+               id="polygon29" />
+            <polygon
+               points="24,30.18 26.79,31.64 28.19,30.91 24,28.71 19.81,30.91 21.2,31.64 "
+               style="fill:#729fcf;stroke-width:0.887563"
+               id="polygon30" />
+            <polygon
+               points="24,27.24 29.58,30.18 30.98,29.44 24,25.77 17.01,29.44 18.41,30.18 "
+               style="fill:#3465a4;stroke-width:0.887563"
+               id="polygon31" />
+          </g>
+        </g>
+        <g
+           id="g36"
+           style="stroke-width:0.887563">
+          <polygon
+             points="24,25.77 30.98,22.11 37.96,25.77 30.98,29.44 "
+             style="fill:#eeeeec;stroke-width:0.887563"
+             id="polygon32" />
+          <g
+             id="g35"
+             style="stroke-width:0.887563">
+            <polygon
+               points="32.38,22.91 30.98,23.64 29.58,22.91 30.98,22.17 "
+               style="fill:#c4a000;stroke-width:0.887563"
+               id="polygon33" />
+            <polygon
+               points="30.98,25.04 28.19,23.57 26.79,24.31 30.98,26.51 35.17,24.31 33.77,23.57 "
+               style="fill:#729fcf;stroke-width:0.887563"
+               id="polygon34" />
+            <polygon
+               points="30.98,27.97 25.39,25.04 24,25.77 30.98,29.44 37.96,25.77 36.56,25.04 "
+               style="fill:#3465a4;stroke-width:0.887563"
+               id="polygon35" />
+          </g>
+        </g>
+        <g
+           id="g40"
+           style="stroke-width:0.887563">
+          <polygon
+             points="44.94,22.11 37.96,25.77 30.98,22.11 37.96,18.44 "
+             style="fill:#eeeeec;stroke-width:0.887563"
+             id="polygon36" />
+          <g
+             id="g39"
+             style="stroke-width:0.887563">
+            <polygon
+               points="36.56,25.11 37.96,24.37 39.36,25.11 37.96,25.84 "
+               style="fill:#c4a000;stroke-width:0.887563"
+               id="polygon37" />
+            <polygon
+               points="37.96,22.84 40.75,24.31 42.15,23.57 37.96,21.37 33.77,23.57 35.17,24.31 "
+               style="fill:#729fcf;stroke-width:0.887563"
+               id="polygon38" />
+            <polygon
+               points="37.96,19.91 43.55,22.84 44.94,22.11 37.96,18.44 30.98,22.11 32.38,22.84 "
+               style="fill:#3465a4;stroke-width:0.887563"
+               id="polygon39" />
+          </g>
+        </g>
+        <g
+           id="g44"
+           style="stroke-width:0.887563">
+          <polygon
+             points="24,18.44 30.98,14.77 37.96,18.44 30.98,22.11 "
+             style="fill:#eeeeec;stroke-width:0.887563"
+             id="polygon40" />
+          <g
+             id="g43"
+             style="stroke-width:0.887563">
+            <polygon
+               points="32.38,15.57 30.98,16.3 29.58,15.57 30.98,14.84 "
+               style="fill:#c4a000;stroke-width:0.887563"
+               id="polygon41" />
+            <polygon
+               points="30.98,17.71 28.19,16.24 26.79,16.97 30.98,19.17 35.17,16.97 33.77,16.24 "
+               style="fill:#729fcf;stroke-width:0.887563"
+               id="polygon42" />
+            <polygon
+               points="30.98,20.64 25.39,17.71 24,18.44 30.98,22.11 37.96,18.44 36.56,17.71 "
+               style="fill:#3465a4;stroke-width:0.887563"
+               id="polygon43" />
+          </g>
+        </g>
+        <g
+           id="g48"
+           style="stroke-width:0.887563">
+          <polygon
+             points="10.03,25.77 17.01,22.11 24,25.77 17.01,29.44 "
+             style="fill:#eeeeec;stroke-width:0.887563"
+             id="polygon44" />
+          <g
+             id="g47"
+             style="stroke-width:0.887563">
+            <polygon
+               points="18.41,22.91 17.01,23.64 15.62,22.91 17.01,22.17 "
+               style="fill:#c4a000;stroke-width:0.887563"
+               id="polygon45" />
+            <polygon
+               points="17.01,25.04 14.22,23.57 12.83,24.31 17.01,26.51 21.2,24.31 19.81,23.57 "
+               style="fill:#729fcf;stroke-width:0.887563"
+               id="polygon46" />
+            <polygon
+               points="17.01,27.97 11.43,25.04 10.03,25.77 17.01,29.44 24,25.77 22.6,25.04 "
+               style="fill:#3465a4;stroke-width:0.887563"
+               id="polygon47" />
+          </g>
+        </g>
+        <g
+           id="g52"
+           style="stroke-width:0.887563">
+          <polygon
+             points="30.98,22.11 24,25.77 17.01,22.11 24,18.44 "
+             style="fill:#eeeeec;stroke-width:0.887563"
+             id="polygon48" />
+          <g
+             id="g51"
+             style="stroke-width:0.887563">
+            <polygon
+               points="22.6,25.11 24,24.37 25.39,25.11 24,25.84 "
+               style="fill:#c4a000;stroke-width:0.887563"
+               id="polygon49" />
+            <polygon
+               points="24,22.84 26.79,24.31 28.19,23.57 24,21.37 19.81,23.57 21.2,24.31 "
+               style="fill:#729fcf;stroke-width:0.887563"
+               id="polygon50" />
+            <polygon
+               points="24,19.91 29.58,22.84 30.98,22.11 24,18.44 17.01,22.11 18.41,22.84 "
+               style="fill:#3465a4;stroke-width:0.887563"
+               id="polygon51" />
+          </g>
+        </g>
+        <polygon
+           points="9.81,26.66 9.81,25.64 10.31,25.91 10.31,26.92 "
+           style="fill:url(#linear-gradient-5);stroke-width:0.887563"
+           id="polygon52" />
+        <polygon
+           points="16.78,30.25 16.78,29.31 17.28,29.57 17.28,30.52 "
+           style="fill:url(#linear-gradient-6);stroke-width:0.887563"
+           id="polygon53" />
+        <polygon
+           points="38.18,26.66 38.18,25.64 37.69,25.91 37.69,26.92 "
+           style="fill:#888a85;stroke-width:0.887563"
+           id="polygon54" />
+        <polygon
+           points="31.21,30.25 31.21,29.31 30.71,29.57 30.71,30.52 "
+           style="fill:#888a85;stroke-width:0.887563"
+           id="polygon55" />
+        <path
+           d="m 37.72,25.91 0.51,-0.27 -6.73,-3.54 6.59,-3.46 -0.22,-0.4 -6.87,3.61 -3.25,-1.7 -3.24,-1.71 6.59,-3.46 -0.22,-0.42 -6.87,3.62 -6.87,-3.62 -0.22,0.42 6.59,3.46 -3.24,1.71 -3.25,1.7 -6.87,-3.61 -0.22,0.4 6.59,3.46 -6.72,3.54 0.5,0.27 6.72,-3.54 3.25,1.7 3.24,1.71 -4.31,2.27 -2.42,1.26 0.51,0.27 6.72,-3.54 6.73,3.54 0.5,-0.27 -6.73,-3.53 6.49,-3.41 z m -13.7,-0.39 -3.24,-1.7 -3.25,-1.71 3.25,-1.7 3.24,-1.7 3.24,1.7 3.25,1.7 z"
+           style="fill:url(#linear-gradient-7);stroke-width:0.887563"
+           id="path55" />
+      </g>
+      <path
+         d="M 44.93,22.11 24,11.1 3.06,22.11 c 0,0 20.93,-4.4 41.86,0 z"
+         style="fill:url(#linear-gradient-8);stroke-width:0.887563"
+         id="path56" />
+      <polygon
+         points="3.06,22.11 3.06,25.89 24,36.9 44.93,25.89 44.93,22.11 24,11.1 "
+         style="fill:none;stroke:url(#linear-gradient-9);stroke-width:0.621294px;stroke-miterlimit:10"
+         id="polygon56" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   viewBox="0 0 35.999977 35.999977"
+   version="1.2"
+   id="svg52238"
+   sodipodi:docname="delete.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata52242">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>COP2_delete.icon</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     id="namedview52240"
+     showgrid="false"
+     inkscape:zoom="15.645698"
+     inkscape:cx="17.690909"
+     inkscape:cy="23.519653"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg52238"
+     inkscape:document-rotation="0"
+     units="px" />
+  <title
+     id="title51956">COP2_delete.icon</title>
+  <desc
+     id="desc51958">Generated with Qt</desc>
+  <defs
+     id="defs51960">
+    <linearGradient
+       id="linearGradient17831">
+      <stop
+         style="stop-color:#ef2929;stop-opacity:1;"
+         offset="0"
+         id="stop17833" />
+      <stop
+         style="stop-color:#cc0000;stop-opacity:1;"
+         offset="1"
+         id="stop17835" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient17831"
+       id="linearGradient17857"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-18.44068,-28.20339)"
+       x1="24.806204"
+       y1="6.5338044"
+       x2="37.811096"
+       y2="19.903696" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient17845"
+       id="linearGradient17859"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-18.44068,-28.20339)"
+       x1="25.118532"
+       y1="6.8727479"
+       x2="34.192783"
+       y2="15.928816" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient17845">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop17847" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop17849" />
+    </linearGradient>
+  </defs>
+  <g
+     id="g17853"
+     transform="matrix(1.9540674,0.19273733,-0.19273733,1.9540674,-9.9698348,44.831718)">
+    <path
+       id="rect17826"
+       d="m 7.46557,-22.82839 -2.53125,2.5 5.34375,5.34375 -5.34375,5.3125 2.53125,2.53125 5.34375,-5.3125 5.3125,5.3125 2.53125,-2.53125 -5.34375,-5.3125 5.34375,-5.34375 -2.53125,-2.5 -5.3125,5.3125 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:url(#linearGradient17857);fill-opacity:1;fill-rule:nonzero;stroke:#a40000;stroke-width:1.14401;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none" />
+    <path
+       sodipodi:nodetypes="ccccccccccccc"
+       id="path17841"
+       d="m 7.482485,-21.824642 -1.460239,1.501983 5.331265,5.366095 -5.366096,5.268515 1.49507,1.49507 5.296434,-5.373008 5.373007,5.407839 1.460239,-1.529901 -5.296432,-5.303345 5.331264,-5.226772 -1.529902,-1.571645 -5.268514,5.373008 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient17859);stroke-width:0.572006;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none" />
+  </g>
+</svg>

@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg112"
+   sodipodi:docname="coordsys.svg"
+   inkscape:version="1.3-dev (fdc7329b, 2022-05-31)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview112"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="19.666667"
+     inkscape:cx="23.084746"
+     inkscape:cy="24"
+     inkscape:window-width="2880"
+     inkscape:window-height="1557"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg112" />
+  <defs
+     id="defs2">
+    <radialGradient
+       id="radial-gradient"
+       cx="-356.31"
+       cy="115.29"
+       fx="-356.31"
+       fy="115.29"
+       r="9.14"
+       gradientTransform="matrix(2.53,0,0,0.73,926.95,-43.21)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset=".12"
+         stop-color="#212121"
+         stop-opacity=".4"
+         id="stop1" />
+      <stop
+         offset=".97"
+         stop-color="#212121"
+         stop-opacity="0"
+         id="stop2" />
+    </radialGradient>
+  </defs>
+  <g
+     id="shadow"
+     transform="translate(0,0.86440678)">
+    <ellipse
+       cx="24"
+       cy="40.59"
+       rx="22.27"
+       ry="6.4099998"
+       style="fill:url(#radial-gradient)"
+       id="ellipse2" />
+  </g>
+  <g
+     id="ART"
+     transform="matrix(1.0613106,0,0,1.0613893,-1.4714543,-1.8782178)"
+     style="stroke-width:0.942196">
+    <g
+       style="opacity:0.7;stroke-width:0.887734"
+       id="g10">
+      <polygon
+         points="27.42,21.8 27.42,25.75 24,27.96 24,24 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon2" />
+      <polygon
+         points="30.84,19.6 30.84,23.55 27.42,25.75 27.42,21.8 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon3" />
+      <polygon
+         points="34.26,17.4 34.26,21.35 30.84,23.55 30.84,19.6 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon4" />
+      <polygon
+         points="27.42,25.75 27.42,29.71 24,31.91 24,27.96 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon5" />
+      <polygon
+         points="30.84,23.55 30.84,27.51 27.42,29.71 27.42,25.75 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon6" />
+      <polygon
+         points="34.26,21.35 34.26,25.31 30.84,27.51 30.84,23.55 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon7" />
+      <polygon
+         points="27.42,29.71 27.42,33.67 24,35.87 24,31.91 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon8" />
+      <polygon
+         points="30.84,27.51 30.84,31.47 27.42,33.67 27.42,29.71 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon9" />
+      <polygon
+         points="34.26,25.31 34.26,29.26 30.84,31.47 30.84,27.51 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon10" />
+    </g>
+    <g
+       style="opacity:0.7;stroke-width:0.887734"
+       id="g19">
+      <polygon
+         points="38.23,17.32 34.81,19.55 30.85,19.55 34.28,17.32 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon11" />
+      <polygon
+         points="42.19,17.32 38.76,19.55 34.81,19.55 38.23,17.32 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon12" />
+      <polygon
+         points="46.15,17.32 42.72,19.55 38.76,19.55 42.19,17.32 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon13" />
+      <polygon
+         points="34.81,19.55 31.38,21.77 27.43,21.77 30.85,19.55 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon14" />
+      <polygon
+         points="38.76,19.55 35.34,21.77 31.38,21.77 34.81,19.55 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon15" />
+      <polygon
+         points="42.72,19.55 39.29,21.77 35.34,21.77 38.76,19.55 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon16" />
+      <polygon
+         points="31.38,21.77 27.96,24 24,24 27.43,21.77 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon17" />
+      <polygon
+         points="35.34,21.77 31.91,24 27.96,24 31.38,21.77 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon18" />
+      <polygon
+         points="39.29,21.77 35.87,24 31.91,24 35.34,21.77 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon19" />
+    </g>
+    <g
+       style="opacity:0.7;stroke-width:0.887734"
+       id="g28">
+      <polygon
+         points="26.37,17.32 22.94,19.55 18.98,19.55 22.41,17.32 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon20" />
+      <polygon
+         points="30.32,17.32 26.9,19.55 22.94,19.55 26.37,17.32 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon21" />
+      <polygon
+         points="34.28,17.32 30.85,19.55 26.9,19.55 30.32,17.32 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon22" />
+      <polygon
+         points="22.94,19.55 19.51,21.77 15.56,21.77 18.98,19.55 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon23" />
+      <polygon
+         points="26.9,19.55 23.47,21.77 19.51,21.77 22.94,19.55 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon24" />
+      <polygon
+         points="30.85,19.55 27.43,21.77 23.47,21.77 26.9,19.55 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon25" />
+      <polygon
+         points="19.51,21.77 16.09,24 12.13,24 15.56,21.77 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon26" />
+      <polygon
+         points="23.47,21.77 20.04,24 16.09,24 19.51,21.77 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon27" />
+      <polygon
+         points="27.43,21.77 24,24 20.04,24 23.47,21.77 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon28" />
+    </g>
+    <g
+       style="opacity:0.7;stroke-width:0.887734"
+       id="g37">
+      <g
+         id="g36"
+         style="stroke-width:0.942196">
+        <rect
+           x="12.13"
+           y="12.13"
+           width="3.96"
+           height="3.96"
+           style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+           id="rect28" />
+        <rect
+           x="16.09"
+           y="12.13"
+           width="3.96"
+           height="3.96"
+           style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+           id="rect29" />
+        <rect
+           x="20.040001"
+           y="12.13"
+           width="3.96"
+           height="3.96"
+           style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+           id="rect30" />
+        <rect
+           x="12.13"
+           y="16.09"
+           width="3.96"
+           height="3.96"
+           style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+           id="rect31" />
+        <rect
+           x="16.09"
+           y="16.09"
+           width="3.96"
+           height="3.96"
+           style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+           id="rect32" />
+        <rect
+           x="20.040001"
+           y="16.09"
+           width="3.96"
+           height="3.96"
+           style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+           id="rect33" />
+        <rect
+           x="12.13"
+           y="20.040001"
+           width="3.96"
+           height="3.96"
+           style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+           id="rect34" />
+        <rect
+           x="16.09"
+           y="20.040001"
+           width="3.96"
+           height="3.96"
+           style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+           id="rect35" />
+        <rect
+           x="20.040001"
+           y="20.040001"
+           width="3.96"
+           height="3.96"
+           style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+           id="rect36" />
+      </g>
+    </g>
+    <g
+       style="opacity:0.7;stroke-width:0.887734"
+       id="g45">
+      <rect
+         x="12.13"
+         y="24"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect37" />
+      <rect
+         x="16.09"
+         y="24"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect38" />
+      <rect
+         x="20.040001"
+         y="24"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect39" />
+      <rect
+         x="12.13"
+         y="27.959999"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect40" />
+      <rect
+         x="16.09"
+         y="27.959999"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect41" />
+      <rect
+         x="20.040001"
+         y="27.959999"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect42" />
+      <rect
+         x="12.13"
+         y="31.91"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect43" />
+      <rect
+         x="16.09"
+         y="31.91"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect44" />
+      <rect
+         x="20.040001"
+         y="31.91"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect45" />
+    </g>
+    <g
+       style="opacity:0.7;stroke-width:0.887734"
+       id="g53">
+      <polygon
+         points="17.16,28.4 17.16,32.36 13.74,34.56 13.74,30.6 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon45" />
+      <polygon
+         points="20.58,26.2 20.58,30.16 17.16,32.36 17.16,28.4 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon46" />
+      <polygon
+         points="24,24 24,27.96 20.58,30.16 20.58,26.2 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon47" />
+      <polygon
+         points="17.16,32.36 17.16,36.31 13.74,38.51 13.74,34.56 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon48" />
+      <polygon
+         points="20.58,30.16 20.58,34.11 17.16,36.31 17.16,32.36 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon49" />
+      <polygon
+         points="24,27.96 24,31.91 20.58,34.11 20.58,30.16 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon50" />
+      <polygon
+         points="17.16,36.31 17.16,40.27 13.74,42.47 13.74,38.51 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon51" />
+      <polygon
+         points="20.58,34.11 20.58,38.07 17.16,40.27 17.16,36.31 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon52" />
+      <polygon
+         points="24,31.91 24,35.87 20.58,38.07 20.58,34.11 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon53" />
+    </g>
+    <g
+       style="opacity:0.7;stroke-width:0.887734"
+       id="g61">
+      <rect
+         x="24"
+         y="24"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect53" />
+      <rect
+         x="27.959999"
+         y="24"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect54" />
+      <rect
+         x="31.91"
+         y="24"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect55" />
+      <rect
+         x="24"
+         y="27.959999"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect56" />
+      <rect
+         x="27.959999"
+         y="27.959999"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect57" />
+      <rect
+         x="31.91"
+         y="27.959999"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect58" />
+      <rect
+         x="24"
+         y="31.91"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect59" />
+      <rect
+         x="27.959999"
+         y="31.91"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect60" />
+      <rect
+         x="31.91"
+         y="31.91"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect61" />
+    </g>
+    <line
+       x1="24"
+       y1="24"
+       x2="24"
+       y2="40.599998"
+       style="fill:none;stroke:#2e3436;stroke-width:0.471098px;stroke-miterlimit:10"
+       id="line61" />
+    <g
+       style="opacity:0.7;stroke-width:0.887734"
+       id="g78">
+      <polygon
+         points="16.09,24 12.66,26.23 8.71,26.23 12.13,24 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon61" />
+      <polygon
+         points="20.04,24 16.62,26.23 12.66,26.23 16.09,24 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon62" />
+      <polygon
+         points="24,24 20.57,26.23 16.62,26.23 20.04,24 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon63" />
+      <polygon
+         points="27.96,24 24.53,26.23 20.57,26.23 24,24 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon64" />
+      <polygon
+         points="31.91,24 28.49,26.23 24.53,26.23 27.96,24 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon65" />
+      <polygon
+         points="35.87,24 32.44,26.23 28.49,26.23 31.91,24 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon66" />
+      <polygon
+         points="12.66,26.23 9.24,28.45 5.28,28.45 8.71,26.23 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon67" />
+      <polygon
+         points="16.62,26.23 13.19,28.45 9.24,28.45 12.66,26.23 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon68" />
+      <polygon
+         points="20.57,26.23 17.15,28.45 13.19,28.45 16.62,26.23 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon69" />
+      <polygon
+         points="24.53,26.23 21.1,28.45 17.15,28.45 20.57,26.23 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon70" />
+      <polygon
+         points="28.49,26.23 25.06,28.45 21.1,28.45 24.53,26.23 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon71" />
+      <polygon
+         points="32.44,26.23 29.02,28.45 25.06,28.45 28.49,26.23 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon72" />
+      <polygon
+         points="9.24,28.45 5.81,30.68 1.85,30.68 5.28,28.45 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon73" />
+      <polygon
+         points="13.19,28.45 9.77,30.68 5.81,30.68 9.24,28.45 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon74" />
+      <polygon
+         points="17.15,28.45 13.72,30.68 9.77,30.68 13.19,28.45 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon75" />
+      <polygon
+         points="21.1,28.45 17.68,30.68 13.72,30.68 17.15,28.45 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon76" />
+      <polygon
+         points="25.06,28.45 21.63,30.68 17.68,30.68 21.1,28.45 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon77" />
+      <polygon
+         points="29.02,28.45 25.59,30.68 21.63,30.68 25.06,28.45 "
+         style="fill:#8ae234;stroke:#4e9a06;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon78" />
+    </g>
+    <g
+       style="opacity:0.7;stroke-width:0.887734"
+       id="g87">
+      <polygon
+         points="27.42,9.93 27.42,13.89 24,16.09 24,12.13 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon79" />
+      <polygon
+         points="30.84,7.73 30.84,11.69 27.42,13.89 27.42,9.93 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon80" />
+      <polygon
+         points="34.26,5.53 34.26,9.49 30.84,11.69 30.84,7.73 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon81" />
+      <polygon
+         points="27.42,13.89 27.42,17.84 24,20.04 24,16.09 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon82" />
+      <polygon
+         points="30.84,11.69 30.84,15.64 27.42,17.84 27.42,13.89 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon83" />
+      <polygon
+         points="34.26,9.49 34.26,13.44 30.84,15.64 30.84,11.69 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon84" />
+      <polygon
+         points="27.42,17.84 27.42,21.8 24,24 24,20.04 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon85" />
+      <polygon
+         points="30.84,15.64 30.84,19.6 27.42,21.8 27.42,17.84 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon86" />
+      <polygon
+         points="34.26,13.44 34.26,17.4 30.84,19.6 30.84,15.64 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon87" />
+    </g>
+    <line
+       x1="24"
+       y1="24"
+       x2="38.93"
+       y2="14.3"
+       style="fill:none;stroke:#2e3436;stroke-width:0.471098px;stroke-miterlimit:10"
+       id="line87" />
+    <g
+       style="opacity:0.7;stroke-width:0.887734"
+       id="g95">
+      <rect
+         x="24"
+         y="12.13"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect87" />
+      <rect
+         x="27.959999"
+         y="12.13"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect88" />
+      <rect
+         x="31.91"
+         y="12.13"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect89" />
+      <rect
+         x="24"
+         y="16.09"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect90" />
+      <rect
+         x="27.959999"
+         y="16.09"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect91" />
+      <rect
+         x="31.91"
+         y="16.09"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect92" />
+      <rect
+         x="24"
+         y="20.040001"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect93" />
+      <rect
+         x="27.959999"
+         y="20.040001"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect94" />
+      <rect
+         x="31.91"
+         y="20.040001"
+         width="3.96"
+         height="3.96"
+         style="fill:#fcaf3e;stroke:#ce5c00;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="rect95" />
+    </g>
+    <line
+       x1="7.4000001"
+       y1="24"
+       x2="24"
+       y2="24"
+       style="fill:none;stroke:#2e3436;stroke-width:0.471098px;stroke-miterlimit:10"
+       id="line95" />
+    <g
+       style="opacity:0.7;stroke-width:0.887734"
+       id="g103">
+      <polygon
+         points="17.16,16.53 17.16,20.49 13.74,22.69 13.74,18.74 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon95" />
+      <polygon
+         points="20.58,14.33 20.58,18.29 17.16,20.49 17.16,16.53 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon96" />
+      <polygon
+         points="24,12.13 24,16.09 20.58,18.29 20.58,14.33 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon97" />
+      <polygon
+         points="17.16,20.49 17.16,24.45 13.74,26.65 13.74,22.69 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon98" />
+      <polygon
+         points="20.58,18.29 20.58,22.25 17.16,24.45 17.16,20.49 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon99" />
+      <polygon
+         points="24,16.09 24,20.04 20.58,22.25 20.58,18.29 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon100" />
+      <polygon
+         points="17.16,24.45 17.16,28.4 13.74,30.6 13.74,26.65 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon101" />
+      <polygon
+         points="20.58,22.25 20.58,26.2 17.16,28.4 17.16,24.45 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon102" />
+      <polygon
+         points="24,20.04 24,24 20.58,26.2 20.58,22.25 "
+         style="fill:#729fcf;stroke:#204a87;stroke-width:0.282659px;stroke-miterlimit:10"
+         id="polygon103" />
+    </g>
+    <line
+       x1="24"
+       y1="24"
+       x2="40.599998"
+       y2="24"
+       style="fill:none;stroke:#2e3436;stroke-width:0.471098px;stroke-miterlimit:10"
+       id="line103" />
+    <line
+       x1="24"
+       y1="7.4000001"
+       x2="24"
+       y2="24"
+       style="fill:none;stroke:#2e3436;stroke-width:0.471098px;stroke-miterlimit:10"
+       id="line104" />
+    <line
+       x1="9.0699997"
+       y1="33.700001"
+       x2="24"
+       y2="24"
+       style="fill:none;stroke:#2e3436;stroke-width:0.471098px;stroke-miterlimit:10"
+       id="line105" />
+    <polygon
+       points="41.82,24 39.38,23 39.96,24 39.38,25 "
+       style="fill:#2e3436;stroke-width:0.887734"
+       id="polygon105" />
+    <polygon
+       points="6.18,24 8.62,23 8.04,24 8.62,25 "
+       style="fill:#2e3436;stroke-width:0.887734"
+       id="polygon106" />
+    <polygon
+       points="24,41.82 25,39.38 24,39.96 23,39.38 "
+       style="fill:#2e3436;stroke-width:0.887734"
+       id="polygon107" />
+    <polygon
+       points="24,6.18 25,8.62 24,8.04 23,8.62 "
+       style="fill:#2e3436;stroke-width:0.887734"
+       id="polygon108" />
+    <polygon
+       points="8.8,33.87 11.39,33.38 10.36,32.86 10.31,31.71 "
+       style="fill:#2e3436;stroke-width:0.887734"
+       id="polygon109" />
+    <polygon
+       points="39.08,14.2 37.57,16.37 37.52,15.22 36.49,14.7 "
+       style="fill:#2e3436;stroke-width:0.887734"
+       id="polygon110" />
+    <path
+       d="M 24.03,4.92 C 23.98,5.06 23.92,5.16 23.84,5.24 23.7,5.38 23.51,5.43 23.32,5.43 H 23.11 V 4.97 h 0.13 c 0.22,0 0.29,-0.06 0.37,-0.27 L 23.75,4.3 22.86,1.88 h 0.54 l 0.61,1.79 0.59,-1.79 h 0.55 z"
+       id="path110"
+       style="stroke-width:0.942196" />
+    <path
+       d="m 44.57,25.32 -0.53,-0.87 -0.54,0.87 h -0.62 l 0.87,-1.3 -0.83,-1.24 h 0.62 l 0.5,0.83 0.5,-0.83 h 0.62 l -0.83,1.24 0.87,1.3 h -0.62 z"
+       id="path111"
+       style="stroke-width:0.942196" />
+    <path
+       d="M 5.83,35.87 V 35.46 L 7.09,33.78 H 5.9 v -0.46 h 1.82 v 0.41 l -1.27,1.68 h 1.27 v 0.46 z"
+       id="path112"
+       style="stroke-width:0.942196" />
+  </g>
+</svg>

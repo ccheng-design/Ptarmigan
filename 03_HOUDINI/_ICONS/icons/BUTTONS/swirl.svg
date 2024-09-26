@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="swirl.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="52.75"
+     inkscape:cx="8.0379147"
+     inkscape:cy="8"
+     inkscape:window-width="2560"
+     inkscape:window-height="1308"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient2"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#2e3436;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-color:#2e3436;stop-opacity:0.25;"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2"
+       id="radialGradient3"
+       cx="7.4258207"
+       cy="8.0209496"
+       fx="7.4258207"
+       fy="8.0209496"
+       r="7.9073738"
+       gradientTransform="matrix(1,0,0,0.98017877,0,0.15898512)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:url(#radialGradient3);stroke-width:3.14640777;stroke-linecap:round;stroke-dasharray:none"
+       id="path2"
+       sodipodi:cx="7.5829382"
+       sodipodi:cy="7.2037916"
+       sodipodi:expansion="1"
+       sodipodi:revolution="2.29"
+       sodipodi:radius="7.5415015"
+       sodipodi:argument="-18.064157"
+       sodipodi:t0="0.1143258"
+       d="M 6.9297726,7.7665911 C 6.1655672,7.5189594 6.1171212,6.5125337 6.4827186,5.9269148 7.1275651,4.8939909 8.5839365,4.8771234 9.4835263,5.5661519 10.795815,6.5712815 10.778079,8.5257188 9.7579981,9.7280909 8.4029468,11.325294 5.9360009,11.270755 4.4349276,9.9162716 2.550036,8.2154527 2.6423974,5.2298682 4.333038,3.4320698 6.3775721,1.2579471 9.8849692,1.3886504 11.978371,3.4164713 14.442662,5.803562 14.273324,9.8346324 11.907679,12.222936 9.1787475,14.978004 4.6228175,14.769854 1.9400827,12.065952 1.6275914,11.750995 1.3434291,11.408033 1.0916508,11.042728"
+       transform="matrix(0.95346828,0,0,0.95346828,0.91421728,0.38056299)" />
+    <path
+       sodipodi:type="spiral"
+       style="fill:none;fill-rule:evenodd;stroke:#eeeeec;stroke-width:1.57320388;stroke-linecap:round;stroke-dasharray:none"
+       id="path1"
+       sodipodi:cx="7.5829382"
+       sodipodi:cy="7.2037916"
+       sodipodi:expansion="1"
+       sodipodi:revolution="2.29"
+       sodipodi:radius="7.5415015"
+       sodipodi:argument="-18.064157"
+       sodipodi:t0="0.1143258"
+       d="M 6.9297726,7.7665911 C 6.1655672,7.5189594 6.1171212,6.5125337 6.4827186,5.9269148 7.1275651,4.8939909 8.5839365,4.8771234 9.4835263,5.5661519 10.795815,6.5712815 10.778079,8.5257188 9.7579981,9.7280909 8.4029468,11.325294 5.9360009,11.270755 4.4349276,9.9162716 2.550036,8.2154527 2.6423974,5.2298682 4.333038,3.4320698 6.3775721,1.2579471 9.8849692,1.3886504 11.978371,3.4164713 14.442662,5.803562 14.273324,9.8346324 11.907679,12.222936 9.1787475,14.978004 4.6228175,14.769854 1.9400827,12.065952 1.6275914,11.750995 1.3434291,11.408033 1.0916508,11.042728"
+       transform="matrix(0.95346828,0,0,0.95346828,0.91421728,0.38056299)" />
+  </g>
+</svg>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="cloudclip.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.020833"
+     inkscape:cx="24"
+     inkscape:cy="24"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14" />
+  <defs
+     id="defs9">
+    <linearGradient
+       id="linearGradient14"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:0.3899371;"
+         offset="0"
+         id="stop14" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop15" />
+    </linearGradient>
+    <radialGradient
+       id="radial-gradient"
+       cx="-362.7"
+       cy="-41.27"
+       fx="-362.7"
+       fy="-41.27"
+       r="11.9"
+       gradientTransform="matrix(1.83,0,0,0.78,688.53,70.71)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset=".32"
+         stop-color="#2c2c2c"
+         stop-opacity=".5"
+         id="stop1" />
+      <stop
+         offset=".73"
+         stop-color="#2c2c2c"
+         stop-opacity=".1"
+         id="stop2" />
+      <stop
+         offset=".99"
+         stop-color="#2c2c2c"
+         stop-opacity="0"
+         id="stop3" />
+    </radialGradient>
+    <linearGradient
+       id="linear-gradient"
+       x1="24"
+       y1="13.45"
+       x2="24"
+       y2="35.46"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#b2cbe5"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#3465a4"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="linear-gradient-2"
+       x1="24"
+       y1="13.08"
+       x2="24"
+       y2="30.88"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="snow"
+         id="stop6" />
+      <stop
+         offset="1"
+         stop-color="#fffdfd"
+         stop-opacity=".4"
+         id="stop7" />
+    </linearGradient>
+    <linearGradient
+       id="linear-gradient-3"
+       x1="24.26"
+       y1="19.33"
+       x2="24.26"
+       y2="34.74"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#d4e2f0"
+         id="stop8" />
+      <stop
+         offset="1"
+         stop-color="#3465a4"
+         id="stop9" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient14"
+       id="radialGradient15"
+       cx="24"
+       cy="38.669998"
+       fx="24"
+       fy="38.669998"
+       r="20.950001"
+       gradientTransform="matrix(1,0,0,0.42529831,0,22.223713)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="shadow"
+     style="opacity:1;isolation:isolate;mix-blend-mode:multiply;fill:url(#radialGradient15);stroke-width:0.935752"
+     transform="matrix(1.1420318,0,0,1,-3.343604,0.47782805)">
+    <ellipse
+       cx="24"
+       cy="38.669998"
+       rx="20.950001"
+       ry="8.9099998"
+       style="fill:url(#radialGradient15);stroke-width:0.935752"
+       id="ellipse9" />
+  </g>
+  <g
+     id="ART"
+     style="isolation:isolate;stroke-width:0.849941"
+     transform="matrix(1.175752,0,0,1.1773543,-4.1311734,-7.3582062)">
+    <g
+       id="g13"
+       style="stroke-width:0.849941">
+      <path
+         d="m 44.02,27.13 c 0,-3.15 -2.43,-5.72 -5.52,-5.96 -0.05,-3.05 -2.54,-5.51 -5.61,-5.51 H 30.6 c -0.54,-2.7 -2.92,-4.74 -5.78,-4.74 h -1.63 c -2.86,0 -5.24,2.04 -5.78,4.74 h -2.29 c -3.07,0 -5.56,2.46 -5.61,5.51 -3.09,0.24 -5.52,2.81 -5.52,5.96 z"
+         style="fill:url(#linear-gradient);stroke-width:0.849941"
+         id="path9" />
+      <path
+         d="m 44.02,27.13 c 0,-3.15 -2.43,-5.72 -5.52,-5.96 -0.05,-3.05 -2.54,-5.51 -5.61,-5.51 H 30.6 c -0.54,-2.7 -2.92,-4.74 -5.78,-4.74 h -1.63 c -2.86,0 -5.24,2.04 -5.78,4.74 h -2.29 c -3.07,0 -5.56,2.46 -5.61,5.51 -3.09,0.24 -5.52,2.81 -5.52,5.96 z"
+         style="fill:url(#linear-gradient-2);stroke-width:0.849941"
+         id="path10" />
+      <path
+         d="m 40.55,27.17 c 0,-1.65 -1.33,-2.98 -2.98,-2.98 h -1.32 c 0.11,-0.41 0.19,-0.83 0.19,-1.27 0,-2.7 -2.19,-4.9 -4.9,-4.9 -0.32,0 -0.63,0.04 -0.94,0.09 -0.33,-2.38 -2.36,-4.22 -4.83,-4.22 -1.81,0 -3.37,0.99 -4.22,2.45 0,0 0.02,0 0.03,0 2.75,0 4.99,2.23 4.99,4.99 -0.86,-1.69 -2.6,-2.86 -4.62,-2.86 h -2.01 c -2.88,0 -5.21,2.33 -5.21,5.21 v 0.51 h -3.8 c -1.65,0 -2.98,1.33 -2.98,2.98 z"
+         style="fill:url(#linear-gradient-3);stroke-width:0.849941"
+         id="path11" />
+      <path
+         d="m 3.98,27.13 c 0,3.31 2.68,5.98 5.98,5.98 h 1.79 c 0.77,1.69 2.47,2.87 4.45,2.87 1.37,0 2.61,-0.57 3.5,-1.48 0.83,1.53 2.43,2.58 4.29,2.58 1.86,0 3.46,-1.05 4.29,-2.58 0.89,0.91 2.13,1.48 3.5,1.48 1.98,0 3.67,-1.18 4.45,-2.87 h 1.79 c 3.3,0 5.98,-2.68 5.98,-5.98"
+         style="fill:none;stroke:#e72929;stroke-width:0.594958px;stroke-miterlimit:10;stroke-dasharray:0, 0, 2.54982, 1.69988"
+         id="path12" />
+      <path
+         d="m 44.02,27.13 c 0,-3.15 -2.43,-5.72 -5.52,-5.96 -0.05,-3.05 -2.54,-5.51 -5.61,-5.51 H 30.6 c -0.54,-2.7 -2.92,-4.74 -5.78,-4.74 h -1.63 c -2.86,0 -5.24,2.04 -5.78,4.74 h -2.29 c -3.07,0 -5.56,2.46 -5.61,5.51 -3.09,0.24 -5.52,2.81 -5.52,5.96 z"
+         style="fill:none;stroke:#285092;stroke-width:0.594958px;stroke-linecap:round;stroke-linejoin:round"
+         id="path13" />
+    </g>
+  </g>
+</svg>
