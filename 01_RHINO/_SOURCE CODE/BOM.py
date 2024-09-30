@@ -42,12 +42,13 @@ def block_list_count():
                 desc_counts[string]+=1
             else:
                 desc_counts[string]=1
-        print(desc_counts)
+        #print(desc_counts)
 
         #create lists for 
         key_list=[]
         values_list=[]
         uniq_desc=[]
+        
 
         #Appending the count into a list
         for string in counts:
@@ -56,15 +57,22 @@ def block_list_count():
 
         #Appending description
         for string in desc_counts:
-            uniq_desc.append(string)
-        
+            
+            if string is None: uniq_desc.append("NO BLK DESC")
+            else:uniq_desc.append(string)
 
-        #Getting maximum length for the strings
+        #Getting maximum length for the strings of block names
         key_list_length=[]
         for string in key_list:
             key_list_length.append(len(string))
-    
-        max_length=max(key_list_length)
+        
+        
+        block_desc_length=[]
+        for string in uniq_desc:
+            block_desc_length.append(len(string))
+
+        max_length_desc=max(block_desc_length)
+        max_length_names=max(key_list_length)
         
 
         pt=rs.GetPoint("Pick Point")
@@ -79,18 +87,25 @@ def block_list_count():
         
 
         spacingy=text_height+0.15
-        spacingx=max_length*text_height
+        spacingx_name=max_length_names*text_height*1.15
+        spacingx_desc=(max_length_names*text_height)+(max_length_desc*text_height)
+        spacingx_amt=(max_length_names*text_height)+(max_length_desc*text_height)+0.2
+
         vector_y=Rhino.Geometry.Vector3d(0,-spacingy,0)
-        vector_x=Rhino.Geometry.Vector3d(spacingx,0,0)
-        pg_num_vector=Rhino.Geometry.Vector3d(spacingx+(text_height*3),0,0)
+        vector_x_names=Rhino.Geometry.Vector3d(spacingx_name,0,0)
+        vector_x_desc=Rhino.Geometry.Vector3d(spacingx_desc,0,0)
+        vector_x_amt=Rhino.Geometry.Vector3d(spacingx_amt,0,0)
+        pg_num_vector=Rhino.Geometry.Vector3d(spacingx_name+(text_height*3),0,0)
 
         #define the x direction
-        x_dir=pt+vector_x
+        x_dir=pt+vector_x_names
+
+        x_dir_desc=pt+vector_x_desc
         blk_desc=pt+pg_num_vector
 
-        vector_x.Unitize() #unitize
-        length=spacingx
-        scaled_vector=vector_x*length
+        vector_x_names.Unitize() #unitize
+        length=spacingx_name
+        scaled_vector=vector_x_names*length
 
 
         
@@ -132,14 +147,14 @@ def block_list_count():
             rs.AddText(items,pt,text_height,justification=131073)
 
         for i in uniq_desc: #block description
-            x_dir=x_dir+vector_y
+            x_dir_desc+=vector_y
 
             #debugging
-            #rs.AddPoint(x_dir)
+            rs.AddPoint(x_dir_desc)
             
-            rs.AddText(i,x_dir,text_height,justification=131076)
+            rs.AddText(i,x_dir_desc,text_height,justification=131076)
 
-        for items in values_list: #page number
+        for items in values_list: #count of each block listed
             blk_desc+=vector_y
 
             #Right Line
@@ -151,6 +166,7 @@ def block_list_count():
             rs.AddPoint(blk_desc)
 
             rs.AddText(items,blk_desc,text_height,justification=131076)
+            #
 
         #Join middle side of curves and simplify
         if len(middle)!=1:
