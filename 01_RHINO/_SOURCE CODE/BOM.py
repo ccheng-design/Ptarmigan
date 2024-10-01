@@ -38,11 +38,10 @@ def block_list_count():
         
 
         #for each string in block_desc list
-###################################################################################
-
         #create list of unique parts
         unique_blk_names=set(block_list)
 
+        #string list of mapped indices
         mapped_index={}
         index=0
 
@@ -50,7 +49,11 @@ def block_list_count():
             mapped_index[string]=index
             index=index+1
 
+
+        #store the set of mapped indices
         mapped_indices=[]
+
+        #for each unique block name, add the indices
         for i in unique_blk_names:
             mapped_indices.append(mapped_index[i])
             #outputs the index
@@ -60,7 +63,6 @@ def block_list_count():
 
         print(desc_counts)
         
-##########################################################################
         #create lists for 
         key_list=[]
         values_list=[]
