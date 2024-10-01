@@ -75,8 +75,11 @@ def block_list_count():
         #Appending description
         for string in desc_counts:
             
-            if string is None: uniq_desc.append("None")
-            uniq_desc.append(string)
+            if string is None: 
+                uniq_desc.append("0")
+            else: uniq_desc.append(string)
+
+        print(uniq_desc)
 
         #Getting maximum length for the strings of block names
         key_list_length=[]
@@ -98,8 +101,7 @@ def block_list_count():
 
         pt=rs.GetPoint("Pick Point")
 
-        #Text Height
-                #text_height=0.1
+
 
         text_height=rs.GetReal("Text_Height",0.1)
         if text_height is None:
@@ -109,8 +111,8 @@ def block_list_count():
 
         spacingy=text_height+0.15
         spacingx_name=max_length_names*text_height*1.15
-        spacingx_desc=(max_length_names*text_height)+(max_length_desc*text_height)
-        spacingx_amt=(max_length_names*text_height)+(max_length_desc*text_height)+0.2
+        spacingx_desc=(max_length_names*text_height)+(max_length_desc*text_height*0.7)
+        spacingx_amt=(max_length_names*text_height)+(max_length_desc*text_height)+0.3
 
         vector_y=Rhino.Geometry.Vector3d(0,-spacingy,0)
         vector_x_names=Rhino.Geometry.Vector3d(spacingx_name,0,0)
@@ -122,7 +124,7 @@ def block_list_count():
         x_dir=pt+vector_x_names
 
         x_dir_desc=pt+vector_x_desc
-        blk_desc=pt+pg_num_vector
+        blk_desc=pt+vector_x_amt
 
         vector_x_names.Unitize() #unitize
         length=spacingx_name
