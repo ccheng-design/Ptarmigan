@@ -13,7 +13,7 @@ def block_list_count():
         block_list=[]
         counts={}
 
-        desc_counts={}
+        desc_counts=[]
         block_desc=[]
 
         #for each object in the layer, test if its a block
@@ -29,21 +29,38 @@ def block_list_count():
         
 
         
-        #for each string in block_list list
+        #for each string in block_list list; counting the amount of unique blocks
         for string in block_list:
             if string in counts:
                 counts[string]+=1
             else:
                 counts[string]=1
+        
 
         #for each string in block_desc list
-        for string in block_desc:
-            if string in desc_counts:
-                desc_counts[string]+=1
-            else:
-                desc_counts[string]=1
-        #print(desc_counts)
+###################################################################################
 
+        #create list of unique parts
+        unique_blk_names=set(block_list)
+
+        mapped_index={}
+        index=0
+
+        for string in unique_blk_names:
+            mapped_index[string]=index
+            index=index+1
+
+        mapped_indices=[]
+        for i in unique_blk_names:
+            mapped_indices.append(mapped_index[i])
+            #outputs the index
+
+        for i in mapped_indices:
+            desc_counts.append(block_desc[i])
+
+        print(desc_counts)
+        
+##########################################################################
         #create lists for 
         key_list=[]
         values_list=[]
@@ -58,8 +75,8 @@ def block_list_count():
         #Appending description
         for string in desc_counts:
             
-            if string is None: uniq_desc.append("NO BLK DESC")
-            else:uniq_desc.append(string)
+            if string is None: uniq_desc.append("None")
+            uniq_desc.append(string)
 
         #Getting maximum length for the strings of block names
         key_list_length=[]
@@ -69,9 +86,13 @@ def block_list_count():
         
         block_desc_length=[]
         for string in uniq_desc:
-            block_desc_length.append(len(string))
+            if string is None: block_desc_length.append(0)
+            else:block_desc_length.append(len(string))
 
+        if not block_desc_length: return
         max_length_desc=max(block_desc_length)
+        
+
         max_length_names=max(key_list_length)
         
 
@@ -151,6 +172,7 @@ def block_list_count():
 
             #debugging
             rs.AddPoint(x_dir_desc)
+            
             
             rs.AddText(i,x_dir_desc,text_height,justification=131076)
 
