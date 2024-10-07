@@ -415,6 +415,24 @@
           }
         }
       ]
+    },
+    {
+      "type": "components",
+      "id": "b56a03c4-7a0e-4e2b-b2e5-c903bfcfd881",
+      "language": {
+        "id": "*.gh1.grasshopper",
+        "version": "1.*.*"
+      },
+      "title": "Jarvis March Component Example.gh",
+      "uri": "file:///C:/Users/clark.cheng/OneDrive - UAP Company/Desktop/_COMMONS/UAP-Plugins/02_GH/Jarvis March Algorithm/Jarvis March Component Example.gh",
+      "scripts": [
+        {
+          "id": "5dfb19ee-152a-48e1-86ea-5c67a446b17e",
+          "name": "Convex Hull (JM)",
+          "nickname": "CH_JM",
+          "subcat": "Default"
+        }
+      ]
     }
   ]
 }
