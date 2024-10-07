@@ -34,3 +34,8 @@
 
         //Use this if in a list
         if (Pattern ==null) Pattern=defaultPattern;
+
+        //Drop down menu from component using pManager
+        Grasshopper.Kernel.Parameters.Param_Integer param = pManager[1] as Grasshopper.Kernel.Parameters.Param_Integer;
+        
+    
