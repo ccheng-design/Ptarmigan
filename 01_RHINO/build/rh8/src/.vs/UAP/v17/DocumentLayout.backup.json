@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\01_RHINO\\build\\rh8\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4195DEAC-A5C9-4E2B-8836-6B8260B5B218}|UAP.Components\\UAP.Components.csproj|c:\\users\\clark.cheng\\onedrive - uap company\\desktop\\_commons\\uap-plugins\\01_rhino\\build\\rh8\\src\\uap.components\\projectcomponent_6d927349.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4195DEAC-A5C9-4E2B-8836-6B8260B5B218}|UAP.Components\\UAP.Components.csproj|solutionrelative:uap.components\\projectcomponent_6d927349.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4195DEAC-A5C9-4E2B-8836-6B8260B5B218}|UAP.Components\\UAP.Components.csproj|c:\\users\\clark.cheng\\onedrive - uap company\\desktop\\_commons\\uap-plugins\\01_rhino\\build\\rh8\\src\\uap.components\\projectcomponent_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4195DEAC-A5C9-4E2B-8836-6B8260B5B218}|UAP.Components\\UAP.Components.csproj|solutionrelative:uap.components\\projectcomponent_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectComponent_6d927349.cs",
+              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\01_RHINO\\build\\rh8\\src\\UAP.Components\\ProjectComponent_6d927349.cs",
+              "RelativeDocumentMoniker": "UAP.Components\\ProjectComponent_6d927349.cs",
+              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\01_RHINO\\build\\rh8\\src\\UAP.Components\\ProjectComponent_6d927349.cs",
+              "RelativeToolTip": "UAP.Components\\ProjectComponent_6d927349.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T18:23:51.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectComponent_Base.cs",
+              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\01_RHINO\\build\\rh8\\src\\UAP.Components\\ProjectComponent_Base.cs",
+              "RelativeDocumentMoniker": "UAP.Components\\ProjectComponent_Base.cs",
+              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\01_RHINO\\build\\rh8\\src\\UAP.Components\\ProjectComponent_Base.cs",
+              "RelativeToolTip": "UAP.Components\\ProjectComponent_Base.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T18:23:48.605Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
