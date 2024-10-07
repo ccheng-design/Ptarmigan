@@ -430,7 +430,8 @@
           "id": "5dfb19ee-152a-48e1-86ea-5c67a446b17e",
           "name": "Convex Hull (JM)",
           "nickname": "CH_JM",
-          "subcat": "Default"
+          "description": "Convex hull using the Jarvis March Algorithm(Gift Wrapping Algorithm)",
+          "subcat": "Curve"
         }
       ]
     }
