@@ -1,5 +1,7 @@
-UAP
+UAP 0.3.10.9049-rh8-any
+
 [Rhino] Fixed misordered list in LayoutNames Command
+[Rhino] Removed BOM command. Needs rework to give correct order.
 [Houdini] Created Polyreduce Plus
 [Houdini] Created Project to CPlane
 [Houdini] Created Remesh Plus
