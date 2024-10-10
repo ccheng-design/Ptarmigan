@@ -30,6 +30,29 @@ else:
     num_pages=len(layouts)
     
 
+    unsorted_name=[]
+    unsorted_number=[]
+    for string in layouts:
+            #rhino common page number
+            page_name=string.PageName
+            unsorted_name.append(page_name)
+
+            #Convert int to string
+            page_num=((string.PageNumber)+1)
+            unsorted_number.append(page_num)
+
+    #zip list together
+    zipped_list=zip(unsorted_number,unsorted_name)
+    sorted_zipped=sorted(zipped_list)
+    new_number,new_name=zip(*sorted_zipped)
+
+    sorted_name=list(new_name)
+    sorted_number=list(new_number)
+    
+    
+
+
+
     #move points for page numbers
     start_pg_pt=pt+vector_x
     #print(start_pg_pt)
@@ -47,12 +70,12 @@ else:
     start_time = time.time() 
 
     if layouts:
-        for l in layouts:
+        for name, number in zip(sorted_name,sorted_number):
             #rhino common page number
-            page_name=l.PageName
+            #page_name=l.PageName
 
             #Convert int to string
-            page_num=str((l.PageNumber)+1)
+            #page_num=str((l.PageNumber)+1)
             
             
             #move points for names of pages
@@ -66,11 +89,11 @@ else:
             #rs.AddPoint(start_pg_pt)
 
             #Page names
-            text_name=rs.AddText(page_name.upper(),pt,height=0.1,justification=131072)
+            text_name=rs.AddText(name.upper(),pt,height=0.1,justification=131072)
             title.append(text_name)
 
             #Page numbers justification number added 2=center 131072=middle
-            text_num=rs.AddText(page_num, start_pg_pt,height=0.1, justification=131074)
+            text_num=rs.AddText(number, start_pg_pt,height=0.1, justification=131074)
             page_numbers.append(text_num)
 
             if group[0]==True:
