@@ -1,6 +1,7 @@
 import Rhino
 import rhinoscriptsyntax as rs
 import time
+import sys
 
 #Written by Clark Cheng
 #email: ccheng@clarkcheng.design
@@ -66,6 +67,11 @@ else:
 
     items=("Group","No","Yes")
     group=rs.GetBoolean("Group Text?",items, True)
+    if group is None:
+        raise ValueError("No group")
+    
+    
+    
     print(group[0])
     start_time = time.time() 
 
