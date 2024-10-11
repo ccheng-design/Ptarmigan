@@ -54,6 +54,13 @@ namespace MyGrasshopperAssembly1
             List<Point3d> Points= new List<Point3d>();
             DA.GetDataList(0, Points);
             DA.GetDataList(0, ref Points);
+
+            //Sanity checks
+            if (points==null||points.Count()==0)
+            {
+                this.AddRuntimeMessage(GH_RuntimeMessageLevel.Warning, "Input parameter Points failed to collect data");
+                return;
+}
             
 
             //USE FOR OUTPUT VALUE
