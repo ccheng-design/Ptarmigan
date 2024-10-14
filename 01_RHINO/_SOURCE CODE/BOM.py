@@ -18,7 +18,7 @@ def block_list_count():
     for obj in layer:
         if rs.IsBlockInstance(obj):
             block_name = rs.BlockInstanceName(obj)
-            block_description = rs.BlockDescription(block_name) or "No Description"
+            block_description = rs.BlockDescription(block_name) or "გამარჯობა"
             block_list.append(block_name)
             block_desc.append(block_description)
 
