@@ -33,14 +33,32 @@ else:
 
     series=range(start, start + count * step, step)
     seq=[]
+    
+    
 
 
     for i in series:
         #Concat labels
         labels=str(prefix)+str(i)
         
+
         #Add to list
         seq.append(labels)
+        
+        #Checks if layer exists, then moves objects to default layer
+        if rs.IsLayer(labels):
+            objs_in_layer = rs.ObjectsByLayer(labels)
+            if objs_in_layer:
+                # Move objects to default layer before deleting the layer
+                rs.AddLayer("Default")
+                for obj in objs_in_layer:
+                    rs.ObjectLayer(obj, "Default")  
+            rs.DeleteLayer(labels)
+        
+
+        
+
+
         color=random.randint(0,255),random.randint(0,255),random.randint(0,255)
         
         #adding color
