@@ -10,6 +10,7 @@ using System.Collections;
 using Grasshopper;
 using Grasshopper.Kernel.Types;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace _Ptarmigan
 {
@@ -21,7 +22,7 @@ namespace _Ptarmigan
         public MT_BooleanDifference():
           base("MT_BooleanDifference", "MT_BD",
               "Description",
-              "Category", "Subcategory")
+              "Ptarmigan", "Solids")
         {
         }
 
@@ -63,15 +64,23 @@ namespace _Ptarmigan
         /// <param name="DA">The DA object is used to retrieve from inputs and store in outputs.</param>
         protected override void SolveInstance(IGH_DataAccess DA)
         {
-            DataTree<Brep> S = new DataTree<Brep>();
-            DataTree<Brep> D = new DataTree<Brep>();
 
-            DA.GetData(0, ref S);
-            DA.GetData(1, ref D);
 
-            if (S == null || D == null || S.BranchCount == 0 || D.BranchCount == 0)
+            // Declare GH_Structure of GH_Brep (not DataTree<Brep>)
+            GH_Structure<GH_Brep> S = new GH_Structure<GH_Brep>();
+            GH_Structure<GH_Brep> D = new GH_Structure<GH_Brep>();
+
+            // Get data as GH_Structure<GH_Brep>
+            if (!DA.GetDataTree(0, out S) || !DA.GetDataTree(1, out D))
             {
                 this.AddRuntimeMessage(GH_RuntimeMessageLevel.Warning, "Input data is null or empty.");
+                return;
+            }
+
+            // Sanity check: check if we have any branches
+            if (S.IsEmpty || D.IsEmpty || S.PathCount == 0 || D.PathCount == 0)
+            {
+                this.AddRuntimeMessage(GH_RuntimeMessageLevel.Warning, "Input trees are empty.");
                 return;
             }
 
@@ -86,34 +95,45 @@ namespace _Ptarmigan
             }
 
             double tolerance = RhinoDocument != null ? RhinoDocument.ModelAbsoluteTolerance : 0.01;
-
             Print($"Using tolerance: {tolerance}");
-            Print($"S tree has {S.BranchCount} branches.");
-            Print($"D tree has {D.BranchCount} branches.");
+            Print($"S tree has {S.PathCount} branches.");
+            Print($"D tree has {D.PathCount} branches.");
 
+            // Initialize dictionaries to store the results
             var mainBrepsMT = new ConcurrentDictionary<GH_Path, Brep>();
             var badBrepsMT = new ConcurrentDictionary<GH_Path, List<Brep>>();
 
+            // Get maximum number of threads to run concurrently
             var totalMaxConcurrency = System.Environment.ProcessorCount - 1;
-            this.Component.Message = totalMaxConcurrency + " threads";
+            //this.Component.Message = totalMaxConcurrency + " threads";
 
+            // Loop through each path in S
             Parallel.ForEach(S.Paths, new ParallelOptions { MaxDegreeOfParallelism = totalMaxConcurrency }, pth =>
             {
-                if (S.Branch(pth) == null || S.Branch(pth).Count == 0)
+                // Get the breps in each branch
+                List<GH_Brep> branchS = S.get_Branch(pth).Cast<GH_Brep>().ToList();
+                List<GH_Brep> branchD = D.get_Branch(pth).Cast<GH_Brep>().ToList();
+
+
+
+
+
+                if (branchS == null || branchS.Count == 0)
                 {
                     Print($"Branch {pth} in S is null or empty.");
                     return;
                 }
 
-                if (D.Branch(pth) == null || D.Branch(pth).Count == 0)
+                if (branchD == null || branchD.Count == 0)
                 {
                     Print($"Branch {pth} in D is null or empty.");
                     return;
                 }
 
+                // Prepare to collect boolean difference results
                 var badBrep = new List<Brep>();
-                var mainBrep = S.Branch(pth)[0]; // Main brep for this branch
-                var diffBreps = D.Branch(pth);   // Cutters for this branch
+                var mainBrep = branchS[0].Value; // Get the Brep value
+                var diffBreps = branchD.Select(gb => gb.Value).ToList(); // Get list of Brep values
 
                 foreach (Brep b in diffBreps)
                 {
@@ -125,31 +145,36 @@ namespace _Ptarmigan
                     }
                     else
                     {
-                        mainBrep = breps[0];
+                        mainBrep = breps[0]; // Take the first result of the boolean difference
                     }
                 }
 
                 Print($"Processed branch {pth}. Main Brep: {mainBrep}, Bad Breps: {badBrep.Count}");
 
+                // Store results in concurrent dictionaries
                 mainBrepsMT[pth] = mainBrep;
                 badBrepsMT[pth] = badBrep;
             });
 
-            var mainBreps = new DataTree<Brep>();
-            var badBreps = new DataTree<Brep>();
+            // Convert dictionaries to GH_Structure for output
+            GH_Structure<GH_Brep> mainBreps = new GH_Structure<GH_Brep>();
+            GH_Structure<GH_Brep> badBreps = new GH_Structure<GH_Brep>();
 
             foreach (KeyValuePair<GH_Path, Brep> p in mainBrepsMT)
             {
-                mainBreps.Add(p.Value, p.Key);
+                mainBreps.Append(new GH_Brep(p.Value), p.Key);
             }
 
             foreach (KeyValuePair<GH_Path, List<Brep>> b in badBrepsMT)
             {
-                badBreps.AddRange(b.Value, b.Key);
+                foreach (var brep in b.Value)
+                {
+                    badBreps.Append(new GH_Brep(brep), b.Key);
+                }
             }
 
-            Print($"Main Breps tree has {mainBreps.BranchCount} branches.");
-            Print($"Bad Breps tree has {badBreps.BranchCount} branches.");
+            Print($"Main Breps tree has {mainBreps.PathCount} branches.");
+            Print($"Bad Breps tree has {badBreps.PathCount} branches.");
 
             // Assign the output
             DA.SetDataTree(0, mainBreps);
