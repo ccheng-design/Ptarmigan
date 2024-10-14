@@ -18,7 +18,7 @@ def block_list_count():
     for obj in layer:
         if rs.IsBlockInstance(obj):
             block_name = rs.BlockInstanceName(obj)
-            block_description = rs.BlockDescription(block_name) or "None"
+            block_description = rs.BlockDescription(block_name) or "No Description"
             block_list.append(block_name)
             block_desc.append(block_description)
 
@@ -58,6 +58,7 @@ def block_list_count():
     if text_height is None:
         return
 
+    # Restored your original spacing
     spacingy = text_height + 0.15
     spacingx_name = max_length_names * text_height * 1.15
     spacingx_desc = (max_length_names * text_height) + (max_length_desc * text_height * 0.7)
@@ -67,6 +68,7 @@ def block_list_count():
     vector_x_names = Rhino.Geometry.Vector3d(spacingx_name, 0, 0)
     vector_x_desc = Rhino.Geometry.Vector3d(spacingx_desc, 0, 0)
     vector_x_amt = Rhino.Geometry.Vector3d(spacingx_amt, 0, 0)
+    pg_num_vector = Rhino.Geometry.Vector3d(spacingx_name + (text_height * 3), 0, 0)
 
     # Define the x direction
     x_dir = pt + vector_x_names
@@ -87,31 +89,69 @@ def block_list_count():
         pt += vector_y
         rs.AddPoint(pt)
 
-        # Top Line
+        # Horizontial Line Top
         offset_y = Rhino.Geometry.Vector3d(0, (spacingy / 2), 0)
-        rs.AddLine(pt + offset_y, (pt + scaled_vector + offset_y))
+        rs.AddLine(pt + offset_y, (pt + vector_x_amt + offset_y))
 
-        # Bottom Line
-        rs.AddLine(pt - offset_y, (pt + scaled_vector - offset_y))
+        # Horizontial Line Bottom 
+        rs.AddLine(pt - offset_y, (pt + vector_x_amt - offset_y))
 
         # Left Line
         l = rs.AddLine((pt + offset_y), (pt - offset_y))
         left.append(l)
 
+        # Left Middle Line
+        lm = rs.AddLine((pt + scaled_vector + offset_y), (pt + scaled_vector - offset_y))
+        left_middle.append(lm)
+
         # Add text
         rs.AddText(items, pt, text_height, justification=131073)
+    
+
+    
 
     # Add text for block descriptions
     for i in uniq_desc:
         x_dir_desc += vector_y
         rs.AddPoint(x_dir_desc)
+
+        # Right Middle Line
+        rm = rs.AddLine((x_dir_desc + offset_y), (x_dir_desc - offset_y))
+        right_middle.append(rm)
+
         rs.AddText(i, x_dir_desc, text_height, justification=131076)
 
     # Add text for block counts
     for items in values_list:
         blk_desc += vector_y
+
+        # Right Line
+        r = rs.AddLine((blk_desc - (vector_y / 2)), (blk_desc + (vector_y / 2)))
+        right.append(r)
+
         rs.AddPoint(blk_desc)
         rs.AddText(items, blk_desc, text_height, justification=131076)
+
+    # Join left middle side of curves and simplify
+    if len(left_middle) != 1:
+        a = rs.JoinCurves(left_middle, True)
+        rs.SimplifyCurve(a)
+
+    # Join left side of curves and simplify
+    if len(left) != 1:
+        a = rs.JoinCurves(left, True)
+        rs.SimplifyCurve(a)
+
+    # Join right middle side of curves and simplify
+    if len(right_middle) != 1:
+        a = rs.JoinCurves(right_middle, True)
+        rs.SimplifyCurve(a)
+
+    # Join right side of curves and simplify
+    if len(right) != 1:
+        a = rs.JoinCurves(right, True)
+        rs.SimplifyCurve(a)
+
 
 if results == [True]:
     # Check if BOM layer exists in document
