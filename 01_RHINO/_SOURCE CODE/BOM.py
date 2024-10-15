@@ -14,11 +14,11 @@ def block_list_count():
     block_desc = []
     counts = {}
 
-    # for each object in the layer, test if it's a block
+    # for each object in the layer, check if it is a block
     for obj in layer:
         if rs.IsBlockInstance(obj):
             block_name = rs.BlockInstanceName(obj)
-            block_description = rs.BlockDescription(block_name) or "გამარჯობა"
+            block_description = rs.BlockDescription(block_name) or "გამა"
             block_list.append(block_name)
             block_desc.append(block_description)
 
@@ -60,9 +60,9 @@ def block_list_count():
 
     # Restored your original spacing
     spacingy = text_height *2
-    spacingx_name = max_length_names * text_height * 1.15
-    spacingx_desc = (max_length_names * text_height) + (max_length_desc * text_height * 0.7)
-    spacingx_amt = (max_length_names * text_height) + (max_length_desc * text_height) + 0.2
+    spacingx_name = max_length_names * text_height * 1.7
+    spacingx_desc = (max_length_names * text_height) + (max_length_desc * text_height * 1.3)
+    spacingx_amt = spacingx_desc *1.1
 
     vector_y = Rhino.Geometry.Vector3d(0, -spacingy, 0)
     vector_x_names = Rhino.Geometry.Vector3d(spacingx_name, 0, 0)
@@ -73,7 +73,7 @@ def block_list_count():
     # Define the x direction
     x_dir = pt + vector_x_names
     x_dir_desc = pt + vector_x_desc
-    blk_desc = pt + vector_x_amt
+    blk_amt = pt + vector_x_amt
 
     vector_x_names.Unitize()  # Unitize the vector
     length = spacingx_name
@@ -84,10 +84,62 @@ def block_list_count():
     right_middle = []
     right = []
 
+    #Title block
+    
+
+    #ITEM
+    item_pt=pt+Rhino.Geometry.Vector3d(-0.2,0,0)-(vector_y/2)
+    rs.AddPoint(item_pt)
+
+    rs.AddText("ITEM",item_pt,text_height,justification=131076)
+
+
+    #PART NO
+    title_block_pts=pt-(vector_y/2)
+    rs.AddPoint(title_block_pts)
+
+    item_name=rs.AddText("PART NO",title_block_pts,text_height,justification=131073)
+
+    #PART DESCR
+    part_desc_pt=x_dir_desc-(vector_y/2)
+    rs.AddPoint(part_desc_pt)
+
+    part_descr_name=rs.AddText("PART DESCR",part_desc_pt,text_height,justification=131076)
+
+    #QTY
+    quantity_pt=blk_amt-(vector_y/2)
+    rs.AddPoint(quantity_pt)
+
+    quantity_name=rs.AddText("QTY",quantity_pt,text_height,justification=131076)
+
+
+    #Lines for title blocks
+    #Top lines
+    pt_1=pt-vector_y
+    rs.AddPoint(pt_1)
+    pt_2=blk_amt-vector_y
+    rs.AddPoint(pt_2)
+
+    rs.AddLine(pt_1,pt_2)
+
+    #vertial lines
+    
+    rs.AddLine(pt_1,pt+(vector_y/2))
+
+    rs.AddLine(x_dir_desc+(vector_y/2),x_dir_desc-(vector_y))
+
+    rs.AddLine(blk_amt+(vector_y/2),blk_amt-vector_y)
+
+
+
+    items_number=[]
     # Add text for block names
     for items in key_list:
         pt += vector_y
         rs.AddPoint(pt)
+        items_number.append(pt)
+
+        
 
         # Horizontial Line Top
         offset_y = Rhino.Geometry.Vector3d(0, (spacingy / 2), 0)
@@ -105,10 +157,30 @@ def block_list_count():
         left_middle.append(lm)
 
         # Add text
-        rs.AddText(items, pt, text_height, justification=131073)
+        rs.AddText(items.upper(), pt, text_height, justification=131073)
     
 
+    total=len(items_number)
+    total_numbers=[]
+    total_pts=[]
+
+    for i in range(1,total+1):
+        total_numbers.append(i)
+
     
+    print(total_numbers)
+    
+    for item in items_number:
+        offset_x=Rhino.Geometry.Vector3d(-0.2,0,0)
+        
+        pt=item+offset_x
+        rs.AddPoint(pt)
+        total_pts.append(pt)
+    
+    for point,num in zip(total_pts,total_numbers):
+        rs.AddText(num,point,text_height,justification=131076)
+
+     
 
     # Add text for block descriptions
     for i in uniq_desc:
@@ -119,18 +191,18 @@ def block_list_count():
         rm = rs.AddLine((x_dir_desc + offset_y), (x_dir_desc - offset_y))
         right_middle.append(rm)
 
-        rs.AddText(i, x_dir_desc, text_height, justification=131076)
+        rs.AddText(i.upper(), x_dir_desc, text_height, justification=131076)
 
     # Add text for block counts
     for items in values_list:
-        blk_desc += vector_y
+        blk_amt += vector_y
 
         # Right Line
-        r = rs.AddLine((blk_desc - (vector_y / 2)), (blk_desc + (vector_y / 2)))
+        r = rs.AddLine((blk_amt - (vector_y / 2)), (blk_amt + (vector_y / 2)))
         right.append(r)
 
-        rs.AddPoint(blk_desc)
-        rs.AddText(items, blk_desc, text_height, justification=131076)
+        rs.AddPoint(blk_amt)
+        rs.AddText(items, blk_amt, text_height, justification=131076)
 
     # Join left middle side of curves and simplify
     if len(left_middle) != 1:
