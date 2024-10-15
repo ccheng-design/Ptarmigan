@@ -22,7 +22,7 @@ namespace _Ptarmigan
         /// </summary>
         public MT_BooleanDifference():
           base("MT_BooleanDifference", "MT_BD",
-              "Description",
+              "Boolean Difference like in Rhino, but its multi-threaded. List management is a must.",
               "Ptarmigan", "Solids")
         {
         }
