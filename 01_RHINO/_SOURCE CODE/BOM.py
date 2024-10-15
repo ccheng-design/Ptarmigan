@@ -59,10 +59,10 @@ def block_list_count():
         return
 
     # Restored your original spacing
-    spacingy = text_height * 2
+    spacingy = text_height *2
     spacingx_name = max_length_names * text_height * 1.7
     spacingx_desc = (max_length_names * text_height) + (max_length_desc * text_height * 1.3)
-    spacingx_amt = spacingx_desc * 1.1
+    spacingx_amt = spacingx_desc *1.1
 
     vector_y = Rhino.Geometry.Vector3d(0, -spacingy, 0)
     vector_x_names = Rhino.Geometry.Vector3d(spacingx_name, 0, 0)
@@ -84,73 +84,73 @@ def block_list_count():
     right_middle = []
     right = []
 
-    # Title block
+    #Title block
+    
 
-    # ITEM
-    item_offset = -0.05
-    item_pt = pt + Rhino.Geometry.Vector3d(item_offset, 0, 0) - (vector_y / 2)
+    #ITEM
+    item_offset=-0.05
+    item_pt=pt+Rhino.Geometry.Vector3d(item_offset,0,0)-(vector_y/2)
     rs.AddPoint(item_pt)
 
-    rs.AddText("ITEM", item_pt, text_height, justification=131076)
+    rs.AddText("ITEM",item_pt,text_height,justification=131076)
 
-    # PART NO
-    title_block_pts = pt - (vector_y / 2)
+
+    #PART NO
+    title_block_pts=pt-(vector_y/2)
     rs.AddPoint(title_block_pts)
 
-    item_name = rs.AddText("PART NO", title_block_pts, text_height, justification=131073)
+    item_name=rs.AddText("PART NO",title_block_pts,text_height,justification=131073)
 
-    # PART DESCR
-    part_desc_pt = x_dir_desc - (vector_y / 2)
+    #PART DESCR
+    part_desc_pt=x_dir_desc-(vector_y/2)
     rs.AddPoint(part_desc_pt)
 
-    part_descr_name = rs.AddText("PART DESCR", part_desc_pt, text_height, justification=131076)
+    part_descr_name=rs.AddText("PART DESCR",part_desc_pt,text_height,justification=131076)
 
-    # QTY
-    quantity_pt = blk_amt - (vector_y / 2)
+    #QTY
+    quantity_pt=blk_amt-(vector_y/2)
     rs.AddPoint(quantity_pt)
 
-    quantity_name = rs.AddText("QTY", quantity_pt, text_height, justification=131076)
+    quantity_name=rs.AddText("QTY",quantity_pt,text_height,justification=131076)
 
-    # Lines for title blocks
-    # Top lines
-    pt_1 = pt - vector_y
+
+    #Lines for title blocks
+    #Top lines
+    pt_1=pt-vector_y
     rs.AddPoint(pt_1)
-    pt_2 = blk_amt - vector_y
+    pt_2=blk_amt-vector_y
     rs.AddPoint(pt_2)
 
-    rs.AddPoint(pt_1 + Rhino.Geometry.Vector3d(-0.5, 0, 0))
-    rs.AddLine(pt_1 + Rhino.Geometry.Vector3d(-0.5, 0, 0), pt_2)
+    rs.AddPoint(pt_1+Rhino.Geometry.Vector3d(-0.5,0,0))
+    rs.AddLine(pt_1+Rhino.Geometry.Vector3d(-0.5,0,0),pt_2)
 
-    # Vertical lines
-    rs.AddLine(pt_1, pt + (vector_y / 2))
-    rs.AddLine(x_dir_desc + (vector_y / 2), x_dir_desc - (vector_y))
-    rs.AddLine(blk_amt + (vector_y / 2), blk_amt - vector_y)
+    #vertial lines
+    
+    rs.AddLine(pt_1,pt+(vector_y/2))
 
-    # Add missing vertical lines:
-    # Leftmost line for the "ITEM" column
-    leftmost_line_start = pt + Rhino.Geometry.Vector3d(-0.5, text_height / 2, 0)
-    leftmost_line_end = pt_1 + Rhino.Geometry.Vector3d(-0.5, -len(key_list) * spacingy, 0)
-    rs.AddLine(leftmost_line_start, leftmost_line_end)
+    rs.AddLine(x_dir_desc+(vector_y/2),x_dir_desc-(vector_y))
 
-    # Line between "PART NO" and "PART DESCR"
-    vertical_line_part_no_descr_start = x_dir + Rhino.Geometry.Vector3d(0, text_height / 2, 0)
-    vertical_line_part_no_descr_end = x_dir - Rhino.Geometry.Vector3d(0, (len(key_list) + 1) * spacingy, 0)
-    rs.AddLine(vertical_line_part_no_descr_start, vertical_line_part_no_descr_end)
+    rs.AddLine(blk_amt+(vector_y/2),blk_amt-vector_y)
+    
+    #rs.AddLine()
 
-    # Items number list
-    items_number = []
+    
+    
 
+    items_number=[]
     # Add text for block names
     for items in key_list:
         pt += vector_y
         rs.AddPoint(pt)
         items_number.append(pt)
 
-        # Horizontal Line Top
+        
+
+        # Horizontial Line Top
         offset_y = Rhino.Geometry.Vector3d(0, (spacingy / 2), 0)
         rs.AddLine(pt + offset_y, (pt + vector_x_amt + offset_y))
 
-        # Horizontal Line Bottom
+        # Horizontial Line Bottom 
         rs.AddLine(pt - offset_y, (pt + vector_x_amt - offset_y))
 
         # Left Line
@@ -163,22 +163,29 @@ def block_list_count():
 
         # Add text
         rs.AddText(items.upper(), pt, text_height, justification=131073)
+    
 
-    total = len(items_number)
-    total_numbers = []
-    total_pts = []
+    total=len(items_number)
+    total_numbers=[]
+    total_pts=[]
 
-    for i in range(1, total + 1):
+    for i in range(1,total+1):
         total_numbers.append(i)
 
+    
+    print(total_numbers)
+    
     for item in items_number:
-        offset_x = Rhino.Geometry.Vector3d(item_offset, 0, 0)
-        pt = item + offset_x
+        offset_x=Rhino.Geometry.Vector3d(item_offset,0,0)
+        
+        pt=item+offset_x
         rs.AddPoint(pt)
         total_pts.append(pt)
+    
+    for point,num in zip(total_pts,total_numbers):
+        rs.AddText(num,point,text_height,justification=131076)
 
-    for point, num in zip(total_pts, total_numbers):
-        rs.AddText(num, point, text_height, justification=131076)
+     
 
     # Add text for block descriptions
     for i in uniq_desc:
