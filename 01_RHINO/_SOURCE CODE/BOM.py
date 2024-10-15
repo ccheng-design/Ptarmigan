@@ -59,7 +59,7 @@ def block_list_count():
         return
 
     # Restored your original spacing
-    spacingy = text_height + 0.15
+    spacingy = text_height *2
     spacingx_name = max_length_names * text_height * 1.15
     spacingx_desc = (max_length_names * text_height) + (max_length_desc * text_height * 0.7)
     spacingx_amt = (max_length_names * text_height) + (max_length_desc * text_height) + 0.2
