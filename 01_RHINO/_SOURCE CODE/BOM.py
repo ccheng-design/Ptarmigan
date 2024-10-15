@@ -88,7 +88,7 @@ def block_list_count():
     
 
     #ITEM
-    item_pt=pt+Rhino.Geometry.Vector3d(-0.2,0,0)-(vector_y/2)
+    item_pt=pt+Rhino.Geometry.Vector3d(-0.05,0,0)-(vector_y/2)
     rs.AddPoint(item_pt)
 
     rs.AddText("ITEM",item_pt,text_height,justification=131076)
@@ -120,7 +120,8 @@ def block_list_count():
     pt_2=blk_amt-vector_y
     rs.AddPoint(pt_2)
 
-    rs.AddLine(pt_1,pt_2)
+    rs.AddPoint(pt_1+Rhino.Geometry.Vector3d(-0.5,0,0))
+    rs.AddLine(pt_1+Rhino.Geometry.Vector3d(-0.5,0,0),pt_2)
 
     #vertial lines
     
@@ -130,7 +131,8 @@ def block_list_count():
 
     rs.AddLine(blk_amt+(vector_y/2),blk_amt-vector_y)
 
-
+    
+    
 
     items_number=[]
     # Add text for block names
@@ -171,7 +173,7 @@ def block_list_count():
     print(total_numbers)
     
     for item in items_number:
-        offset_x=Rhino.Geometry.Vector3d(-0.2,0,0)
+        offset_x=Rhino.Geometry.Vector3d(-0.05,0,0)
         
         pt=item+offset_x
         rs.AddPoint(pt)
