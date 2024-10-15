@@ -11,6 +11,7 @@ using Grasshopper;
 using Grasshopper.Kernel.Types;
 using System.Threading.Tasks;
 using System.Linq;
+using System.IO;
 
 namespace _Ptarmigan
 {
@@ -190,7 +191,15 @@ namespace _Ptarmigan
         /// <summary>
         /// Provides an Icon for the component.
         /// </summary>
-        protected override System.Drawing.Bitmap Icon => null;
+        protected override System.Drawing.Bitmap Icon
+        {
+            get
+            {
+                var assembly = System.Reflection.Assembly.GetExecutingAssembly();
+                var stream=assembly.GetManifestResourceStream("_Ptarmigan.Resources.MT_BooleanDifference-24px.png");
+                return new System.Drawing.Bitmap(stream);
+            }
+        }
         
 
         /// <summary>
