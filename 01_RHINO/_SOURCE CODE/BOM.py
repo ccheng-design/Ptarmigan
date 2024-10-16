@@ -8,7 +8,10 @@ import sys
 
 items = ("Use_BOM_Layer", "No", "Yes")
 results = rs.GetBoolean("Use BOM Layer", items, (True))
-    
+
+if results is None:
+    print("None Selected")
+    sys.exit()
 
 # Definition on block list counting
 def block_list_count():
