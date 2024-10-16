@@ -1,5 +1,6 @@
 import rhinoscriptsyntax as rs
 import Rhino
+import scriptcontext as sc
 
 # BOM
 # Creates bill of materials based on the blocks being in the BOM layer (user defined)
@@ -159,13 +160,16 @@ def block_list_count():
 
         # Horizontial Line Top
         offset_y = Rhino.Geometry.Vector3d(0, (spacingy / 2), 0)
-        #rs.AddLine(pt + offset_y, (pt + vector_x_amt + offset_y))
-        rs.AddLine(new_pt,pt+vector_x_amt-offset_y)
+        
+        bottom_crv=rs.AddLine(new_pt,pt+vector_x_amt-offset_y)
 
         # Horizontial Line Bottom 
-        transform=Rhino.Geometry.Transform.Translation(-offset_y)
+        transform=Rhino.Geometry.Transform.Translation(offset_y*2)
         
+        top_crv=rs.coercecurve(bottom_crv)
+        top_crv.Transform(transform)
 
+        sc.doc.Objects.AddCurve(top_crv)
         # Left Line
         l = rs.AddLine((pt + offset_y), (pt - offset_y))
         left.append(l)
