@@ -122,6 +122,8 @@ def block_list_count():
     rs.AddPoint(pt_2)
 
     rs.AddPoint(pt_1+Rhino.Geometry.Vector3d(-0.5,0,0))
+    
+    #top horizontial line
     rs.AddLine(pt_1+Rhino.Geometry.Vector3d(-0.5,0,0),pt_2)
 
     #vertial lines
@@ -138,20 +140,31 @@ def block_list_count():
     
 
     items_number=[]
+    Left_horiz_ln=[]
     # Add text for block names
     for items in key_list:
         pt += vector_y
-        rs.AddPoint(pt)
+        
+        new_pt=pt+Rhino.Geometry.Vector3d(-0.5,0,0)+(vector_y/2)
+        Left_horiz_ln.append((pt+Rhino.Geometry.Vector3d(-0.5,0,0)+(vector_y/2)))
+
+        
+
         items_number.append(pt)
+
+        
+
 
         
 
         # Horizontial Line Top
         offset_y = Rhino.Geometry.Vector3d(0, (spacingy / 2), 0)
-        rs.AddLine(pt + offset_y, (pt + vector_x_amt + offset_y))
+        #rs.AddLine(pt + offset_y, (pt + vector_x_amt + offset_y))
+        rs.AddLine(new_pt,pt+vector_x_amt-offset_y)
 
         # Horizontial Line Bottom 
-        rs.AddLine(pt - offset_y, (pt + vector_x_amt - offset_y))
+        transform=Rhino.Geometry.Transform.Translation(-offset_y)
+        
 
         # Left Line
         l = rs.AddLine((pt + offset_y), (pt - offset_y))
@@ -163,7 +176,8 @@ def block_list_count():
 
         # Add text
         rs.AddText(items.upper(), pt, text_height, justification=131073)
-    
+    rs.AddPolyline(Left_horiz_ln)
+    rs.AddLine(pt_1+Rhino.Geometry.Vector3d(-0.5,0,0),Left_horiz_ln[0])
 
     total=len(items_number)
     total_numbers=[]
@@ -191,6 +205,7 @@ def block_list_count():
     for i in uniq_desc:
         x_dir_desc += vector_y
         rs.AddPoint(x_dir_desc)
+        
 
         # Right Middle Line
         rm = rs.AddLine((x_dir_desc + offset_y), (x_dir_desc - offset_y))
