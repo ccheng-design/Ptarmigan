@@ -1,12 +1,20 @@
 import rhinoscriptsyntax as rs
 import Rhino
 import scriptcontext as sc
+import sys
 
 # BOM
 # Creates bill of materials based on the blocks being in the BOM layer (user defined)
 
 items = ("Use_BOM_Layer", "No", "Yes")
 results = rs.GetBoolean("Use BOM Layer", items, (True))
+
+
+    
+        
+
+     
+    
 
 # Definition on block list counting
 def block_list_count():
@@ -15,7 +23,7 @@ def block_list_count():
     block_desc = []
     counts = {}
     font="Roboto Light"
-    font_header="Roboto Black"
+    font_header="Roboto Light"
 
     # for each object in the layer, check if it is a block
     for obj in layer:
@@ -64,8 +72,8 @@ def block_list_count():
     # Spacings
     spacingy = text_height *2
     spacingx_name = max_length_names * text_height * 1.7
-    spacingx_desc = (max_length_names * text_height) + (max_length_desc * text_height * 1.05)
-    spacingx_amt = spacingx_desc *1.1
+    spacingx_desc = (max_length_names * text_height) + (max_length_desc * text_height * 1.4)
+    spacingx_amt = spacingx_desc *1.2
 
     vector_y = Rhino.Geometry.Vector3d(0, -spacingy, 0)
     vector_x_names = Rhino.Geometry.Vector3d(spacingx_name, 0, 0)
@@ -283,14 +291,22 @@ if results == [True]:
     if not rs.IsLayer("BOM"):
         print("Make BOM Layer")
     else:
-        # Read from the Layer BOM
-        layername = rs.LayerName("BOM")
+    
+        if rs.IsLayerEmpty("BOM")==True:
+            print("Layer is empty")
+            sys.exit()
+        else:
+            # Read from the Layer BOM
+            layername = rs.LayerName("BOM")
 
-        # Get objects by layer name
-        layer = rs.ObjectsByLayer(layername, True)
+            # Get objects by layer name
+            layer = rs.ObjectsByLayer(layername, True)
 
-        # Run the function
-        block_list_count()
+            # Run the function
+            block_list_count()
+    
+
+
 else:
     # Get all blocks from Rhino Environment
     layer = rs.ObjectsByType(4096)
