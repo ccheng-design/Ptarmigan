@@ -8,12 +8,6 @@ import sys
 
 items = ("Use_BOM_Layer", "No", "Yes")
 results = rs.GetBoolean("Use BOM Layer", items, (True))
-
-
-    
-        
-
-     
     
 
 # Definition on block list counting
