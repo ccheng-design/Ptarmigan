@@ -14,6 +14,8 @@ def block_list_count():
     block_list = []
     block_desc = []
     counts = {}
+    font="Roboto Light"
+    font_header="Roboto Black"
 
     # for each object in the layer, check if it is a block
     for obj in layer:
@@ -59,10 +61,10 @@ def block_list_count():
     if text_height is None:
         return
 
-    # Restored your original spacing
+    # Spacings
     spacingy = text_height *2
     spacingx_name = max_length_names * text_height * 1.7
-    spacingx_desc = (max_length_names * text_height) + (max_length_desc * text_height * 1.3)
+    spacingx_desc = (max_length_names * text_height) + (max_length_desc * text_height * 1.05)
     spacingx_amt = spacingx_desc *1.1
 
     vector_y = Rhino.Geometry.Vector3d(0, -spacingy, 0)
@@ -87,45 +89,51 @@ def block_list_count():
 
     #Title block
     
+    global_text_offset=Rhino.Geometry.Vector3d(text_height*1.02,0,0)
+
+
 
     #ITEM
     item_offset=-0.05
     item_pt=pt+Rhino.Geometry.Vector3d(item_offset,0,0)-(vector_y/2)
-    rs.AddPoint(item_pt)
+    #rs.AddPoint(item_pt)
 
-    rs.AddText("ITEM",item_pt,text_height,justification=131076)
+    rs.AddText("ITEM",item_pt,text_height,font_header,justification=131076)
 
 
     #PART NO
-    title_block_pts=pt-(vector_y/2)
-    rs.AddPoint(title_block_pts)
+    
+    title_block_pts=(pt-(vector_y/2))+Rhino.Geometry.Vector3d(text_height*1.02,0,0)
+    #rs.AddPoint(title_block_pts)
 
-    item_name=rs.AddText("PART NO",title_block_pts,text_height,justification=131073)
+    item_name=rs.AddText("PART NO",title_block_pts,text_height,font_header,justification=131073)
 
     #PART DESCR
-    part_desc_pt=x_dir_desc-(vector_y/2)
-    rs.AddPoint(part_desc_pt)
+    part_desc_pt=(x_dir_desc-(vector_y/2))-global_text_offset
+    #rs.AddPoint(part_desc_pt)
 
-    part_descr_name=rs.AddText("PART DESCR",part_desc_pt,text_height,justification=131076)
+    part_descr_name=rs.AddText("PART DESCR",part_desc_pt,text_height,font_header,justification=131076)
 
     #QTY
-    quantity_pt=blk_amt-(vector_y/2)
-    rs.AddPoint(quantity_pt)
+    quantity_pt=blk_amt-(vector_y/2)-global_text_offset
+    #rs.AddPoint(quantity_pt)
 
-    quantity_name=rs.AddText("QTY",quantity_pt,text_height,justification=131076)
+    quantity_name=rs.AddText("QTY",quantity_pt,text_height,font_header,justification=131076)
 
 
     #Lines for title blocks
     #Top lines
-    pt_1=pt-vector_y
-    rs.AddPoint(pt_1)
-    pt_2=blk_amt-vector_y
-    rs.AddPoint(pt_2)
+    item_ln_offset=(-4*text_height)*((item_offset*-1)+1)
 
-    rs.AddPoint(pt_1+Rhino.Geometry.Vector3d(-0.5,0,0))
+    pt_1=pt-vector_y
+    #rs.AddPoint(pt_1)
+    pt_2=blk_amt-vector_y
+    #rs.AddPoint(pt_2)
+
+    #rs.AddPoint(pt_1+Rhino.Geometry.Vector3d(item_ln_offset,0,0))
     
     #top horizontial line
-    rs.AddLine(pt_1+Rhino.Geometry.Vector3d(-0.5,0,0),pt_2)
+    rs.AddLine(pt_1+Rhino.Geometry.Vector3d(item_ln_offset,0,0),pt_2)
 
     #vertial lines
     
@@ -146,8 +154,8 @@ def block_list_count():
     for items in key_list:
         pt += vector_y
         
-        new_pt=pt+Rhino.Geometry.Vector3d(-0.5,0,0)+(vector_y/2)
-        Left_horiz_ln.append((pt+Rhino.Geometry.Vector3d(-0.5,0,0)+(vector_y/2)))
+        new_pt=pt+Rhino.Geometry.Vector3d(item_ln_offset,0,0)+(vector_y/2)
+        Left_horiz_ln.append((pt+Rhino.Geometry.Vector3d(item_ln_offset,0,0)+(vector_y/2)))
 
         
 
@@ -158,12 +166,12 @@ def block_list_count():
 
         
 
-        # Horizontial Line Top
+        # Horizontial Line Bottom
         offset_y = Rhino.Geometry.Vector3d(0, (spacingy / 2), 0)
         
         bottom_crv=rs.AddLine(new_pt,pt+vector_x_amt-offset_y)
 
-        # Horizontial Line Bottom 
+        # Horizontial Line Top
         transform=Rhino.Geometry.Transform.Translation(offset_y*2)
         
         top_crv=rs.coercecurve(bottom_crv)
@@ -175,13 +183,16 @@ def block_list_count():
         left.append(l)
 
         # Left Middle Line
+        
         lm = rs.AddLine((pt + scaled_vector + offset_y), (pt + scaled_vector - offset_y))
+        
         left_middle.append(lm)
 
         # Add text
-        rs.AddText(items.upper(), pt, text_height, justification=131073)
+        offset_pt=pt+Rhino.Geometry.Vector3d(text_height*1.02,0,0)
+        rs.AddText(items.upper(), offset_pt, text_height,font, justification=131073)
     rs.AddPolyline(Left_horiz_ln)
-    rs.AddLine(pt_1+Rhino.Geometry.Vector3d(-0.5,0,0),Left_horiz_ln[0])
+    rs.AddLine(pt_1+Rhino.Geometry.Vector3d(item_ln_offset,0,0),Left_horiz_ln[0])
 
     total=len(items_number)
     total_numbers=[]
@@ -197,25 +208,26 @@ def block_list_count():
         offset_x=Rhino.Geometry.Vector3d(item_offset,0,0)
         
         pt=item+offset_x
-        rs.AddPoint(pt)
+        #rs.AddPoint(pt)
         total_pts.append(pt)
     
     for point,num in zip(total_pts,total_numbers):
-        rs.AddText(num,point,text_height,justification=131076)
+        rs.AddText(num,point,text_height,font,justification=131076)
 
      
 
     # Add text for block descriptions
     for i in uniq_desc:
         x_dir_desc += vector_y
-        rs.AddPoint(x_dir_desc)
+        #rs.AddPoint(x_dir_desc)
         
 
         # Right Middle Line
         rm = rs.AddLine((x_dir_desc + offset_y), (x_dir_desc - offset_y))
         right_middle.append(rm)
 
-        rs.AddText(i.upper(), x_dir_desc, text_height, justification=131076)
+        offset_desc=x_dir_desc-global_text_offset
+        rs.AddText(i.upper(), offset_desc, text_height,font, justification=131076)
 
     # Add text for block counts
     for items in values_list:
@@ -225,28 +237,45 @@ def block_list_count():
         r = rs.AddLine((blk_amt - (vector_y / 2)), (blk_amt + (vector_y / 2)))
         right.append(r)
 
-        rs.AddPoint(blk_amt)
-        rs.AddText(items, blk_amt, text_height, justification=131076)
+        #rs.AddPoint(blk_amt)
+
+        offset_count=blk_amt-global_text_offset
+        rs.AddText(items, offset_count, text_height, font, justification=131076)
 
     # Join left middle side of curves and simplify
     if len(left_middle) != 1:
         a = rs.JoinCurves(left_middle, True)
         rs.SimplifyCurve(a)
+        c=rs.coercecurve(a)
+        start_pt=c.PointAtStart
+        x=Rhino.Geometry.Line(start_pt,vector_y,spacingy*-1.5)
+        
+
+        sc.doc.Objects.AddCurve(Rhino.Geometry.LineCurve(x))
+        
 
     # Join left side of curves and simplify
     if len(left) != 1:
         a = rs.JoinCurves(left, True)
         rs.SimplifyCurve(a)
+        
 
     # Join right middle side of curves and simplify
     if len(right_middle) != 1:
         a = rs.JoinCurves(right_middle, True)
         rs.SimplifyCurve(a)
+        
+
+    
 
     # Join right side of curves and simplify
     if len(right) != 1:
         a = rs.JoinCurves(right, True)
         rs.SimplifyCurve(a)
+        
+        
+        
+    
 
 
 if results == [True]:
