@@ -8,7 +8,7 @@
 > "C:\Program Files\Rhino 8\System\Yak.exe" login
 
 //Move the .yak file into the C:\Users\%UserName%
-"C:\Program Files\Rhino 8\System\Yak.exe" push uap-0.3.10.9049-rh8-any.yak
+"C:\Program Files\Rhino 8\System\Yak.exe" push uap-0.3.12.9056-rh8-any.yak
 
 //Should look like this:
 Successfully published UAP (0.3.8.9033) to https://yak.rhino3d.com/
