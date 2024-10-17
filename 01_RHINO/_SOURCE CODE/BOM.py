@@ -312,7 +312,11 @@ def block_list_count():
 
         #for each string in export, add a comma and convert to string
         for string in export:
+            
+                
+                
             row=",".join(map(str,string))
+            
 
             #add to empty string
             csv_data+=row+"\n"
