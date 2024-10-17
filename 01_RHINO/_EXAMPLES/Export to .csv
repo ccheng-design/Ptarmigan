@@ -1,0 +1,29 @@
+# Sample data
+data = [
+    ["Name", "Age", "City"],
+    ["Alice", 30, "New York"],
+    ["Bob", 25, "Los Angeles"],
+    ["Charlie", 35, "Chicago"]
+]
+
+# Prepare an empty string to store CSV content
+csv_data = ""
+
+# Loop through each row in the data
+for row in data:
+    # Convert each item in the row to a string and join them with commas
+    line = ",".join(map(str, row))
+    # Add the line to the csv_data string with a newline
+    csv_data += line + "\n"
+
+print(csv_data)
+
+# Specify the file path
+file_path = 'C:/Users/Clark Cheng/Desktop/output.csv'
+
+
+# Write to a file
+with open(file_path, 'w') as file:
+    file.write(csv_data)
+
+print(f"Data exported to {file_path}")

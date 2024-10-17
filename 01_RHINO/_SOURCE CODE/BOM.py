@@ -19,14 +19,14 @@ def block_list_count():
     block_list = []
     block_desc = []
     counts = {}
-    font="Roboto Light"
-    font_header="Roboto Light"
+    font="Arial"
+    font_header="Arial"
 
     # for each object in the layer, check if it is a block
     for obj in layer:
         if rs.IsBlockInstance(obj):
             block_name = rs.BlockInstanceName(obj)
-            block_description = rs.BlockDescription(block_name) or "გამა"
+            block_description = rs.BlockDescription(block_name) or "XXXX"
             block_list.append(block_name)
             block_desc.append(block_description)
 
@@ -69,7 +69,7 @@ def block_list_count():
     # Spacings
     spacingy = text_height *2
     spacingx_name = max_length_names * text_height * 1.7
-    spacingx_desc = (max_length_names * text_height) + (max_length_desc * text_height * 1.4)
+    spacingx_desc = (max_length_names * text_height) + (max_length_desc * text_height * 1.4)+0.8
     spacingx_amt = spacingx_desc *1.2
 
     vector_y = Rhino.Geometry.Vector3d(0, -spacingy, 0)
@@ -96,7 +96,8 @@ def block_list_count():
     
     global_text_offset=Rhino.Geometry.Vector3d(text_height*1.02,0,0)
 
-
+    #store headers in a list
+    headers=["ITEMS","PART NO","PART_DESC","QTY"]
 
     #ITEM
     item_offset=-0.05
@@ -155,6 +156,12 @@ def block_list_count():
 
     items_number=[]
     Left_horiz_ln=[]
+
+    item_num_csv=[]
+    block_names=[]
+    block_description=[]
+    block_amounts=[]
+
     # Add text for block names
     for items in key_list:
         pt += vector_y
@@ -196,6 +203,9 @@ def block_list_count():
         # Add text
         offset_pt=pt+Rhino.Geometry.Vector3d(text_height*1.02,0,0)
         rs.AddText(items.upper(), offset_pt, text_height,font, justification=131073)
+        block_names.append(items.upper())
+
+
     rs.AddPolyline(Left_horiz_ln)
     rs.AddLine(pt_1+Rhino.Geometry.Vector3d(item_ln_offset,0,0),Left_horiz_ln[0])
 
@@ -203,12 +213,14 @@ def block_list_count():
     total_numbers=[]
     total_pts=[]
 
+    #Numbers for items numbers
     for i in range(1,total+1):
         total_numbers.append(i)
 
     
-    print(total_numbers)
+    #print(total_numbers)
     
+    #Item numbers
     for item in items_number:
         offset_x=Rhino.Geometry.Vector3d(item_offset,0,0)
         
@@ -218,6 +230,7 @@ def block_list_count():
     
     for point,num in zip(total_pts,total_numbers):
         rs.AddText(num,point,text_height,font,justification=131076)
+        item_num_csv.append(num)
 
      
 
@@ -233,6 +246,7 @@ def block_list_count():
 
         offset_desc=x_dir_desc-global_text_offset
         rs.AddText(i.upper(), offset_desc, text_height,font, justification=131076)
+        block_description.append(i.upper())
 
     # Add text for block counts
     for items in values_list:
@@ -246,6 +260,7 @@ def block_list_count():
 
         offset_count=blk_amt-global_text_offset
         rs.AddText(items, offset_count, text_height, font, justification=131076)
+        block_amounts.append(items)
 
     # Join left middle side of curves and simplify
     if len(left_middle) != 1:
@@ -278,7 +293,42 @@ def block_list_count():
         a = rs.JoinCurves(right, True)
         rs.SimplifyCurve(a)
         
+    #print(item_num_csv, block_names,block_description,block_amounts)
+
+    export_options = ("Export_as_CSV","No","Yes")
+    export_csv = rs.GetBoolean("Export as CSV?", export_options, False)
+
+    if export_csv == [True]:
+
+
+        #Excel exporting
+        combined_lists=[item_num_csv, block_names,block_description,block_amounts]
+
+        export = [list(row) for row in zip(*combined_lists)]
+        #print(export)
+
+        #Empty string
+        csv_data=""
+
+        #for each string in export, add a comma and convert to string
+        for string in export:
+            row=",".join(map(str,string))
+
+            #add to empty string
+            csv_data+=row+"\n"
         
+        #print(csv_data)
+
+        filepath=rs.SaveFileName("Save CSV","CSV Files (*.csv)|*.csv||")
+        
+        if filepath is None:
+            return
+        else:
+            with open(filepath,'w') as file:
+                file.write(csv_data)
+            print("File has been saved to",filepath)
+    else:
+        return
         
     
 
