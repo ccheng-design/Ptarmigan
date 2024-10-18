@@ -14,15 +14,15 @@ using Grasshopper.Kernel.Types;
 
 namespace _Ptarmigan
 {
-    public class MyComponent1 : GH_Component
+    public class IsTriangle : GH_Component
     {
         /// <summary>
         /// Initializes a new instance of the MyComponent1 class.
         /// </summary>
-        public MyComponent1()
-          : base("MyComponent1", "Nickname",
-              "Description",
-              "Category", "Subcategory")
+        public IsTriangle()
+          : base("IsTriangle", "IsTri",
+              "Gives pattern if polyline shape is a triangle",
+              "Ptarmigan", "Curves")
         {
         }
 
@@ -31,8 +31,8 @@ namespace _Ptarmigan
         /// </summary>
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {
-            pManager.AddCurveParameter("Polygon", "P", "Curves to test.", GH_ParamAccess.item);
-            
+            pManager.AddCurveParameter("crv", "P", "Curves to test", GH_ParamAccess.item);
+
         }
 
         /// <summary>
@@ -40,7 +40,7 @@ namespace _Ptarmigan
         /// </summary>
         protected override void RegisterOutputParams(GH_Component.GH_OutputParamManager pManager)
         {
-            pManager.AddBooleanParameter("Pattern", "Pat", "Pattern determining if curve is quadrilateral", GH_ParamAccess.item);
+            pManager.AddBooleanParameter("Pattern", "Pat", "Pattern determining if curve is triangular", GH_ParamAccess.item);
         }
 
         /// <summary>
@@ -49,39 +49,54 @@ namespace _Ptarmigan
         /// <param name="DA">The DA object is used to retrieve from inputs and store in outputs.</param>
         protected override void SolveInstance(IGH_DataAccess DA)
         {
-            Polyline Polygon = null;
-
-            DA.GetData(0, ref Polygon);
-
             //Sanity checks
-            if (Polygon == null)
+            Curve crv = null;
+            DA.GetData(0, ref crv);
+
+            if (crv == null)
             {
-                this.AddRuntimeMessage(GH_RuntimeMessageLevel.Warning, "Input parameter Polygon failed to collect data");
+                this.AddRuntimeMessage(GH_RuntimeMessageLevel.Warning, "Input parameter crv failed to collect data");
+                return;
+            }
+
+            Polyline polyline;
+            if (!crv.TryGetPolyline(out polyline))
+            {
+                this.AddRuntimeMessage(GH_RuntimeMessageLevel.Warning, "Input Curve could not be converted to Polyline");
                 return;
             }
 
 
-            int segcount = Polygon.SegmentCount;
+            int segcount = polyline.SegmentCount;
 
 
-            List<bool> IsQuad = new List<bool> { };
+            List<bool> IsTri = new List<bool> { };
 
-            if (segcount == 4)
+            if (segcount == 3)
             {
 
-                IsQuad.Add(true);
+                IsTri.Add(true);
 
             }
             else
             {
 
-                IsQuad.Add(false);
+                IsTri.Add(false);
             }
 
-            DataTree<bool> IsQuad_tree = new DataTree<bool>(IsQuad);
-            IsQuad_tree.Flatten();
-            bool a = IsQuad_tree.Branch(0)[0];
-            DA.SetData(0, a);
+            DataTree<bool> IsTri_tree = new DataTree<bool>();
+
+
+
+
+            IsTri_tree.Flatten();
+
+
+            IsTri_tree.AddRange(IsTri, new GH_Path(0)); // Adding data to the tree at path {0}
+
+            // Output the DataTree
+            DA.SetDataTree(0, IsTri_tree);
+
         }
 
         /// <summary>
@@ -102,7 +117,7 @@ namespace _Ptarmigan
         /// </summary>
         public override Guid ComponentGuid
         {
-            get { return new Guid("794BEC0A-409F-4972-B593-B850F89FEB09"); }
+            get { return new Guid("8D441F14-B214-4881-B24A-E672814E555C"); }
         }
     }
 }
