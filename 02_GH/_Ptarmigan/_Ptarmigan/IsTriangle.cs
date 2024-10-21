@@ -11,6 +11,7 @@ using Grasshopper;
 using Grasshopper.Kernel;
 using Grasshopper.Kernel.Data;
 using Grasshopper.Kernel.Types;
+using System.IO;
 
 namespace _Ptarmigan
 {
@@ -108,7 +109,9 @@ namespace _Ptarmigan
             {
                 //You can add image files to your project resources and access them like this:
                 // return Resources.IconForThisComponent;
-                return null;
+                var assembly = System.Reflection.Assembly.GetExecutingAssembly();
+                var stream = assembly.GetManifestResourceStream("_Ptarmigan.Resources.IsTriangle.png");
+                return new System.Drawing.Bitmap(stream);
             }
         }
 

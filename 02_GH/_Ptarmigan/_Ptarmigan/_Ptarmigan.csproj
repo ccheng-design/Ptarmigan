@@ -36,6 +36,7 @@
     <None Remove="Resources\Convex Hull.png" />
     <None Remove="Resources\convex_hull-24px.png" />
     <None Remove="Resources\IsQuad-24px.png" />
+    <None Remove="Resources\IsTriangle.png" />
     <None Remove="Resources\MT_BooleanDifference-24px.png" />
   </ItemGroup>
   
@@ -43,6 +44,7 @@
     <EmbeddedResource Include="Resources\Convex Hull.png" />
     <EmbeddedResource Include="Resources\convex_hull-24px.png" />
     <EmbeddedResource Include="Resources\IsQuad-24px.png" />
+    <EmbeddedResource Include="Resources\IsTriangle.png" />
     <EmbeddedResource Include="Resources\MT_BooleanDifference-24px.png" />
   </ItemGroup>
   
