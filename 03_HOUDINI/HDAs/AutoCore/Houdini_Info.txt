@@ -1,0 +1,573 @@
+Houdini FX Version 20.5.332
+
+Open Source Information:  https://www.sidefx.com/docs/houdini/licenses/index.html
+
+Operating System:         Microsoft Windows 10 Pro x64
+Processor:                13th Gen Intel(R) Core(TM) i9-13900K
+Number of Cores:          32
+Physical Memory:          95.76 GB
+Number of Screens:        4
+    Screen 0:             2560 x 1080 at 0,0
+    Work Area 0:          2560 x 1040 at 0,0
+    Screen 0 DPI:         81.8
+    Screen 1:             1920 x 1080 at -1920,-698
+    Work Area 1:          1920 x 1040 at -1920,-698
+    Screen 1 DPI:         91.8
+    Screen 2:             1920 x 1080 at 2560,-272
+    Work Area 2:          1920 x 1040 at 2560,-272
+    Screen 2 DPI:         92.7
+    Screen 3:             1920 x 1080 at 633,1080
+    Work Area 3:          1920 x 1020 at 633,1080
+    Screen 3 DPI:         165.6
+
+Platform Build:           windows-x86_64-cl19.35
+Python Version:           3.11
+Qt Version:               5.15.2
+USD Version:              24.03
+USD git URL:              https://github.com/sideeffects/USD.git
+USD git Revision:         94b251716d8fef2013239fb31a51c4ea11c92568
+UI Scale:                 1.000
+
+OpenGL Vendor:            NVIDIA Corporation
+OpenGL Renderer:          NVIDIA RTX 4000 Ada Generation/PCIe/SSE2
+OpenGL Version:           4.6.0 NVIDIA 553.24
+OpenGL Shading Language:  4.60 NVIDIA
+Detected:                 NVidia Consumer
+                          20475 MB
+                          553.24.0.0
+
+Supported Extensions not in OpenGL 3.3 (Version):
+    EXT_extensions_string                  
+    GL_ARB_base_instance                    (4.2)
+    GL_ARB_bindless_texture                
+    GL_ARB_bindless_texture                
+    GL_ARB_buffer_storage                   (4.4)
+    GL_ARB_clear_buffer                     (4.3)
+    GL_ARB_compatibility                   
+    GL_ARB_compute_shader                   (4.3)
+    GL_ARB_copy_texture                     (4.3)
+    GL_ARB_debug_output                    
+    GL_ARB_draw_indirect                    (4.0)
+    GL_ARB_gpu_shader5                      (4.0)
+    GL_ARB_gpu_shader_fp64                  (4.0)
+    GL_ARB_internalformat_query2            (4.3)
+    GL_ARB_multi_bind                       (4.4)
+    GL_ARB_program_interface_query          (4.3)
+    GL_ARB_robustness                      
+    GL_ARB_sample_shading                   (4.0)
+    GL_ARB_separate_shader_objects          (4.1)
+    GL_ARB_shader_atomic_counters           (4.2)
+    GL_ARB_shader_image_load_store          (4.2)
+    GL_ARB_shader_storage_buffer_object     (4.3)
+    GL_ARB_shading_language_packing         (4.2)
+    GL_ARB_tessellation_shader              (4.0)
+    GL_ARB_texture_barrier                  (4.5)
+    GL_ARB_texture_buffer_object_rgb32      (4.0)
+    GL_ARB_texture_buffer_range             (4.3)
+    GL_ARB_texture_cube_map_array           (4.0)
+    GL_ARB_texture_filter_anisotropic       (4.6)
+    GL_ARB_transform_feedback3              (4.0)
+    GL_ARB_vertex_attrib_64bit              (4.1)
+    GL_EXT_abgr                            
+    GL_EXT_blend_minmax                    
+    GL_EXT_direct_state_access             
+    GL_EXT_memory_object                   
+    GL_EXT_memory_object_win32             
+    GL_EXT_semaphore                       
+    GL_EXT_semaphore_win32                 
+    GL_KHR_debug                            (4.3)
+    GL_NVX_gpu_memory_info                 
+    GL_NV_depth_buffer_float               
+    GL_NV_gpu_shader5                      
+    WGL_EXT_swap_control                   
+
+Unsupported OpenGL Extensions used by Houdini:
+    GL_ATI_meminfo                         
+ 
+OpenGL Limits:
+   ELEMENTS_VERTICES                        1048576
+   ELEMENTS_INDICES                         1048576
+   VERTEX_UNITS                             32
+   TESS_CONTROL_TEXTURE_IMAGE_UNITS         32
+   TESS_EVALUATION_TEXTURE_IMAGE_UNITS      32
+   GEOMETRY_UNITS                           32
+   FRAGMENT_IMAGE_UNITS                     32
+   COMBINED_UNITS                           192
+   TEXTURE_SIZE                             32768
+   3D_TEXTURE_SIZE                          16384
+   CUBE_MAP_TEXTURE_SIZE                    32768
+   RECTANGLE_TEXTURE_SIZE                   32768
+   TEXTURE_ARRAY_LAYERS                     2048
+   MAX_COLOR_TEXTURE_SAMPLES                64
+   MAX_DEPTH_TEXTURE_SAMPLES                64
+   FBO_ATTACHMENTS                          8
+   DRAW_BUFFERS                             8
+   VIEWPORT_DIMS                            32768x32768
+   VERTEX_UNIFORMS                          4096
+   FRAGMENT_UNIFORMS                        4096
+   VERTEX_ATTRIBS                           16
+   VERTEX_OUTPUT_COMPONENTS                 128
+   MAX_CLIP_DISTANCES                       8
+   PATCH_VERTICES                           32
+   TESS_GEN_LEVEL                           64
+   TESS_PATCH_COMPONENTS                    120
+   TESS_CONTROL_OUTPUT_COMPONENTS           128
+   TESS_CONTROL_TOTAL_OUTPUT_COMPONENTS     4216
+   TESS_EVALUATION_OUTPUT_COMPONENTS        128
+   GEOMETRY_UNIFORM_COMPONENTS              2048
+   GEOMETRY_INPUT_COMPONENTS                128
+   GEOMETRY_OUTPUT_COMPONENTS               128
+   GEOMETRY_TOTAL_OUTPUT_COMPONENTS         1024
+   GEOMETRY_OUTPUT_VERTICES                 1024
+   UNIFORM_BLOCKS                           84
+   UNIFORM_BLOCK_SIZE                       65536
+   UNIFORM_BUFFER_BINDINGS                  84
+   COMBINED_VERT_UNIFORM_BLOCKS             14
+   COMBINED_VERT_UNIFORM_COMPS              233472
+   TESS_CONTROL_UNIFORM_BLOCKS              14
+   TESS_CONTROL_UNIFORM_COMPONENTS          2048
+   TESS_EVALUATION_UNIFORM_BLOCKS           14
+   TESS_EVALUATION_UNIFORM_COMPONENTS       2048
+   COMBINED_GEO_UNIFORM_BLOCKS              14
+   COMBINED_GEO_UNIFORM_COMPS               231424
+   COMBINED_FRAG_UNIFORM_BLOCKS             14
+   COMBINED_FRAG_UNIFORM_COMPS              233472
+   MAX_FRAGMENT_STORAGE_BLOCKS              16
+   MAX_STORAGE_BLOCK_BINDINGS               96
+   TRANSFORM_FEEDBACK_INT_COMPS             128
+   TRANSFORM_FEEDBACK_SEP_COMPS             4
+   TRANSFORM_FEEDBACK_SEP_ATTRIBS           4
+   LINE_WIDTH_RANGE                         0.5 - 10
+   LINE_WIDTH_GRANULARITY                   0.125
+   POINT_SIZE_RANGE                         1 - 189.875
+   POINT_SIZE_GRANULARITY                   0.125
+
+Vulkan Vendor:            NVidia Corporation
+Vulkan Device:            NVIDIA RTX 4000 Ada Generation
+Vulkan Version:           1.3.277
+Vulkan Loader Version:    1.3.236
+Device Heaps:             20172 MB + 4035 MB
+Queue Families:           16 G|C|T|S
+                          2  -|-|T|S
+                          8  -|C|T|S
+                          2  -|-|T|S
+                          2  -|-|T|S
+                          1  -|-|T|S
+
+Vulkan Device Extensions:
+    VK_KHR_16bit_storage
+    VK_KHR_8bit_storage
+    VK_KHR_acceleration_structure
+    VK_KHR_bind_memory2
+    VK_KHR_buffer_device_address
+    VK_KHR_calibrated_timestamps
+    VK_KHR_cooperative_matrix
+    VK_KHR_copy_commands2
+    VK_KHR_create_renderpass2
+    VK_KHR_dedicated_allocation
+    VK_KHR_deferred_host_operations
+    VK_KHR_depth_stencil_resolve
+    VK_KHR_descriptor_update_template
+    VK_KHR_device_group
+    VK_KHR_draw_indirect_count
+    VK_KHR_driver_properties
+    VK_KHR_dynamic_rendering
+    VK_KHR_dynamic_rendering_local_read
+    VK_KHR_external_fence
+    VK_KHR_external_fence_win32
+    VK_KHR_external_memory
+    VK_KHR_external_memory_win32
+    VK_KHR_external_semaphore
+    VK_KHR_external_semaphore_win32
+    VK_KHR_format_feature_flags2
+    VK_KHR_fragment_shader_barycentric
+    VK_KHR_fragment_shading_rate
+    VK_KHR_get_memory_requirements2
+    VK_KHR_image_format_list
+    VK_KHR_imageless_framebuffer
+    VK_KHR_index_type_uint8
+    VK_KHR_line_rasterization
+    VK_KHR_load_store_op_none
+    VK_KHR_maintenance1
+    VK_KHR_maintenance2
+    VK_KHR_maintenance3
+    VK_KHR_maintenance4
+    VK_KHR_maintenance5
+    VK_KHR_maintenance6
+    VK_KHR_map_memory2
+    VK_KHR_multiview
+    VK_KHR_pipeline_executable_properties
+    VK_KHR_pipeline_library
+    VK_KHR_present_id
+    VK_KHR_present_wait
+    VK_KHR_push_descriptor
+    VK_KHR_ray_query
+    VK_KHR_ray_tracing_maintenance1
+    VK_KHR_ray_tracing_pipeline
+    VK_KHR_ray_tracing_position_fetch
+    VK_KHR_relaxed_block_layout
+    VK_KHR_sampler_mirror_clamp_to_edge
+    VK_KHR_sampler_ycbcr_conversion
+    VK_KHR_separate_depth_stencil_layouts
+    VK_KHR_shader_atomic_int64
+    VK_KHR_shader_clock
+    VK_KHR_shader_draw_parameters
+    VK_KHR_shader_expect_assume
+    VK_KHR_shader_float16_int8
+    VK_KHR_shader_float_controls
+    VK_KHR_shader_float_controls2
+    VK_KHR_shader_integer_dot_product
+    VK_KHR_shader_maximal_reconvergence
+    VK_KHR_shader_non_semantic_info
+    VK_KHR_shader_quad_control
+    VK_KHR_shader_subgroup_extended_types
+    VK_KHR_shader_subgroup_rotate
+    VK_KHR_shader_subgroup_uniform_control_flow
+    VK_KHR_shader_terminate_invocation
+    VK_KHR_spirv_1_4
+    VK_KHR_storage_buffer_storage_class
+    VK_KHR_swapchain
+    VK_KHR_swapchain_mutable_format
+    VK_KHR_synchronization2
+    VK_KHR_timeline_semaphore
+    VK_KHR_uniform_buffer_standard_layout
+    VK_KHR_variable_pointers
+    VK_KHR_vertex_attribute_divisor
+    VK_KHR_video_decode_av1
+    VK_KHR_video_decode_h264
+    VK_KHR_video_decode_h265
+    VK_KHR_video_decode_queue
+    VK_KHR_video_encode_h264
+    VK_KHR_video_encode_h265
+    VK_KHR_video_encode_queue
+    VK_KHR_video_maintenance1
+    VK_KHR_video_queue
+    VK_KHR_vulkan_memory_model
+    VK_KHR_win32_keyed_mutex
+    VK_KHR_workgroup_memory_explicit_layout
+    VK_KHR_zero_initialize_workgroup_memory
+    VK_EXT_4444_formats
+    VK_EXT_attachment_feedback_loop_dynamic_state
+    VK_EXT_attachment_feedback_loop_layout
+    VK_EXT_blend_operation_advanced
+    VK_EXT_border_color_swizzle
+    VK_EXT_buffer_device_address
+    VK_EXT_calibrated_timestamps
+    VK_EXT_color_write_enable
+    VK_EXT_conditional_rendering
+    VK_EXT_conservative_rasterization
+    VK_EXT_custom_border_color
+    VK_EXT_depth_bias_control
+    VK_EXT_depth_clamp_zero_one
+    VK_EXT_depth_clip_control
+    VK_EXT_depth_clip_enable
+    VK_EXT_depth_range_unrestricted
+    VK_EXT_descriptor_buffer
+    VK_EXT_descriptor_indexing
+    VK_EXT_discard_rectangles
+    VK_EXT_dynamic_rendering_unused_attachments
+    VK_EXT_extended_dynamic_state
+    VK_EXT_extended_dynamic_state2
+    VK_EXT_extended_dynamic_state3
+    VK_EXT_external_memory_host
+    VK_EXT_fragment_shader_interlock
+    VK_EXT_full_screen_exclusive
+    VK_EXT_graphics_pipeline_library
+    VK_EXT_hdr_metadata
+    VK_EXT_host_image_copy
+    VK_EXT_host_query_reset
+    VK_EXT_image_2d_view_of_3d
+    VK_EXT_image_robustness
+    VK_EXT_image_sliced_view_of_3d
+    VK_EXT_image_view_min_lod
+    VK_EXT_index_type_uint8
+    VK_EXT_inline_uniform_block
+    VK_EXT_line_rasterization
+    VK_EXT_load_store_op_none
+    VK_EXT_memory_budget
+    VK_EXT_memory_priority
+    VK_EXT_mesh_shader
+    VK_EXT_multi_draw
+    VK_EXT_mutable_descriptor_type
+    VK_EXT_nested_command_buffer
+    VK_EXT_non_seamless_cube_map
+    VK_EXT_opacity_micromap
+    VK_EXT_pageable_device_local_memory
+    VK_EXT_pci_bus_info
+    VK_EXT_pipeline_creation_cache_control
+    VK_EXT_pipeline_creation_feedback
+    VK_EXT_pipeline_library_group_handles
+    VK_EXT_pipeline_robustness
+    VK_EXT_post_depth_coverage
+    VK_EXT_primitive_topology_list_restart
+    VK_EXT_primitives_generated_query
+    VK_EXT_private_data
+    VK_EXT_provoking_vertex
+    VK_EXT_queue_family_foreign
+    VK_EXT_robustness2
+    VK_EXT_sample_locations
+    VK_EXT_sampler_filter_minmax
+    VK_EXT_scalar_block_layout
+    VK_EXT_separate_stencil_usage
+    VK_EXT_shader_atomic_float
+    VK_EXT_shader_demote_to_helper_invocation
+    VK_EXT_shader_image_atomic_int64
+    VK_EXT_shader_module_identifier
+    VK_EXT_shader_object
+    VK_EXT_shader_subgroup_ballot
+    VK_EXT_shader_subgroup_vote
+    VK_EXT_shader_viewport_index_layer
+    VK_EXT_subgroup_size_control
+    VK_EXT_swapchain_maintenance1
+    VK_EXT_texel_buffer_alignment
+    VK_EXT_tooling_info
+    VK_EXT_transform_feedback
+    VK_EXT_vertex_attribute_divisor
+    VK_EXT_vertex_input_dynamic_state
+    VK_EXT_ycbcr_2plane_444_formats
+    VK_EXT_ycbcr_image_arrays
+    VK_NV_clip_space_w_scaling
+    VK_NV_compute_shader_derivatives
+    VK_NV_cooperative_matrix
+    VK_NV_copy_memory_indirect
+    VK_NV_corner_sampled_image
+    VK_NV_coverage_reduction_mode
+    VK_NV_cuda_kernel_launch
+    VK_NV_dedicated_allocation
+    VK_NV_dedicated_allocation_image_aliasing
+    VK_NV_descriptor_pool_overallocation
+    VK_NV_device_diagnostic_checkpoints
+    VK_NV_device_diagnostics_config
+    VK_NV_device_generated_commands
+    VK_NV_device_generated_commands_compute
+    VK_NV_external_memory
+    VK_NV_external_memory_rdma
+    VK_NV_external_memory_win32
+    VK_NV_fill_rectangle
+    VK_NV_fragment_coverage_to_color
+    VK_NV_fragment_shader_barycentric
+    VK_NV_fragment_shading_rate_enums
+    VK_NV_framebuffer_mixed_samples
+    VK_NV_geometry_shader_passthrough
+    VK_NV_inherited_viewport_scissor
+    VK_NV_linear_color_attachment
+    VK_NV_low_latency
+    VK_NV_low_latency2
+    VK_NV_memory_decompression
+    VK_NV_mesh_shader
+    VK_NV_optical_flow
+    VK_NV_present_barrier
+    VK_NV_ray_tracing
+    VK_NV_ray_tracing_invocation_reorder
+    VK_NV_ray_tracing_motion_blur
+    VK_NV_representative_fragment_test
+    VK_NV_sample_mask_override_coverage
+    VK_NV_scissor_exclusive
+    VK_NV_shader_image_footprint
+    VK_NV_shader_sm_builtins
+    VK_NV_shader_subgroup_partitioned
+    VK_NV_shading_rate_image
+    VK_NV_viewport_array2
+    VK_NV_viewport_swizzle
+    VK_NV_win32_keyed_mutex
+    VK_NVX_binary_import
+    VK_NVX_image_view_handle
+    VK_NVX_multiview_per_view_attributes
+    VK_AMD_buffer_marker
+
+Vulkan Available Devices:
+    NVIDIA RTX 4000 Ada Generation(1.3.277)
+
+Vulkan Instance Layers:
+    VK_LAYER_NV_optimus
+    VK_LAYER_OBS_HOOK
+    VK_LAYER_EOS_Overlay
+    VK_LAYER_EOS_Overlay
+
+Vulkan Instance Extensions:
+    VK_KHR_device_group_creation
+    VK_KHR_external_fence_capabilities
+    VK_KHR_external_memory_capabilities
+    VK_KHR_external_semaphore_capabilities
+    VK_KHR_get_physical_device_properties2
+    VK_KHR_get_surface_capabilities2
+    VK_KHR_surface
+    VK_KHR_surface_protected_capabilities
+    VK_KHR_win32_surface
+    VK_EXT_debug_report
+    VK_EXT_debug_utils
+    VK_EXT_swapchain_colorspace
+    VK_NV_external_memory_capabilities
+    VK_KHR_portability_enumeration
+
+OpenCL Platform           NVIDIA CUDA
+Platform Vendor           NVIDIA Corporation
+Platform Version          OpenCL 3.0 CUDA 12.4.131
+OpenCL Device             NVIDIA RTX 4000 Ada Generation
+OpenCL Type               GPU
+Device Version            OpenCL 3.0 CUDA
+Frequency                 2175 MHz
+Compute Units             48
+Device Address Bits       64
+Global Memory             20474 MB
+Max Allocation            5118 MB
+Global Cache              1344 KB
+Max Constant Args         9
+Max Constant Size         64 KB
+Local Mem Size            48 KB
+2D Image Support          32768x32768
+3D Image Support          16384x16384x16384
+Max On Device Queues      4
+Pref. Device Queue Size   256 KB
+Max Device Queue Size     256 KB
+
+OpenCL Platform Extensions:
+   cl_khr_global_int32_base_atomics
+   cl_khr_global_int32_extended_atomics
+   cl_khr_local_int32_base_atomics
+   cl_khr_local_int32_extended_atomics
+   cl_khr_fp64
+   cl_khr_3d_image_writes
+   cl_khr_byte_addressable_store
+   cl_khr_icd
+   cl_khr_gl_sharing
+   cl_nv_compiler_options
+   cl_nv_device_attribute_query
+   cl_nv_pragma_unroll
+   cl_nv_d3d10_sharing
+   cl_khr_d3d10_sharing
+   cl_nv_d3d11_sharing
+   cl_nv_copy_opts
+   cl_khr_gl_event
+   cl_nv_create_buffer
+   cl_khr_int64_base_atomics
+   cl_khr_int64_extended_atomics
+   cl_nv_kernel_attribute
+   cl_khr_device_uuid
+   cl_khr_pci_bus_info
+   cl_khr_external_semaphore
+   cl_khr_external_memory
+   cl_khr_external_semaphore_win32
+   cl_khr_external_memory_win32
+
+OpenCL Device Extensions:
+   cl_khr_global_int32_base_atomics
+   cl_khr_global_int32_extended_atomics
+   cl_khr_local_int32_base_atomics
+   cl_khr_local_int32_extended_atomics
+   cl_khr_fp64
+   cl_khr_3d_image_writes
+   cl_khr_byte_addressable_store
+   cl_khr_icd
+   cl_khr_gl_sharing
+   cl_nv_compiler_options
+   cl_nv_device_attribute_query
+   cl_nv_pragma_unroll
+   cl_nv_d3d10_sharing
+   cl_khr_d3d10_sharing
+   cl_nv_d3d11_sharing
+   cl_nv_copy_opts
+   cl_khr_gl_event
+   cl_nv_create_buffer
+   cl_khr_int64_base_atomics
+   cl_khr_int64_extended_atomics
+   cl_nv_kernel_attribute
+   cl_khr_device_uuid
+   cl_khr_pci_bus_info
+   cl_khr_external_semaphore
+   cl_khr_external_memory
+   cl_khr_external_semaphore_win32
+   cl_khr_external_memory_win32
+
+
+Loaded Packages:
+
+Environment:
+    ACTIVETAKE                             Main
+    ALLUSERSPROFILE                        C:\ProgramData
+    APPDATA                                C:\Users\clark.cheng\AppData\Roaming
+    COMPUTERNAME                           UAP-103
+    ComSpec                                C:\windows\system32\cmd.exe
+    CommonProgramFiles(x86)                C:\Program Files (x86)\Common Files
+    CommonProgramFiles                     C:\Program Files\Common Files
+    CommonProgramW6432                     C:\Program Files\Common Files
+    DriverData                             C:\Windows\System32\Drivers\DriverData
+    H                                      C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332
+    HB                                     C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/bin
+    HFS                                    C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332
+    HH                                     C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/houdini
+    HHC                                    C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/houdini/config
+    HHP                                    C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/houdini/python3.11libs
+    HIP                                    N:/US1875_PURE_Topographical Map Table/05_Design Documentation/03_Working Documents/0A_Design/Tree Texture Sample
+    HIPFILE                                N:/US1875_PURE_Topographical Map Table/05_Design Documentation/03_Working Documents/0A_Design/Tree Texture Sample/Texture Samples v2.hip
+    HIPNAME                                Texture Samples v2
+    HOME                                   C:/Users/CLARK~1.CHE/ONEDRI~1/DOCUME~1
+    HOMEDRIVE                              C:
+    HOMEPATH                               \Users\clark.cheng
+    HOUDINI_CUSTOM_RECIPE_LIBRARY          Recipes.hda
+    HOUDINI_DESKTOP_DIR                    C:/Users/CLARK~1.CHE/ONEDRI~1/Desktop
+    HOUDINI_HQUEUE_HFS                     $HQROOT/houdini_distros/hfs.$HQCLIENTARCH
+    HOUDINI_HQUEUE_HFS_LINUX               $HQROOT/houdini_distros/hfs.$HQCLIENTARCH
+    HOUDINI_HQUEUE_HFS_MACOS               $HQROOT/houdini_distros/hfs.$HQCLIENTARCH
+    HOUDINI_HQUEUE_HFS_WINDOWS             %HQROOT%/houdini_distros/hfs.%HQCLIENTARCH%
+    HOUDINI_HQUEUE_SERVER                  http://localhost:5000
+    HOUDINI_MAJOR_RELEASE                  20
+    HOUDINI_MINOR_RELEASE                  5
+    HOUDINI_OS                             Windows
+    HOUDINI_PACKAGE_SKIP                   1
+    HOUDINI_PATH                           C:/Program Files/Side Effects Software/sidefx_packages/SideFXLabs20.5;C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/packages/sculpt;C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/packages/kinefx;C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/packages/apex_cop;C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/packages/apex;&
+    HOUDINI_QT_PREFERRED_BINDING           PySide2
+    HOUDINI_TEMP_DIR                       C:/Users/CLARK~1.CHE/AppData/Local/Temp/houdini_temp
+    HOUDINI_USER_PREF_DIR                  C:/Users/clark.cheng/Documents/houdini20.5
+    HOUDINI_VERSION                        20.5.332
+    HOUDINI_VIEWERHANDLE_PATH              C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/packages/kinefx/viewer_handles;C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/houdini/viewer_handles
+    HOUDINI_VIEWERSTATE_PATH               C:/Program Files/Side Effects Software/sidefx_packages/SideFXLabs20.5/viewer_states;C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/packages/sculpt/viewer_states;C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/packages/kinefx/viewer_states;C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/packages/apex/viewer_states;C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/houdini/viewer_states
+    HT                                     C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/toolkit
+    HTB                                    C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/toolkit/bin
+    JOB                                    C:/Users/clark.cheng
+    LOCALAPPDATA                           C:\Users\clark.cheng\AppData\Local
+    LOGONSERVER                            \\DC1
+    MATERIALX_SEARCH_PATH                  C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/houdini/materialx
+    NUMBER_OF_PROCESSORS                   32
+    OCIO                                   C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/packages/ocio/houdini-config-v2.1.0_aces-v1.3_ocio-v2.3.ocio
+    OS                                     Windows_NT
+    OneDrive                               C:\Users\clark.cheng\OneDrive - UAP Company
+    OneDriveCommercial                     C:\Users\clark.cheng\OneDrive - UAP Company
+    PATH                                   C:\PROGRA~1\SIDEEF~1\HOUDIN~1.332\python311\lib\site-packages-forced\PySide2;C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/python311;C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/bin;C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/toolkit/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\clark.cheng\AppData\Local\Microsoft\WindowsApps;C:\Users\clark.cheng\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\clark.cheng\AppData\Local\GitHubDesktop\bin;C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/bin/usd_plugins;C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/bin/usd_plugins
+    PATHEXT                                .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    POSE                                   C:/Users/clark.cheng/Documents/houdini20.5/poselib
+    PROCESSOR_ARCHITECTURE                 AMD64
+    PROCESSOR_IDENTIFIER                   Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+    PROCESSOR_LEVEL                        6
+    PROCESSOR_REVISION                     b701
+    PSModulePath                           C:\Program Files\WindowsPowerShell\Modules;C:\windows\system32\WindowsPowerShell\v1.0\Modules
+    PUBLIC                                 C:\Users\Public
+    PXR_AR_DEFAULT_SEARCH_PATH             C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332
+    PXR_MTLX_STDLIB_SEARCH_PATHS           C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/houdini/materialx/libraries
+    PYTHONHOME                             C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/python311
+    PYTHONUNBUFFERED                       1
+    ProgramData                            C:\ProgramData
+    ProgramFiles(x86)                      C:\Program Files (x86)
+    ProgramFiles                           C:\Program Files
+    ProgramW6432                           C:\Program Files
+    QT_D3DCREATE_MULTITHREADED             1
+    QT_LOGGING_RULES                       qt.svg.warning=false
+    QT_QPA_FONTDIR                         C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/houdini/fonts
+    SESSIONNAME                            Console
+    SIDEFXLABS                             C:/Program Files/Side Effects Software/sidefx_packages/SideFXLabs20.5
+    SystemDrive                            C:
+    SystemRoot                             C:\windows
+    TEMP                                   C:\Users\CLARK~1.CHE\AppData\Local\Temp
+    TMP                                    C:\Users\CLARK~1.CHE\AppData\Local\Temp
+    USER                                   clark.cheng
+    USERDNSDOMAIN                          UAP-RT.LOCAL
+    USERDOMAIN                             UAP-RT
+    USERDOMAIN_ROAMINGPROFILE              UAP-RT
+    USERNAME                               clark.cheng
+    USERPROFILE                            C:\Users\clark.cheng
+    VK_ADD_DRIVER_FILES                    C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/bin/vk_swiftshader_icd.json:C:/PROGRA~1/SIDEEF~1/HOUDIN~1.332/bin/vk_swiftshader_icd.json
+    _HIP_SAVEPLATFORM                      windows-x86_64-cl19.35
+    _HIP_SAVETIME                          Mon Oct 21 15:06:29 2024
+    _HIP_SAVEVERSION                       20.5.332
+    windir                                 C:\windows
+
