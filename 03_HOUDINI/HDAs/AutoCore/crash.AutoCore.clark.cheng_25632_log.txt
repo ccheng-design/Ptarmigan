@@ -1,0 +1,43 @@
+Crash report from 4289465a; Houdini FX Version 20.5.332 [windows-x86_64-cl19.35]
+Uptime 277 seconds
+Thu Oct 24 11:14:52 2024
+Caught signal 11
+
+Traceback from 25632 ThreadId=0x00001208
+CURRENT THREAD 4616
++0x24aac2b6 [GU_MeshIntersect::classifyConnectedComponents] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libGU.dll
++0x24abc05f [GU_MeshIntersect::resolveIntersections] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libGU.dll
++0x2460cdbc [GU_Boolean::resolveMeshIntersections] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libGU.dll
++0x246057d8 [GU_Boolean::generateCells] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libGU.dll
++0x1ac5d3f4 [SOP_BooleanParms::opWindingOp] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libSOP.dll
++0x1ac48823 [SOP_BoneLink::updateParmsFlags] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libSOP.dll
++0x1b49a2a7 [SOP_Node::cookMyselfAsVerb] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libSOP.dll
++0x1b498df9 [SOP_Node::cookMe] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libSOP.dll
++0x2850299c [OP_OTLOptions::operator!=] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libOP.dll
++0x28502208 [OP_OTLOptions::operator!=] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libOP.dll
++0x2850ef4c [OP_Node::cook] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libOP.dll
++0x1b48f77c [SOP_Node::~SOP_Node] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libSOP.dll
++0x1b49d96a [SOP_Node::getCookedGeoHandle] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libSOP.dll
++0x1ac273a1 [SOP_BlockEndFor::cookMySop] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libSOP.dll
++0x1b498df9 [SOP_Node::cookMe] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libSOP.dll
++0x2850299c [OP_OTLOptions::operator!=] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libOP.dll
++0x28502208 [OP_OTLOptions::operator!=] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libOP.dll
++0x2850ef4c [OP_Node::cook] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libOP.dll
++0x1b48f77c [SOP_Node::~SOP_Node] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libSOP.dll
++0x2d506fe9 [tbb::interface7::internal::task_arena_base::internal_execute] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\tbb.dll
++0x33ea1135 [TBBPROXY_TaskArenaExecute] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libTBBPROXY.dll
++0x1b49d998 [SOP_Node::getCookedGeoHandle] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libSOP.dll
++0x1b49da6c [SOP_Node::getCookedViewGeoHandle] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libSOP.dll
++0x11f73b01 [JEDI_View::updateLook] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libJEDI.dll
++0x11f7b76b [JEDI_ViewBase::updateRapidFireClickInterest] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libJEDI.dll
++0x27f3b9a1 [UI_OHEventHandler::ohHandleTrigger] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libUI.dll
++0x27f4b9ca [UI_Queue::processNextEvent] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libUI.dll
++0x27f48b39 [UI_Queue::drain] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libUI.dll
++0x27f493c8 [UI_Queue::eventLoop] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libUI.dll
++0x1128dc2f [AP_Interface::loadWindowGeometry] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libSI.dll
++0x1128e7d5 [myWinMain] C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\libSI.dll
++0x1400015a2 C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\houdini.exe
++0x140001a32 C:\Program Files\Side Effects Software\Houdini 20.5.332\bin\houdini.exe
++0x7ffbaa027374 C:\windows\System32\KERNEL32.DLL
++0x7ffbaa33cc91 [RtlUserThreadStart] C:\windows\SYSTEM32\ntdll.dll
+
