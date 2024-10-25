@@ -1,0 +1,1 @@
+"C:\Users\clark.cheng\OneDrive - UAP Company\Desktop\Display.exe" -device 2 -rotate 90 /toggle
