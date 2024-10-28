@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|c:\\users\\clark.cheng\\onedrive - uap company\\desktop\\_commons\\uap-plugins\\02_gh\\_lib\\geometry4sharp-main\\geometry4sharp-main\\mesh_ops\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh_ops\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|c:\\users\\clark.cheng\\onedrive - uap company\\desktop\\_commons\\uap-plugins\\02_gh\\_lib\\geometry4sharp-main\\geometry4sharp-main\\mesh\\dmesh3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh\\dmesh3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|c:\\users\\clark.cheng\\onedrive - uap company\\desktop\\_commons\\uap-plugins\\02_gh\\_lib\\geometry4sharp-main\\geometry4sharp-main\\mesh_ops\\laplacianmeshdeformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh_ops\\laplacianmeshdeformer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|c:\\users\\clark.cheng\\onedrive - uap company\\desktop\\_commons\\uap-plugins\\02_gh\\_lib\\geometry4sharp-main\\geometry4sharp-main\\mesh\\remesher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh\\remesher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|c:\\users\\clark.cheng\\onedrive - uap company\\desktop\\_commons\\uap-plugins\\02_gh\\_lib\\geometry4sharp-main\\geometry4sharp-main\\mesh\\meshnormals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh\\meshnormals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|c:\\users\\clark.cheng\\onedrive - uap company\\desktop\\_commons\\uap-plugins\\02_gh\\_lib\\geometry4sharp-main\\geometry4sharp-main\\mesh\\meshmeasurements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh\\meshmeasurements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|c:\\users\\clark.cheng\\onedrive - uap company\\desktop\\_commons\\uap-plugins\\02_gh\\_lib\\geometry4sharp-main\\geometry4sharp-main\\mesh\\edgespan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh\\edgespan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|c:\\users\\clark.cheng\\onedrive - uap company\\desktop\\_commons\\uap-plugins\\02_gh\\_lib\\geometry4sharp-main\\geometry4sharp-main\\mesh\\dmesh3_debug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh\\dmesh3_debug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DMesh3.cs",
+              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh\\DMesh3.cs",
+              "RelativeDocumentMoniker": "mesh\\DMesh3.cs",
+              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh\\DMesh3.cs",
+              "RelativeToolTip": "mesh\\DMesh3.cs",
+              "ViewState": "AgIAADIDAAAAAAAAAAAhwEMDAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:14:40.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MeshBoolean.cs",
+              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh_ops\\MeshBoolean.cs",
+              "RelativeDocumentMoniker": "mesh_ops\\MeshBoolean.cs",
+              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh_ops\\MeshBoolean.cs",
+              "RelativeToolTip": "mesh_ops\\MeshBoolean.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwCQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:07:17.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LaplacianMeshDeformer.cs",
+              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh_ops\\LaplacianMeshDeformer.cs",
+              "RelativeDocumentMoniker": "mesh_ops\\LaplacianMeshDeformer.cs",
+              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh_ops\\LaplacianMeshDeformer.cs",
+              "RelativeToolTip": "mesh_ops\\LaplacianMeshDeformer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:15:47.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Remesher.cs",
+              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh\\Remesher.cs",
+              "RelativeDocumentMoniker": "mesh\\Remesher.cs",
+              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh\\Remesher.cs",
+              "RelativeToolTip": "mesh\\Remesher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:14:51.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MeshNormals.cs",
+              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh\\MeshNormals.cs",
+              "RelativeDocumentMoniker": "mesh\\MeshNormals.cs",
+              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh\\MeshNormals.cs",
+              "RelativeToolTip": "mesh\\MeshNormals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:14:48.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MeshMeasurements.cs",
+              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh\\MeshMeasurements.cs",
+              "RelativeDocumentMoniker": "mesh\\MeshMeasurements.cs",
+              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh\\MeshMeasurements.cs",
+              "RelativeToolTip": "mesh\\MeshMeasurements.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:14:47.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EdgeSpan.cs",
+              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh\\EdgeSpan.cs",
+              "RelativeDocumentMoniker": "mesh\\EdgeSpan.cs",
+              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh\\EdgeSpan.cs",
+              "RelativeToolTip": "mesh\\EdgeSpan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:14:43.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DMesh3_debug.cs",
+              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh\\DMesh3_debug.cs",
+              "RelativeDocumentMoniker": "mesh\\DMesh3_debug.cs",
+              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\geometry4Sharp-main\\mesh\\DMesh3_debug.cs",
+              "RelativeToolTip": "mesh\\DMesh3_debug.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:14:41.829Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1028,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
