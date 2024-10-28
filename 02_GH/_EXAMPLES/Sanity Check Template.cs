@@ -38,4 +38,27 @@
         //Drop down menu from component using pManager
         Grasshopper.Kernel.Parameters.Param_Integer param = pManager[1] as Grasshopper.Kernel.Parameters.Param_Integer;
         
-    
+
+        //sanity check for vectors
+        bool vA=Vector_A.IsZero;
+        bool vB=Vector_B.IsZero;
+
+        Console.WriteLine(vA.ToString());
+
+        if (vA==true && vB==true)
+        {
+            this.AddRuntimeMessage(GH_RuntimeMessageLevel.Warning,"Input failed to collect Vector A and Vector B parameter.");
+            return;
+        }
+
+        if (vA==true)
+        {
+            this.AddRuntimeMessage(GH_RuntimeMessageLevel.Warning,"Input failed to collect Vector A or is zero length vector.");
+            return;
+        }
+
+        if(vB==true)
+        {
+            this.AddRuntimeMessage(GH_RuntimeMessageLevel.Warning,"Input failed to collect Vector B is zero length vector.");
+            return;
+        }
