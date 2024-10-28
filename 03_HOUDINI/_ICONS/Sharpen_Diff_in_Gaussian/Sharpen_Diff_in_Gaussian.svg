@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 75 75">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #321415;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2 {
+        opacity: 0;
+        stroke: #231f20;
+      }
+
+      .cls-2, .cls-7, .cls-4, .cls-5 {
+        stroke-linejoin: round;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient);
+        stroke-width: 3.15px;
+      }
+
+      .cls-7, .cls-8, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-7, .cls-4, .cls-5 {
+        stroke: #3b0000;
+      }
+
+      .cls-8 {
+        fill: url(#Radial_Gradient_1);
+      }
+
+      .cls-5 {
+        stroke-dasharray: 1.99 1.99;
+      }
+
+      .cls-6 {
+        clip-rule: evenodd;
+      }
+
+      .cls-9 {
+        opacity: .35;
+      }
+
+      .cls-10 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <radialGradient id="Radial_Gradient_1" data-name="Radial Gradient 1" cx="25.42" cy="25.53" fx="25.42" fy="25.53" r="43.68" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdb714"/>
+      <stop offset=".16" stop-color="#fbb017"/>
+      <stop offset=".33" stop-color="#faa61a"/>
+      <stop offset=".5" stop-color="#eb7e23"/>
+      <stop offset=".66" stop-color="#e25d25"/>
+      <stop offset=".83" stop-color="#dc5026"/>
+      <stop offset="1" stop-color="#d94d26"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="8.27" y1="45.13" x2="63.35" y2="45.13" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdb714"/>
+      <stop offset=".16" stop-color="#fbb017"/>
+      <stop offset=".33" stop-color="#faa61a"/>
+      <stop offset=".5" stop-color="#eb7e23"/>
+      <stop offset=".66" stop-color="#e25d25"/>
+      <stop offset=".83" stop-color="#dc5026"/>
+      <stop offset="1" stop-color="#d94d26"/>
+    </linearGradient>
+    <clipPath id="clippath">
+      <path class="cls-6" d="M18.37,22.97c5.11-5.11,12.01-6.48,15.41-3.08s2.03,10.31-3.08,15.41c-5.1,5.11-12.01,6.48-15.41,3.08s-2.03-10.3,3.08-15.41Z"/>
+    </clipPath>
+  </defs>
+  <g id="KEEP_ON_FOR_EXPORT">
+    <line class="cls-2" x1="-.35" y1=".35" x2=".35" y2="-.35"/>
+    <line class="cls-2" x1="74.65" y1="75.35" x2="75.35" y2="74.65"/>
+  </g>
+  <g id="ICON">
+    <g class="cls-9">
+      <path class="cls-8" d="M10.39,21.44c5.74-7.7,14.92-12.68,25.26-12.68,17.38,0,31.49,14.11,31.49,31.5,0,5.85-1.6,11.32-4.38,16.01"/>
+      <g>
+        <path class="cls-4" d="M10.39,21.44c.2-.27.4-.53.61-.79"/>
+        <path class="cls-5" d="M12.29,19.13c5.76-6.37,14.1-10.37,23.36-10.37,17.38,0,31.49,14.11,31.49,31.5,0,5.13-1.23,9.98-3.41,14.26"/>
+        <path class="cls-4" d="M63.26,55.4c-.16.29-.33.58-.5.87"/>
+      </g>
+    </g>
+    <path class="cls-3" d="M22.48,19.98c5.11-5.11,12.01-6.48,15.41-3.08s2.03,10.3-3.08,15.41c-5.1,5.11-12.01,6.48-15.41,3.08s-2.03-10.31,3.08-15.41Z"/>
+    <polyline class="cls-7" points="10.48 21.52 8.27 23.24 8.27 51.28 30.75 68.75 58.79 62.51 63.35 53.28"/>
+    <g class="cls-10">
+      <image width="25" height="25" transform="translate(13.42 18.02) scale(.89)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAx0AAAMdAH/P3aRAAABYklEQVRIia2VYW7DIAyFn120/mmlaUfYBVZp6n16s55i18P7ATPgGIdUe1IUCWx/5gUI/TyfAgDXC+F+A85ngSAW2QFpI9In5/I6fT4oAcDHO+H7i3BKeRcCQGO0PInCiDoYNxhfLw1yVNJBQVKeClNxeaX7DT6ENwYV5e2aBdvVDSsDwG9nk8g0hwTznuX9ynivAImAxCnjxA82GiVNMsU9oBYcWqXBTrWxs7CAOsgA8OyrBUkkhHlS6xQSfaNuzrWzyrOQN5AVebCdXI4mhdqzBOtzpyC7g0zxKXBR7HW0XNDa5dlXv1NonadXV3UY5CnagS+DnEM/nqkjIK+Yq51DWrsoIO3GJHmw3QYCcIrywsK16Mw2O8pD8IoVs7jVu26ARUl5cot3ohagYwlZ9KAJUduqAWwDWHAiaWAH087M+XBXYDdRC3ZABhYWngBmkL9ex12XF34XE5u8jIUL4//1C4g1l9nKs8XZAAAAAElFTkSuQmCC"/>
+    </g>
+    <path class="cls-3" d="M20.56,19.98c5.11-5.11,12.01-6.48,15.41-3.08s2.03,10.31-3.08,15.41c-5.1,5.11-12.01,6.48-15.41,3.08s-2.03-10.3,3.08-15.41Z"/>
+    <line class="cls-1" x1="5.49" y1="17.52" x2="70.39" y2="57.11"/>
+  </g>
+</svg>
