@@ -26,24 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DMesh3.cs",
-              "DocumentMoniker": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\DMesh3.cs",
-              "RelativeDocumentMoniker": "mesh\\DMesh3.cs",
-              "ToolTip": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\DMesh3.cs",
-              "RelativeToolTip": "mesh\\DMesh3.cs",
-              "ViewState": "AgIAACMCAAAAAAAAAAAAAEcCAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T17:14:40.24Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -55,8 +42,7 @@
               "RelativeToolTip": "mesh\\Remesher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T17:14:51.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T17:14:51.502Z"
             },
             {
               "$type": "Document",
@@ -70,6 +56,18 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T17:07:17.631Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DMesh3.cs",
+              "DocumentMoniker": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\DMesh3.cs",
+              "RelativeDocumentMoniker": "mesh\\DMesh3.cs",
+              "ToolTip": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\DMesh3.cs",
+              "RelativeToolTip": "mesh\\DMesh3.cs",
+              "ViewState": "AgIAACMCAAAAAAAAAAAAAEcCAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T17:14:40.24Z"
             },
             {
               "$type": "Document",

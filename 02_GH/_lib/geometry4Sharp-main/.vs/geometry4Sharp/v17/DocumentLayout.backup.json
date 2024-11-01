@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|d:\\_main\\architectural templates\\uap-plugins\\02_gh\\_lib\\geometry4sharp-main\\mesh_ops\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh_ops\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\dmesh3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh\\dmesh3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\remesher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh\\remesher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|d:\\_main\\architectural templates\\uap-plugins\\02_gh\\_lib\\geometry4sharp-main\\mesh_ops\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh_ops\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\meshnormals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +34,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DMesh3.cs",
               "DocumentMoniker": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\DMesh3.cs",
               "RelativeDocumentMoniker": "mesh\\DMesh3.cs",
               "ToolTip": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\DMesh3.cs",
               "RelativeToolTip": "mesh\\DMesh3.cs",
-              "ViewState": "AgIAAIwCAAAAAAAAAAAvwLYDAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACMCAAAAAAAAAAAAAEcCAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T17:14:40.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Remesher.cs",
               "DocumentMoniker": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\Remesher.cs",
               "RelativeDocumentMoniker": "mesh\\Remesher.cs",
@@ -60,13 +60,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MeshBoolean.cs",
               "DocumentMoniker": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\MeshBoolean.cs",
               "RelativeDocumentMoniker": "mesh_ops\\MeshBoolean.cs",
               "ToolTip": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\MeshBoolean.cs",
               "RelativeToolTip": "mesh_ops\\MeshBoolean.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwFIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAowCoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T17:07:17.631Z",
               "EditorCaption": ""

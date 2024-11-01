@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Description of _Ptarmigan")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f1cf1e71f94aaa04d4431483495bc15e734f5f81")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+73a54e50076d9b5376801cb2097c4b72b7859095")]
 [assembly: System.Reflection.AssemblyProductAttribute("_Ptarmigan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("_Ptarmigan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
