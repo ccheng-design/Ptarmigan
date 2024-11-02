@@ -82,6 +82,30 @@ namespace g4
             }
         }
 
+
+        public void KeepOnlyContained()
+        {
+            DMeshAABBTree3 spatial = new DMeshAABBTree3(CutMesh, true);
+            spatial.WindingNumber(Vector3d.Zero);
+            SafeListBuilder<int> removeT = new SafeListBuilder<int>();
+            gParallel.ForEach(Target.TriangleIndices(), (tid) => {
+                Vector3d v = Target.GetTriCentroid(tid);
+                if (spatial.WindingNumber(v) < 0.9)
+                    removeT.SafeAdd(tid);
+            });
+            MeshEditor.RemoveTriangles(Target, removeT.Result);
+
+            // [RMS] construct set of on-cut vertices? This is not
+            // necessarily all boundary vertices...
+            CutVertices = new List<int>();
+            foreach (int vid in SegmentInsertVertices)
+            {
+                if (Target.IsVertex(vid))
+                    CutVertices.Add(vid);
+            }
+        }
+
+
         public void AppendSegments(double r)
         {
             foreach ( var seg in Segments ) {

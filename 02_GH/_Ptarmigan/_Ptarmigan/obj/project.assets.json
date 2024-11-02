@@ -698,20 +698,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Clark Cheng\\.nuget\\packages\\": {}
+    "C:\\Users\\clark.cheng\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj",
+      "projectUniqueName": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj",
       "projectName": "_Ptarmigan",
-      "projectPath": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj",
-      "packagesPath": "C:\\Users\\Clark Cheng\\.nuget\\packages\\",
-      "outputPath": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_Ptarmigan\\_Ptarmigan\\obj\\",
+      "projectPath": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj",
+      "packagesPath": "C:\\Users\\clark.cheng\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_Ptarmigan\\_Ptarmigan\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
-        "C:\\Users\\Clark Cheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\clark.cheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -802,7 +802,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       },
       "net7.0-windows7.0": {
         "targetAlias": "net7.0-windows",
@@ -846,7 +846,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       },
       "net48": {
         "targetAlias": "net48",
@@ -857,7 +857,7 @@
             "version": "[8.0.23304.9001, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
