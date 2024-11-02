@@ -60,6 +60,54 @@ namespace g4
             return true;
         }
 
+        public bool ComputeSplit()
+        {
+            cutTargetOp = new MeshMeshCut() {
+                Target = new DMesh3(Target),
+                CutMesh = Tool,
+                VertexSnapTol = VertexSnapTol
+            };
+            cutTargetOp.Compute();
+            cutTargetOp.RemoveContained();
+            cutTargetMesh = cutTargetOp.Target;
+
+            cutToolOp = new MeshMeshCut() {
+                Target = new DMesh3(Tool),
+                CutMesh = Target,
+                VertexSnapTol = VertexSnapTol
+            };
+            cutToolOp.Compute();
+            cutToolOp.RemoveContained();
+            cutToolMesh = cutToolOp.Target;
+
+            resolve_vtx_pairs();
+
+            Result = cutToolMesh;
+            MeshEditor.Append(Result, cutTargetMesh);
+
+            return true;
+        }
+
+        public bool ComputeTest()
+        {
+            cutTargetOp = new MeshMeshCut()
+            {
+                Target = new DMesh3(Target),
+                CutMesh = Tool,
+                VertexSnapTol = VertexSnapTol
+            };
+            cutTargetOp.Compute();
+            cutTargetOp.KeepOnlyContained();
+            cutTargetMesh = cutTargetOp.Target;
+
+
+            Result = cutTargetMesh;
+            MeshEditor.Append(Result, cutTargetMesh);
+
+            return true;
+        }
+
+
 
 
 
