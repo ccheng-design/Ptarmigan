@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="ICON" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 75 75">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #f7f8f8;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: .8px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-7 {
+        fill: rgba(238, 238, 237, .52);
+        stroke-width: .8px;
+      }
+
+      .cls-7, .cls-5, .cls-6 {
+        stroke: #959aa1;
+      }
+
+      .cls-8 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-9 {
+        fill: url(#radial-gradient-3);
+      }
+
+      .cls-2 {
+        stroke: #78818c;
+      }
+
+      .cls-3 {
+        stroke: #c7d5d7;
+      }
+
+      .cls-4 {
+        stroke: #1a2333;
+      }
+
+      .cls-10 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-6 {
+        stroke-miterlimit: 4.21;
+        stroke-width: .8px;
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="15.63" cy="-170.37" fx="15.63" fy="-170.37" r="66.02" gradientTransform="translate(-5.74 -154.13) scale(1.05 -1.05)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#8794a0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="40.43" cy="-160.73" fx="40.43" fy="-160.73" r="34.8" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-3" cx="68.53" cy="-203.24" fx="68.53" fy="-203.24" r="32.48" gradientTransform="translate(-5.74 -154.13) scale(1.05 -1.05)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cdd0d3"/>
+      <stop offset="1" stop-color="#8794a0"/>
+    </radialGradient>
+  </defs>
+  <path id="path11065" class="cls-7" d="M50.46,51.88c11.16-1.31,19.81-10.81,19.81-22.34,0-12.42-10.05-22.49-22.45-22.49-9.57,0-17.73,5.99-20.97,14.43l-19.47,6.24,2.02,25.77,16.96,14.47,23.88-11.59.26-5.5"/>
+  <polyline id="polyline11067" class="cls-6" points="7.38 27.71 25.7 40.3 26.36 67.95"/>
+  <path id="path11074" class="cls-8" d="M46.14,32.42l5.58-2.33-19.6-10.54-5.27,1.93c-1.86,6.08,6.58,9.98,19.29,10.95Z"/>
+  <path id="path11081" class="cls-10" d="M50.51,50.86c-1.34.29-2.72.45-4.12.45-11.82,0-21.41-9.58-21.41-21.41,0-3.1.69-5.76,1.88-8.42-1.87,6.08,6.58,9.98,19.29,10.95-2.48,4.6-4.55,15.72,4.37,18.44Z"/>
+  <path id="path11088" class="cls-9" d="M50.51,50.86c-8.92-2.72-6.85-13.84-4.37-18.44l5.58-2.33-1.21,20.77Z"/>
+  <path id="path11090" class="cls-2" d="M50.51,50.86c-8.92-2.72-6.85-13.84-4.37-18.44"/>
+  <line id="line11092" class="cls-3" x1="46.14" y1="32.42" x2="51.72" y2="30.09"/>
+  <path id="path11094" class="cls-1" d="M26.86,21.48c-1.87,6.08,6.58,9.98,19.29,10.95"/>
+  <path id="path11096" class="cls-4" d="M50.51,50.86l1.21-20.77-19.6-10.54-5.27,1.93c-1.19,2.66-1.88,5.32-1.88,8.42,0,11.82,9.59,21.41,21.41,21.41,1.41,0,2.78-.15,4.13-.45Z"/>
+  <line id="line11098" class="cls-5" x1="25.7" y1="40.3" x2="46.14" y2="32.43"/>
+</svg>
