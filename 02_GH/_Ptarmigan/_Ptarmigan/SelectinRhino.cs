@@ -14,7 +14,7 @@ namespace _Ptarmigan
         public SelectinRhino()
           : base("MyComponent1", "Nickname",
               "Selects objects in rhino",
-              "_Ptarmigan", "Rhino")
+              "Ptarmigan", "Rhino")
         {
         }
 
