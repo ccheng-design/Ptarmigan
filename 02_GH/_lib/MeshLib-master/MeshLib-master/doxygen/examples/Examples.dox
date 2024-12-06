@@ -1,0 +1,37 @@
+/**
+
+\page Examples MeshLib Code Samples
+
+# Code Samples for MeshLib
+
+This page contains some examples of using MeshLib
+
+\subsection GeneralExamples General Samples
+
+ - \ref BasedApplication
+ - \ref ExampleMeshLoadSave
+ - \ref ExampleMeshExport
+ - \ref ExampleMeshModification
+ - \ref ExampleMeshBoolean
+ - \ref ExampleMeshDecimate
+ - \ref ExampleMeshOffset
+ - \ref ExampleMeshFillHole
+ - \ref ExampleMeshStitchHole
+ - \ref ExampleMeshResolveDegenerations
+ - \ref ExampleGlobalRegistration
+ - \ref ExampleMeshICP
+ - \ref ExampleMeshExtrude
+ - \ref ExampleFreeForm
+ - \ref ExampleLaplacian
+ - \ref ExampleNoiseDenoise
+ - \ref ExampleTriangulation
+ - \ref ExampleMeshFromText
+
+\subsection PythonSpecificExamples Python Specific Samples
+
+ - \ref ExampleViewer
+ - \ref ExamplePlotly
+ - \ref ExampleNumpy
+ - \ref ExampleNumpyTriangulation
+
+*/

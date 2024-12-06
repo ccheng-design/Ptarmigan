@@ -1,0 +1,87 @@
+name: Update Vcpkg Tag
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 0"  # Run every Sunday at midnight
+
+jobs:
+  update-vcpkg-tag:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: "master"
+
+      - name: Search for Tag in .github/workflows/config.yml
+        id: extract-tag
+        run: |
+          # TODO: call 'config.yml' for predefined values only
+          current_vcpkg_tag=$(yq --raw-output '.on.workflow_call.outputs.vcpkg_version.value' .github/workflows/config.yml)
+          echo "current_vcpkg_tag=${current_vcpkg_tag}" >> $GITHUB_OUTPUT
+          echo "current vcpkg tag: ${current_vcpkg_tag}"
+        shell: bash
+
+      - name: Get Latest Vcpkg Tag
+        id: get-latest-tag
+        run: |
+          latest_vcpkg_tag=$(gh api repos/microsoft/vcpkg/releases/latest --jq '.tag_name' | tr -d '"')
+          echo "latest_vcpkg_tag=${latest_vcpkg_tag}" >> $GITHUB_OUTPUT
+          echo "latest vcpkg tag: ${latest_vcpkg_tag}"
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Compare Tags
+        id: compare
+        run: |
+          current_tag="${{ steps.extract-tag.outputs.current_vcpkg_tag }}"
+          latest_tag="${{ steps.get-latest-tag.outputs.latest_vcpkg_tag }}"
+          
+          diff=$(echo -e "${current_tag}\n${latest_tag}" | sort -V | uniq -u)
+          if [ -n "$diff" ]; then
+            echo "Tags are different. Creating a new branch and opening a pull request."
+            echo "need_vcpkg_update=true" >> $GITHUB_OUTPUT
+          else
+            echo "Tags are the same. No action needed."
+            echo "need_vcpkg_update=false" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Bump vcpkg
+        if: ${{ steps.compare.outputs.need_vcpkg_update == 'true' }}
+        id: bunmp-vcpkg
+        env:
+          GITHUB_TOKEN: ${{ secrets.MESHINSPECTOR_BOT_VCPKG_UPDATE_TOKEN }}
+        run: |
+          git config --global user.email "${{ secrets.MESHINSPECTOR_BOT_EMAIL }}@gmail.com"
+          git config --global user.name "meshinspector-bot"
+          
+          # Create new branch
+          new_branch="vcpkg-update-${{ steps.get-latest-tag.outputs.latest_vcpkg_tag }}"
+          git checkout -b ${new_branch}
+
+          # Search and replace in all files except /thirdparty folder
+          find . -type f -not -path './thirdparty*' ! -path './thirdparty/install.bat' -exec \
+            sed -i 's/${{ steps.extract-tag.outputs.current_vcpkg_tag }}/${{ steps.get-latest-tag.outputs.latest_vcpkg_tag }}/g' {} +
+
+          sed -i "s/${{ steps.extract-tag.outputs.current_vcpkg_tag }}/${{ steps.get-latest-tag.outputs.latest_vcpkg_tag }}/g" ./thirdparty/install.bat
+
+          # Commit the changes
+          git commit -am "Update vcpkg tag to ${{ steps.get-latest-tag.outputs.latest_vcpkg_tag }}"
+
+          # Push the changes
+          git config --local http.https://github.com/.extraheader "AUTHORIZATION: basic $(echo -n x-access-token:${GITHUB_TOKEN} | base64)"
+          git push origin ${new_branch}
+      
+          # Create a pull request using GitHub CLI
+          gh pr create --title "Bump vcpkg to ${{ steps.get-latest-tag.outputs.latest_vcpkg_tag }}" \
+                       --body "This PR updates the vcpkg tag to ${{ steps.get-latest-tag.outputs.latest_vcpkg_tag }}" \
+                       --base master \
+                       --head ${new_branch} \
+                       --label bump-vcpkg \
+                       --reviewer MaxRayskiy,Grantim
+
+          
+

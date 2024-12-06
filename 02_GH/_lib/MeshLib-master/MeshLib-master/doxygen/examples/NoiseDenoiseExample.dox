@@ -1,0 +1,15 @@
+/**
+ \page ExampleNoiseDenoise Adding and removing noise Example 
+
+
+
+<div class="tabbed">
+
+- <b class="tab-title">Python</b>
+\note Python API version 3 and later
+
+\include NoiseDenoiseExample.dox.py
+
+</div>
+
+ */

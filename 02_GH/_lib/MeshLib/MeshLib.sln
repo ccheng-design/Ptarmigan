@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeshLib", "MeshLib\MeshLib.csproj", "{83403946-BEA3-4F6A-BF8B-335EBD95AA7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83403946-BEA3-4F6A-BF8B-335EBD95AA7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83403946-BEA3-4F6A-BF8B-335EBD95AA7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83403946-BEA3-4F6A-BF8B-335EBD95AA7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83403946-BEA3-4F6A-BF8B-335EBD95AA7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C580893C-E854-47C2-BB9B-7E9BEDEE0D82}
+	EndGlobalSection
+EndGlobal

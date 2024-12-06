@@ -1,0 +1,5 @@
+-std=c++23
+-Wno-nonportable-include-path
+-Wno-enum-constexpr-conversion
+-Wno-deprecated-enum-enum-conversion
+-frelaxed-template-template-args

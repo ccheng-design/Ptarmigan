@@ -1,0 +1,234 @@
+{
+	"Order": 0,
+	"LibName": "MRCommonPlugins",
+	"Tabs": [
+		{
+			"Name": "Home",
+			"Priority": 0,
+			"Groups": [
+				{
+					"Name": "New",
+					"List": [
+						{
+							"Name": "New"
+						}
+					]
+				},
+				{
+					"Name": "Files Open",
+					"List": [
+						{
+							"Name": "Open files"
+						},
+						{
+							"Name": "Open directory"
+						}
+					]
+				},
+				{
+					"Name": "Files Save",
+					"List": [
+						{
+							"Name": "Save Scene"
+						},
+						{
+							"Name": "Save Scene As"
+						},
+						{
+							"Name": "Save selected"
+						},
+						{
+							"Name": "Save object"
+						}
+					]
+				},
+				{
+					"Name": "Settings",
+					"List": [
+						{
+							"Name": "Viewer settings"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "View",
+			"Priority": 1,
+			"Groups": [
+				
+				{
+					"Name": "Camera",
+					"List": [
+						{
+							"Name": "Show_Hide Global Basis"
+						},
+						{
+							"Name": "Fit data"
+						},
+						{
+							"Name": "Front View"
+						},
+						{
+							"Name": "Back View"
+						},
+						{
+							"Name": "Top View"
+						},
+						{
+							"Name": "Bottom View"
+						},
+						{
+							"Name": "Left View"
+						},
+						{
+							"Name": "Right View"
+						},
+						{
+							"Name": "Isometric View"
+						}
+					]
+				},
+				{
+					"Name": "Viewport",
+					"List": [
+						{
+							"Name": "Single Viewport"
+						},
+						{
+							"Name": "Horizontal Viewports"
+						},
+						{
+							"Name": "Vertical Viewports"
+						},
+						{
+							"Name": "Quad Viewports"
+						}
+					]
+				},
+				{
+					"Name": "Animate",
+					"List": [
+						{
+							"Name": "Rotator"
+						},
+						{
+							"Name": "Capture screenshot"
+						},
+						{
+							"Name": "Add custom theme"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "Select",
+			"Priority": 2,
+			"Groups": [
+				{
+					"Name": "Basic",
+					"List": [
+						{
+							"Name": "Select objects"
+						}
+					]
+				}
+			]
+		},
+		
+		
+		{
+			"Name": "CT",
+			"Priority": 3,
+			"Groups": [
+				{
+					"Name": "Open",
+					"List": [
+						{
+							"Name": "Open DICOMs"
+						},
+						{
+							"Name": "Open RAW Voxels"
+						},
+						{
+							"Name": "Open Voxels From TIFF"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Name": "Test",
+			"Priority": 3,
+			"Experimental": true,
+			"Groups": [
+				{
+					"Name": "Old",
+					"List": [
+						{
+							"Name": "Camera"
+						}
+					]
+				}
+			]
+		}
+	],
+	"Quick Access": [
+		{
+			"Name": "Fit data"
+		},
+		{
+			"Name": "Select objects"
+		},
+		{
+			"Name": "Move object"
+		},
+		{
+			"Name": "Viewer settings"
+		}
+	],
+	"Header Quick Access": [
+		{
+			"Name": "Open files"
+		},
+		{
+			"Name": "Open directory"
+		},
+		{
+			"Name": "Save Scene"
+		},
+		{
+			"Name": "Save object"
+		}
+	],
+	"Scene Buttons": [
+		{
+			"Name": "Ribbon Scene Sort by name"
+		},
+		{
+			"Name": "Ribbon Scene Show all"
+		},
+		{
+			"Name": "Ribbon Scene Hide all"
+		},
+		{
+			"Name": "Ribbon Scene Select all"
+		},
+		{
+			"Name": "Ribbon Scene Unselect all"
+		},
+		{
+			"Name": "Ribbon Scene Show only previous"
+		},
+		{
+			"Name": "Ribbon Scene Show only next"
+		},
+		{
+			"Name": "Ribbon Scene Rename"
+		},
+		{
+			"Name": "Ribbon Scene Remove selected objects"
+		}
+	]
+}
