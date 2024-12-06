@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|c:\\users\\clark.cheng\\onedrive - uap company\\desktop\\_commons\\uap-plugins\\02_gh\\_lib\\geometry4sharp-main\\mesh_ops\\meshbooleandifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh_ops\\meshbooleandifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|c:\\users\\clark.cheng\\onedrive - uap company\\desktop\\_commons\\uap-plugins\\02_gh\\_lib\\geometry4sharp-main\\mesh_ops\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh_ops\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,28 +26,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MeshBooleanDifference.cs",
+              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\MeshBooleanDifference.cs",
+              "RelativeDocumentMoniker": "mesh_ops\\MeshBooleanDifference.cs",
+              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\MeshBooleanDifference.cs",
+              "RelativeToolTip": "mesh_ops\\MeshBooleanDifference.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAiwKYAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T21:28:12.016Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MeshBoolean.cs",
               "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\MeshBoolean.cs",
               "RelativeDocumentMoniker": "mesh_ops\\MeshBoolean.cs",
               "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\MeshBoolean.cs",
               "RelativeToolTip": "mesh_ops\\MeshBoolean.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T14:10:12.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MeshNormals.cs",
               "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\MeshNormals.cs",
               "RelativeDocumentMoniker": "mesh\\MeshNormals.cs",
@@ -55,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MeshMeshCut.cs",
               "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\MeshMeshCut.cs",
               "RelativeDocumentMoniker": "mesh_ops\\MeshMeshCut.cs",
@@ -63,8 +80,7 @@
               "RelativeToolTip": "mesh_ops\\MeshMeshCut.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAgwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T16:41:02.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T16:41:02.147Z"
             }
           ]
         },

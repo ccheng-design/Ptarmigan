@@ -199,6 +199,7 @@
     <Compile Include="mesh_generators\MarchingCubes.cs" />
     <Compile Include="mesh_generators\TriangulatedPolygonGenerator.cs" />
     <Compile Include="mesh_generators\VoxelSurfaceGenerator.cs" />
+    <Compile Include="mesh_ops\MeshBooleanDifference.cs" />
     <Compile Include="mesh_ops\MeshBoolean.cs" />
     <Compile Include="mesh_ops\MeshExtrudeMesh.cs" />
     <Compile Include="mesh_ops\MeshExtrudeFaces.cs" />
