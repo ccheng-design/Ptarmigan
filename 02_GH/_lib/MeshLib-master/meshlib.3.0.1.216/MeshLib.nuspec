@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MeshLib</id>
+    <version>3.0.1.216</version>
+    <authors>AMV Consulting</authors>
+    <owners>AMV Consulting</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>images/MeshInspector_icon.png</icon>
+    <readme>docs/readme_dotnet.md</readme>
+    <projectUrl>https://meshlib.io/</projectUrl>
+    <description>Mesh processing library</description>
+    <releaseNotes>https://github.com/MeshInspector/MeshLib/releases</releaseNotes>
+    <copyright>(C) 2024, AMV Consulting</copyright>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>

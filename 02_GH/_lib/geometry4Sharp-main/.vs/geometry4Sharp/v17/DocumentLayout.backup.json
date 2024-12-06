@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\",
+  "WorkspaceRootPath": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|c:\\users\\clark.cheng\\onedrive - uap company\\desktop\\_commons\\uap-plugins\\02_gh\\_lib\\geometry4sharp-main\\mesh_ops\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh_ops\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|c:\\users\\clark.cheng\\onedrive - uap company\\desktop\\_commons\\uap-plugins\\02_gh\\_lib\\geometry4sharp-main\\mesh_ops\\meshmeshcut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|d:\\_main\\architectural templates\\uap-plugins\\02_gh\\_lib\\geometry4sharp-main\\mesh_ops\\meshmeshcut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh_ops\\meshmeshcut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\dmesh3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\dmesh3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh\\dmesh3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\remesher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\remesher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh\\remesher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\meshnormals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\meshnormals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh\\meshnormals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -40,9 +40,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Remesher.cs",
-              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\Remesher.cs",
+              "DocumentMoniker": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\Remesher.cs",
               "RelativeDocumentMoniker": "mesh\\Remesher.cs",
-              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\Remesher.cs",
+              "ToolTip": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\Remesher.cs",
               "RelativeToolTip": "mesh\\Remesher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -52,11 +52,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MeshBoolean.cs",
-              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\MeshBoolean.cs",
+              "DocumentMoniker": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\MeshBoolean.cs",
               "RelativeDocumentMoniker": "mesh_ops\\MeshBoolean.cs",
-              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\MeshBoolean.cs",
+              "ToolTip": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\MeshBoolean.cs",
               "RelativeToolTip": "mesh_ops\\MeshBoolean.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAgwFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAALYAAAAAAAAAAAAmwMgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T17:07:17.631Z",
               "EditorCaption": ""
@@ -65,9 +65,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "DMesh3.cs",
-              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\DMesh3.cs",
+              "DocumentMoniker": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\DMesh3.cs",
               "RelativeDocumentMoniker": "mesh\\DMesh3.cs",
-              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\DMesh3.cs",
+              "ToolTip": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\DMesh3.cs",
               "RelativeToolTip": "mesh\\DMesh3.cs",
               "ViewState": "AgIAACMCAAAAAAAAAAAAAEcCAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -77,9 +77,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MeshNormals.cs",
-              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\MeshNormals.cs",
+              "DocumentMoniker": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\MeshNormals.cs",
               "RelativeDocumentMoniker": "mesh\\MeshNormals.cs",
-              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\MeshNormals.cs",
+              "ToolTip": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh\\MeshNormals.cs",
               "RelativeToolTip": "mesh\\MeshNormals.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -89,11 +89,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MeshMeshCut.cs",
-              "DocumentMoniker": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\MeshMeshCut.cs",
+              "DocumentMoniker": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\MeshMeshCut.cs",
               "RelativeDocumentMoniker": "mesh_ops\\MeshMeshCut.cs",
-              "ToolTip": "C:\\Users\\clark.cheng\\OneDrive - UAP Company\\Desktop\\_COMMONS\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\MeshMeshCut.cs",
+              "ToolTip": "D:\\_MAIN\\Architectural Templates\\UAP-Plugins\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\MeshMeshCut.cs",
               "RelativeToolTip": "mesh_ops\\MeshMeshCut.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAADwv1oAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwCkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T16:41:02.147Z",
               "EditorCaption": ""
