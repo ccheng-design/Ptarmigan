@@ -1,1 +1,1 @@
-"C:\Users\clark.cheng\OneDrive - UAP Company\Desktop\Display.exe" -device 1 -rotate 270 /toggle
+"C:\Users\clark.cheng\OneDrive - UAP Company\Desktop\Display.exe" -device 2 -rotate 270 /toggle
