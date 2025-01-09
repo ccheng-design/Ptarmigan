@@ -19,7 +19,7 @@ def random_colors_to_objs():
         random_color_obj=[]
         
         items = ("Random_Red", "False", "True"),("Random_Green", "False", "True"),("Random_Blue", "False", "True")
-        results=rs.GetBoolean("Boolean options" ,items, (True,True,True))
+        results=rs.GetBoolean("Color Schemes" ,items, (True,True,True))
         
         
         #random red
@@ -33,7 +33,7 @@ def random_colors_to_objs():
                 gb=random.randint(5,255)
                 
                 color_range=(255),(gb),(gb)
-                #apply to    each individual objects
+                #apply to each individual objects
                 rs.ObjectColor(obj,color_range)
                 
                 random_color_obj.append(obj)
@@ -67,16 +67,54 @@ def random_colors_to_objs():
                 
                 random_color_obj.append(obj)
                             
-                            
-        elif results==[False,True, False]:
+
+
+        #random yellow
+        elif results==[True,True,False]:
+            
+            #the meat
             for obj in color_obj:
-                rb=random.randint(5,255)
+                #generate random color
                 
-                color_range=rb,255,rb
+                color_val=random.randint(5,255)
+                
+                color_range=(255),(255),(color_val)
                 #apply to each individual objects
                 rs.ObjectColor(obj,color_range)
                 
                 random_color_obj.append(obj)
+
+        #random magenta
+        elif results==[True,False,True]:
+            
+            #the meat
+            for obj in color_obj:
+                #generate random color
+                
+                color_val=random.randint(5,255)
+                
+                color_range=(255),(color_val),(255)
+                #apply to each individual objects
+                rs.ObjectColor(obj,color_range)
+                
+                random_color_obj.append(obj)
+        
+        #random cyan
+        elif results==[False,True,True]:
+            
+            #the meat
+            for obj in color_obj:
+                #generate random color
+                
+                color_val=random.randint(5,255)
+                
+                color_range=(color_val),(255),(255)
+                #apply to each individual objects
+                rs.ObjectColor(obj,color_range)
+                
+                random_color_obj.append(obj)
+
+
         else:
             #the meat
             for obj in color_obj:
