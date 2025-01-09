@@ -19,8 +19,7 @@ def block_list_count():
     block_list = []
     block_desc = []
     counts = {}
-    font="Arial"
-    font_header="Arial"
+    font="Roboto"
 
     # for each object in the layer, check if it is a block
     for obj in layer:
@@ -92,6 +91,8 @@ def block_list_count():
     right_middle = []
     right = []
 
+    
+
     #Title block
     
     global_text_offset=Rhino.Geometry.Vector3d(text_height*1.02,0,0)
@@ -104,7 +105,7 @@ def block_list_count():
     item_pt=pt+Rhino.Geometry.Vector3d(item_offset,0,0)-(vector_y/2)
     #rs.AddPoint(item_pt)
 
-    rs.AddText("ITEM",item_pt,text_height,font_header,justification=131076)
+    rs.AddText("ITEM",item_pt,text_height,font,justification=131076)
 
 
     #PART NO
@@ -112,19 +113,19 @@ def block_list_count():
     title_block_pts=(pt-(vector_y/2))+Rhino.Geometry.Vector3d(text_height*1.02,0,0)
     #rs.AddPoint(title_block_pts)
 
-    item_name=rs.AddText("PART NO",title_block_pts,text_height,font_header,justification=131073)
+    item_name=rs.AddText("PART NO",title_block_pts,text_height,font,justification=131073)
 
     #PART DESCR
     part_desc_pt=(x_dir_desc-(vector_y/2))-global_text_offset
     #rs.AddPoint(part_desc_pt)
 
-    part_descr_name=rs.AddText("PART DESCR",part_desc_pt,text_height,font_header,justification=131076)
+    part_descr_name=rs.AddText("PART DESCR",part_desc_pt,text_height,font,justification=131076)
 
     #QTY
     quantity_pt=blk_amt-(vector_y/2)-global_text_offset
     #rs.AddPoint(quantity_pt)
 
-    quantity_name=rs.AddText("QTY",quantity_pt,text_height,font_header,justification=131076)
+    quantity_name=rs.AddText("QTY",quantity_pt,text_height,font,justification=131076)
 
 
     #Lines for title blocks
@@ -135,6 +136,18 @@ def block_list_count():
     #rs.AddPoint(pt_1)
     pt_2=blk_amt-vector_y
     #rs.AddPoint(pt_2)
+
+    #Header
+    header_pt=blk_amt-vector_y
+    
+
+    print(pt_2-(pt_1+Rhino.Geometry.Vector3d(item_ln_offset,0,0)))
+
+    header_pt=rs.AddPoint((pt_1+Rhino.Geometry.Vector3d(item_ln_offset,0,0))+((pt_2-(pt_1+Rhino.Geometry.Vector3d(item_ln_offset,-0.5,0)))/2))
+
+    header_text=rs.StringBox(message="Bill of Materials Header Name", default_value=None, title="BOM Header")
+
+    rs.AddText(header_text.upper(),header_pt,0.1,justification=2)
 
     #rs.AddPoint(pt_1+Rhino.Geometry.Vector3d(item_ln_offset,0,0))
     
