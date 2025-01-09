@@ -12,7 +12,7 @@ if not name_layer_obj:
     print("None Selected")
     
 else:
-    layer = rs.StringBox("New layer name. For child layers, format like layer01::layer02" )
+    layer = rs.StringBox(message="New layer name. For child layers, format like layer01::layer02", default_value=None,title="Layer Name")
 
     #Add Layer
     if layer: rs.AddLayer( layer )
