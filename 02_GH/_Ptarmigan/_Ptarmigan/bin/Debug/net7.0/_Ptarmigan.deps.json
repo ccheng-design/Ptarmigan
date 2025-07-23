@@ -10,7 +10,8 @@
         "dependencies": {
           "Grasshopper": "8.0.23304.9001",
           "Microsoft.NETFramework.ReferenceAssemblies.net48": "1.0.3",
-          "System.Drawing.Common": "7.0.0"
+          "System.Drawing.Common": "7.0.0",
+          "Clipper2Lib": "1.0.0.0"
         },
         "runtime": {
           "_Ptarmigan.gha": {}
@@ -27,6 +28,14 @@
       "System.Drawing.Common/7.0.0": {
         "dependencies": {
           "Microsoft.Win32.SystemEvents": "7.0.0"
+        }
+      },
+      "Clipper2Lib/1.0.0.0": {
+        "runtime": {
+          "Clipper2Lib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -71,6 +80,11 @@
       "sha512": "sha512-KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
       "path": "system.drawing.common/7.0.0",
       "hashPath": "system.drawing.common.7.0.0.nupkg.sha512"
+    },
+    "Clipper2Lib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

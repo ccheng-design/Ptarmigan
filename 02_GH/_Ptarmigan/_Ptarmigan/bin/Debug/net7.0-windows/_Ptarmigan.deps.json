@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "_Ptarmigan/1.0": {
         "dependencies": {
-          "Grasshopper": "8.0.23304.9001"
+          "Grasshopper": "8.0.23304.9001",
+          "Clipper2Lib": "1.0.0.0"
         },
         "runtime": {
           "_Ptarmigan.gha": {}
@@ -19,7 +20,15 @@
           "RhinoCommon": "8.0.23304.9001"
         }
       },
-      "RhinoCommon/8.0.23304.9001": {}
+      "RhinoCommon/8.0.23304.9001": {},
+      "Clipper2Lib/1.0.0.0": {
+        "runtime": {
+          "Clipper2Lib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
     }
   },
   "libraries": {
@@ -41,6 +50,11 @@
       "sha512": "sha512-hWuqXjcj/eb1/z8+bml4Bav/8Oug2p6t0mAVf37GhX9sP+M1aYNO9FappqeN8oefcIBkLBmAzr46DYNhTxFAGQ==",
       "path": "rhinocommon/8.0.23304.9001",
       "hashPath": "rhinocommon.8.0.23304.9001.nupkg.sha512"
+    },
+    "Clipper2Lib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -52,11 +52,6 @@
   </ItemGroup>
   
   <ItemGroup>
-    <None Include="OffsetPolyline.cs" />
-    <None Include="PolylineOffsetComponent.cs" />
-  </ItemGroup>
-  
-  <ItemGroup>
     <PackageReference Include="Grasshopper" Version="8.0.23304.9001" ExcludeAssets="runtime" />
   </ItemGroup>
   
@@ -74,6 +69,11 @@
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net48" Version="1.0.3" ExcludeAssets="all" GeneratePathProperty="true" />
     <Reference Include="$(PkgMicrosoft_NETFramework_ReferenceAssemblies_net48)\build\.NETFramework\v4.8\System.Windows.Forms.dll" Private="False" />
     <PackageReference Include="System.Drawing.Common" Version="7.0.0" ExcludeAssets="runtime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Clipper2Lib">
+      <HintPath>C:\Users\Clark\Desktop\Clipper2Lib.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <Target Name="BuildYakPackage" AfterTargets="DispatchToInnerBuilds">
