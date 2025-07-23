@@ -18,7 +18,7 @@
     <!-- Specifies information for Assembly and Yak -->
     <Version>1.0</Version>
     <Title>_Ptarmigan</Title>
-    <Company>_Ptarmigan Authors</Company>
+    <Company>Clark_Cheng</Company>
     <Description>Description of _Ptarmigan</Description>
   </PropertyGroup>
   
@@ -29,6 +29,9 @@
   </ItemGroup>
   
   <ItemGroup>
+    <Compile Remove="OffsetPolyline.cs" />
+    <Compile Remove="PolylineOffsetComponent.cs" />
+    <Compile Remove="_GH TEMPLATE.cs" />
     <Compile Remove="_test_component.cs" />
   </ItemGroup>
   
@@ -46,6 +49,11 @@
     <EmbeddedResource Include="Resources\IsQuad-24px.png" />
     <EmbeddedResource Include="Resources\IsTriangle.png" />
     <EmbeddedResource Include="Resources\MT_BooleanDifference-24px.png" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="OffsetPolyline.cs" />
+    <None Include="PolylineOffsetComponent.cs" />
   </ItemGroup>
   
   <ItemGroup>

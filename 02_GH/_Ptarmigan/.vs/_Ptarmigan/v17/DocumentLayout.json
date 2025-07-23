@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\jm_convex hull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\jm_convex hull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\mycomponent1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\mycomponent1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\selectinrhino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\selectinrhino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\istriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\istriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\offsetpolyline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\offsetpolyline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\_ptarmiganinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\_ptarmiganinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\polylineoffsetcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\polylineoffsetcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\isquad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -56,63 +56,65 @@
               "RelativeDocumentMoniker": "_Ptarmigan\\IsQuad.cs",
               "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\IsQuad.cs",
               "RelativeToolTip": "_Ptarmigan\\IsQuad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-18T17:02:03.639Z",
               "IsPinned": true
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SelectinRhino.cs",
-              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\SelectinRhino.cs",
-              "RelativeDocumentMoniker": "_Ptarmigan\\SelectinRhino.cs",
-              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\SelectinRhino.cs",
-              "RelativeToolTip": "_Ptarmigan\\SelectinRhino.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T15:32:13.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IsTriangle.cs",
-              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\IsTriangle.cs",
-              "RelativeDocumentMoniker": "_Ptarmigan\\IsTriangle.cs",
-              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\IsTriangle.cs",
-              "RelativeToolTip": "_Ptarmigan\\IsTriangle.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAYwEEAAAB5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T15:56:43.01Z"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JM_Convex Hull.cs",
-              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\JM_Convex Hull.cs",
-              "RelativeDocumentMoniker": "_Ptarmigan\\JM_Convex Hull.cs",
-              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\JM_Convex Hull.cs",
-              "RelativeToolTip": "_Ptarmigan\\JM_Convex Hull.cs",
-              "ViewState": "AgIAALoAAAAAAAAAAAAAAI0AAAA5AAAAAAAAAA==",
+              "Title": "MyComponent1.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MyComponent1.cs",
+              "RelativeDocumentMoniker": "_Ptarmigan\\MyComponent1.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MyComponent1.cs",
+              "RelativeToolTip": "_Ptarmigan\\MyComponent1.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwD0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T17:09:36.802Z",
+              "WhenOpened": "2025-07-22T20:53:37.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OffsetPolyline.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\OffsetPolyline.cs",
+              "RelativeDocumentMoniker": "_Ptarmigan\\OffsetPolyline.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\OffsetPolyline.cs",
+              "RelativeToolTip": "_Ptarmigan\\OffsetPolyline.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T20:22:00.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PolylineOffsetComponent.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\PolylineOffsetComponent.cs",
+              "RelativeDocumentMoniker": "_Ptarmigan\\PolylineOffsetComponent.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\PolylineOffsetComponent.cs",
+              "RelativeToolTip": "_Ptarmigan\\PolylineOffsetComponent.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwDkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T20:00:58.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "_PtarmiganInfo.cs",
               "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\_PtarmiganInfo.cs",
               "RelativeDocumentMoniker": "_Ptarmigan\\_PtarmiganInfo.cs",
               "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\_PtarmiganInfo.cs",
               "RelativeToolTip": "_Ptarmigan\\_PtarmiganInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T20:40:53.881Z"
+              "WhenOpened": "2024-10-14T20:40:53.881Z",
+              "EditorCaption": ""
             }
           ]
         }
