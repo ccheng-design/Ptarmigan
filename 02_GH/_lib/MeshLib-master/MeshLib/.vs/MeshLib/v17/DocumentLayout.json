@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib-master\\MeshLib\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{21B1690B-42F1-443D-9E8D-7116CBC82CB3}|MeshLib\\MeshLib.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib-master\\meshlib\\meshlib\\createmesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B1690B-42F1-443D-9E8D-7116CBC82CB3}|MeshLib\\MeshLib.csproj|solutionrelative:meshlib\\createmesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B1690B-42F1-443D-9E8D-7116CBC82CB3}|MeshLib\\MeshLib.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib-master\\meshlib\\meshlib\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B1690B-42F1-443D-9E8D-7116CBC82CB3}|MeshLib\\MeshLib.csproj|solutionrelative:meshlib\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21B1690B-42F1-443D-9E8D-7116CBC82CB3}|MeshLib\\MeshLib.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib-master\\meshlib\\meshlib\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21B1690B-42F1-443D-9E8D-7116CBC82CB3}|MeshLib\\MeshLib.csproj|solutionrelative:meshlib\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MeshBoolean.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib-master\\MeshLib\\MeshLib\\MeshBoolean.cs",
+              "RelativeDocumentMoniker": "MeshLib\\MeshBoolean.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib-master\\MeshLib\\MeshLib\\MeshBoolean.cs",
+              "RelativeToolTip": "MeshLib\\MeshBoolean.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T07:52:46.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib-master\\MeshLib\\MeshLib\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "MeshLib\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib-master\\MeshLib\\MeshLib\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "MeshLib\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T07:51:29.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateMesh.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib-master\\MeshLib\\MeshLib\\CreateMesh.cs",
+              "RelativeDocumentMoniker": "MeshLib\\CreateMesh.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib-master\\MeshLib\\MeshLib\\CreateMesh.cs",
+              "RelativeToolTip": "MeshLib\\CreateMesh.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T19:50:18.875Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

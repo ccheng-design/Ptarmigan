@@ -1,0 +1,172 @@
+using System.Runtime.InteropServices;
+
+namespace MR.DotNet;
+
+public class Matrix3f
+{
+	internal struct MRMatrix3f
+	{
+		public Vector3f.MRVector3f x;
+
+		public Vector3f.MRVector3f y;
+
+		public Vector3f.MRVector3f z;
+	}
+
+	internal MRMatrix3f mat_;
+
+	private Vector3f x_;
+
+	private Vector3f y_;
+
+	private Vector3f z_;
+
+	public Vector3f X
+	{
+		get
+		{
+			return x_;
+		}
+		set
+		{
+			mat_.x = value.vec_;
+			x_ = value;
+		}
+	}
+
+	public Vector3f Y
+	{
+		get
+		{
+			return y_;
+		}
+		set
+		{
+			mat_.y = value.vec_;
+			y_ = value;
+		}
+	}
+
+	public Vector3f Z
+	{
+		get
+		{
+			return z_;
+		}
+		set
+		{
+			mat_.z = value.vec_;
+			z_ = value;
+		}
+	}
+
+	[DllImport("MRMeshC.dll", CharSet = CharSet.Auto)]
+	private static extern MRMatrix3f mrMatrix3fIdentity();
+
+	[DllImport("MRMeshC.dll", CharSet = CharSet.Auto)]
+	private static extern MRMatrix3f mrMatrix3fRotationScalar(ref Vector3f.MRVector3f axis, float angle);
+
+	[DllImport("MRMeshC.dll", CharSet = CharSet.Auto)]
+	private static extern MRMatrix3f mrMatrix3fRotationVector(ref Vector3f.MRVector3f from, ref Vector3f.MRVector3f to);
+
+	[DllImport("MRMeshC.dll", CharSet = CharSet.Auto)]
+	private static extern MRMatrix3f mrMatrix3fAdd(ref MRMatrix3f a, ref MRMatrix3f b);
+
+	[DllImport("MRMeshC.dll", CharSet = CharSet.Auto)]
+	private static extern MRMatrix3f mrMatrix3fSub(ref MRMatrix3f a, ref MRMatrix3f b);
+
+	[DllImport("MRMeshC.dll", CharSet = CharSet.Auto)]
+	private static extern MRMatrix3f mrMatrix3fMul(ref MRMatrix3f a, ref MRMatrix3f b);
+
+	[DllImport("MRMeshC.dll", CharSet = CharSet.Auto)]
+	private static extern Vector3f.MRVector3f mrMatrix3fMulVector(ref MRMatrix3f a, ref Vector3f.MRVector3f b);
+
+	[DllImport("MRMeshC.dll", CharSet = CharSet.Auto)]
+	[return: MarshalAs(UnmanagedType.I1)]
+	private static extern bool mrMatrix3fEqual(ref MRMatrix3f a, ref MRMatrix3f b);
+
+	public Matrix3f()
+	{
+		mat_ = mrMatrix3fIdentity();
+		x_ = Vector3f.PlusX();
+		y_ = Vector3f.PlusY();
+		z_ = Vector3f.PlusZ();
+	}
+
+	internal Matrix3f(MRMatrix3f mat)
+	{
+		mat_ = mat;
+		x_ = new Vector3f(mat_.x);
+		y_ = new Vector3f(mat_.y);
+		z_ = new Vector3f(mat_.z);
+	}
+
+	public Matrix3f(Vector3f x, Vector3f y, Vector3f z)
+	{
+		mat_.x = x.vec_;
+		mat_.y = y.vec_;
+		mat_.z = z.vec_;
+		x_ = x;
+		y_ = y;
+		z_ = z;
+	}
+
+	public static Matrix3f Zero()
+	{
+		return new Matrix3f(new Vector3f(), new Vector3f(), new Vector3f());
+	}
+
+	public static Matrix3f Rotation(Vector3f axis, float angle)
+	{
+		return new Matrix3f(mrMatrix3fRotationScalar(ref axis.vec_, angle));
+	}
+
+	public static Matrix3f Rotation(Vector3f from, Vector3f to)
+	{
+		return new Matrix3f(mrMatrix3fRotationVector(ref from.vec_, ref to.vec_));
+	}
+
+	public static Matrix3f operator +(Matrix3f a, Matrix3f b)
+	{
+		return new Matrix3f(mrMatrix3fAdd(ref a.mat_, ref b.mat_));
+	}
+
+	public static Matrix3f operator -(Matrix3f a, Matrix3f b)
+	{
+		return new Matrix3f(mrMatrix3fSub(ref a.mat_, ref b.mat_));
+	}
+
+	public static Matrix3f operator *(Matrix3f a, Matrix3f b)
+	{
+		return new Matrix3f(mrMatrix3fMul(ref a.mat_, ref b.mat_));
+	}
+
+	public static Vector3f operator *(Matrix3f a, Vector3f b)
+	{
+		return new Vector3f(mrMatrix3fMulVector(ref a.mat_, ref b.vec_));
+	}
+
+	public static bool operator ==(Matrix3f a, Matrix3f b)
+	{
+		return mrMatrix3fEqual(ref a.mat_, ref b.mat_);
+	}
+
+	public static bool operator !=(Matrix3f a, Matrix3f b)
+	{
+		return !mrMatrix3fEqual(ref a.mat_, ref b.mat_);
+	}
+
+	public override bool Equals(object obj)
+	{
+		if (!(obj is Matrix3f))
+		{
+			return false;
+		}
+		return this == (Matrix3f)obj;
+	}
+
+	public override int GetHashCode()
+	{
+		return mat_.x.GetHashCode() ^ mat_.y.GetHashCode() ^ mat_.z.GetHashCode();
+	}
+}
