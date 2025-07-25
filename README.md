@@ -3,7 +3,7 @@
 
 Installation Instructions
 
-Link to Documentation is [here.](https://ccheng-design.github.io/UAP-Plugins/)
+Link to Documentation is [here.]([https://ccheng-design.github.io/UAP-Plugins/](https://ccheng-design.github.io/Ptarmigan/))
 
 Command List:
 + AutoName
