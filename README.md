@@ -12,7 +12,6 @@ Command List:
 + NametoLayers
 + RandomColors
 + SelSameArea
-+ UAP
 + UnhideAll
 + UP2
 + UP3
