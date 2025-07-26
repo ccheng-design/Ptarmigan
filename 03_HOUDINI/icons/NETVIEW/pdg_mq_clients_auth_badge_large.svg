@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="pdg_mq_clients_auth_badge.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title4">not_compilable</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showguides="true"
+     inkscape:zoom="45.328912"
+     inkscape:cx="22.965475"
+     inkscape:cy="13.071128"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="-11"
+     inkscape:window-y="1502"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="36.320753,225.54717"
+       orientation="0,-1"
+       id="guide1"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.84986px;font-family:Impact;-inkscape-font-specification:'Impact, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#47891a;fill-opacity:1;stroke-width:0.683352"
+       x="0.87841564"
+       y="15.113209"
+       id="text1"
+       transform="scale(0.97862738,1.0218394)"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.84986px;font-family:Impact;-inkscape-font-specification:'Impact, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#47891a;fill-opacity:1;stroke-width:0.683352"
+         x="0.87841564"
+         y="15.113209">TLS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.16487px;font-family:Dubai;-inkscape-font-specification:'Dubai, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d6d6d6;fill-opacity:1;stroke-width:0.514549;stroke-dasharray:none"
+       x="-0.022508318"
+       y="9.114563"
+       id="text2"
+       transform="scale(0.99782931,1.0021754)"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="-0.022508318"
+         y="9.114563"
+         style="stroke-width:0.514549">clients</tspan></text>
+    <polyline
+       style="fill:none;stroke:#448419;stroke-width:1.99937;stroke-dasharray:none;stroke-opacity:1"
+       points="7.51671765 11.095313 10.5098778 14.7587891 15 8"
+       id="Path-2"
+       transform="matrix(0.47593499,0,0,0.4839072,7.7859214,7.1967147)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.16487px;font-family:Dubai;-inkscape-font-specification:'Dubai, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d6d6d6;fill-opacity:1;stroke-width:1.02716;stroke-dasharray:none"
+       x="3.5929067"
+       y="4.5244579"
+       id="text4"
+       transform="scale(0.99782931,1.0021754)"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="fill:#d6d6d6;fill-opacity:1;stroke-width:1.02716"
+         x="3.5929067"
+         y="4.5244579">MQ</tspan></text>
+  </g>
+  <metadata
+     id="metadata4">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>pdg_mq_client_auth</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

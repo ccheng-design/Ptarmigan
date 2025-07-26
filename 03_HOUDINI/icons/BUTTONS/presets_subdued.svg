@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16px"
+   height="16px"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3-dev (fdc7329b, 2022-05-31)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="29.5"
+     inkscape:cx="7.6949153"
+     inkscape:cy="8"
+     inkscape:window-width="2880"
+     inkscape:window-height="1557"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1" />
+  </sodipodi:namedview>
+  <path
+     d="M 6.6254854,6.6254853 C 6.124073,7.1268978 5.7489113,7.7545608 5.5,8.5084745 5.2510889,7.7545607 4.8759271,7.1268978 4.3745147,6.6254853 3.8731022,6.1240729 3.2454392,5.7489111 2.4915255,5.4999999 3.2454392,5.2510888 3.8731022,4.875927 4.3745147,4.3745146 4.8759271,3.8731021 5.2510889,3.2454391 5.5,2.4915254 5.7489113,3.2454391 6.124073,3.8731021 6.6254854,4.3745146 7.1268979,4.875927 7.7545609,5.2510887 8.5084746,5.4999999 7.7545609,5.7489112 7.1268979,6.1240729 6.6254854,6.6254853 Z"
+     id="Star"
+     stroke="#808080"
+     fill="#eeeeee"
+     style="stroke-width:1.0;stroke-linejoin:bevel" />
+  <path
+     d="M 12.363638,8.4314348 C 11.971329,8.8237431 11.6778,9.3148305 11.48305,9.9046977 11.2883,9.3148313 10.994771,8.8237431 10.602462,8.4314348 10.210154,8.0391263 9.7190669,7.7455973 9.1292,7.5508475 9.7190678,7.3560975 10.210154,7.0625688 10.602462,6.6702601 10.994771,6.2779514 11.2883,5.786864 11.48305,5.1969967 c 0.19475,0.5898672 0.488279,1.0809549 0.880588,1.4732634 0.392308,0.3923085 0.883396,0.6858375 1.473263,0.8805874 -0.589868,0.19475 -1.080955,0.4882787 -1.473263,0.8805873 z"
+     id="Star-Copy"
+     stroke="#808080"
+     fill="#eeeeee"
+     style="stroke-width:1.0;stroke-linejoin:bevel" />
+  <path
+     d="m 8.2493831,12.368027 c -0.3640599,0.36406 -0.636453,0.819786 -0.8171797,1.367179 -0.1807268,-0.547393 -0.4531197,-1.003119 -0.8171797,-1.367179 -0.3640601,-0.36406 -0.8197863,-0.636453 -1.3671796,-0.81718 0.5473931,-0.180727 1.0031196,-0.45312 1.3671796,-0.81718 0.3640598,-0.364059 0.636453,-0.8197859 0.8171797,-1.3671788 0.1807268,0.5473937 0.4531197,1.0031198 0.8171797,1.3671788 0.3640601,0.36406 0.8197863,0.636453 1.3671796,0.81718 -0.5473932,0.180727 -1.0031196,0.45312 -1.3671796,0.81718 z"
+     id="Star-Copy-2"
+     stroke="#808080"
+     fill="#eeeeee"
+     style="stroke-width:1.0;stroke-linejoin:bevel" />
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>preset</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
