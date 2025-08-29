@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "exportDate": "2025-08-29T11:44:05.6655476Z",
+  "libraries": {
+    "DefaultColorLib": {
+      "version": 1,
+      "name": "DefaultColorLib",
+      "colors": {
+        "Feedback/Improvements": {
+          "Name": "Feedback/Improvements",
+          "R": 246,
+          "G": 96,
+          "B": 162,
+          "A": 150
+        },
+        "Outputs": {
+          "Name": "Outputs",
+          "R": 120,
+          "G": 246,
+          "B": 96,
+          "A": 150
+        },
+        "Display": {
+          "Name": "Display",
+          "R": 246,
+          "G": 233,
+          "B": 95,
+          "A": 150
+        },
+        "Exports/Data Outputs/Display": {
+          "Name": "Exports/Data Outputs/Display",
+          "R": 96,
+          "G": 244,
+          "B": 234,
+          "A": 150
+        },
+        "Parameters": {
+          "Name": "Parameters",
+          "R": 98,
+          "G": 97,
+          "B": 96,
+          "A": 150
+        },
+        "Ready to Organize": {
+          "Name": "Ready to Organize",
+          "R": 246,
+          "G": 177,
+          "B": 95,
+          "A": 150
+        },
+        "Inputs": {
+          "Name": "Inputs",
+          "R": 98,
+          "G": 141,
+          "B": 245,
+          "A": 255
+        },
+        "Basic Groups": {
+          "Name": "Basic Groups",
+          "R": 247,
+          "G": 246,
+          "B": 245,
+          "A": 150
+        },
+        "Reference Geometry": {
+          "Name": "Reference Geometry",
+          "R": 97,
+          "G": 122,
+          "B": 162,
+          "A": 150
+        },
+        "In Progress/To Implement": {
+          "Name": "In Progress/To Implement",
+          "R": 161,
+          "G": 96,
+          "B": 244,
+          "A": 150
+        },
+        "Local Testing": {
+          "Name": "Local Testing",
+          "R": 246,
+          "G": 96,
+          "B": 95,
+          "A": 150
+        }
+      }
+    }
+  }
+}
