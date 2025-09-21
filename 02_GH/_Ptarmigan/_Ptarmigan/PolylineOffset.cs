@@ -91,83 +91,135 @@ namespace _Ptarmigan
                 }
             }
 
-            while (distances.Count < poly.Count)
-                distances.Add(distances[distances.Count - 1]);
-            if (distances.Count > poly.Count)
-                distances = distances.GetRange(0, poly.Count);
+            // ---------- NEW: Build distance sets ----------
+            // If the user supplied exactly one distance per vertex, treat it as per-vertex.
+            // Otherwise, treat the list as multiple uniform distances (one output per value).
+            List<List<double>> distanceSets = new List<List<double>>();
 
-            List<int> removed = new List<int>();
-            Polyline working = new Polyline(poly);
-            Polyline offset = null;
-
-            while (true)
+            if (distances.Count == poly.Count)
             {
-                offset = OffsetPolylineGeneralized(working, plane, distances, absTol, out removed);
-                if (offset == null)
+                // Per-vertex mode
+                distanceSets.Add(new List<double>(distances));
+            }
+            else
+            {
+                // Multiple uniform offsets mode
+                if (distances.Count == 0)
                 {
-                    AddRuntimeMessage(GH_RuntimeMessageLevel.Error, "Offset operation failed.");
+                    AddRuntimeMessage(GH_RuntimeMessageLevel.Error, "Provide at least one distance.");
                     return;
                 }
-
-                int worst = -1;
-                double worstLength = 0.0;
-                for (int i = 0; i < working.Count - 1; i++)
+                foreach (double d in distances)
                 {
-                    Vector3d orig = working[i + 1] - working[i];
-                    Vector3d off = offset[i + 1] - offset[i];
-                    if (Vector3d.Multiply(orig, off) < 0.0)
+                    var set = Enumerable.Repeat(d, poly.Count).ToList();
+                    distanceSets.Add(set);
+                }
+            }
+            // ---------- /NEW ----------
+
+            var allRegular = new List<Polyline>();
+            var allReversed = new List<Polyline>();
+
+            // Run the offset for each distance set
+            foreach (var distSet in distanceSets)
+            {
+                // Clone working inputs for each run
+                List<int> removed = new List<int>();
+                Polyline working = new Polyline(poly);
+                Polyline offset = null;
+
+                // Ensure per-vertex list matches vertex count
+                var perVertex = new List<double>(distSet);
+                while (perVertex.Count < working.Count)
+                    perVertex.Add(perVertex[perVertex.Count - 1]);
+                if (perVertex.Count > working.Count)
+                    perVertex = perVertex.GetRange(0, working.Count);
+
+                // --- your existing iterative fix-up loop, unchanged except using perVertex ---
+                while (true)
+                {
+                    offset = OffsetPolylineGeneralized(working, plane, perVertex, absTol, out removed);
+                    if (offset == null)
                     {
-                        double len = off.Length;
-                        if (len > worstLength)
+                        AddRuntimeMessage(GH_RuntimeMessageLevel.Error, "Offset operation failed.");
+                        break;
+                    }
+
+                    int worst = -1;
+                    double worstLength = 0.0;
+                    for (int i = 0; i < working.Count - 1; i++)
+                    {
+                        Vector3d orig = working[i + 1] - working[i];
+                        Vector3d off = offset[i + 1] - offset[i];
+                        if (Vector3d.Multiply(orig, off) < 0.0)
                         {
-                            worst = i;
-                            worstLength = len;
+                            double len = off.Length;
+                            if (len > worstLength)
+                            {
+                                worst = i;
+                                worstLength = len;
+                            }
                         }
                     }
+
+                    if (worst == -1 || (!working.IsClosed && (worst == 0 || worst == working.Count - 2)))
+                        break;
+
+                    int prev = (worst - 1 + working.Count - 1) % (working.Count - 1);
+                    int next = (worst + 2) % (working.Count - 1);
+
+                    Line l1 = new Line(working[prev], working[worst]);
+                    Line l2 = new Line(working[worst + 1], working[next]);
+                    if (!Intersection.LineLine(l1, l2, out double t1, out double t2, absTol, false))
+                    {
+                        AddRuntimeMessage(GH_RuntimeMessageLevel.Error, "Self-intersection resolution failed.");
+                        break;
+                    }
+
+                    working.RemoveAt(worst);
+                    perVertex.RemoveAt(worst);
+                    removed.Add(worst);
+
+                    Point3d mid = l1.PointAt(t1);
+                    working[worst] = mid;
+
+                    if (worst == working.Count - 1)
+                        working[0] = mid;
+                    else if (worst == 0)
+                        working[working.Count - 1] = mid;
                 }
 
-                if (worst == -1 || (!working.IsClosed && (worst == 0 || worst == working.Count - 2)))
-                    break;
+                if (offset == null)
+                    continue;
 
-                int prev = (worst - 1 + working.Count - 1) % (working.Count - 1);
-                int next = (worst + 2) % (working.Count - 1);
-
-                Line l1 = new Line(working[prev], working[worst]);
-                Line l2 = new Line(working[worst + 1], working[next]);
-                if (!Intersection.LineLine(l1, l2, out double t1, out double t2, absTol, false))
+                if (!poly.IsClosed || !splitIntersections)
                 {
-                    AddRuntimeMessage(GH_RuntimeMessageLevel.Error, "Self-intersection resolution failed.");
-                    return;
+                    if (!keepDuplicates)
+                        RestoreRemovedPoints(offset, removed);
+
+                    allRegular.Add(offset);
+                    // Nothing to add to reversed list in this path
                 }
+                else
+                {
+                    List<Polyline> regularLoops, reversedLoops;
+                    SplitSelfIntersectionsAndRebuildLoops(offset, working, plane, absTol, out regularLoops, out reversedLoops);
 
-                working.RemoveAt(worst);
-                distances.RemoveAt(worst);
-                removed.Add(worst);
+                    if (!keepDuplicates)
+                    {
+                        // Optional: if you want to restore removed points on loop pieces,
+                        // you could try to map indices back; often unnecessary for split loops.
+                    }
 
-                Point3d mid = l1.PointAt(t1);
-                working[worst] = mid;
-
-                if (worst == working.Count - 1)
-                    working[0] = mid;
-                else if (worst == 0)
-                    working[working.Count - 1] = mid;
+                    allRegular.AddRange(regularLoops);
+                    allReversed.AddRange(reversedLoops);
+                }
             }
 
-            if (!poly.IsClosed || !splitIntersections)
-            {
-                if (!keepDuplicates)
-                    RestoreRemovedPoints(offset, removed);
-                DA.SetDataList(0, new List<Polyline> { offset });
-                DA.SetDataList(1, new List<Polyline>());
-                return;
-            }
-
-            List<Polyline> regularLoops, reversedLoops;
-            SplitSelfIntersectionsAndRebuildLoops(offset, working, plane, absTol, out regularLoops, out reversedLoops);
-
-            DA.SetDataList(0, regularLoops);
-            DA.SetDataList(1, reversedLoops);
+            DA.SetDataList(0, allRegular);
+            DA.SetDataList(1, allReversed);
         }
+
 
         private Polyline OffsetPolylineGeneralized(Polyline poly, Plane plane, List<double> distances, double tol, out List<int> removed)
         {

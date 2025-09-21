@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\polylineoffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\istriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\istriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\_ptarmigan.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\_ptarmigan.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
@@ -22,7 +26,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Ptarmigan",
               "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj",
               "RelativeDocumentMoniker": "_Ptarmigan\\_Ptarmigan.csproj",
@@ -33,8 +37,17 @@
               "IsPinned": true
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IsTriangle.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\IsTriangle.cs",
+              "RelativeDocumentMoniker": "_Ptarmigan\\IsTriangle.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\IsTriangle.cs",
+              "RelativeToolTip": "_Ptarmigan\\IsTriangle.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T13:41:21.369Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -42,9 +55,9 @@
               "Title": "PolylineOffset.cs",
               "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\PolylineOffset.cs",
               "RelativeDocumentMoniker": "_Ptarmigan\\PolylineOffset.cs",
-              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\PolylineOffset.cs*",
-              "RelativeToolTip": "_Ptarmigan\\PolylineOffset.cs*",
-              "ViewState": "AgIAABoBAAAAAAAAAAAQwCoBAAAuAAAAAAAAAA==",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\PolylineOffset.cs",
+              "RelativeToolTip": "_Ptarmigan\\PolylineOffset.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-23T08:59:54.778Z",
               "EditorCaption": ""
