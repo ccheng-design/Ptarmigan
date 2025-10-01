@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MeshLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66f2a24f6f80c62848704b56bddd4dd6af13ce1c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcfd201fddf947cba1e20a54e7a088301404b2b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MeshLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MeshLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
