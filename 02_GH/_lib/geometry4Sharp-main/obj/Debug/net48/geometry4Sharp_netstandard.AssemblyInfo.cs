@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute("C# library for 2D/3D geometric computing and triangle mesh processing forked from" +
     " Geometry3Sharp")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.0+66f2a24f6f80c62848704b56bddd4dd6af13ce1c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.0+fcfd201fddf947cba1e20a54e7a088301404b2b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("geometry4Sharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("geometry4Sharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

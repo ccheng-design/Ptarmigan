@@ -1,0 +1,188 @@
+name: Build and test MacOS
+
+on:
+  workflow_call:
+    inputs:
+      app_version:
+        required: true
+        type: string
+      full_config_build:
+        default: false
+        required: false
+        type: boolean
+      internal_build:
+        required: false
+        type: boolean
+      upload_artifacts:
+        required: true
+        type: boolean
+      upload_test_artifacts:
+        required: true
+        type: boolean
+      mrbind:
+        default: true
+        required: false
+        type: boolean
+      mrbind_c:
+        default: true
+        required: false
+        type: boolean
+
+jobs:
+  macos-build-test:
+    timeout-minutes: 100
+    runs-on: ${{ matrix.runner }}
+    strategy:
+      fail-fast: false
+      matrix:
+        arch: [ x64, arm64 ]
+        config: [ Debug, Release ]
+        compiler: [ AppleClang ]
+        exclude:
+          - arch: x64
+            config: Debug
+        include:
+          - compiler: AppleClang
+            cxx-compiler: /usr/bin/clang++
+            c-compiler: /usr/bin/clang
+          - arch: x64
+            config: Release
+            os: x64
+            # https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners
+            runner: macos-13 # github hosted
+          - arch: arm64
+            config: Debug
+            os: github-arm
+            runner: macos-latest  # github hosted
+          - arch: arm64
+            config: Release
+            os: arm
+            runner: [ self-hosted, macos, arm64, build ] #  any macos version
+    permissions:
+      id-token: write # This is required for requesting the JWT
+      contents: read  # This is required for actions/checkout
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          submodules: true
+
+      - name: Checkout third-party submodules
+        run: |
+          # Download sub-submodules for certain submodules. We don't recurse above in Checkout to improve build performance. See: https://github.com/actions/checkout/issues/1779
+          git submodule update --init --recursive --depth 1 thirdparty/mrbind
+
+      - name: Setup Homebrew prefix
+        id: brew
+        run: |
+          PREFIX=$(brew --prefix)
+          echo "BREW_PREFIX=$PREFIX" >> $GITHUB_ENV
+
+      - name: Collect runner's system stats
+        if: ${{ inputs.internal_build }}
+        continue-on-error: true
+        uses: ./.github/actions/collect-runner-stats
+        with:
+          target_os: macos
+          target_arch: ${{ matrix.arch }}
+          cxx_compiler: ${{ matrix.cxx-compiler }}
+          build_config: ${{ matrix.config }}
+
+      - name: Install thirdparty libs
+        run: ./scripts/build_thirdparty.sh
+
+      - name: Install MRBind
+        if: ${{ inputs.mrbind || inputs.mrbind_c }}
+        run: |
+          ./scripts/mrbind/install_deps_macos.sh
+          ./scripts/mrbind/install_mrbind_macos.sh
+
+      - name: Create virtualenv
+        run: |
+          python3 -m venv .venv
+          . .venv/bin/activate
+          echo PATH=$PATH >> $GITHUB_ENV
+
+      - name: Setup python requirements
+        run: |
+          curl -sS https://bootstrap.pypa.io/get-pip.py | python3
+          python3 -m pip install -r ./requirements/python.txt
+          python3 -m pip install pytest
+
+      - name: Generate C bindings
+        if: ${{ inputs.mrbind_c }}
+        env:
+          PATH: ${{ env.BREW_PREFIX }}/opt/make/libexec/gnubin:${{ env.BREW_PREFIX }}/opt/grep/libexec/gnubin:${{env.PATH}}
+        run: |
+          make --version
+          make -f scripts/mrbind/generate.mk -B --trace TARGET=c
+
+      - name: Build
+        run: ./scripts/build_source.sh
+        env:
+          MESHLIB_BUILD_RELEASE: ${{ fromJSON('["OFF", "ON"]')[matrix.config == 'Release'] }}
+          MESHLIB_BUILD_DEBUG: ${{ fromJSON('["OFF", "ON"]')[matrix.config == 'Debug'] }}
+          CMAKE_CXX_COMPILER: ${{ matrix.cxx-compiler }}
+          MR_VERSION: ${{ inputs.app_version }}
+          MR_CMAKE_OPTIONS: >
+            -DMESHLIB_BUILD_MRMESH_PY_LEGACY=${{ fromJSON('["ON", "OFF"]')[inputs.mrbind] }}
+            -DMR_CXX_STANDARD=23
+            -DMESHLIB_BUILD_GENERATED_C_BINDINGS=${{ fromJSON('["OFF", "ON"]')[inputs.mrbind_c] }}
+
+      - name: Generate and build Python bindings
+        if: ${{ inputs.mrbind }}
+        env:
+          PATH: ${{ env.BREW_PREFIX }}/opt/make/libexec/gnubin:${{ env.BREW_PREFIX }}/opt/grep/libexec/gnubin:${{env.PATH}}
+        run: |
+          make --version
+          make -f scripts/mrbind/generate.mk \
+            -B --trace \
+            PYTHON_PKGCONF_NAME=python-3.10-embed \
+            MESHLIB_SHLIB_DIR=build/${{matrix.config}}/bin
+
+      - name: Run Start-and-Exit Tests
+        timeout-minutes: 3
+        run: MR_LOCAL_RESOURCES=1 ./build/${{ matrix.config }}/bin/MeshViewer.app/Contents/MacOS/MeshViewer -tryHidden -noEventLoop -unloadPluginsAtEnd
+
+      - name: Unit Tests
+        run: ./build/${{ matrix.config }}/bin/MRTest
+
+      - name: C Unit Tests (old bindings)
+        run: ./build/${{ matrix.config }}/bin/MRTestC
+
+      - name: C Unit Tests
+        if: ${{ inputs.mrbind_c }}
+        run: ./build/${{ matrix.config }}/bin/MRTestC2
+
+      - name: Python Sanity Tests
+        timeout-minutes: 8
+        working-directory: ./build/${{ matrix.config }}/bin
+        run: python3 ./../../../scripts/run_python_test_script.py -d '../test_python'
+
+      - name: Python Regression Tests
+        if: ${{ inputs.internal_build }}
+        env:
+          RUN_CUDA_ARG: "--run-cuda=negative"
+        uses: ./.github/actions/python-regression-tests
+        with:
+          build_config: ${{ matrix.config }}
+          mrbind: ${{ inputs.mrbind }}
+          smoke: ${{ !inputs.full_config_build && matrix.config == 'Debug' }}
+          test_artifacts_path: macos/${{ matrix.os }}
+          upload_test_artifacts: ${{ inputs.upload_test_artifacts }}
+
+      - name: Create Pkg
+        if: ${{ inputs.upload_artifacts && matrix.config == 'Release' }}
+        run: |
+          ./scripts/distribution_apple.sh
+          mv MeshLib_.pkg meshlib_${{matrix.os}}.pkg
+
+      - name: Upload Macos Distribution
+        if: ${{ inputs.upload_artifacts && matrix.config == 'Release' }}
+        uses: actions/upload-artifact@v4
+        env:
+          ACTIONS_ARTIFACT_UPLOAD_TIMEOUT_MS: 1800000
+        with:
+          name: Distributives_macos-${{matrix.os}}
+          path: meshlib_${{matrix.os}}.pkg
+          retention-days: 1

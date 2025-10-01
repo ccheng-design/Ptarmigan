@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh_ops\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\geometry4sharp-main\\mesh_ops\\meshbooleandifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\geometry4Sharp-main\\mesh_ops\\meshbooleandifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECE4866B-A132-4B9C-A986-B1E0CA49227C}|geometry4Sharp.csproj|solutionrelative:mesh_ops\\meshbooleandifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,12 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,7 +36,7 @@
               "RelativeDocumentMoniker": "math\\AxisAlignedBox2d.cs",
               "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\geometry4Sharp-main\\math\\AxisAlignedBox2d.cs",
               "RelativeToolTip": "math\\AxisAlignedBox2d.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-24T08:17:21.348Z",
               "EditorCaption": ""
@@ -55,8 +51,7 @@
               "RelativeToolTip": "mesh_ops\\MeshBooleanDifference.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T21:28:12.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T21:28:12.016Z"
             },
             {
               "$type": "Document",
@@ -68,8 +63,7 @@
               "RelativeToolTip": "mesh_ops\\MeshBoolean.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T14:10:12.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T14:10:12.65Z"
             },
             {
               "$type": "Document",
@@ -81,8 +75,7 @@
               "RelativeToolTip": "mesh\\MeshNormals.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T17:14:48.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T17:14:48.705Z"
             }
           ]
         }
