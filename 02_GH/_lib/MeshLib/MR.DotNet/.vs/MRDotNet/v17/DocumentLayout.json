@@ -3,12 +3,64 @@
   "WorkspaceRootPath": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\decimateparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\decimateparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\meshdecimate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\meshdecimate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\decimatestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\decimatestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\decimateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\decimateresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\mrdecimateparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\mrdecimateparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\offset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\offset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\regionboundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\regionboundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\mrmeshprojectionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\mrmeshprojectionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\meshfillhole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\meshfillhole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\fillholeparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\fillholeparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\decimateparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\decimateparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\fillholenicelyparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\fillholenicelyparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\fillholemetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\fillholemetric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\meshregions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\meshregions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\booleanoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\booleanoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|solutionrelative:mrdotnet\\meshboolean.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E213CC9E-97F2-47D2-841D-76EE1E981069}|MRDotNet\\MRDotNet.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_lib\\meshlib\\mr.dotnet\\mrdotnet\\mesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +78,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DecimateStrategy.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\DecimateStrategy.cs",
+              "RelativeDocumentMoniker": "MRDotNet\\DecimateStrategy.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\DecimateStrategy.cs",
+              "RelativeToolTip": "MRDotNet\\DecimateStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T12:38:42.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MeshDecimate.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\MeshDecimate.cs",
+              "RelativeDocumentMoniker": "MRDotNet\\MeshDecimate.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\MeshDecimate.cs",
+              "RelativeToolTip": "MRDotNet\\MeshDecimate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T12:11:24.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DecimateResult.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\DecimateResult.cs",
+              "RelativeDocumentMoniker": "MRDotNet\\DecimateResult.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\DecimateResult.cs",
+              "RelativeToolTip": "MRDotNet\\DecimateResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T12:10:50.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MRDecimateParameters.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\MRDecimateParameters.cs",
+              "RelativeDocumentMoniker": "MRDotNet\\MRDecimateParameters.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\MRDecimateParameters.cs",
+              "RelativeToolTip": "MRDotNet\\MRDecimateParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T12:10:30.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Offset.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\Offset.cs",
+              "RelativeDocumentMoniker": "MRDotNet\\Offset.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\Offset.cs",
+              "RelativeToolTip": "MRDotNet\\Offset.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAYwMAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T09:42:51.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegionBoundary.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\RegionBoundary.cs",
+              "RelativeDocumentMoniker": "MRDotNet\\RegionBoundary.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\RegionBoundary.cs",
+              "RelativeToolTip": "MRDotNet\\RegionBoundary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T09:42:28.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MRMeshProjectionResult.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\MRMeshProjectionResult.cs",
+              "RelativeDocumentMoniker": "MRDotNet\\MRMeshProjectionResult.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\MRMeshProjectionResult.cs",
+              "RelativeToolTip": "MRDotNet\\MRMeshProjectionResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T09:20:41.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MeshFillHole.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\MeshFillHole.cs",
+              "RelativeDocumentMoniker": "MRDotNet\\MeshFillHole.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\MeshFillHole.cs",
+              "RelativeToolTip": "MRDotNet\\MeshFillHole.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAcwJEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T08:46:22.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DecimateParameters.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\DecimateParameters.cs",
+              "RelativeDocumentMoniker": "MRDotNet\\DecimateParameters.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\DecimateParameters.cs",
+              "RelativeToolTip": "MRDotNet\\DecimateParameters.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:26:02.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FillHoleNicelyParams.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\FillHoleNicelyParams.cs",
+              "RelativeDocumentMoniker": "MRDotNet\\FillHoleNicelyParams.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\FillHoleNicelyParams.cs",
+              "RelativeToolTip": "MRDotNet\\FillHoleNicelyParams.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T08:50:32.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FillHoleMetric.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\FillHoleMetric.cs",
+              "RelativeDocumentMoniker": "MRDotNet\\FillHoleMetric.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\FillHoleMetric.cs",
+              "RelativeToolTip": "MRDotNet\\FillHoleMetric.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAA6wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T08:50:19.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MeshRegions.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\MeshRegions.cs",
+              "RelativeDocumentMoniker": "MRDotNet\\MeshRegions.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\MeshRegions.cs",
+              "RelativeToolTip": "MRDotNet\\MeshRegions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T08:43:18.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BooleanOperation.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\BooleanOperation.cs",
+              "RelativeDocumentMoniker": "MRDotNet\\BooleanOperation.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\BooleanOperation.cs",
+              "RelativeToolTip": "MRDotNet\\BooleanOperation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T03:58:23.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MeshBoolean.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\MeshBoolean.cs",
+              "RelativeDocumentMoniker": "MRDotNet\\MeshBoolean.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\MeshBoolean.cs",
+              "RelativeToolTip": "MRDotNet\\MeshBoolean.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwCAAAACLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T11:56:49.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "FillHoleParams.cs",
               "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\FillHoleParams.cs",
               "RelativeDocumentMoniker": "MRDotNet\\FillHoleParams.cs",
@@ -43,19 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DecimateParameters.cs",
-              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\DecimateParameters.cs",
-              "RelativeDocumentMoniker": "MRDotNet\\DecimateParameters.cs",
-              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\DecimateParameters.cs",
-              "RelativeToolTip": "MRDotNet\\DecimateParameters.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T09:26:02.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "MeshSave.cs",
               "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\MeshSave.cs",
               "RelativeDocumentMoniker": "MRDotNet\\MeshSave.cs",
@@ -67,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "Mesh.cs",
               "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_lib\\MeshLib\\MR.DotNet\\MRDotNet\\Mesh.cs",
               "RelativeDocumentMoniker": "MRDotNet\\Mesh.cs",
