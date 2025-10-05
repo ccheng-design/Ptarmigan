@@ -1,0 +1,34 @@
+{
+  "host": {
+    "name": "Rhino3D",
+    "version": "8.22.25217\u002B12451",
+    "os": "windows",
+    "arch": "x64"
+  },
+  "id": "6fc9394a-6461-41c5-999b-6ee471610e8b",
+  "identity": {
+    "name": "Ptarmigan",
+    "version": "0.1",
+    "publisher": {
+      "email": "cchengg@clarkcheng.design",
+      "name": "Clark Cheng",
+      "country": "USA"
+    },
+    "license": "MIT License"
+  },
+  "settings": {
+    "buildPath": "build/",
+    "buildTarget": {
+      "host": {
+        "name": "Rhino3D",
+        "version": "8"
+      },
+      "title": "Rhino3D (8.*)",
+      "slug": "rh8"
+    },
+    "publishTarget": {
+      "title": "McNeel Yak Server"
+    }
+  },
+  "codes": []
+}

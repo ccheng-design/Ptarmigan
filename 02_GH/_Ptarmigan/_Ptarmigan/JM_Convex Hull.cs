@@ -26,7 +26,7 @@ namespace _Ptarmigan
         /// </summary>
         public JM_Convex_Hull():
            base("JM Convex Hull", "JM CH",
-              "Computes the convex hull using the Jarvis march algorithm.",
+              "Computes the convex hull using the Jarvis March algorithm.",
               "Ptarmigan", "Curves")
         {
         }

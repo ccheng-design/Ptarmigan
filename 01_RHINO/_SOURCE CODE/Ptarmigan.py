@@ -38,7 +38,7 @@ def load_and_get_plugin_version(plugin_name):
     return version
 
 # Example usage for a .yak-installed plugin
-plugin_name = "UAP"  # Replace with the actual .yak plugin name
+plugin_name = "Ptarmigan"  # Replace with the actual .yak plugin name
 names=load_and_get_plugin_version(plugin_name)
 
-rs.MessageBox("UAP PlugIn Version "+names,0,"UAP")
+rs.MessageBox("Ptarmigan PlugIn Version "+names,0,"Ptarmigan")
