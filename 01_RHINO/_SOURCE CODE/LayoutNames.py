@@ -9,7 +9,9 @@ import sys
 
 #Get Starting pts
 pt=rs.GetPoint("Pick Point")
-if not pt:print("None Selected")
+if not pt:
+    print("None Selected")
+    sys.exit(0)
 
 
 
@@ -20,6 +22,11 @@ else:
     #spacing=0.25
 
     spacing = rs.GetReal("Spacing Distance")
+
+    if spacing is None:
+        print("Number required!")
+        sys.exit(0)
+
 
     #define vector for y movement
     vector_y=Rhino.Geometry.Vector3d(0,-spacing,0)
