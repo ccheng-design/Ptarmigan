@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Architectural Templates\\Ptarmigan\\_BUILDS\\rh8\\src\\Ptarmigan\\Ptarmigan.csproj": {}
+  },
+  "projects": {
+    "D:\\Architectural Templates\\Ptarmigan\\_BUILDS\\rh8\\src\\Ptarmigan\\Ptarmigan.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Architectural Templates\\Ptarmigan\\_BUILDS\\rh8\\src\\Ptarmigan\\Ptarmigan.csproj",
+        "projectName": "Ptarmigan",
+        "projectPath": "D:\\Architectural Templates\\Ptarmigan\\_BUILDS\\rh8\\src\\Ptarmigan\\Ptarmigan.csproj",
+        "packagesPath": "C:\\Users\\Clark\\.nuget\\packages\\",
+        "outputPath": "D:\\Architectural Templates\\Ptarmigan\\_BUILDS\\rh8\\src\\Ptarmigan\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Clark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Grasshopper": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Microsoft.CSharp": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies.net48": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "RhinoCommon": {
+              "target": "Package",
+              "version": "[8.*, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
