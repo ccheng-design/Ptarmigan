@@ -74,6 +74,9 @@
     <Reference Include="Clipper2Lib">
       <HintPath>C:\Users\Clark\Desktop\Clipper2Lib.dll</HintPath>
     </Reference>
+    <Reference Include="MRDotNet">
+      <HintPath>lib\MeshLib\MRDotNet.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <Target Name="BuildYakPackage" AfterTargets="DispatchToInnerBuilds">
