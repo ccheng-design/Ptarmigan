@@ -17,7 +17,9 @@ else:
      
 
     #hard coded spacing in the
-    spacing=0.25
+    #spacing=0.25
+
+    spacing = rs.GetReal("Spacing Distance")
 
     #define vector for y movement
     vector_y=Rhino.Geometry.Vector3d(0,-spacing,0)
