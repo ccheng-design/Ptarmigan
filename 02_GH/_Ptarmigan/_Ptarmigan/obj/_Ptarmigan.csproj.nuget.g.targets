@@ -5,10 +5,14 @@
     <Import Project="$(NuGetPackageRoot)grasshopper\8.0.23304.9001\build\net48\Grasshopper.targets" Condition="Exists('$(NuGetPackageRoot)grasshopper\8.0.23304.9001\build\net48\Grasshopper.targets')" />
   </ImportGroup>
   <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.security.cryptography.protecteddata\9.0.10\buildTransitive\netcoreapp2.0\System.Security.Cryptography.ProtectedData.targets" Condition="Exists('$(NuGetPackageRoot)system.security.cryptography.protecteddata\9.0.10\buildTransitive\netcoreapp2.0\System.Security.Cryptography.ProtectedData.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.configuration.configurationmanager\9.0.10\buildTransitive\netcoreapp2.0\System.Configuration.ConfigurationManager.targets" Condition="Exists('$(NuGetPackageRoot)system.configuration.configurationmanager\9.0.10\buildTransitive\netcoreapp2.0\System.Configuration.ConfigurationManager.targets')" />
     <Import Project="$(NuGetPackageRoot)rhinocommon\8.0.23304.9001\build\net48\RhinoCommon.targets" Condition="Exists('$(NuGetPackageRoot)rhinocommon\8.0.23304.9001\build\net48\RhinoCommon.targets')" />
     <Import Project="$(NuGetPackageRoot)grasshopper\8.0.23304.9001\build\net48\Grasshopper.targets" Condition="Exists('$(NuGetPackageRoot)grasshopper\8.0.23304.9001\build\net48\Grasshopper.targets')" />
   </ImportGroup>
   <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0-windows' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.security.cryptography.protecteddata\9.0.10\buildTransitive\netcoreapp2.0\System.Security.Cryptography.ProtectedData.targets" Condition="Exists('$(NuGetPackageRoot)system.security.cryptography.protecteddata\9.0.10\buildTransitive\netcoreapp2.0\System.Security.Cryptography.ProtectedData.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.configuration.configurationmanager\9.0.10\buildTransitive\netcoreapp2.0\System.Configuration.ConfigurationManager.targets" Condition="Exists('$(NuGetPackageRoot)system.configuration.configurationmanager\9.0.10\buildTransitive\netcoreapp2.0\System.Configuration.ConfigurationManager.targets')" />
     <Import Project="$(NuGetPackageRoot)rhinocommon\8.0.23304.9001\build\net48\RhinoCommon.targets" Condition="Exists('$(NuGetPackageRoot)rhinocommon\8.0.23304.9001\build\net48\RhinoCommon.targets')" />
     <Import Project="$(NuGetPackageRoot)grasshopper\8.0.23304.9001\build\net48\Grasshopper.targets" Condition="Exists('$(NuGetPackageRoot)grasshopper\8.0.23304.9001\build\net48\Grasshopper.targets')" />
   </ImportGroup>

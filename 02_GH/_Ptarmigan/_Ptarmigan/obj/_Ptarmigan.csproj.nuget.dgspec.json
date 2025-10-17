@@ -69,11 +69,19 @@
               "target": "Package",
               "version": "[8.0.23304.9001, )"
             },
+            "MeshLib": {
+              "target": "Package",
+              "version": "[3.0.8.247, )"
+            },
             "Microsoft.NETFramework.ReferenceAssemblies.net48": {
               "include": "None",
               "target": "Package",
               "version": "[1.0.3, )",
               "generatePathProperty": true
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[9.0.10, )"
             },
             "System.Drawing.Common": {
               "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -120,6 +128,14 @@
               "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "target": "Package",
               "version": "[8.0.23304.9001, )"
+            },
+            "MeshLib": {
+              "target": "Package",
+              "version": "[3.0.8.247, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[9.0.10, )"
             }
           },
           "imports": [
@@ -164,6 +180,14 @@
               "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "target": "Package",
               "version": "[8.0.23304.9001, )"
+            },
+            "MeshLib": {
+              "target": "Package",
+              "version": "[3.0.8.247, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[9.0.10, )"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"

@@ -24,6 +24,605 @@
           "build/net48/Grasshopper.targets": {}
         }
       },
+      "MeshLib/3.0.8.247": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MRDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MRDotNet.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libCharLS-704e204b.so.2.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libE57Format-e30071c4.so.3.2.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libHalf-614356b1.so.24.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libIex-2_3-f9b27411.so.24.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libIlmImf-2_3-72bfabbd.so.24.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libIlmThread-2_3-b765c51d.so.24.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMRIOExtras-bddecfef.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMRMesh-eacf4b30.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMRMeshC.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMRVoxels-31ef5cda.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libOpenCTM-3381561f.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKBO-f8934ca7.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKBRep-a3ddec3b.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKCAF-54b37535.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKCDF-04a8a4ba.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKG2d-33da4fff.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKG3d-3d5a0171.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKGeomAlgo-fec06afe.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKGeomBase-66d1c402.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKHLR-6ceac0e1.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKLCAF-4425d53a.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKMath-a9c8c9a3.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKMesh-3c4fb56b.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKPrim-e7dc2c39.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKSTEP-c0b51a22.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKSTEP209-6162b55f.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKSTEPAttr-b1748b4a.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKSTEPBase-b9e44b4d.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKService-26ae894c.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKShHealing-87a193c3.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKTopAlgo-932306c4.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKV3d-8d06fac7.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKVCAF-1bc1f4ea.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKXCAF-29a1965e.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKXDESTEP-a68db306.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKXSBase-958d3cfc.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKernel-8317632a.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libblosc-0d374deb.so.1.17.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libboost_iostreams-01822014.so.1.71.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libbz2-4488544d.so.1.0.4": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libcrypto-bf99926d.so.1.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libfreeimage-3-bcaddc28.18.0.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libfreetype-b2547240.so.6.17.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmCommon-6a5411ce.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmDICT-95ca87b5.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmDSED-034e0bef.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmIOD-df508dea.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmMSFF-21af924f.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmjpeg12-691dd590.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmjpeg16-35ab71eb.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmjpeg8-83b575a3.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgomp-98b21ff3.so.1.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libhpdf-2-19c577a9.3.0.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjbig-0f1087b4.so.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjpeg-55cb507f.so.8.2.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjpegxr-2d5c0d18.so.1.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjson-c-3768995f.so.4.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjsoncpp-7f755907.so.1.7.4": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjxrglue-4a31577b.so.1.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/liblazperf-015c2a89.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/liblcms2-caa5d83f.so.2.0.8": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/liblz4-d6574e34.so.1.9.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/liblzma-79a1dbc7.so.5.2.4": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libopenjp2-711390ff.so.2.3.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libopenvdb-059dcfcf.so.9.1.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libpng16-4a697b98.so.16.37.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libraw-5375f4a1.so.19.0.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libsnappy-e38178cf.so.1.1.8": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libspdlog-69ea12a6.so.1.5.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtbb-26115b1a.so.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtbbmalloc-14147fcf.so.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtiff-688daa34.so.5.5.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtinyxml2-a1be9bbe.so.6.2.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libturbojpeg-ce9777a9.so.0.2.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libuuid-5255c400.so.1.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libwebp-702eed9c.so.6.0.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libwebpmux-ac6651ba.so.3.0.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libzip-9c23ab55.so.5.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libzstd-9edef536.so.1.4.4": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/win-x64/native/E57Format-92d647d59a87ba319154f997308f712c.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/Imath-3_1-4177f89df4f0638fc9937bc5c2c707cf.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/MRIOExtras-2a45db17a91c3cacab542dc692cac89a.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/MRMesh-7c79cab24f73f406ff0b3d677ec66d5c.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/MRMeshC.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/MRVoxels-e2e6c00d0c370ad7bec474f13e404b6d.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/OpenCTM-7a3c74bb6b994e587782f349d4533899.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKBO-ce52197714bfd3adfa94675a645f1d2a.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKBRep-18c7d6b8967bfa569cd0898cce906142.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKCAF-f93d55331b38b8b9a536ec83a8ffe5bb.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKCDF-1d8ceaa48f6fef6aef72d3d80aefba47.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKDE-d1a2c7df39cb3f31815b87e19a3335ae.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKDESTEP-d72f01212dbda1e113c4d703286e6e64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKG2d-517cbd4d8f0b668aa160c6e9aa9c21dd.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKG3d-b787253280054f8f733ffff36a4c49a0.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKGeomAlgo-acd68c838d282e7006feffbc65eb737a.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKGeomBase-963851caf1310b053b8c0a5311e7ac19.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKHLR-30ac711ddd5ae85dcadd3f9d180ca9fc.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKLCAF-a7de898fcf540d4c963f201fc0ad26c2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKMath-d3ed84c9abf44c5f949d4242c4dd3dff.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKMesh-7615394ede59578feec2b0c1908a2312.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKPrim-c76451289b7be8b0298b425149762a3e.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKService-e5f4205b03bacf5a188809aa71050034.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKShHealing-addc40a0ec63b3eddcc524ff8f964201.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKTopAlgo-d56e4e65d026e5920780e5d66ef9c501.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKV3d-ff5519f4511b50be766c38e76ab5aa1b.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKVCAF-82cab7ae92a69d7d004878d8c4f9da5e.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKXCAF-095e28018e279b09865b0f51d628faed.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKXSBase-571c90e401530653f1ab667181937894.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKernel-74070bcb6460ed8e50b87c2b9301c749.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/blosc-c5cfa941dc26fa3b508ba49cf9824e92.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/brotlicommon-f8d6f8acecff7e9060e3f811df4f32e9.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/brotlidec-04bb57b257f870f1da2edad0b3569ca2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/bz2-71f813906a617c97470b54d5c87f907b.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/fmt-08252c65deff1de7f817761a98c62a89.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/freetype-9a6de9e8a2191664e5f4a93228a73386.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmCommon-8dec66fe9409db259b4b3dd98f74b543.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmDICT-0f47eaf65b1fda8571e615dc5bafc803.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmDSED-e64bb2fa29a3d23a2a09593fa2d796dd.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmIOD-e00ea5f9e0759380f70af430fe50f0ad.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmMSFF-6e3410ef43fc93c7a653222a39c70094.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmcharls-070bed41884c12928581965f561ff534.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmjpeg12-83233b37f25a08220ea59f06b8309250.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmjpeg16-c37e23fc56a0cf299deaca88621242c8.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmjpeg8-3a601c314f922006161a29afa7404b49.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gmock-c3ca5b58f066e3d9313502a7202aaac6.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/hpdf-be8ccf4535cd7c320703be54336490be.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/jpeg62-27813882f4f9dd04c118fc9d5f54f960.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/jsoncpp-98f76621a85b0419b2bc18089742de1b.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/laz-perf-c70349cfe18a17bf89c16fc4d3e5de82.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libexpat-2af1d99107bf442d4092c8c5fc46f4a7.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/liblzma-29a3cd7230b6035ef6a04ad8c91c63ff.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libpng16-36c15b8f53ba934635dbb663e5055f5d.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/lz4-5befb964ef71d27369d42d1b80ff4dc0.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcp140-482e8fd67dc4ff518b6eecf027219730.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/openjp2-abd2da941ce7a999c8ceecb41d2dff00.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/openvdb-ab0fd35e873d9c338eec39c591d80a13.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/spdlog-ac1ab1f62f2700fffb7eac344608f10b.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/tbb12-c52910fb079928f6813ccf46d1cf85c7.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/tiff-38b20789ef97b44ce4e23127bb11efdf.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/tinyxml2-a449eeb19bb14031a4abafa2ff38c982.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/turbojpeg-628b71a8a54a09a2df179f4ffc5ff51f.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/vcruntime140-2b7602cc1521101d116995e3e2ddfe09.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/vcruntime140_1-36d067fc723411e986cd5b23567fd8ce.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/xerces-c_3_3-1feb7a07f17ef6e2a9dfc0d8e9682397.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zip-9669faaf9a1033d301e8c18b1496e7dd.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zlib1-ba4d126d48970db18f494d09de7e449f.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zstd-806211ecfaf66b2b69ea8f91929f604a.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
       "RhinoCommon/8.0.23304.9001": {
         "type": "package",
         "compile": {
@@ -45,6 +644,25 @@
         },
         "build": {
           "build/net48/RhinoCommon.targets": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/9.0.10": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net462/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net462/_._": {}
         }
       }
     },
@@ -69,6 +687,605 @@
         },
         "build": {
           "build/net48/Grasshopper.targets": {}
+        }
+      },
+      "MeshLib/3.0.8.247": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MRDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MRDotNet.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libCharLS-704e204b.so.2.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libE57Format-e30071c4.so.3.2.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libHalf-614356b1.so.24.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libIex-2_3-f9b27411.so.24.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libIlmImf-2_3-72bfabbd.so.24.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libIlmThread-2_3-b765c51d.so.24.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMRIOExtras-bddecfef.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMRMesh-eacf4b30.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMRMeshC.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMRVoxels-31ef5cda.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libOpenCTM-3381561f.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKBO-f8934ca7.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKBRep-a3ddec3b.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKCAF-54b37535.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKCDF-04a8a4ba.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKG2d-33da4fff.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKG3d-3d5a0171.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKGeomAlgo-fec06afe.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKGeomBase-66d1c402.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKHLR-6ceac0e1.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKLCAF-4425d53a.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKMath-a9c8c9a3.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKMesh-3c4fb56b.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKPrim-e7dc2c39.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKSTEP-c0b51a22.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKSTEP209-6162b55f.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKSTEPAttr-b1748b4a.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKSTEPBase-b9e44b4d.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKService-26ae894c.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKShHealing-87a193c3.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKTopAlgo-932306c4.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKV3d-8d06fac7.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKVCAF-1bc1f4ea.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKXCAF-29a1965e.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKXDESTEP-a68db306.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKXSBase-958d3cfc.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKernel-8317632a.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libblosc-0d374deb.so.1.17.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libboost_iostreams-01822014.so.1.71.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libbz2-4488544d.so.1.0.4": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libcrypto-bf99926d.so.1.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libfreeimage-3-bcaddc28.18.0.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libfreetype-b2547240.so.6.17.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmCommon-6a5411ce.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmDICT-95ca87b5.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmDSED-034e0bef.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmIOD-df508dea.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmMSFF-21af924f.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmjpeg12-691dd590.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmjpeg16-35ab71eb.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmjpeg8-83b575a3.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgomp-98b21ff3.so.1.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libhpdf-2-19c577a9.3.0.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjbig-0f1087b4.so.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjpeg-55cb507f.so.8.2.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjpegxr-2d5c0d18.so.1.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjson-c-3768995f.so.4.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjsoncpp-7f755907.so.1.7.4": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjxrglue-4a31577b.so.1.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/liblazperf-015c2a89.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/liblcms2-caa5d83f.so.2.0.8": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/liblz4-d6574e34.so.1.9.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/liblzma-79a1dbc7.so.5.2.4": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libopenjp2-711390ff.so.2.3.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libopenvdb-059dcfcf.so.9.1.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libpng16-4a697b98.so.16.37.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libraw-5375f4a1.so.19.0.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libsnappy-e38178cf.so.1.1.8": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libspdlog-69ea12a6.so.1.5.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtbb-26115b1a.so.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtbbmalloc-14147fcf.so.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtiff-688daa34.so.5.5.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtinyxml2-a1be9bbe.so.6.2.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libturbojpeg-ce9777a9.so.0.2.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libuuid-5255c400.so.1.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libwebp-702eed9c.so.6.0.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libwebpmux-ac6651ba.so.3.0.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libzip-9c23ab55.so.5.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libzstd-9edef536.so.1.4.4": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/win-x64/native/E57Format-92d647d59a87ba319154f997308f712c.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/Imath-3_1-4177f89df4f0638fc9937bc5c2c707cf.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/MRIOExtras-2a45db17a91c3cacab542dc692cac89a.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/MRMesh-7c79cab24f73f406ff0b3d677ec66d5c.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/MRMeshC.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/MRVoxels-e2e6c00d0c370ad7bec474f13e404b6d.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/OpenCTM-7a3c74bb6b994e587782f349d4533899.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKBO-ce52197714bfd3adfa94675a645f1d2a.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKBRep-18c7d6b8967bfa569cd0898cce906142.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKCAF-f93d55331b38b8b9a536ec83a8ffe5bb.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKCDF-1d8ceaa48f6fef6aef72d3d80aefba47.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKDE-d1a2c7df39cb3f31815b87e19a3335ae.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKDESTEP-d72f01212dbda1e113c4d703286e6e64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKG2d-517cbd4d8f0b668aa160c6e9aa9c21dd.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKG3d-b787253280054f8f733ffff36a4c49a0.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKGeomAlgo-acd68c838d282e7006feffbc65eb737a.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKGeomBase-963851caf1310b053b8c0a5311e7ac19.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKHLR-30ac711ddd5ae85dcadd3f9d180ca9fc.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKLCAF-a7de898fcf540d4c963f201fc0ad26c2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKMath-d3ed84c9abf44c5f949d4242c4dd3dff.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKMesh-7615394ede59578feec2b0c1908a2312.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKPrim-c76451289b7be8b0298b425149762a3e.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKService-e5f4205b03bacf5a188809aa71050034.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKShHealing-addc40a0ec63b3eddcc524ff8f964201.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKTopAlgo-d56e4e65d026e5920780e5d66ef9c501.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKV3d-ff5519f4511b50be766c38e76ab5aa1b.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKVCAF-82cab7ae92a69d7d004878d8c4f9da5e.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKXCAF-095e28018e279b09865b0f51d628faed.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKXSBase-571c90e401530653f1ab667181937894.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKernel-74070bcb6460ed8e50b87c2b9301c749.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/blosc-c5cfa941dc26fa3b508ba49cf9824e92.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/brotlicommon-f8d6f8acecff7e9060e3f811df4f32e9.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/brotlidec-04bb57b257f870f1da2edad0b3569ca2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/bz2-71f813906a617c97470b54d5c87f907b.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/fmt-08252c65deff1de7f817761a98c62a89.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/freetype-9a6de9e8a2191664e5f4a93228a73386.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmCommon-8dec66fe9409db259b4b3dd98f74b543.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmDICT-0f47eaf65b1fda8571e615dc5bafc803.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmDSED-e64bb2fa29a3d23a2a09593fa2d796dd.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmIOD-e00ea5f9e0759380f70af430fe50f0ad.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmMSFF-6e3410ef43fc93c7a653222a39c70094.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmcharls-070bed41884c12928581965f561ff534.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmjpeg12-83233b37f25a08220ea59f06b8309250.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmjpeg16-c37e23fc56a0cf299deaca88621242c8.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmjpeg8-3a601c314f922006161a29afa7404b49.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gmock-c3ca5b58f066e3d9313502a7202aaac6.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/hpdf-be8ccf4535cd7c320703be54336490be.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/jpeg62-27813882f4f9dd04c118fc9d5f54f960.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/jsoncpp-98f76621a85b0419b2bc18089742de1b.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/laz-perf-c70349cfe18a17bf89c16fc4d3e5de82.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libexpat-2af1d99107bf442d4092c8c5fc46f4a7.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/liblzma-29a3cd7230b6035ef6a04ad8c91c63ff.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libpng16-36c15b8f53ba934635dbb663e5055f5d.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/lz4-5befb964ef71d27369d42d1b80ff4dc0.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcp140-482e8fd67dc4ff518b6eecf027219730.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/openjp2-abd2da941ce7a999c8ceecb41d2dff00.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/openvdb-ab0fd35e873d9c338eec39c591d80a13.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/spdlog-ac1ab1f62f2700fffb7eac344608f10b.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/tbb12-c52910fb079928f6813ccf46d1cf85c7.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/tiff-38b20789ef97b44ce4e23127bb11efdf.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/tinyxml2-a449eeb19bb14031a4abafa2ff38c982.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/turbojpeg-628b71a8a54a09a2df179f4ffc5ff51f.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/vcruntime140-2b7602cc1521101d116995e3e2ddfe09.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/vcruntime140_1-36d067fc723411e986cd5b23567fd8ce.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/xerces-c_3_3-1feb7a07f17ef6e2a9dfc0d8e9682397.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zip-9669faaf9a1033d301e8c18b1496e7dd.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zlib1-ba4d126d48970db18f494d09de7e449f.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zstd-806211ecfaf66b2b69ea8f91929f604a.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
         }
       },
       "Microsoft.NETFramework.ReferenceAssemblies.net48/1.0.3": {
@@ -122,6 +1339,25 @@
           "build/net48/RhinoCommon.targets": {}
         }
       },
+      "System.Configuration.ConfigurationManager/9.0.10": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "9.0.10"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp2.0/System.Configuration.ConfigurationManager.targets": {}
+        }
+      },
       "System.Drawing.Common/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -145,6 +1381,34 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "System.Memory/4.5.5": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/9.0.10": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp2.0/System.Security.Cryptography.ProtectedData.targets": {}
         }
       }
     },
@@ -171,6 +1435,605 @@
           "build/net48/Grasshopper.targets": {}
         }
       },
+      "MeshLib/3.0.8.247": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MRDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MRDotNet.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libCharLS-704e204b.so.2.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libE57Format-e30071c4.so.3.2.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libHalf-614356b1.so.24.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libIex-2_3-f9b27411.so.24.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libIlmImf-2_3-72bfabbd.so.24.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libIlmThread-2_3-b765c51d.so.24.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMRIOExtras-bddecfef.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMRMesh-eacf4b30.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMRMeshC.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMRVoxels-31ef5cda.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libOpenCTM-3381561f.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKBO-f8934ca7.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKBRep-a3ddec3b.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKCAF-54b37535.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKCDF-04a8a4ba.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKG2d-33da4fff.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKG3d-3d5a0171.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKGeomAlgo-fec06afe.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKGeomBase-66d1c402.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKHLR-6ceac0e1.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKLCAF-4425d53a.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKMath-a9c8c9a3.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKMesh-3c4fb56b.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKPrim-e7dc2c39.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKSTEP-c0b51a22.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKSTEP209-6162b55f.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKSTEPAttr-b1748b4a.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKSTEPBase-b9e44b4d.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKService-26ae894c.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKShHealing-87a193c3.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKTopAlgo-932306c4.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKV3d-8d06fac7.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKVCAF-1bc1f4ea.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKXCAF-29a1965e.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKXDESTEP-a68db306.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKXSBase-958d3cfc.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libTKernel-8317632a.so.7.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libblosc-0d374deb.so.1.17.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libboost_iostreams-01822014.so.1.71.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libbz2-4488544d.so.1.0.4": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libcrypto-bf99926d.so.1.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libfreeimage-3-bcaddc28.18.0.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libfreetype-b2547240.so.6.17.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmCommon-6a5411ce.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmDICT-95ca87b5.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmDSED-034e0bef.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmIOD-df508dea.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmMSFF-21af924f.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmjpeg12-691dd590.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmjpeg16-35ab71eb.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgdcmjpeg8-83b575a3.so.3.0.5": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libgomp-98b21ff3.so.1.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libhpdf-2-19c577a9.3.0.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjbig-0f1087b4.so.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjpeg-55cb507f.so.8.2.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjpegxr-2d5c0d18.so.1.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjson-c-3768995f.so.4.0.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjsoncpp-7f755907.so.1.7.4": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libjxrglue-4a31577b.so.1.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/liblazperf-015c2a89.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/liblcms2-caa5d83f.so.2.0.8": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/liblz4-d6574e34.so.1.9.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/liblzma-79a1dbc7.so.5.2.4": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libopenjp2-711390ff.so.2.3.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libopenvdb-059dcfcf.so.9.1.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libpng16-4a697b98.so.16.37.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libraw-5375f4a1.so.19.0.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libsnappy-e38178cf.so.1.1.8": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libspdlog-69ea12a6.so.1.5.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtbb-26115b1a.so.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtbbmalloc-14147fcf.so.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtiff-688daa34.so.5.5.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libtinyxml2-a1be9bbe.so.6.2.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libturbojpeg-ce9777a9.so.0.2.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libuuid-5255c400.so.1.3.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libwebp-702eed9c.so.6.0.2": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libwebpmux-ac6651ba.so.3.0.1": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libzip-9c23ab55.so.5.0": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libzstd-9edef536.so.1.4.4": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/win-x64/native/E57Format-92d647d59a87ba319154f997308f712c.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/Imath-3_1-4177f89df4f0638fc9937bc5c2c707cf.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/MRIOExtras-2a45db17a91c3cacab542dc692cac89a.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/MRMesh-7c79cab24f73f406ff0b3d677ec66d5c.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/MRMeshC.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/MRVoxels-e2e6c00d0c370ad7bec474f13e404b6d.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/OpenCTM-7a3c74bb6b994e587782f349d4533899.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKBO-ce52197714bfd3adfa94675a645f1d2a.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKBRep-18c7d6b8967bfa569cd0898cce906142.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKCAF-f93d55331b38b8b9a536ec83a8ffe5bb.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKCDF-1d8ceaa48f6fef6aef72d3d80aefba47.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKDE-d1a2c7df39cb3f31815b87e19a3335ae.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKDESTEP-d72f01212dbda1e113c4d703286e6e64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKG2d-517cbd4d8f0b668aa160c6e9aa9c21dd.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKG3d-b787253280054f8f733ffff36a4c49a0.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKGeomAlgo-acd68c838d282e7006feffbc65eb737a.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKGeomBase-963851caf1310b053b8c0a5311e7ac19.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKHLR-30ac711ddd5ae85dcadd3f9d180ca9fc.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKLCAF-a7de898fcf540d4c963f201fc0ad26c2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKMath-d3ed84c9abf44c5f949d4242c4dd3dff.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKMesh-7615394ede59578feec2b0c1908a2312.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKPrim-c76451289b7be8b0298b425149762a3e.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKService-e5f4205b03bacf5a188809aa71050034.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKShHealing-addc40a0ec63b3eddcc524ff8f964201.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKTopAlgo-d56e4e65d026e5920780e5d66ef9c501.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKV3d-ff5519f4511b50be766c38e76ab5aa1b.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKVCAF-82cab7ae92a69d7d004878d8c4f9da5e.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKXCAF-095e28018e279b09865b0f51d628faed.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKXSBase-571c90e401530653f1ab667181937894.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/TKernel-74070bcb6460ed8e50b87c2b9301c749.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/blosc-c5cfa941dc26fa3b508ba49cf9824e92.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/brotlicommon-f8d6f8acecff7e9060e3f811df4f32e9.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/brotlidec-04bb57b257f870f1da2edad0b3569ca2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/bz2-71f813906a617c97470b54d5c87f907b.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/fmt-08252c65deff1de7f817761a98c62a89.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/freetype-9a6de9e8a2191664e5f4a93228a73386.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmCommon-8dec66fe9409db259b4b3dd98f74b543.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmDICT-0f47eaf65b1fda8571e615dc5bafc803.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmDSED-e64bb2fa29a3d23a2a09593fa2d796dd.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmIOD-e00ea5f9e0759380f70af430fe50f0ad.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmMSFF-6e3410ef43fc93c7a653222a39c70094.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmcharls-070bed41884c12928581965f561ff534.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmjpeg12-83233b37f25a08220ea59f06b8309250.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmjpeg16-c37e23fc56a0cf299deaca88621242c8.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gdcmjpeg8-3a601c314f922006161a29afa7404b49.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/gmock-c3ca5b58f066e3d9313502a7202aaac6.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/hpdf-be8ccf4535cd7c320703be54336490be.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/jpeg62-27813882f4f9dd04c118fc9d5f54f960.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/jsoncpp-98f76621a85b0419b2bc18089742de1b.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/laz-perf-c70349cfe18a17bf89c16fc4d3e5de82.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libexpat-2af1d99107bf442d4092c8c5fc46f4a7.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/liblzma-29a3cd7230b6035ef6a04ad8c91c63ff.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libpng16-36c15b8f53ba934635dbb663e5055f5d.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/lz4-5befb964ef71d27369d42d1b80ff4dc0.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcp140-482e8fd67dc4ff518b6eecf027219730.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/openjp2-abd2da941ce7a999c8ceecb41d2dff00.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/openvdb-ab0fd35e873d9c338eec39c591d80a13.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/spdlog-ac1ab1f62f2700fffb7eac344608f10b.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/tbb12-c52910fb079928f6813ccf46d1cf85c7.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/tiff-38b20789ef97b44ce4e23127bb11efdf.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/tinyxml2-a449eeb19bb14031a4abafa2ff38c982.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/turbojpeg-628b71a8a54a09a2df179f4ffc5ff51f.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/vcruntime140-2b7602cc1521101d116995e3e2ddfe09.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/vcruntime140_1-36d067fc723411e986cd5b23567fd8ce.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/xerces-c_3_3-1feb7a07f17ef6e2a9dfc0d8e9682397.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zip-9669faaf9a1033d301e8c18b1496e7dd.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zlib1-ba4d126d48970db18f494d09de7e449f.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zstd-806211ecfaf66b2b69ea8f91929f604a.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
       "RhinoCommon/8.0.23304.9001": {
         "type": "package",
         "compile": {
@@ -193,6 +2056,53 @@
         "build": {
           "build/net48/RhinoCommon.targets": {}
         }
+      },
+      "System.Configuration.ConfigurationManager/9.0.10": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "9.0.10"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp2.0/System.Configuration.ConfigurationManager.targets": {}
+        }
+      },
+      "System.Memory/4.5.5": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/9.0.10": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp2.0/System.Security.Cryptography.ProtectedData.targets": {}
+        }
       }
     }
   },
@@ -212,6 +2122,168 @@
         "lib/net48/GH_IO.xml",
         "lib/net48/Grasshopper.dll",
         "lib/net48/Grasshopper.xml"
+      ]
+    },
+    "MeshLib/3.0.8.247": {
+      "sha512": "RQBpZ3yxDd5zPFWm/Yxa2MABWzt9AavbzI2aXYUUQlJGS2ENNNTQ5VRoiLuo1gVN7rcMaunQl6hnjnRtJI+2jw==",
+      "type": "package",
+      "path": "meshlib/3.0.8.247",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "docs/readme_dotnet.md",
+        "images/MeshInspector_icon.png",
+        "lib/netstandard2.0/MRDotNet.dll",
+        "meshlib.3.0.8.247.nupkg.sha512",
+        "meshlib.nuspec",
+        "runtimes/linux-x64/native/libCharLS-704e204b.so.2.0",
+        "runtimes/linux-x64/native/libE57Format-e30071c4.so.3.2.0",
+        "runtimes/linux-x64/native/libHalf-614356b1.so.24.0.0",
+        "runtimes/linux-x64/native/libIex-2_3-f9b27411.so.24.0.0",
+        "runtimes/linux-x64/native/libIlmImf-2_3-72bfabbd.so.24.0.0",
+        "runtimes/linux-x64/native/libIlmThread-2_3-b765c51d.so.24.0.0",
+        "runtimes/linux-x64/native/libMRIOExtras-bddecfef.so",
+        "runtimes/linux-x64/native/libMRMesh-eacf4b30.so",
+        "runtimes/linux-x64/native/libMRMeshC.so",
+        "runtimes/linux-x64/native/libMRVoxels-31ef5cda.so",
+        "runtimes/linux-x64/native/libOpenCTM-3381561f.so",
+        "runtimes/linux-x64/native/libTKBO-f8934ca7.so.7.3.0",
+        "runtimes/linux-x64/native/libTKBRep-a3ddec3b.so.7.3.0",
+        "runtimes/linux-x64/native/libTKCAF-54b37535.so.7.3.0",
+        "runtimes/linux-x64/native/libTKCDF-04a8a4ba.so.7.3.0",
+        "runtimes/linux-x64/native/libTKG2d-33da4fff.so.7.3.0",
+        "runtimes/linux-x64/native/libTKG3d-3d5a0171.so.7.3.0",
+        "runtimes/linux-x64/native/libTKGeomAlgo-fec06afe.so.7.3.0",
+        "runtimes/linux-x64/native/libTKGeomBase-66d1c402.so.7.3.0",
+        "runtimes/linux-x64/native/libTKHLR-6ceac0e1.so.7.3.0",
+        "runtimes/linux-x64/native/libTKLCAF-4425d53a.so.7.3.0",
+        "runtimes/linux-x64/native/libTKMath-a9c8c9a3.so.7.3.0",
+        "runtimes/linux-x64/native/libTKMesh-3c4fb56b.so.7.3.0",
+        "runtimes/linux-x64/native/libTKPrim-e7dc2c39.so.7.3.0",
+        "runtimes/linux-x64/native/libTKSTEP-c0b51a22.so.7.3.0",
+        "runtimes/linux-x64/native/libTKSTEP209-6162b55f.so.7.3.0",
+        "runtimes/linux-x64/native/libTKSTEPAttr-b1748b4a.so.7.3.0",
+        "runtimes/linux-x64/native/libTKSTEPBase-b9e44b4d.so.7.3.0",
+        "runtimes/linux-x64/native/libTKService-26ae894c.so.7.3.0",
+        "runtimes/linux-x64/native/libTKShHealing-87a193c3.so.7.3.0",
+        "runtimes/linux-x64/native/libTKTopAlgo-932306c4.so.7.3.0",
+        "runtimes/linux-x64/native/libTKV3d-8d06fac7.so.7.3.0",
+        "runtimes/linux-x64/native/libTKVCAF-1bc1f4ea.so.7.3.0",
+        "runtimes/linux-x64/native/libTKXCAF-29a1965e.so.7.3.0",
+        "runtimes/linux-x64/native/libTKXDESTEP-a68db306.so.7.3.0",
+        "runtimes/linux-x64/native/libTKXSBase-958d3cfc.so.7.3.0",
+        "runtimes/linux-x64/native/libTKernel-8317632a.so.7.3.0",
+        "runtimes/linux-x64/native/libblosc-0d374deb.so.1.17.1",
+        "runtimes/linux-x64/native/libboost_iostreams-01822014.so.1.71.0",
+        "runtimes/linux-x64/native/libbz2-4488544d.so.1.0.4",
+        "runtimes/linux-x64/native/libcrypto-bf99926d.so.1.1",
+        "runtimes/linux-x64/native/libfreeimage-3-bcaddc28.18.0.so",
+        "runtimes/linux-x64/native/libfreetype-b2547240.so.6.17.1",
+        "runtimes/linux-x64/native/libgdcmCommon-6a5411ce.so.3.0.5",
+        "runtimes/linux-x64/native/libgdcmDICT-95ca87b5.so.3.0.5",
+        "runtimes/linux-x64/native/libgdcmDSED-034e0bef.so.3.0.5",
+        "runtimes/linux-x64/native/libgdcmIOD-df508dea.so.3.0.5",
+        "runtimes/linux-x64/native/libgdcmMSFF-21af924f.so.3.0.5",
+        "runtimes/linux-x64/native/libgdcmjpeg12-691dd590.so.3.0.5",
+        "runtimes/linux-x64/native/libgdcmjpeg16-35ab71eb.so.3.0.5",
+        "runtimes/linux-x64/native/libgdcmjpeg8-83b575a3.so.3.0.5",
+        "runtimes/linux-x64/native/libgomp-98b21ff3.so.1.0.0",
+        "runtimes/linux-x64/native/libhpdf-2-19c577a9.3.0.so",
+        "runtimes/linux-x64/native/libjbig-0f1087b4.so.0",
+        "runtimes/linux-x64/native/libjpeg-55cb507f.so.8.2.2",
+        "runtimes/linux-x64/native/libjpegxr-2d5c0d18.so.1.1",
+        "runtimes/linux-x64/native/libjson-c-3768995f.so.4.0.0",
+        "runtimes/linux-x64/native/libjsoncpp-7f755907.so.1.7.4",
+        "runtimes/linux-x64/native/libjxrglue-4a31577b.so.1.1",
+        "runtimes/linux-x64/native/liblazperf-015c2a89.so",
+        "runtimes/linux-x64/native/liblcms2-caa5d83f.so.2.0.8",
+        "runtimes/linux-x64/native/liblz4-d6574e34.so.1.9.2",
+        "runtimes/linux-x64/native/liblzma-79a1dbc7.so.5.2.4",
+        "runtimes/linux-x64/native/libopenjp2-711390ff.so.2.3.1",
+        "runtimes/linux-x64/native/libopenvdb-059dcfcf.so.9.1.0",
+        "runtimes/linux-x64/native/libpng16-4a697b98.so.16.37.0",
+        "runtimes/linux-x64/native/libraw-5375f4a1.so.19.0.2",
+        "runtimes/linux-x64/native/libsnappy-e38178cf.so.1.1.8",
+        "runtimes/linux-x64/native/libspdlog-69ea12a6.so.1.5.0",
+        "runtimes/linux-x64/native/libtbb-26115b1a.so.2",
+        "runtimes/linux-x64/native/libtbbmalloc-14147fcf.so.2",
+        "runtimes/linux-x64/native/libtiff-688daa34.so.5.5.0",
+        "runtimes/linux-x64/native/libtinyxml2-a1be9bbe.so.6.2.0",
+        "runtimes/linux-x64/native/libturbojpeg-ce9777a9.so.0.2.0",
+        "runtimes/linux-x64/native/libuuid-5255c400.so.1.3.0",
+        "runtimes/linux-x64/native/libwebp-702eed9c.so.6.0.2",
+        "runtimes/linux-x64/native/libwebpmux-ac6651ba.so.3.0.1",
+        "runtimes/linux-x64/native/libzip-9c23ab55.so.5.0",
+        "runtimes/linux-x64/native/libzstd-9edef536.so.1.4.4",
+        "runtimes/win-x64/native/E57Format-92d647d59a87ba319154f997308f712c.dll",
+        "runtimes/win-x64/native/Imath-3_1-4177f89df4f0638fc9937bc5c2c707cf.dll",
+        "runtimes/win-x64/native/MRIOExtras-2a45db17a91c3cacab542dc692cac89a.dll",
+        "runtimes/win-x64/native/MRMesh-7c79cab24f73f406ff0b3d677ec66d5c.dll",
+        "runtimes/win-x64/native/MRMeshC.dll",
+        "runtimes/win-x64/native/MRVoxels-e2e6c00d0c370ad7bec474f13e404b6d.dll",
+        "runtimes/win-x64/native/OpenCTM-7a3c74bb6b994e587782f349d4533899.dll",
+        "runtimes/win-x64/native/TKBO-ce52197714bfd3adfa94675a645f1d2a.dll",
+        "runtimes/win-x64/native/TKBRep-18c7d6b8967bfa569cd0898cce906142.dll",
+        "runtimes/win-x64/native/TKCAF-f93d55331b38b8b9a536ec83a8ffe5bb.dll",
+        "runtimes/win-x64/native/TKCDF-1d8ceaa48f6fef6aef72d3d80aefba47.dll",
+        "runtimes/win-x64/native/TKDE-d1a2c7df39cb3f31815b87e19a3335ae.dll",
+        "runtimes/win-x64/native/TKDESTEP-d72f01212dbda1e113c4d703286e6e64.dll",
+        "runtimes/win-x64/native/TKG2d-517cbd4d8f0b668aa160c6e9aa9c21dd.dll",
+        "runtimes/win-x64/native/TKG3d-b787253280054f8f733ffff36a4c49a0.dll",
+        "runtimes/win-x64/native/TKGeomAlgo-acd68c838d282e7006feffbc65eb737a.dll",
+        "runtimes/win-x64/native/TKGeomBase-963851caf1310b053b8c0a5311e7ac19.dll",
+        "runtimes/win-x64/native/TKHLR-30ac711ddd5ae85dcadd3f9d180ca9fc.dll",
+        "runtimes/win-x64/native/TKLCAF-a7de898fcf540d4c963f201fc0ad26c2.dll",
+        "runtimes/win-x64/native/TKMath-d3ed84c9abf44c5f949d4242c4dd3dff.dll",
+        "runtimes/win-x64/native/TKMesh-7615394ede59578feec2b0c1908a2312.dll",
+        "runtimes/win-x64/native/TKPrim-c76451289b7be8b0298b425149762a3e.dll",
+        "runtimes/win-x64/native/TKService-e5f4205b03bacf5a188809aa71050034.dll",
+        "runtimes/win-x64/native/TKShHealing-addc40a0ec63b3eddcc524ff8f964201.dll",
+        "runtimes/win-x64/native/TKTopAlgo-d56e4e65d026e5920780e5d66ef9c501.dll",
+        "runtimes/win-x64/native/TKV3d-ff5519f4511b50be766c38e76ab5aa1b.dll",
+        "runtimes/win-x64/native/TKVCAF-82cab7ae92a69d7d004878d8c4f9da5e.dll",
+        "runtimes/win-x64/native/TKXCAF-095e28018e279b09865b0f51d628faed.dll",
+        "runtimes/win-x64/native/TKXSBase-571c90e401530653f1ab667181937894.dll",
+        "runtimes/win-x64/native/TKernel-74070bcb6460ed8e50b87c2b9301c749.dll",
+        "runtimes/win-x64/native/blosc-c5cfa941dc26fa3b508ba49cf9824e92.dll",
+        "runtimes/win-x64/native/brotlicommon-f8d6f8acecff7e9060e3f811df4f32e9.dll",
+        "runtimes/win-x64/native/brotlidec-04bb57b257f870f1da2edad0b3569ca2.dll",
+        "runtimes/win-x64/native/bz2-71f813906a617c97470b54d5c87f907b.dll",
+        "runtimes/win-x64/native/fmt-08252c65deff1de7f817761a98c62a89.dll",
+        "runtimes/win-x64/native/freetype-9a6de9e8a2191664e5f4a93228a73386.dll",
+        "runtimes/win-x64/native/gdcmCommon-8dec66fe9409db259b4b3dd98f74b543.dll",
+        "runtimes/win-x64/native/gdcmDICT-0f47eaf65b1fda8571e615dc5bafc803.dll",
+        "runtimes/win-x64/native/gdcmDSED-e64bb2fa29a3d23a2a09593fa2d796dd.dll",
+        "runtimes/win-x64/native/gdcmIOD-e00ea5f9e0759380f70af430fe50f0ad.dll",
+        "runtimes/win-x64/native/gdcmMSFF-6e3410ef43fc93c7a653222a39c70094.dll",
+        "runtimes/win-x64/native/gdcmcharls-070bed41884c12928581965f561ff534.dll",
+        "runtimes/win-x64/native/gdcmjpeg12-83233b37f25a08220ea59f06b8309250.dll",
+        "runtimes/win-x64/native/gdcmjpeg16-c37e23fc56a0cf299deaca88621242c8.dll",
+        "runtimes/win-x64/native/gdcmjpeg8-3a601c314f922006161a29afa7404b49.dll",
+        "runtimes/win-x64/native/gmock-c3ca5b58f066e3d9313502a7202aaac6.dll",
+        "runtimes/win-x64/native/hpdf-be8ccf4535cd7c320703be54336490be.dll",
+        "runtimes/win-x64/native/jpeg62-27813882f4f9dd04c118fc9d5f54f960.dll",
+        "runtimes/win-x64/native/jsoncpp-98f76621a85b0419b2bc18089742de1b.dll",
+        "runtimes/win-x64/native/laz-perf-c70349cfe18a17bf89c16fc4d3e5de82.dll",
+        "runtimes/win-x64/native/libexpat-2af1d99107bf442d4092c8c5fc46f4a7.dll",
+        "runtimes/win-x64/native/liblzma-29a3cd7230b6035ef6a04ad8c91c63ff.dll",
+        "runtimes/win-x64/native/libpng16-36c15b8f53ba934635dbb663e5055f5d.dll",
+        "runtimes/win-x64/native/lz4-5befb964ef71d27369d42d1b80ff4dc0.dll",
+        "runtimes/win-x64/native/msvcp140-482e8fd67dc4ff518b6eecf027219730.dll",
+        "runtimes/win-x64/native/openjp2-abd2da941ce7a999c8ceecb41d2dff00.dll",
+        "runtimes/win-x64/native/openvdb-ab0fd35e873d9c338eec39c591d80a13.dll",
+        "runtimes/win-x64/native/spdlog-ac1ab1f62f2700fffb7eac344608f10b.dll",
+        "runtimes/win-x64/native/tbb12-c52910fb079928f6813ccf46d1cf85c7.dll",
+        "runtimes/win-x64/native/tiff-38b20789ef97b44ce4e23127bb11efdf.dll",
+        "runtimes/win-x64/native/tinyxml2-a449eeb19bb14031a4abafa2ff38c982.dll",
+        "runtimes/win-x64/native/turbojpeg-628b71a8a54a09a2df179f4ffc5ff51f.dll",
+        "runtimes/win-x64/native/vcruntime140-2b7602cc1521101d116995e3e2ddfe09.dll",
+        "runtimes/win-x64/native/vcruntime140_1-36d067fc723411e986cd5b23567fd8ce.dll",
+        "runtimes/win-x64/native/xerces-c_3_3-1feb7a07f17ef6e2a9dfc0d8e9682397.dll",
+        "runtimes/win-x64/native/zip-9669faaf9a1033d301e8c18b1496e7dd.dll",
+        "runtimes/win-x64/native/zlib1-ba4d126d48970db18f494d09de7e449f.dll",
+        "runtimes/win-x64/native/zstd-806211ecfaf66b2b69ea8f91929f604a.dll"
       ]
     },
     "Microsoft.NETFramework.ReferenceAssemblies.net48/1.0.3": {
@@ -646,6 +2718,34 @@
         "rhinocommon.png"
       ]
     },
+    "System.Configuration.ConfigurationManager/9.0.10": {
+      "sha512": "5CBhl5dWmckKEtvk8F6GXtmHxNBoqAC8xILxIntNm7AzHiXQ09CXSLhncIJ/cQWaiNYzLjHZCgtMfx9tkCKHdA==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/9.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Configuration.ConfigurationManager.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Configuration.ConfigurationManager.targets",
+        "lib/net462/System.Configuration.ConfigurationManager.dll",
+        "lib/net462/System.Configuration.ConfigurationManager.xml",
+        "lib/net8.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net8.0/System.Configuration.ConfigurationManager.xml",
+        "lib/net9.0/System.Configuration.ConfigurationManager.dll",
+        "lib/net9.0/System.Configuration.ConfigurationManager.xml",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.9.0.10.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Drawing.Common/7.0.0": {
       "sha512": "KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
       "type": "package",
@@ -682,19 +2782,82 @@
         "system.drawing.common.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "type": "package",
+      "path": "system.memory/4.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.5.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Security.Cryptography.ProtectedData/9.0.10": {
+      "sha512": "iC0InhfWdk0nHlbcTAAUyWt9X4+CsaZz9elQy0otFcsUkd/Wm+DmEwjqyH9PgFl1XcSowzhv67njCstABTc3Hw==",
+      "type": "package",
+      "path": "system.security.cryptography.protecteddata/9.0.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Security.Cryptography.ProtectedData.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Security.Cryptography.ProtectedData.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net462/System.Security.Cryptography.ProtectedData.xml",
+        "lib/net8.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net8.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/net9.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net9.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "system.security.cryptography.protecteddata.9.0.10.nupkg.sha512",
+        "system.security.cryptography.protecteddata.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
-      "Grasshopper >= 8.0.23304.9001"
+      "Grasshopper >= 8.0.23304.9001",
+      "MeshLib >= 3.0.8.247",
+      "System.Configuration.ConfigurationManager >= 9.0.10"
     ],
     "net7.0": [
       "Grasshopper >= 8.0.23304.9001",
+      "MeshLib >= 3.0.8.247",
       "Microsoft.NETFramework.ReferenceAssemblies.net48 >= 1.0.3",
+      "System.Configuration.ConfigurationManager >= 9.0.10",
       "System.Drawing.Common >= 7.0.0"
     ],
     "net7.0-windows7.0": [
-      "Grasshopper >= 8.0.23304.9001"
+      "Grasshopper >= 8.0.23304.9001",
+      "MeshLib >= 3.0.8.247",
+      "System.Configuration.ConfigurationManager >= 9.0.10"
     ]
   },
   "packageFolders": {
@@ -766,11 +2929,19 @@
             "target": "Package",
             "version": "[8.0.23304.9001, )"
           },
+          "MeshLib": {
+            "target": "Package",
+            "version": "[3.0.8.247, )"
+          },
           "Microsoft.NETFramework.ReferenceAssemblies.net48": {
             "include": "None",
             "target": "Package",
             "version": "[1.0.3, )",
             "generatePathProperty": true
+          },
+          "System.Configuration.ConfigurationManager": {
+            "target": "Package",
+            "version": "[9.0.10, )"
           },
           "System.Drawing.Common": {
             "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -817,6 +2988,14 @@
             "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "target": "Package",
             "version": "[8.0.23304.9001, )"
+          },
+          "MeshLib": {
+            "target": "Package",
+            "version": "[3.0.8.247, )"
+          },
+          "System.Configuration.ConfigurationManager": {
+            "target": "Package",
+            "version": "[9.0.10, )"
           }
         },
         "imports": [
@@ -861,6 +3040,14 @@
             "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "target": "Package",
             "version": "[8.0.23304.9001, )"
+          },
+          "MeshLib": {
+            "target": "Package",
+            "version": "[3.0.8.247, )"
+          },
+          "System.Configuration.ConfigurationManager": {
+            "target": "Package",
+            "version": "[9.0.10, )"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"

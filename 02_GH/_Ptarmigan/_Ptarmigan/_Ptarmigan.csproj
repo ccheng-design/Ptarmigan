@@ -50,9 +50,19 @@
     <EmbeddedResource Include="Resources\IsTriangle.png" />
     <EmbeddedResource Include="Resources\MT_BooleanDifference-24px.png" />
   </ItemGroup>
-  
-  <ItemGroup>
+
+	<ItemGroup>
+		<!-- Copy all DLLs from lib and MeshLib to output directory -->
+		<None Include="lib\**\*.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+
+	<ItemGroup>
     <PackageReference Include="Grasshopper" Version="8.0.23304.9001" ExcludeAssets="runtime" />
+    <PackageReference Include="MeshLib" Version="3.0.8.247" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.10" />
   </ItemGroup>
   
   <!-- For Windows only builds -->
@@ -78,6 +88,19 @@
       <HintPath>lib\MeshLib\MRDotNet.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
 
   <Target Name="BuildYakPackage" AfterTargets="DispatchToInnerBuilds">
     <PropertyGroup>
@@ -99,5 +122,12 @@
     <Exec Command="&quot;$(YakExecutable)&quot; build" WorkingDirectory="$(OutputPath)" Condition="$(BuildYakPackage) == 'True'" />
 
   </Target>
+
+    <Target Name="FlattenLibs" AfterTargets="Build">
+	    <ItemGroup>
+		    <MeshLibDlls Include="$(OutputPath)\lib\MeshLib\*.dll" />
+	    </ItemGroup>
+	    <Copy SourceFiles="@(MeshLibDlls)" DestinationFolder="$(OutputPath)" SkipUnchangedFiles="true" />
+    </Target>
 
 </Project>
