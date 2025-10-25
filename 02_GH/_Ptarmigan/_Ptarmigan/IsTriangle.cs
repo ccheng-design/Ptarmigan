@@ -12,6 +12,7 @@ using Grasshopper.Kernel;
 using Grasshopper.Kernel.Data;
 using Grasshopper.Kernel.Types;
 using System.IO;
+using System.Runtime.Versioning;
 
 namespace _Ptarmigan
 {
