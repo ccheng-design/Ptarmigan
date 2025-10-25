@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\jm_convex hull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\jm_convex hull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\shell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\shell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\isquad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\isquad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\mt_booleandifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\mt_booleandifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\polylineoffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\polylineoffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|d:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\resources\\nativeresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\resources\\nativeresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +30,71 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IsQuad.cs",
-              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\IsQuad.cs",
-              "RelativeDocumentMoniker": "_Ptarmigan\\IsQuad.cs",
-              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\IsQuad.cs",
-              "RelativeToolTip": "_Ptarmigan\\IsQuad.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T11:17:06.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Shell.cs",
               "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\Shell.cs",
               "RelativeDocumentMoniker": "_Ptarmigan\\Shell.cs",
               "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\Shell.cs",
               "RelativeToolTip": "_Ptarmigan\\Shell.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAowI0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAowLcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T07:04:07.895Z",
+              "WhenOpened": "2025-10-25T02:48:54.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MT_BooleanDifference.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MT_BooleanDifference.cs",
+              "RelativeDocumentMoniker": "_Ptarmigan\\MT_BooleanDifference.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MT_BooleanDifference.cs",
+              "RelativeToolTip": "_Ptarmigan\\MT_BooleanDifference.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAqwMAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T01:13:55.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PolylineOffset.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\PolylineOffset.cs",
+              "RelativeDocumentMoniker": "_Ptarmigan\\PolylineOffset.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\PolylineOffset.cs",
+              "RelativeToolTip": "_Ptarmigan\\PolylineOffset.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T02:48:22.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NativeResolver.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\Resources\\NativeResolver.cs",
+              "RelativeDocumentMoniker": "_Ptarmigan\\Resources\\NativeResolver.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\Resources\\NativeResolver.cs",
+              "RelativeToolTip": "_Ptarmigan\\Resources\\NativeResolver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T02:48:21.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JM_Convex Hull.cs",
+              "DocumentMoniker": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\JM_Convex Hull.cs",
+              "RelativeDocumentMoniker": "_Ptarmigan\\JM_Convex Hull.cs",
+              "ToolTip": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\JM_Convex Hull.cs",
+              "RelativeToolTip": "_Ptarmigan\\JM_Convex Hull.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T02:48:18.213Z",
               "EditorCaption": ""
             }
           ]

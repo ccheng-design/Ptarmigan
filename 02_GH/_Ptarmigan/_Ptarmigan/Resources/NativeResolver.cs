@@ -3,7 +3,7 @@ using System.IO;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-namespace Ptarmigan
+namespace _Ptarmigan.Resources
 {
     internal static class NativeResolver
     {
