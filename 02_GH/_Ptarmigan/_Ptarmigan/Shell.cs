@@ -179,9 +179,9 @@ namespace _Ptarmigan
         {
             get
             {
-                //You can add image files to your project resources and access them like this:
-                // return Resources.IconForThisComponent;
-                return null;
+                var assembly = System.Reflection.Assembly.GetExecutingAssembly();
+                var stream = assembly.GetManifestResourceStream("_Ptarmigan.Resources.Shell-24px.png");
+                return new System.Drawing.Bitmap(stream);
             }
         }
 
