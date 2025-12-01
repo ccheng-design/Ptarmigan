@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "shortcuts": [
+    {
+      "colorName": "Basic Groups",
+      "library": "DefaultColorLib",
+      "shortcut": "F7",
+      "colorData": {
+        "Name": "Basic Groups",
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
+      }
+    },
+    {
+      "colorName": "Parameters",
+      "library": "DefaultColorLib",
+      "shortcut": "F10",
+      "colorData": {
+        "Name": "Parameters",
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
+      }
+    },
+    {
+      "colorName": "Reference Geometry",
+      "library": "DefaultColorLib",
+      "shortcut": "F11",
+      "colorData": {
+        "Name": "Reference Geometry",
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
+      }
+    },
+    {
+      "colorName": "Outputs",
+      "library": "DefaultColorLib",
+      "shortcut": "F9",
+      "colorData": {
+        "Name": "Outputs",
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
+      }
+    },
+    {
+      "colorName": "Inputs",
+      "library": "DefaultColorLib",
+      "shortcut": "F8",
+      "colorData": {
+        "Name": "Inputs",
+        "R": 0,
+        "G": 0,
+        "B": 0,
+        "A": 0
+      }
+    }
+  ]
+}
