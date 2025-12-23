@@ -44,6 +44,7 @@ for obj in ids:
 
     vp=detail.Viewport
 
+    #String box to type display name
     displayModeName = rs.StringBox("Display Mode Name","Shaded","Display Mode")
 
     mode=Rhino.Display.DisplayModeDescription.FindByName(displayModeName)
