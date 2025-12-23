@@ -36,6 +36,9 @@ import Rhino
 #Get detail from viewport
 ids=rs.GetObjects("Select Detail", rs.filter.detail,preselect=True)
 
+#String box to type display name
+displayModeName = rs.StringBox("Display Mode Name","Shaded","Display Mode")
+
 for obj in ids:
 
     detail_id=ids[0]
@@ -44,8 +47,7 @@ for obj in ids:
 
     vp=detail.Viewport
 
-    #String box to type display name
-    displayModeName = rs.StringBox("Display Mode Name","Shaded","Display Mode")
+
 
     mode=Rhino.Display.DisplayModeDescription.FindByName(displayModeName)
 
