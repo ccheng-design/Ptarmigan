@@ -39,14 +39,13 @@ ids=rs.GetObjects("Select Detail", rs.filter.detail,preselect=True)
 #String box to type display name
 displayModeName = rs.StringBox("Display Mode Name","Shaded","Display Mode")
 
+
+
 for obj in ids:
 
     detail_id=ids[0]
 
     detail=sc.doc.Objects.FindId(detail_id)
-
-    
-
 
 
     mode=Rhino.Display.DisplayModeDescription.FindByName(displayModeName)
