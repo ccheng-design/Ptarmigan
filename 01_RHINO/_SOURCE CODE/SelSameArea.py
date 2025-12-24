@@ -13,7 +13,7 @@ geo_types=rs.filter.polysurface | rs.filter.surface | rs.filter.curve
 
 
 #Get geometry
-area_obj=rs.GetObjects("Select surfaces, polysurfaces, hatches, closed planar curves or polygon meshes for area calculation",preselect=True)
+area_obj=rs.GetObjects("Select surfaces, polysurfaces, hatches, closed planar curves or polygon meshes for area calculation",geo_types,preselect=True)
 if not area_obj:
     print("None Selected")
 
