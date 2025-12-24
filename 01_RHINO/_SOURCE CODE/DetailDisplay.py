@@ -45,7 +45,7 @@ for obj in ids:
 
     detail=sc.doc.Objects.FindId(detail_id)
 
-    vp=detail.Viewport
+    
 
 
 
