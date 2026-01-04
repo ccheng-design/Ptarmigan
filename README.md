@@ -13,7 +13,7 @@ This repo contains:
 ## 🌐 Documentation
 
 A live site for documentation and plugin info is hosted here:  
-📖 **[Ptarmigan Documentation]([https://ccheng-design.github.io/Ptarmigan/](https://clarkchengdesign.gitbook.io/home/))**
+📖 **[Ptarmigan Documentation](https://ccheng-design.github.io/Ptarmigan/)**
 
 ---
 
