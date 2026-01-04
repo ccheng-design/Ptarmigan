@@ -43,7 +43,7 @@ A key part of this repo is the Grasshopper plugin **UAP**, which includes custom
 - `BOM`
 - `BlocktoLayer`
 
-More details and usage examples can be found in the [documentation]([https://ccheng-design.github.io/Ptarmigan/](https://clarkchengdesign.gitbook.io/home/)).
+More details and usage examples can be found in the [documentation]((https://clarkchengdesign.gitbook.io/home/)).
 
 ---
 
