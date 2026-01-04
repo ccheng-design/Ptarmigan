@@ -13,7 +13,7 @@ This repo contains:
 ## 🌐 Documentation
 
 A live site for documentation and plugin info is hosted here:  
-📖 **[Ptarmigan Documentation](https://ccheng-design.github.io/Ptarmigan/)**
+📖 **[Ptarmigan Documentation]([https://ccheng-design.github.io/Ptarmigan/](https://clarkchengdesign.gitbook.io/home/))**
 
 ---
 
@@ -42,7 +42,7 @@ A key part of this repo is the Grasshopper plugin **UAP**, which includes custom
 - `BOM`
 - `BlocktoLayer`
 
-More details and usage examples can be found in the [documentation](https://ccheng-design.github.io/Ptarmigan/).
+More details and usage examples can be found in the [documentation]([https://ccheng-design.github.io/Ptarmigan/](https://clarkchengdesign.gitbook.io/home/)).
 
 ---
 
