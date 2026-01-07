@@ -20,7 +20,7 @@ A live site for documentation and plugin info is hosted here:
 
 ## 📦 Grasshopper Plugin: Ptarmigan
 
-A key part of this repo is the Grasshopper plugin **UAP**, which includes custom components to extend workflow efficiency.
+A key part of this repo is the Grasshopper plugin **PTARMIGAN**, which includes custom components to extend workflow efficiency.
 
 ### ✅ Installation Instructions
 
