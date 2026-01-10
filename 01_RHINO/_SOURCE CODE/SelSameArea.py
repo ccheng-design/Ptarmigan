@@ -23,12 +23,17 @@ else:
     #create list to hold geo
     measured_obj=[]
 
+    
+
     #for loop in each obj
     for obj in area_obj:
 
         #for each obj measure the area
         area=rs.Area(obj)
-        area=round(area,3)
+        
+
+        area=m.trunc(round(area,3))
+        
         
         #debugging
         #print(area)
@@ -66,7 +71,10 @@ else:
         if not specific_obj:
             print("None Selected")
         else:
-            specific_area=round(rs.Area(specific_obj),3)
+
+            roundedArea=round(rs.Area(specific_obj),3)
+            specific_area=m.trunc(round(area,3))
+
 
             print(specific_area)
 
