@@ -42,6 +42,8 @@ A key part of this repo is the Grasshopper plugin **PTARMIGAN**, which includes 
 - `VolumetoDot`
 - `BOM`
 - `BlocktoLayer`
+- `DetailScale`
+- `DetailDisplay`
 
 More details and usage examples can be found in the 📖 **[Ptarmigan Documentation](https://clarkchengdesign.gitbook.io/home/)**
 
