@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.8": {
-      "Grasshopper/8.23.25251.13001": {
+      "Grasshopper/8.26.25349.19001": {
         "type": "package",
         "dependencies": {
-          "RhinoCommon": "[8.23.25251.13001]"
+          "RhinoCommon": "[8.26.25349.19001]"
         },
         "frameworkAssemblies": [
           "System.Drawing",
@@ -55,7 +55,7 @@
           "build/Microsoft.NETFramework.ReferenceAssemblies.net48.targets": {}
         }
       },
-      "RhinoCommon/8.23.25251.13001": {
+      "RhinoCommon/8.26.25349.19001": {
         "type": "package",
         "frameworkAssemblies": [
           "System.Drawing"
@@ -91,16 +91,16 @@
     }
   },
   "libraries": {
-    "Grasshopper/8.23.25251.13001": {
-      "sha512": "AoswT4QQlD21t/ywsUy2cZRuSQDg39WGIVoyc0jOPv7973WwMrGO891ZIQ0vRZ23s4NGa5lqPU53ZgoGZqSpGA==",
+    "Grasshopper/8.26.25349.19001": {
+      "sha512": "ir78wHR5+9/XVIMqEwkpqW4UJ2lxby656KcIawM3+XQVAzQ+A5YuS6w3a1/xqT8mNTYv6rVMX4wMFNvJoxasNA==",
       "type": "package",
-      "path": "grasshopper/8.23.25251.13001",
+      "path": "grasshopper/8.26.25349.19001",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/net48/Grasshopper.targets",
         "build/net7.0/Grasshopper.targets",
-        "grasshopper.8.23.25251.13001.nupkg.sha512",
+        "grasshopper.8.26.25349.19001.nupkg.sha512",
         "grasshopper.nuspec",
         "grasshopper.png",
         "lib/net48/GH_IO.dll",
@@ -573,10 +573,10 @@
         "microsoft.netframework.referenceassemblies.net48.nuspec"
       ]
     },
-    "RhinoCommon/8.23.25251.13001": {
-      "sha512": "FKkGghsK0lG7nrjweP3W009lbqMn9tAPF27gw8wognZfZ4hYkTZygOpF99p2Vl7gn+faGKEmh11LgDj6PU/YNw==",
+    "RhinoCommon/8.26.25349.19001": {
+      "sha512": "VgkfW+le2IKa6jzgQyQlryf1KSs+2GY6aWVTg3xq3b9iL4nFC5wwzr0L8bpmj7i2z8ftZ6oB70KhZaWbYyLZ3w==",
       "type": "package",
-      "path": "rhinocommon/8.23.25251.13001",
+      "path": "rhinocommon/8.26.25349.19001",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -599,7 +599,7 @@
         "lib/net7.0/Rhino.UI.dll",
         "lib/net7.0/RhinoCommon.dll",
         "lib/net7.0/RhinoCommon.xml",
-        "rhinocommon.8.23.25251.13001.nupkg.sha512",
+        "rhinocommon.8.26.25349.19001.nupkg.sha512",
         "rhinocommon.nuspec",
         "rhinocommon.png"
       ]
@@ -615,23 +615,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Clark\\.nuget\\packages\\": {},
+    "C:\\Users\\Clark Cheng\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Architectural Templates\\Ptarmigan\\_BUILDS\\rh8\\src\\Ptarmigan\\Ptarmigan.csproj",
+      "projectUniqueName": "E:\\Architectural Templates\\Ptarmigan\\_BUILDS\\ptarmigan-0.1.4343-beta+9410-rh8-any\\src\\Ptarmigan\\Ptarmigan.csproj",
       "projectName": "Ptarmigan",
-      "projectPath": "D:\\Architectural Templates\\Ptarmigan\\_BUILDS\\rh8\\src\\Ptarmigan\\Ptarmigan.csproj",
-      "packagesPath": "C:\\Users\\Clark\\.nuget\\packages\\",
-      "outputPath": "D:\\Architectural Templates\\Ptarmigan\\_BUILDS\\rh8\\src\\Ptarmigan\\obj\\",
+      "projectPath": "E:\\Architectural Templates\\Ptarmigan\\_BUILDS\\ptarmigan-0.1.4343-beta+9410-rh8-any\\src\\Ptarmigan\\Ptarmigan.csproj",
+      "packagesPath": "C:\\Users\\Clark Cheng\\.nuget\\packages\\",
+      "outputPath": "E:\\Architectural Templates\\Ptarmigan\\_BUILDS\\ptarmigan-0.1.4343-beta+9410-rh8-any\\src\\Ptarmigan\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Clark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Clark Cheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -688,7 +688,7 @@
             "version": "[8.*, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

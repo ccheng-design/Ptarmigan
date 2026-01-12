@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Architectural Templates\\Ptarmigan\\_BUILDS\\rh8\\src\\Ptarmigan\\Ptarmigan.csproj": {}
+    "E:\\Architectural Templates\\Ptarmigan\\_BUILDS\\ptarmigan-0.1.4343-beta+9410-rh8-any\\src\\Ptarmigan\\Ptarmigan.csproj": {}
   },
   "projects": {
-    "D:\\Architectural Templates\\Ptarmigan\\_BUILDS\\rh8\\src\\Ptarmigan\\Ptarmigan.csproj": {
+    "E:\\Architectural Templates\\Ptarmigan\\_BUILDS\\ptarmigan-0.1.4343-beta+9410-rh8-any\\src\\Ptarmigan\\Ptarmigan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Architectural Templates\\Ptarmigan\\_BUILDS\\rh8\\src\\Ptarmigan\\Ptarmigan.csproj",
+        "projectUniqueName": "E:\\Architectural Templates\\Ptarmigan\\_BUILDS\\ptarmigan-0.1.4343-beta+9410-rh8-any\\src\\Ptarmigan\\Ptarmigan.csproj",
         "projectName": "Ptarmigan",
-        "projectPath": "D:\\Architectural Templates\\Ptarmigan\\_BUILDS\\rh8\\src\\Ptarmigan\\Ptarmigan.csproj",
-        "packagesPath": "C:\\Users\\Clark\\.nuget\\packages\\",
-        "outputPath": "D:\\Architectural Templates\\Ptarmigan\\_BUILDS\\rh8\\src\\Ptarmigan\\obj\\",
+        "projectPath": "E:\\Architectural Templates\\Ptarmigan\\_BUILDS\\ptarmigan-0.1.4343-beta+9410-rh8-any\\src\\Ptarmigan\\Ptarmigan.csproj",
+        "packagesPath": "C:\\Users\\Clark Cheng\\.nuget\\packages\\",
+        "outputPath": "E:\\Architectural Templates\\Ptarmigan\\_BUILDS\\ptarmigan-0.1.4343-beta+9410-rh8-any\\src\\Ptarmigan\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Clark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Clark Cheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -74,7 +74,7 @@
               "version": "[8.*, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
