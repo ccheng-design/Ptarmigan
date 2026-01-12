@@ -37,7 +37,7 @@ else:
 
 
     #all objects
-    all_obj_opt=("All_Objects", "False", "True")
+    all_obj_opt=("Check_All_Selected_Objects", "False", "True")
     all_obj=rs.GetBoolean("Boolean options" ,all_obj_opt, (False))
     #print(all_obj)
 
