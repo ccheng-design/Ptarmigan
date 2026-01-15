@@ -67,13 +67,13 @@ else:
         print(len(same_area), "objects has the same area")
     else:
         #specific objects
-        specific_obj=rs.GetObject()
+        specific_obj=rs.GetObject("Select Object to Measure")
         if not specific_obj:
             print("None Selected")
         else:
 
-            roundedArea=round(rs.Area(specific_obj),3)
-            specific_area=m.trunc(round(area,3))
+            specific_area=m.trunc(round(rs.Area(specific_obj),3))
+            #specific_area=m.trunc(round(area,3))
 
 
             print(specific_area)
