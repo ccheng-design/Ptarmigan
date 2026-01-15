@@ -44,13 +44,6 @@ else:
             area=round(area,3)
 
 
-
-        #area=m.trunc(round(area,3))
-        
-        
-        #debugging
-        #print(area)
-
         #debugging
         measured_obj.append(area)
     print(measured_obj)
