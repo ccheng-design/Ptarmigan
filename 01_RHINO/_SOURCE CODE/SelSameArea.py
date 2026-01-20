@@ -23,7 +23,8 @@ else:
     #create list to hold geo
     measured_obj=[]
 
-    
+    RoundingTypeOpt=["Round","Truncate"]
+    RoundingType=rs.GetString("Rounding Type", defaultString="Round",strings=RoundingTypeOpt)
 
     #for loop in each obj
     for obj in area_obj:
@@ -31,12 +32,17 @@ else:
         #for each obj measure the area
         area=rs.Area(obj)
         
+        if RoundingType is None:
+            print("Cancelled")
+            # Use exit() to stop the script entirely
+            exit() 
 
-        area=m.trunc(round(area,3))
+        if RoundingType == "Truncate":
+            area=m.trunc(round(area,3))
         
-        
-        #debugging
-        #print(area)
+        else:
+            area=round(area,3)
+
 
         #debugging
         measured_obj.append(area)
@@ -67,13 +73,20 @@ else:
         print(len(same_area), "objects has the same area")
     else:
         #specific objects
-        specific_obj=rs.GetObject()
+        specific_obj=rs.GetObject("Select Object to Measure")
         if not specific_obj:
             print("None Selected")
         else:
 
-            roundedArea=round(rs.Area(specific_obj),3)
-            specific_area=m.trunc(round(area,3))
+            if RoundingType == "Truncate":
+                specific_area=m.trunc(round(rs.Area(specific_obj),3))
+                #specific_area=m.trunc(round(area,3))
+            else:
+                specific_area=round(rs.Area(specific_obj),3)
+                #specific_area=m.trunc(round(area,3))
+
+
+
 
 
             print(specific_area)
