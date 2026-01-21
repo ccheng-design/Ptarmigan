@@ -458,6 +458,24 @@
           }
         }
       }
+    },
+    {
+      "id": "d04d3ed1-4447-4c51-86c7-7c1693fc6350",
+      "language": {
+        "id": "mcneel.pythonnet.python",
+        "version": "3.9.10"
+      },
+      "title": "SelDetailsInDoc",
+      "uri": "_SOURCE CODE/SelDetailsInDoc.py"
+    },
+    {
+      "id": "9340b5ac-437d-4c2d-8dc3-69ce26f32cad",
+      "language": {
+        "id": "mcneel.pythonnet.python",
+        "version": "3.9.10"
+      },
+      "title": "DetailScaleFactor",
+      "uri": "_SOURCE CODE/DetailScaleFactor.py"
     }
   ],
   "libraries": [
