@@ -63,6 +63,7 @@ for i,j in zip(description,drawingScaleFactor):
   
     print(j)
     rs.SetUserText(i, "SCALE", j)
+    
 
 
 
