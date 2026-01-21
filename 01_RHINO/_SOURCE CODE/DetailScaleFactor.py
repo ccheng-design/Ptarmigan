@@ -22,20 +22,20 @@ detailGet=rs.GetObjects("Get Details",filter=32768)
 description=rs.GetObjects("Get Text",filter=4096)
 
 drawingScaleFactor=[]
-test=[]
+descriptionCount=[]
 
 for i in description:
-    test.append(i)
+    descriptionCount.append(i)
 
 detailGetCount=[]
 for i in detailGet:
     detailGetCount.append(i)
 
 
-print(len(test))
+print(len(descriptionCount))
 print(len(detailGetCount))
 
-if len(test) != len(detailGetCount):
+if len(descriptionCount) != len(detailGetCount):
     sys.exit()
 
 print(detailGet)
