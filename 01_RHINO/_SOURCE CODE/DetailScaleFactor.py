@@ -24,9 +24,11 @@ description=rs.GetObjects("Get Text",filter=4096)
 drawingScaleFactor=[]
 descriptionCount=[]
 
+#description count
 for i in description:
     descriptionCount.append(i)
 
+#detail count
 detailGetCount=[]
 for i in detailGet:
     detailGetCount.append(i)
