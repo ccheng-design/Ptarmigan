@@ -15,6 +15,8 @@ import sys
 from fractions import Fraction
 from decimal import Decimal
 
+
+#Uses embedded text with attributes to define the scale factor
 rs.MessageBox("Select details and text in the same order!", buttons=0)
 
 
