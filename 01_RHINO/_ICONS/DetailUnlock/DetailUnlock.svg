@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0;
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-8, .cls-9 {
+        stroke: #231f20;
+      }
+
+      .cls-1, .cls-10 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-width: 3px;
+      }
+
+      .cls-2, .cls-3, .cls-10, .cls-8, .cls-6, .cls-7, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-8, .cls-5, .cls-6, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-10, .cls-8, .cls-4, .cls-5, .cls-6, .cls-7, .cls-9 {
+        stroke-width: 3.1px;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #d68700;
+      }
+
+      .cls-3, .cls-4, .cls-7 {
+        stroke-linejoin: bevel;
+      }
+
+      .cls-10 {
+        fill: #c4c4c4;
+      }
+
+      .cls-10, .cls-6 {
+        stroke: #000;
+      }
+
+      .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-5, .cls-7 {
+        stroke: #fff5a1;
+      }
+
+      .cls-9 {
+        fill: #ffe800;
+      }
+    </style>
+  </defs>
+  <g id="KEEP_ON_FOR_EXPORT" data-name="KEEP ON FOR EXPORT">
+    <line class="cls-1" x1="-.35" y1=".35" x2=".35" y2="-.35"/>
+    <line class="cls-1" x1="74.65" y1="75.35" x2="75.35" y2="74.65"/>
+  </g>
+  <g id="ICON">
+    <polygon class="cls-8" points="12.5 4.76 12.5 67.26 62.5 67.26 62.5 14.14 53.13 4.76 12.5 4.76"/>
+    <polyline class="cls-6" points="65.63 18.82 65.63 70.39 14.07 70.39"/>
+    <polygon class="cls-10" points="53.13 4.76 53.13 14.14 62.5 14.14 53.13 4.76"/>
+    <path class="cls-2" d="M29.94,24.69l5.46-5.33c3.45-3.36,7.91-2.94,10.93,0,3.02,2.94,3.45,7.29,0,10.66l-5.46,5.33"/>
+    <polygon class="cls-9" points="24.06 36.36 24.06 56.45 25.66 58.15 48.23 58.15 49.94 56.42 49.94 36.3 48.27 34.63 25.74 34.63 24.06 36.36"/>
+    <polyline class="cls-7" points="47.59 36.98 26.41 36.99 26.41 55.8"/>
+    <polyline class="cls-3" points="47.59 36.99 47.59 55.81 26.41 55.8"/>
+    <line class="cls-5" x1="44.06" y1="51.09" x2="29.94" y2="51.09"/>
+    <line class="cls-4" x1="44.06" y1="48.74" x2="29.94" y2="48.74"/>
+    <line class="cls-5" x1="44.06" y1="44.04" x2="29.94" y2="44.04"/>
+    <line class="cls-4" x1="44.06" y1="41.68" x2="29.94" y2="41.68"/>
+  </g>
+</svg>
