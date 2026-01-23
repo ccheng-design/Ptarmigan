@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 75 75">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-8, .cls-5, .cls-9 {
+        stroke: #231f20;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-8, .cls-7, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-10, .cls-4, .cls-8, .cls-5, .cls-6, .cls-7, .cls-9 {
+        stroke-width: 3.1px;
+      }
+
+      .cls-2 {
+        opacity: 0;
+        stroke-linecap: round;
+      }
+
+      .cls-2, .cls-10 {
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        stroke-width: 3px;
+      }
+
+      .cls-3, .cls-10, .cls-8, .cls-5, .cls-6, .cls-7, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-10 {
+        fill: #c4c4c4;
+      }
+
+      .cls-10, .cls-7 {
+        stroke: #000;
+      }
+
+      .cls-4, .cls-6 {
+        stroke: #fff;
+      }
+
+      .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-5, .cls-6 {
+        stroke-linejoin: bevel;
+      }
+
+      .cls-9 {
+        fill: url(#Linear_Gradient_111);
+      }
+    </style>
+    <linearGradient id="Linear_Gradient_111" data-name="Linear Gradient 111" x1="49.57" y1="47.03" x2="23.64" y2="47.03" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#616261"/>
+      <stop offset=".07" stop-color="#717271"/>
+      <stop offset=".29" stop-color="#9f9f9e"/>
+      <stop offset=".49" stop-color="#c2c2c2"/>
+      <stop offset=".69" stop-color="#dcdbdb"/>
+      <stop offset=".86" stop-color="#ebeaea"/>
+      <stop offset="1" stop-color="#f1f0f0"/>
+    </linearGradient>
+  </defs>
+  <g id="KEEP_ON_FOR_EXPORT" data-name="KEEP ON FOR EXPORT">
+    <line class="cls-2" x1="-.35" y1=".35" x2=".35" y2="-.35"/>
+    <line class="cls-2" x1="74.65" y1="75.35" x2="75.35" y2="74.65"/>
+  </g>
+  <g id="ICON">
+    <polygon class="cls-8" points="12.5 4.76 12.5 67.26 62.5 67.26 62.5 14.14 53.13 4.76 12.5 4.76"/>
+    <polyline class="cls-7" points="65.63 18.82 65.63 70.39 14.07 70.39"/>
+    <polygon class="cls-10" points="53.13 4.76 53.13 14.14 62.5 14.14 53.13 4.76"/>
+    <path class="cls-3" d="M30.33,36.27v-7.17c0-4.52,3.21-7.18,7.17-7.18s7.18,2.65,7.18,7.18v7.17"/>
+    <polygon class="cls-9" points="24.35 36.85 24.35 57.26 25.98 58.99 48.91 58.99 50.65 57.23 50.65 36.78 48.96 35.08 26.05 35.08 24.35 36.85"/>
+    <polyline class="cls-6" points="48.26 37.48 26.74 37.48 26.74 56.6"/>
+    <polyline class="cls-5" points="48.26 37.48 48.26 56.6 26.74 56.6"/>
+    <line class="cls-4" x1="44.67" y1="51.82" x2="30.33" y2="51.82"/>
+    <line class="cls-1" x1="44.67" y1="49.42" x2="30.33" y2="49.42"/>
+    <line class="cls-4" x1="44.67" y1="44.64" x2="30.33" y2="44.64"/>
+    <line class="cls-1" x1="44.67" y1="42.26" x2="30.33" y2="42.26"/>
+  </g>
+</svg>
