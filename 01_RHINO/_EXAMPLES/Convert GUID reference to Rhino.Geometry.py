@@ -13,3 +13,4 @@ rs.coerceellipse(id) - #Converts a GUID to a Rhino.Geometry.Ellipse.
 rs.coerceline(id) - #Converts a GUID to a Rhino.Geometry.Line.
 rs.coercepolycurve(id) - #Converts a GUID to a Rhino.Geometry.PolyCurve.
 rs.coercepolysurface(id) - #Converts a GUID to a Rhino.Geometry.Brep that represents a polysurface.
+sc.doc.Objects.FindId(detail_id) - #Convers a GUID to a Rhino Detail object.
