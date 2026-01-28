@@ -24,15 +24,15 @@ else:
     #for loop in each obj
     for obj in length_obj:
 
-        #for each obj measure the area
-        area=rs.CurveLength(obj)
-        area=round(area,3)
+        #for each obj measure the length
+        length=rs.CurveLength(obj)
+        length=round(length,3)
         
         #debugging
-        #print(area)
+        #print(length)
 
         #debugging
-        measured_length.append(area)
+        measured_length.append(length)
     print(measured_length)
 
 
@@ -57,14 +57,14 @@ else:
 
         rs.SelectObjects(same_length)
 
-        print(len(same_length), "objects has the same area")
+        print(len(same_length), "objects has the same length")
     else:
         #specific objects
         specific_obj=rs.GetObject()
         if not specific_obj:
             print("None Selected")
         else:
-            specific_length=round(rs.Area(specific_obj),3)
+            specific_length=round(rs.CurveLength(specific_obj),3)
 
             print(specific_length)
 
@@ -86,11 +86,11 @@ else:
             
 
             rs.SelectObjects(same_geo)
-            print(len(same_geo),"objects have the same area of",specific_length, "square", rs.UnitSystemName(False,False,False))
+            print(len(same_geo),"objects have the same length of",specific_length, "square", rs.UnitSystemName(False,False,False))
             #rs.UnitSystemName(False)
             #print(pattern)
             #print(same_geo)
-            #print(area)
+            #print(length)
 
     
 
