@@ -23,6 +23,12 @@ rs.MessageBox("Select details and text in the same order!", buttons=0)
 detailGet=rs.GetObjects("Get Details",filter=32768)
 description=rs.GetObjects("Get Text",filter=4096)
 
+#Exit clause
+if description or detailGet is None:
+    print("Nothing Selected")
+    sys.exit(0)
+
+
 drawingScaleFactor=[]
 descriptionCount=[]
 
