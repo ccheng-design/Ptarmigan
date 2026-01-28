@@ -17,6 +17,7 @@
     "description": "Ptarmigan is a C# plugin designed to improve quality of life for designers and fabricators working in computational design environments (like Grasshopper/Rhino). It focuses on streamlining and enhancing the parts of the workflow that tend to be repetitive, time-consuming, or just clunky \u2014 especially when it comes to fabrication-oriented processes.",
     "copyright": "Copyright \u00A9 2025 Clark Cheng",
     "license": "MIT License",
+    "url": "https://clarkcheng.design/",
     "image": {
       "light": {
         "type": "svg",
@@ -40,7 +41,7 @@
     }
   },
   "settings": {
-    "buildPath": "file:///C:/Users/Clark Cheng/Desktop",
+    "buildPath": "file:///E:/Architectural Templates/Ptarmigan/_BUILDS",
     "buildTarget": {
       "host": {
         "name": "Rhino3D",
