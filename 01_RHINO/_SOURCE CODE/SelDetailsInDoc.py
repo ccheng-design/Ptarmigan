@@ -32,4 +32,9 @@ import System.Collections.Generic
 import Rhino
 
 
+
+
 objs=rs.ObjectsByType(32768,True)
+
+if not objs:
+    print("None Selected")
