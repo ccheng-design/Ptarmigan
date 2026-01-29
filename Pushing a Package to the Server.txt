@@ -20,3 +20,8 @@ name:          UAP
 version:       0.3.8.9033
 rhino version: rh8
 platform:      any
+
+
+"C:\Program Files\Rhino 8\System\Yak.exe" yank ptarmigan-0.1.4343-beta+9410-rh8-any.yak
+
+"C:\Program Files\Rhino 8\System\Yak.exe" push ptarmigan-0.1.9525-beta+18693-rh8-any
