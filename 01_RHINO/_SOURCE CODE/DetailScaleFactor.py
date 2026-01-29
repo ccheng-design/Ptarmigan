@@ -17,7 +17,7 @@ from decimal import Decimal
 
 
 #Uses embedded text with attributes to define the scale factor
-rs.MessageBox("Select details and text in the same order!", buttons=0)
+rs.MessageBox("Select details and text in the same order!", buttons=0, title="DetailScaleFactor")
 
 
 detailGet=rs.GetObjects("Get Details",filter=32768)
@@ -26,7 +26,7 @@ description=rs.GetObjects("Get Text",filter=4096)
 #Exit clause
 if description or detailGet is None:
     print("Nothing Selected")
-    sys.exit(0)
+
 
 
 drawingScaleFactor=[]
