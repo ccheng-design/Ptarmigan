@@ -8,20 +8,12 @@
     ".NETCoreApp,Version=v7.0": {
       "_Ptarmigan/1.0": {
         "dependencies": {
-          "Grasshopper": "8.0.23304.9001",
           "MeshLib": "3.0.8.247",
-          "Microsoft.NETFramework.ReferenceAssemblies.net48": "1.0.3",
           "System.Configuration.ConfigurationManager": "9.0.10",
-          "System.Drawing.Common": "7.0.0",
           "Clipper2Lib": "1.0.0.0"
         },
         "runtime": {
           "_Ptarmigan.gha": {}
-        }
-      },
-      "Grasshopper/8.0.23304.9001": {
-        "dependencies": {
-          "RhinoCommon": "8.0.23304.9001"
         }
       },
       "MeshLib/3.0.8.247": {
@@ -769,9 +761,6 @@
           }
         }
       },
-      "Microsoft.NETFramework.ReferenceAssemblies.net48/1.0.3": {},
-      "Microsoft.Win32.SystemEvents/7.0.0": {},
-      "RhinoCommon/8.0.23304.9001": {},
       "System.Configuration.ConfigurationManager/9.0.10": {
         "dependencies": {
           "System.Security.Cryptography.ProtectedData": "9.0.10"
@@ -783,16 +772,7 @@
           }
         }
       },
-      "System.Drawing.Common/7.0.0": {
-        "dependencies": {
-          "Microsoft.Win32.SystemEvents": "7.0.0"
-        }
-      },
-      "System.Memory/4.5.5": {},
       "System.Security.Cryptography.ProtectedData/9.0.10": {
-        "dependencies": {
-          "System.Memory": "4.5.5"
-        },
         "runtime": {
           "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
             "assemblyVersion": "9.0.0.0",
@@ -816,13 +796,6 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Grasshopper/8.0.23304.9001": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-L1Cse6nAxryzcZ7jsu3WzBiG9BYtgYsaNbRV+p55N+THKTFGmXx1PdBbiWtuxK9kB4jyuLVpeV8XBiYlSGA1Vw==",
-      "path": "grasshopper/8.0.23304.9001",
-      "hashPath": "grasshopper.8.0.23304.9001.nupkg.sha512"
-    },
     "MeshLib/3.0.8.247": {
       "type": "package",
       "serviceable": true,
@@ -830,47 +803,12 @@
       "path": "meshlib/3.0.8.247",
       "hashPath": "meshlib.3.0.8.247.nupkg.sha512"
     },
-    "Microsoft.NETFramework.ReferenceAssemblies.net48/1.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-zMk4D+9zyiEWByyQ7oPImPN/Jhpj166Ky0Nlla4eXlNL8hI/BtSJsgR8Inldd4NNpIAH3oh8yym0W2DrhXdSLQ==",
-      "path": "microsoft.netframework.referenceassemblies.net48/1.0.3",
-      "hashPath": "microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
-    },
-    "Microsoft.Win32.SystemEvents/7.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
-      "path": "microsoft.win32.systemevents/7.0.0",
-      "hashPath": "microsoft.win32.systemevents.7.0.0.nupkg.sha512"
-    },
-    "RhinoCommon/8.0.23304.9001": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-hWuqXjcj/eb1/z8+bml4Bav/8Oug2p6t0mAVf37GhX9sP+M1aYNO9FappqeN8oefcIBkLBmAzr46DYNhTxFAGQ==",
-      "path": "rhinocommon/8.0.23304.9001",
-      "hashPath": "rhinocommon.8.0.23304.9001.nupkg.sha512"
-    },
     "System.Configuration.ConfigurationManager/9.0.10": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-5CBhl5dWmckKEtvk8F6GXtmHxNBoqAC8xILxIntNm7AzHiXQ09CXSLhncIJ/cQWaiNYzLjHZCgtMfx9tkCKHdA==",
       "path": "system.configuration.configurationmanager/9.0.10",
       "hashPath": "system.configuration.configurationmanager.9.0.10.nupkg.sha512"
-    },
-    "System.Drawing.Common/7.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
-      "path": "system.drawing.common/7.0.0",
-      "hashPath": "system.drawing.common.7.0.0.nupkg.sha512"
-    },
-    "System.Memory/4.5.5": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
-      "path": "system.memory/4.5.5",
-      "hashPath": "system.memory.4.5.5.nupkg.sha512"
     },
     "System.Security.Cryptography.ProtectedData/9.0.10": {
       "type": "package",
