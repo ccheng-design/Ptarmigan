@@ -1,0 +1,125 @@
+﻿Z '_Zoom
+ZE '_Zoom _Extents
+ZT '_Zoom _Target
+ZEA '_Zoom _All _Extents
+ZS '_Zoom _Selected
+ZSA '_Zoom _All _Selected
+S scale
+O '_Ortho
+P '_Planar
+M ! _Move
+U _Undo
+POn ! _PointsOn
+POff ! _PointsOff
+C '_SelCrossing
+W '_SelWindow
+COn '_CurvatureGraph
+COff '_CurvatureGraphOff
+PlugInManager ! _OptionsPage _PlugIns
+AdvancedDisplay ! _OptionsPage _AdvancedSettings
+DisplayAttrsMgr ! _OptionsPage _AdvancedSettings
+Break ! _DeleteSubCrv
+SelPolysurface '_SelPolysrf
+CO '_Copy
+R3 '_Rotate3d
+R '_Rotate
+PER !_Top _Perspective
+BOT !_Bottom
+BAC !_Back
+HS '_HideSwap
+DOC '_DocumentProperties
+REN '_SetDisplayMode _Viewport=_Active _Mode=_Rendered
+GHO '_SetDisplayMode _Viewport=_Active _Mode=_Ghosted
+SHA '_SetDisplayMode _Viewport=_Active _Mode=_Shaded
+WIRE '_SetDisplayMode _Viewport=_Active _Mode=_Wireframe
+XRAY '_SetDisplayMode _Viewport=_Active _Mode=_X-Ray
+TEC '_SetDisplayMode _Viewport=_Active _Mode=_Technical
+ART '_SetDisplayMode _Viewport=_Active _Mode=_Artistic
+PEN '_SetDisplayMode _Viewport=_Active _Mode=_Pen
+HPEN '_SetDisplayMode _Viewport=_Active _Mode=_PenHIDDEN
+DPEN '_SetDisplayMode _Viewport=_Active _Mode=_PenDARK
+SW '_Isometric _SW
+NW '_Isometric _NW
+SE '_Isometric _SE
+NE '_Isometric _NE
+GB '_GumballAlignment _Object
+H '_Hide
+C3 '_Circle _3Point
+EC '_ExtrudeCrv
+MBU '_MeshBooleanUnion
+MBD '_MeshBooleanDifference
+MBS '_MeshBooleanSplit
+ma matchproperties
+cc copy
+po polyline
+S1 scale1d
+S2 scale2d
+tt trim
+OPT '_Options
+MAF '_MergeAllCoplanarFaces
+MAE '_MergeAllEdges
+BB '_BoundingBox _Output=Solids 'Enter
+RM '_RebuildMesh
+BD '_BooleanDifference
+BU '_BooleanUnion
+BS '_BooleanSplit
+DFB '_DupFaceBorder
+DME '_DupMeshEdge
+EX '_Export
+ES '_ExtrudeSrf
+EXS '_ExtendSrf
+PS '_PlanarSrf
+ALI ! _OptionsPage _AdvancedSettings _Aliases
+SL '_SelLast
+SA '_SelAll
+SP '_SelPrevious
+ARK '_SetDisplayMode _Viewport=_Active _Mode=_Arctic
+VCC '_ViewCaptureToClipboard
+VCF '_ViewCaptureToFile
+UT '_Untrim
+A '_Area
+SEL '_Group _Hide
+UV '_UndoView
+RV '_RedoView
+SD '_SelDim
+SC '_SelCrv
+RAY '_SetDisplayMode _Viewport=_Active _Mode=_Raytraced
+ANO '_DocumentPropertiesPage _AnnotationStyles
+DIS '_Distance
+DB '_Distribute
+TEST '_TestMaxSpeed
+AL '_Align
+OCS !_SW '_OrientCameraToSrf SetConstructionPlane=Yes
+PD '_PrintDisplay _State _Toggle _Enter
+FT '_Fillet
+L '_Line
+EXC '_Extend
+CB '_CurveBoolean
+RCP '_CPlane _World _Top
+CPV '_CPlane _View
+EXT '_ExtractSrf
+BBC '_BoundingBox _CoordinateSystem=CPlane 'Enter
+BBW '_BoundingBox _Output=Curves 'Enter
+EJG '_Ungroup _Explode _Join _Group
+STS '_ShrinkTrimmedSrf
+STSE '_ShrinkTrimmedSrfToEdge
+FE '_FilletEdge
+OFS '_OffsetSrf
+CPT '_SetView _CPlane _Top
+MI '_MeshIntersect
+MT '_MeshTrim
+M2 '_Make2D
+O3 'Orient3D
+O2 'Orient
+AGN '_Align _HorizCenter 'Enter '_Distribute XAxis
+OB '_Offset _Both
+J '_BooleanUnion _MAF
+DO '_Dim _Object
+HD '_HideInDetail
+FR '_SetView _World _Front
+RI '_SetView _World _Right
+LE '_SetView _World _Left
+BA '_SetView _World _Back
+RSC _Cplane _World _Top
+RC !_RevCloud _Curve _Divide _Length 0.125 _Enter _Enter
+IsolateInDetail '_Invert '_HideInDetail
