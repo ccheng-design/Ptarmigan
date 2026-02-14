@@ -56,17 +56,11 @@ for i in detailGet:
 
     viewport=detailObj.DetailGeometry.PageToModelRatio
 
+    field='%<DetailScale("' + i.ToString() + '","'+ '#=1-0")>%'
 
-    #print(viewport)
+    drawingScaleFactor.append(field)
 
-    x=Fraction(viewport).limit_denominator()
-    fracScale=Fraction(12/x.denominator)
-
-    drawingScale=str(fracScale) + '"' + " = " + "1'-0"+'"'
-    #print(drawingScale)
-    drawingScaleFactor.append(drawingScale)
-
-    #print(str(fracScale) + '"' + " = " + "1'-0"+'"')
+    
 
 #print(description)
 for i,j in zip(description,drawingScaleFactor):
