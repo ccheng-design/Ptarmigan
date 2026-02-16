@@ -57,7 +57,7 @@ for i in detailGet:
     viewport=detailObj.DetailGeometry.PageToModelRatio
 
     field='%<DetailScale("' + i.ToString() + '","'+ '#=1-0")>%'
-
+    print(field)
     drawingScaleFactor.append(field)
 
     
