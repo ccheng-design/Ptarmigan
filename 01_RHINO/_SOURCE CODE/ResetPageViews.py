@@ -47,3 +47,4 @@ for page in pageViews:
     rs.DeleteObjects(bb)
 
     page.Redraw
+
