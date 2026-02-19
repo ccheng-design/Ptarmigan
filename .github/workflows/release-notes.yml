@@ -1,0 +1,33 @@
+name: Generate Release Notes
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  generate-release-notes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Generate Release Notes
+        id: generate_notes
+        run: |
+          # Get the latest release tag
+          TAG=$(git describe --tags --abbrev=0)
+          
+          # Fetch tags and get the changes since the last release
+          git fetch --tags
+          CHANGES=$(git log $TAG..HEAD --oneline)
+
+          # Set the release notes output
+          echo "::set-output name=release_notes::$CHANGES"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ./release-notes.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
