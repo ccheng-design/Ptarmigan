@@ -599,6 +599,15 @@
           }
         }
       }
+    },
+    {
+      "id": "1b72ad87-6108-4532-acca-24be07156240",
+      "language": {
+        "id": "mcneel.pythonnet.python",
+        "version": "3.9.10"
+      },
+      "title": "DetailName",
+      "uri": "_SOURCE CODE/DetailName.py"
     }
   ],
   "libraries": [
