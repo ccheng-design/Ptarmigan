@@ -4,24 +4,39 @@
 
 
 
-//Use this in Command Prompt
-> "C:\Program Files\Rhino 8\System\Yak.exe" login
+C:\Windows\System32>cd C:\Program Files\Rhino 8\System
 
-//Move the .yak file into the C:\Users\%UserName%
-"C:\Program Files\Rhino 8\System\Yak.exe" push ptarmigan-0.1.4343-beta+9410-rh8-any.yak
+C:\Program Files\Rhino 8\System>yak login
+Your browser has been opened to visit:
 
-//Should look like this:
-Successfully published UAP (0.3.8.9033) to https://yak.rhino3d.com/
+https://accounts.rhino3d.com/oauth2/auth?response_type=id_token+token&client_id=yak&redirect_uri=http://localhost:5123/&scope=profile+openid+email&state=f70276b8d8a64226808e90e3923c274f
+
+Log in successful. Token stored in C:\Users\C.Cheng\AppData\Roaming\McNeel\yak.yml.
+Logged in as cchengg@umich.edu on https://yak.rhino3d.com/.
+
+
+C:\Program Files\Rhino 8\System>cd C:\Users\C.Cheng
+
+C:\Users\C.Cheng>"C:\Program Files\Rhino 8\System\Yak.exe" push "ptarmigan-0.1.4343-beta+9410-rh8-any.yak"
+Could not find file "C:\Users\C.Cheng\ptarmigan-0.1.4343-beta+9410-rh8-any.yak"
+
+C:\Users\C.Cheng>dir *.yak
+ Volume in drive C is OS
+ Volume Serial Number is 061F-6729
+
+ Directory of C:\Users\C.Cheng
+
+02/19/2026  04:06 PM         1,072,782 ptarmigan-0.1.9547-beta+28982-rh8-any.yak
+               1 File(s)      1,072,782 bytes
+               0 Dir(s)  731,665,522,688 bytes free
+
+C:\Users\C.Cheng>"C:\Program Files\Rhino 8\System\Yak.exe" push "ptarmigan-0.1.9547-beta+28982-rh8-any.yak"
+Successfully published Ptarmigan (0.1.9547-beta+28982) to https://yak.rhino3d.com/
 
 Details
 =======
 
-name:          UAP
-version:       0.3.8.9033
+name:          Ptarmigan
+version:       0.1.9547-beta+28982 (prerelease)
 rhino version: rh8
 platform:      any
-
-
-"C:\Program Files\Rhino 8\System\Yak.exe" yank ptarmigan-0.1.4343-beta+9410-rh8-any.yak
-
-"C:\Program Files\Rhino 8\System\Yak.exe" push ptarmigan-0.1.9525-beta+18693-rh8-any
