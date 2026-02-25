@@ -41,6 +41,7 @@ A key part of this repo is the Grasshopper plugin **PTARMIGAN**, which includes 
 - `LayoutNames`
 - `MoveToNewLayer`
 - `NameToLayers`
+- `NamesToLayers`
 - `Ptarmigan`
 - `RandomColors`
 - `RevAlign`
