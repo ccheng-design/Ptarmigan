@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 75 75">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0;
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #231f20;
+      }
+
+      .cls-1, .cls-5 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: url(#Linear_Gradient_18);
+        stroke-width: 3.1px;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: #c4c4c4;
+        stroke: #000;
+        stroke-width: 1.5px;
+      }
+    </style>
+    <linearGradient id="Linear_Gradient_18" data-name="Linear Gradient 18" x1="49.5" y1="67.32" x2="24.93" y2="4.8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1f0f0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="KEEP_ON_FOR_EXPORT" data-name="KEEP ON FOR EXPORT">
+    <line class="cls-1" x1="-.35" y1=".35" x2=".35" y2="-.35"/>
+    <line class="cls-1" x1="74.65" y1="75.35" x2="75.35" y2="74.65"/>
+  </g>
+  <g id="ICON">
+    <polygon class="cls-3" points="16.63 4.19 16.63 68.41 62.5 68.41 62.5 15.66 51.04 4.19 16.63 4.19"/>
+    <rect class="cls-4" x="24.74" y="13.65" width="30.11" height="47.41"/>
+    <polygon class="cls-5" points="51.04 4.19 51.04 15.66 62.5 15.66 51.04 4.19"/>
+    <polyline class="cls-2" points="53.13 64.05 58.2 64.05 58.2 58.97"/>
+    <polyline class="cls-2" points="26.75 10.58 21.68 10.58 21.68 15.65"/>
+  </g>
+</svg>
