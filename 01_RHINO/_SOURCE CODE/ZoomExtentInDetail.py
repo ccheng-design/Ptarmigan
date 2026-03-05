@@ -43,7 +43,7 @@ def choose_option():
             return None
 
 mode=None
-if zoomToFactor:
+if zoomToFactor[0] == True:
     mode = choose_option()
 
 details=[]
@@ -51,16 +51,18 @@ SF = [4,8,12,16,24,32,48,64,96,128,192,384]
 DS = []
 
 
-
+#RECIPROCAL OF THE SCALE FACTOR TO DRAWING SCALE FACTOR (FRACTIONAL)
 for x in SF:
     number = 1/x
     DS.append(number)
 print(DS)
 
+#DETAIL ADDING TO LIST
 for i in detailGet:
     rs.DetailLock(i,False)
     details.append(i)
 
+#ZOOM SELECTION
 currentView =rs.CurrentView()
 for i in details:
 
@@ -78,7 +80,8 @@ for i in details:
     
     #print(test)
     #print(scaleFactor)
-    
+
+#ROUNDING DOWN
 for i in zoomToFactor:
     if i is True and mode == "Dwn":
         for j in details:
@@ -89,6 +92,7 @@ for i in zoomToFactor:
 
             rs.DetailScale(j,1,roundedSF)
 
+#ROUNDING  UP
 for i in zoomToFactor:
     if i is True and mode == "Up":
         for j in details:
