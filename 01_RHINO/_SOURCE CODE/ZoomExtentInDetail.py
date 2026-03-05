@@ -8,18 +8,67 @@ import System
 import System.Collections.Generic
 import Rhino
 
+
+
 detailGet=rs.GetObjects("Get Details",filter=32768,preselect=True)
 
+items = ("ScaleFactor", "No", "Yes")
+zoomToFactor = rs.GetBoolean("ZoomSelectToArchScaleFactor",items,(True))
+print(zoomToFactor)
+
+#options to use
+OPTIONS = {
+    "RoundUp":  "Up",
+    "RoundDown":    "Dwn"
+    
+}
+
+def choose_option():
+    go = Rhino.Input.Custom.GetOption()
+    go.SetCommandPrompt("Choose Rounding Type")
+
+    option_ids = {}
+    for name in OPTIONS:
+        option_ids[name] = go.AddOption(name)
+
+    while True:
+        r = go.Get()
+
+        if r == Rhino.Input.GetResult.Option:
+            for name, idx in option_ids.items():
+                if go.OptionIndex() == idx:
+                    return OPTIONS[name]
+
+        if r == Rhino.Input.GetResult.Cancel:
+            return None
+
+mode=None
+if zoomToFactor:
+    mode = choose_option()
+
 details=[]
+SF = [4,8,12,16,24,32,48,64,96,128,192,384]
+DS = []
+
+
+
+for x in SF:
+    number = 1/x
+    DS.append(number)
+print(DS)
 
 for i in detailGet:
     rs.DetailLock(i,False)
     details.append(i)
 
 currentView =rs.CurrentView()
-for i in detailGet:
+for i in details:
 
     test=rs.CurrentDetail(layout=currentView,detail=i,return_name=False)
+
+    detailObj = sc.doc.Objects.FindId(i)
+
+
 
     rs.AllObjects(True)
     rs.ZoomSelected(test,True)
@@ -27,6 +76,27 @@ for i in detailGet:
 
     rs.CurrentDetail(layout=currentView,detail=None)
     
-    print(test)
+    #print(test)
+    #print(scaleFactor)
+    
+for i in zoomToFactor:
+    if i is True and mode == "Dwn":
+        for j in details:
+            scaleFactor = detailObj.DetailGeometry.PageToModelRatio
+            print(scaleFactor)
+            roundedSF = min(x for x in DS if x >= scaleFactor)
+            print(roundedSF)
+
+            rs.DetailScale(j,1,roundedSF)
+
+for i in zoomToFactor:
+    if i is True and mode == "Up":
+        for j in details:
+            scaleFactor = detailObj.DetailGeometry.PageToModelRatio
+            print(scaleFactor)
+            roundedSF = max(x for x in DS if x <= scaleFactor)
+            print(roundedSF)
+
+            rs.DetailScale(j,1,roundedSF)
 
 
