@@ -76,31 +76,39 @@ for i in details:
     rs.ZoomSelected(test,True)
     rs.UnselectAllObjects()
 
-    rs.CurrentDetail(layout=currentView,detail=None)
+    rs.CurrentDetail(layout=currentView,detail=i)
     
     #print(test)
     #print(scaleFactor)
 
 #ROUNDING DOWN
-for i in zoomToFactor:
-    if i is True and mode == "Dwn":
-        for j in details:
-            scaleFactor = detailObj.DetailGeometry.PageToModelRatio
-            print(scaleFactor)
-            roundedSF = min(x for x in DS if x >= scaleFactor)
-            print(roundedSF)
+if zoomToFactor[0] == True and mode == "Dwn":
+    for k in details:
+        ZSdetailScale = sc.doc.Objects.FindId(k)
 
-            rs.DetailScale(j,1,roundedSF)
+        scaleFactor = ZSdetailScale.DetailGeometry.PageToModelRatio
+        print("ROUND DOWN", scaleFactor)
+        roundedSF = min(x for x in DS if x >= scaleFactor)
+        print(roundedSF)
+
+        rs.DetailScale(k,1,roundedSF)
+        
 
 #ROUNDING  UP
-for i in zoomToFactor:
-    if i is True and mode == "Up":
-        for j in details:
-            scaleFactor = detailObj.DetailGeometry.PageToModelRatio
-            print(scaleFactor)
-            roundedSF = max(x for x in DS if x <= scaleFactor)
-            print(roundedSF)
+if zoomToFactor[0] is True and mode == "Up":
+    for k in details:
+        ZSdetailScale = sc.doc.Objects.FindId(k)
 
-            rs.DetailScale(j,1,roundedSF)
+        scaleFactor = ZSdetailScale.DetailGeometry.PageToModelRatio
+        print("ROUND UP", scaleFactor)
+        roundedSF = max(x for x in DS if x <= scaleFactor)
+        print(roundedSF)
+
+        rs.DetailScale(k,1,roundedSF)
 
 
+#DEACTIVES DETAIL
+activeview = sc.doc.Views.ActiveView
+
+activeview.SetPageAsActive()
+sc.doc.Views.Redraw()
