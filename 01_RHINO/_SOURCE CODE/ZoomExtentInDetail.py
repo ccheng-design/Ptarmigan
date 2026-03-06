@@ -107,7 +107,7 @@ if zoomToFactor[0] is True and mode == "Up":
         rs.DetailScale(k,1,roundedSF)
 
 
-#DEACTIVES DETAIL
+#DEACTIVATES DETAIL
 activeview = sc.doc.Views.ActiveView
 
 activeview.SetPageAsActive()
