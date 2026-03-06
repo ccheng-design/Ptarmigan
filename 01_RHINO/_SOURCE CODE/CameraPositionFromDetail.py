@@ -34,6 +34,7 @@ target = viewport.CameraTarget
 scale = detail.DetailGeometry.PageToModelRatio
 parallel = viewport.IsParallelProjection
 perspective = viewport.IsPerspectiveProjection
+lenslength = viewport.Camera35mmLensLength
 
 
 cam_plane = Rhino.Geometry.Plane(location, Z)
@@ -64,7 +65,7 @@ for i in detailChange:
         viewport.ChangeToParallelProjection(True)
     
     if perspective is True:
-        viewport.ChangeToPerspectiveProjection(True)
+        viewport.ChangeToPerspectiveProjection(True, lenslength)
 
     #viewport.SetCameraTarget(target, True)
     viewport.SetCameraLocations(target, location)
