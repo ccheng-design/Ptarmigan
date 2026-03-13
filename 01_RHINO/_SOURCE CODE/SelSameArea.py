@@ -9,7 +9,7 @@ import math as m
 #You have the option of changing between specific area and overall pieces
 
 #filter geo
-geo_types=rs.filter.polysurface | rs.filter.surface | rs.filter.curve
+geo_types=rs.filter.polysurface | rs.filter.surface | rs.filter.curve | rs.filter.instance
 
 
 #Get geometry
