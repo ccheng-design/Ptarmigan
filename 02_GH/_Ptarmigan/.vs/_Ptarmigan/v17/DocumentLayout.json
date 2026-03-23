@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|e:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\meshbooleanintersection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\meshbooleanintersection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|e:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\meshbooleanunion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\meshbooleanunion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|e:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\meshbooleandifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\meshbooleandifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|e:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\shell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\shell.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,11 +26,63 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MeshBooleanIntersection.cs",
+              "DocumentMoniker": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MeshBooleanIntersection.cs",
+              "RelativeDocumentMoniker": "_Ptarmigan\\MeshBooleanIntersection.cs",
+              "ToolTip": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MeshBooleanIntersection.cs",
+              "RelativeToolTip": "_Ptarmigan\\MeshBooleanIntersection.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T04:57:47.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Shell.cs",
+              "DocumentMoniker": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\Shell.cs",
+              "RelativeDocumentMoniker": "_Ptarmigan\\Shell.cs",
+              "ToolTip": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\Shell.cs",
+              "RelativeToolTip": "_Ptarmigan\\Shell.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAIAwwJMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T03:56:40.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MeshBooleanUnion.cs",
+              "DocumentMoniker": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MeshBooleanUnion.cs",
+              "RelativeDocumentMoniker": "_Ptarmigan\\MeshBooleanUnion.cs",
+              "ToolTip": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MeshBooleanUnion.cs",
+              "RelativeToolTip": "_Ptarmigan\\MeshBooleanUnion.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAqwJUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T03:54:33.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MeshBooleanDifference.cs",
+              "DocumentMoniker": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MeshBooleanDifference.cs",
+              "RelativeDocumentMoniker": "_Ptarmigan\\MeshBooleanDifference.cs",
+              "ToolTip": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MeshBooleanDifference.cs",
+              "RelativeToolTip": "_Ptarmigan\\MeshBooleanDifference.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T00:59:15.511Z",
+              "EditorCaption": ""
             }
           ]
         },

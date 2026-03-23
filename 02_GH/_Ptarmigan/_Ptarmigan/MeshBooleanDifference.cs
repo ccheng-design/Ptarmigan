@@ -1,4 +1,6 @@
-﻿using System;
+﻿extern alias MRDotNet1;
+
+using System;
 using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
@@ -12,10 +14,9 @@ using Grasshopper.Kernel;
 using Grasshopper.Kernel.Data;
 using Grasshopper.Kernel.Types;
 using System.IO;
+using static MR;
 
-using MR;
-using static MR.DotNet;
-
+using MRDotNet1;
 namespace _Ptarmigan
 {
     public class MeshBooleanDifference : GH_Component
@@ -57,7 +58,7 @@ namespace _Ptarmigan
             /// <summary>
             /// Convert a Rhino mesh into a MeshLib (MR.DotNet) mesh.
             /// </summary>
-            public static MR.DotNet.Mesh ToMeshLibMesh(Rhino.Geometry.Mesh rhMesh)
+            public static MRDotNet1.MR.DotNet.Mesh ToMeshLibMesh(Rhino.Geometry.Mesh rhMesh)
             {
                 if (rhMesh == null) return null;
 
@@ -68,17 +69,17 @@ namespace _Ptarmigan
                 // triMesh.ConvertNonPlanarFacesToTriangles(1e-6);
 
                 // Build point list
-                var points = new List<MR.DotNet.Vector3f>(triMesh.Vertices.Count);
+                var points = new List<MRDotNet1.MR.DotNet.Vector3f>(triMesh.Vertices.Count);
                 foreach (var v in triMesh.Vertices)
-                    points.Add(new MR.DotNet.Vector3f((float)v.X, (float)v.Y, (float)v.Z));
+                    points.Add(new MRDotNet1.MR.DotNet.Vector3f((float)v.X, (float)v.Y, (float)v.Z));
 
                 // Build triangle list
-                var tris = new List<MR.DotNet.ThreeVertIds>(triMesh.Faces.Count);
+                var tris = new List<MRDotNet1.MR.DotNet.ThreeVertIds>(triMesh.Faces.Count);
                 foreach (var f in triMesh.Faces)
                 {
                     if (f.IsTriangle)
                     {
-                        var tri = new MR.DotNet.ThreeVertIds();
+                        var tri = new MRDotNet1.MR.DotNet.ThreeVertIds();
                         tri.v0.Id = f.A;
                         tri.v1.Id = f.B;
                         tri.v2.Id = f.C;
@@ -87,10 +88,10 @@ namespace _Ptarmigan
                 }
 
                 // Construct MeshLib mesh
-                return MR.DotNet.Mesh.FromTriangles(points, tris);
+                return MRDotNet1.MR.DotNet.Mesh.FromTriangles(points, tris);
             }
 
-            public static Rhino.Geometry.Mesh ToRhinoMesh(MR.DotNet.Mesh mlMesh)
+            public static Rhino.Geometry.Mesh ToRhinoMesh(MRDotNet1.MR.DotNet.Mesh mlMesh)
             {
                 if (mlMesh == null) return null;
 
@@ -133,8 +134,13 @@ namespace _Ptarmigan
             //convert rhino to mrdot mesh
             var mlMeshB = RhMeshMRMeshConvertors.ToMeshLibMesh(rhMesh2);
 
-            var result = MR.DotNet.Boolean(mlMesh, mlMeshB, MR.DotNet.BooleanOperation.DifferenceAB);
+            
 
+            var result = MRDotNet1.MR.DotNet.Boolean(mlMesh, mlMeshB, MRDotNet1.MR.DotNet.BooleanOperation.DifferenceAB);
+
+
+            
+            
             Rhino.Geometry.Mesh bM = RhMeshMRMeshConvertors.ToRhinoMesh(result.mesh);
 
             DA.SetData(0, bM);
@@ -158,7 +164,7 @@ namespace _Ptarmigan
         /// </summary>
         public override Guid ComponentGuid
         {
-            get { return new Guid("339DCFA7-70D0-4146-9A57-34EE79BB0DA7"); }
+            get { return new Guid("8A8CFFD8-A4A5-4FEF-89F9-598C91431D28"); }
         }
     }
 }

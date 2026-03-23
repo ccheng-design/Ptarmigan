@@ -1,4 +1,6 @@
-﻿using Grasshopper.Kernel;
+﻿extern alias MRDotNet1;
+
+using Grasshopper.Kernel;
 using Rhino.Geometry;
 using System;
 using System.Collections.Generic;
@@ -6,7 +8,7 @@ using System.Collections.Generic;
 using Grasshopper;
 using Grasshopper.Kernel.Data;
 using Grasshopper.Kernel.Types;
-using static MR.DotNet;
+using static MR;
 
 using System.Linq;
 using System.Collections;
@@ -55,9 +57,9 @@ namespace _Ptarmigan
         public static class RhMeshMRMeshConvertors
         {
             /// <summary>
-            /// Convert a Rhino mesh into a MeshLib (MR.DotNet) mesh.
+            /// Convert a Rhino mesh into a MeshLib (MRDotNet1.MR.DotNet) mesh.
             /// </summary>
-            public static MR.DotNet.Mesh ToMeshLibMesh(Rhino.Geometry.Mesh rhMesh)
+            public static MRDotNet1.MR.DotNet.Mesh ToMeshLibMesh(Rhino.Geometry.Mesh rhMesh)
             {
                 if (rhMesh == null) return null;
 
@@ -66,17 +68,17 @@ namespace _Ptarmigan
                 triMesh.Faces.ConvertQuadsToTriangles();
 
                 // Build point list
-                var points = new List<MR.DotNet.Vector3f>(triMesh.Vertices.Count);
+                var points = new List<MRDotNet1.MR.DotNet.Vector3f>(triMesh.Vertices.Count);
                 foreach (Point3f v in triMesh.Vertices)
-                    points.Add(new MR.DotNet.Vector3f((float)v.X, (float)v.Y, (float)v.Z));
+                    points.Add(new MRDotNet1.MR.DotNet.Vector3f((float)v.X, (float)v.Y, (float)v.Z));
 
                 // Build triangle list
-                var tris = new List<MR.DotNet.ThreeVertIds>(triMesh.Faces.Count);
+                var tris = new List<MRDotNet1.MR.DotNet.ThreeVertIds>(triMesh.Faces.Count);
                 foreach (var f in triMesh.Faces)
                 {
                     if (f.IsTriangle)
                     {
-                        var tri = new MR.DotNet.ThreeVertIds();
+                        var tri = new MRDotNet1.MR.DotNet.ThreeVertIds();
                         tri.v0.Id = f.A;
                         tri.v1.Id = f.B;
                         tri.v2.Id = f.C;
@@ -85,10 +87,10 @@ namespace _Ptarmigan
                 }
 
                 // Construct MeshLib mesh
-                return MR.DotNet.Mesh.FromTriangles(points, tris);
+                return MRDotNet1.MR.DotNet.Mesh.FromTriangles(points, tris);
             }
 
-            public static Rhino.Geometry.Mesh ToRhinoMesh(MR.DotNet.Mesh mlMesh)
+            public static Rhino.Geometry.Mesh ToRhinoMesh(MRDotNet1.MR.DotNet.Mesh mlMesh)
             {
                 if (mlMesh == null) return null;
 
@@ -141,20 +143,20 @@ namespace _Ptarmigan
             var mlMesh = RhMeshMRMeshConvertors.ToMeshLibMesh(M);
 
             //Convert to voxels
-            MR.DotNet.MeshPart VMesh = new MR.DotNet.MeshPart(mlMesh);
+            MRDotNet1.MR.DotNet.MeshPart VMesh = new MRDotNet1.MR.DotNet.MeshPart(mlMesh);
 
             float VSize = (float)VS;
 
-            var offsetParams = new OffsetParameters();
+            var offsetParams = new MRDotNet1.MR.DotNet.OffsetParameters();
             offsetParams.voxelSize = VSize;
             offsetParams.memoryEfficient = true;
-            offsetParams.signDetectionMode = SignDetectionMode.OpenVDB;
+            offsetParams.signDetectionMode = MRDotNet1.MR.DotNet.SignDetectionMode.OpenVDB;
 
-            var generalParams = new GeneralOffsetParameters();
+            var generalParams = new MRDotNet1.MR.DotNet.GeneralOffsetParameters();
 
             float offsetDist = (float)Dist;
 
-            MR.DotNet.Mesh offsetMesh = Offset.ThickenMesh(mlMesh, offsetDist, offsetParams, generalParams);
+            MRDotNet1.MR.DotNet.Mesh offsetMesh = MRDotNet1.MR.DotNet.Offset.ThickenMesh(mlMesh, offsetDist, offsetParams, generalParams);
 
             //a = RhMeshMRMeshConvertors.ToRhinoMesh(offsetMesh);
 

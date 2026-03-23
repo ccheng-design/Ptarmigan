@@ -12,6 +12,7 @@
     <TargetExt>.gha</TargetExt>
     <NoWarn>NU1701;NETSDK1086</NoWarn>
     <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <Platforms>AnyCPU;x64</Platforms>
   </PropertyGroup>
   
   <PropertyGroup>
@@ -23,8 +24,11 @@
   </PropertyGroup>
   
   <ItemGroup>
+    <Compile Remove="lib\MeshLib\**" />
     <Compile Remove="_EXAMPLE SCRIPTS\**" />
+    <EmbeddedResource Remove="lib\MeshLib\**" />
     <EmbeddedResource Remove="_EXAMPLE SCRIPTS\**" />
+    <None Remove="lib\MeshLib\**" />
     <None Remove="_EXAMPLE SCRIPTS\**" />
   </ItemGroup>
   
@@ -62,11 +66,163 @@
 		</None>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="lib\MeshLib\blosc-c5cfa941dc26fa3b508ba49cf9824e92.dll" />
+	  <None Remove="lib\MeshLib\blosc-c5cfa941dc26fa3b508ba49cf9824e92.dll" />
+	  <None Remove="lib\MeshLib\brotlicommon-f8d6f8acecff7e9060e3f811df4f32e9.dll" />
+	  <None Remove="lib\MeshLib\brotlicommon-f8d6f8acecff7e9060e3f811df4f32e9.dll" />
+	  <None Remove="lib\MeshLib\brotlidec-04bb57b257f870f1da2edad0b3569ca2.dll" />
+	  <None Remove="lib\MeshLib\brotlidec-04bb57b257f870f1da2edad0b3569ca2.dll" />
+	  <None Remove="lib\MeshLib\bz2-71f813906a617c97470b54d5c87f907b.dll" />
+	  <None Remove="lib\MeshLib\bz2-71f813906a617c97470b54d5c87f907b.dll" />
+	  <None Remove="lib\MeshLib\E57Format-92d647d59a87ba319154f997308f712c.dll" />
+	  <None Remove="lib\MeshLib\E57Format-92d647d59a87ba319154f997308f712c.dll" />
+	  <None Remove="lib\MeshLib\fmt-08252c65deff1de7f817761a98c62a89.dll" />
+	  <None Remove="lib\MeshLib\fmt-08252c65deff1de7f817761a98c62a89.dll" />
+	  <None Remove="lib\MeshLib\freetype-9a6de9e8a2191664e5f4a93228a73386.dll" />
+	  <None Remove="lib\MeshLib\freetype-9a6de9e8a2191664e5f4a93228a73386.dll" />
+	  <None Remove="lib\MeshLib\gdcmcharls-070bed41884c12928581965f561ff534.dll" />
+	  <None Remove="lib\MeshLib\gdcmcharls-070bed41884c12928581965f561ff534.dll" />
+	  <None Remove="lib\MeshLib\gdcmCommon-8dec66fe9409db259b4b3dd98f74b543.dll" />
+	  <None Remove="lib\MeshLib\gdcmCommon-8dec66fe9409db259b4b3dd98f74b543.dll" />
+	  <None Remove="lib\MeshLib\gdcmDICT-0f47eaf65b1fda8571e615dc5bafc803.dll" />
+	  <None Remove="lib\MeshLib\gdcmDICT-0f47eaf65b1fda8571e615dc5bafc803.dll" />
+	  <None Remove="lib\MeshLib\gdcmDSED-e64bb2fa29a3d23a2a09593fa2d796dd.dll" />
+	  <None Remove="lib\MeshLib\gdcmDSED-e64bb2fa29a3d23a2a09593fa2d796dd.dll" />
+	  <None Remove="lib\MeshLib\gdcmIOD-e00ea5f9e0759380f70af430fe50f0ad.dll" />
+	  <None Remove="lib\MeshLib\gdcmIOD-e00ea5f9e0759380f70af430fe50f0ad.dll" />
+	  <None Remove="lib\MeshLib\gdcmjpeg12-83233b37f25a08220ea59f06b8309250.dll" />
+	  <None Remove="lib\MeshLib\gdcmjpeg12-83233b37f25a08220ea59f06b8309250.dll" />
+	  <None Remove="lib\MeshLib\gdcmjpeg16-c37e23fc56a0cf299deaca88621242c8.dll" />
+	  <None Remove="lib\MeshLib\gdcmjpeg16-c37e23fc56a0cf299deaca88621242c8.dll" />
+	  <None Remove="lib\MeshLib\gdcmjpeg8-3a601c314f922006161a29afa7404b49.dll" />
+	  <None Remove="lib\MeshLib\gdcmjpeg8-3a601c314f922006161a29afa7404b49.dll" />
+	  <None Remove="lib\MeshLib\gdcmMSFF-6e3410ef43fc93c7a653222a39c70094.dll" />
+	  <None Remove="lib\MeshLib\gdcmMSFF-6e3410ef43fc93c7a653222a39c70094.dll" />
+	  <None Remove="lib\MeshLib\gmock-c3ca5b58f066e3d9313502a7202aaac6.dll" />
+	  <None Remove="lib\MeshLib\gmock-c3ca5b58f066e3d9313502a7202aaac6.dll" />
+	  <None Remove="lib\MeshLib\hpdf-be8ccf4535cd7c320703be54336490be.dll" />
+	  <None Remove="lib\MeshLib\hpdf-be8ccf4535cd7c320703be54336490be.dll" />
+	  <None Remove="lib\MeshLib\Imath-3_1-4177f89df4f0638fc9937bc5c2c707cf.dll" />
+	  <None Remove="lib\MeshLib\Imath-3_1-4177f89df4f0638fc9937bc5c2c707cf.dll" />
+	  <None Remove="lib\MeshLib\jpeg62-27813882f4f9dd04c118fc9d5f54f960.dll" />
+	  <None Remove="lib\MeshLib\jpeg62-27813882f4f9dd04c118fc9d5f54f960.dll" />
+	  <None Remove="lib\MeshLib\jsoncpp-98f76621a85b0419b2bc18089742de1b.dll" />
+	  <None Remove="lib\MeshLib\jsoncpp-98f76621a85b0419b2bc18089742de1b.dll" />
+	  <None Remove="lib\MeshLib\laz-perf-9e442226497310e08b94d32335a28820.dll" />
+	  <None Remove="lib\MeshLib\laz-perf-9e442226497310e08b94d32335a28820.dll" />
+	  <None Remove="lib\MeshLib\libexpat-2af1d99107bf442d4092c8c5fc46f4a7.dll" />
+	  <None Remove="lib\MeshLib\libexpat-2af1d99107bf442d4092c8c5fc46f4a7.dll" />
+	  <None Remove="lib\MeshLib\liblzma-29a3cd7230b6035ef6a04ad8c91c63ff.dll" />
+	  <None Remove="lib\MeshLib\liblzma-29a3cd7230b6035ef6a04ad8c91c63ff.dll" />
+	  <None Remove="lib\MeshLib\libpng16-36c15b8f53ba934635dbb663e5055f5d.dll" />
+	  <None Remove="lib\MeshLib\libpng16-36c15b8f53ba934635dbb663e5055f5d.dll" />
+	  <None Remove="lib\MeshLib\lz4-5befb964ef71d27369d42d1b80ff4dc0.dll" />
+	  <None Remove="lib\MeshLib\lz4-5befb964ef71d27369d42d1b80ff4dc0.dll" />
+	  <None Remove="lib\MeshLib\MRDotNet.dll" />
+	  <None Remove="lib\MeshLib\MRDotNet.dll" />
+	  <None Remove="lib\MeshLib\MRIOExtras-bdd7adfaeda9e4df567e580dda32f341.dll" />
+	  <None Remove="lib\MeshLib\MRIOExtras-bdd7adfaeda9e4df567e580dda32f341.dll" />
+	  <None Remove="lib\MeshLib\MRMesh-5acd6171a45ec0637ecd2b17e65cf3a2.dll" />
+	  <None Remove="lib\MeshLib\MRMesh-5acd6171a45ec0637ecd2b17e65cf3a2.dll" />
+	  <None Remove="lib\MeshLib\MRMeshC.dll" />
+	  <None Remove="lib\MeshLib\MRMeshC.dll" />
+	  <None Remove="lib\MeshLib\MRVoxels-d33fdb002013ba2fda86575531ccbf01.dll" />
+	  <None Remove="lib\MeshLib\MRVoxels-d33fdb002013ba2fda86575531ccbf01.dll" />
+	  <None Remove="lib\MeshLib\msvcp140-482e8fd67dc4ff518b6eecf027219730.dll" />
+	  <None Remove="lib\MeshLib\msvcp140-482e8fd67dc4ff518b6eecf027219730.dll" />
+	  <None Remove="lib\MeshLib\OpenCTM-0e2de67760059e2f146b7e6680d5ac84.dll" />
+	  <None Remove="lib\MeshLib\OpenCTM-0e2de67760059e2f146b7e6680d5ac84.dll" />
+	  <None Remove="lib\MeshLib\openjp2-abd2da941ce7a999c8ceecb41d2dff00.dll" />
+	  <None Remove="lib\MeshLib\openjp2-abd2da941ce7a999c8ceecb41d2dff00.dll" />
+	  <None Remove="lib\MeshLib\openvdb-ab0fd35e873d9c338eec39c591d80a13.dll" />
+	  <None Remove="lib\MeshLib\openvdb-ab0fd35e873d9c338eec39c591d80a13.dll" />
+	  <None Remove="lib\MeshLib\spdlog-ac1ab1f62f2700fffb7eac344608f10b.dll" />
+	  <None Remove="lib\MeshLib\spdlog-ac1ab1f62f2700fffb7eac344608f10b.dll" />
+	  <None Remove="lib\MeshLib\tbb12-c52910fb079928f6813ccf46d1cf85c7.dll" />
+	  <None Remove="lib\MeshLib\tbb12-c52910fb079928f6813ccf46d1cf85c7.dll" />
+	  <None Remove="lib\MeshLib\tiff-38b20789ef97b44ce4e23127bb11efdf.dll" />
+	  <None Remove="lib\MeshLib\tiff-38b20789ef97b44ce4e23127bb11efdf.dll" />
+	  <None Remove="lib\MeshLib\tinyxml2-a449eeb19bb14031a4abafa2ff38c982.dll" />
+	  <None Remove="lib\MeshLib\tinyxml2-a449eeb19bb14031a4abafa2ff38c982.dll" />
+	  <None Remove="lib\MeshLib\TKBO-ce52197714bfd3adfa94675a645f1d2a.dll" />
+	  <None Remove="lib\MeshLib\TKBO-ce52197714bfd3adfa94675a645f1d2a.dll" />
+	  <None Remove="lib\MeshLib\TKBRep-18c7d6b8967bfa569cd0898cce906142.dll" />
+	  <None Remove="lib\MeshLib\TKBRep-18c7d6b8967bfa569cd0898cce906142.dll" />
+	  <None Remove="lib\MeshLib\TKCAF-f93d55331b38b8b9a536ec83a8ffe5bb.dll" />
+	  <None Remove="lib\MeshLib\TKCAF-f93d55331b38b8b9a536ec83a8ffe5bb.dll" />
+	  <None Remove="lib\MeshLib\TKCDF-1d8ceaa48f6fef6aef72d3d80aefba47.dll" />
+	  <None Remove="lib\MeshLib\TKCDF-1d8ceaa48f6fef6aef72d3d80aefba47.dll" />
+	  <None Remove="lib\MeshLib\TKDE-d1a2c7df39cb3f31815b87e19a3335ae.dll" />
+	  <None Remove="lib\MeshLib\TKDE-d1a2c7df39cb3f31815b87e19a3335ae.dll" />
+	  <None Remove="lib\MeshLib\TKDESTEP-d72f01212dbda1e113c4d703286e6e64.dll" />
+	  <None Remove="lib\MeshLib\TKDESTEP-d72f01212dbda1e113c4d703286e6e64.dll" />
+	  <None Remove="lib\MeshLib\TKernel-74070bcb6460ed8e50b87c2b9301c749.dll" />
+	  <None Remove="lib\MeshLib\TKernel-74070bcb6460ed8e50b87c2b9301c749.dll" />
+	  <None Remove="lib\MeshLib\TKG2d-517cbd4d8f0b668aa160c6e9aa9c21dd.dll" />
+	  <None Remove="lib\MeshLib\TKG2d-517cbd4d8f0b668aa160c6e9aa9c21dd.dll" />
+	  <None Remove="lib\MeshLib\TKG3d-b787253280054f8f733ffff36a4c49a0.dll" />
+	  <None Remove="lib\MeshLib\TKG3d-b787253280054f8f733ffff36a4c49a0.dll" />
+	  <None Remove="lib\MeshLib\TKGeomAlgo-acd68c838d282e7006feffbc65eb737a.dll" />
+	  <None Remove="lib\MeshLib\TKGeomAlgo-acd68c838d282e7006feffbc65eb737a.dll" />
+	  <None Remove="lib\MeshLib\TKGeomBase-963851caf1310b053b8c0a5311e7ac19.dll" />
+	  <None Remove="lib\MeshLib\TKGeomBase-963851caf1310b053b8c0a5311e7ac19.dll" />
+	  <None Remove="lib\MeshLib\TKHLR-30ac711ddd5ae85dcadd3f9d180ca9fc.dll" />
+	  <None Remove="lib\MeshLib\TKHLR-30ac711ddd5ae85dcadd3f9d180ca9fc.dll" />
+	  <None Remove="lib\MeshLib\TKLCAF-a7de898fcf540d4c963f201fc0ad26c2.dll" />
+	  <None Remove="lib\MeshLib\TKLCAF-a7de898fcf540d4c963f201fc0ad26c2.dll" />
+	  <None Remove="lib\MeshLib\TKMath-d3ed84c9abf44c5f949d4242c4dd3dff.dll" />
+	  <None Remove="lib\MeshLib\TKMath-d3ed84c9abf44c5f949d4242c4dd3dff.dll" />
+	  <None Remove="lib\MeshLib\TKMesh-7615394ede59578feec2b0c1908a2312.dll" />
+	  <None Remove="lib\MeshLib\TKMesh-7615394ede59578feec2b0c1908a2312.dll" />
+	  <None Remove="lib\MeshLib\TKPrim-c76451289b7be8b0298b425149762a3e.dll" />
+	  <None Remove="lib\MeshLib\TKPrim-c76451289b7be8b0298b425149762a3e.dll" />
+	  <None Remove="lib\MeshLib\TKService-e5f4205b03bacf5a188809aa71050034.dll" />
+	  <None Remove="lib\MeshLib\TKService-e5f4205b03bacf5a188809aa71050034.dll" />
+	  <None Remove="lib\MeshLib\TKShHealing-addc40a0ec63b3eddcc524ff8f964201.dll" />
+	  <None Remove="lib\MeshLib\TKShHealing-addc40a0ec63b3eddcc524ff8f964201.dll" />
+	  <None Remove="lib\MeshLib\TKTopAlgo-d56e4e65d026e5920780e5d66ef9c501.dll" />
+	  <None Remove="lib\MeshLib\TKTopAlgo-d56e4e65d026e5920780e5d66ef9c501.dll" />
+	  <None Remove="lib\MeshLib\TKV3d-ff5519f4511b50be766c38e76ab5aa1b.dll" />
+	  <None Remove="lib\MeshLib\TKV3d-ff5519f4511b50be766c38e76ab5aa1b.dll" />
+	  <None Remove="lib\MeshLib\TKVCAF-82cab7ae92a69d7d004878d8c4f9da5e.dll" />
+	  <None Remove="lib\MeshLib\TKVCAF-82cab7ae92a69d7d004878d8c4f9da5e.dll" />
+	  <None Remove="lib\MeshLib\TKXCAF-095e28018e279b09865b0f51d628faed.dll" />
+	  <None Remove="lib\MeshLib\TKXCAF-095e28018e279b09865b0f51d628faed.dll" />
+	  <None Remove="lib\MeshLib\TKXSBase-571c90e401530653f1ab667181937894.dll" />
+	  <None Remove="lib\MeshLib\TKXSBase-571c90e401530653f1ab667181937894.dll" />
+	  <None Remove="lib\MeshLib\turbojpeg-628b71a8a54a09a2df179f4ffc5ff51f.dll" />
+	  <None Remove="lib\MeshLib\turbojpeg-628b71a8a54a09a2df179f4ffc5ff51f.dll" />
+	  <None Remove="lib\MeshLib\vcruntime140-2b7602cc1521101d116995e3e2ddfe09.dll" />
+	  <None Remove="lib\MeshLib\vcruntime140-2b7602cc1521101d116995e3e2ddfe09.dll" />
+	  <None Remove="lib\MeshLib\vcruntime140_1-36d067fc723411e986cd5b23567fd8ce.dll" />
+	  <None Remove="lib\MeshLib\vcruntime140_1-36d067fc723411e986cd5b23567fd8ce.dll" />
+	  <None Remove="lib\MeshLib\xerces-c_3_3-1feb7a07f17ef6e2a9dfc0d8e9682397.dll" />
+	  <None Remove="lib\MeshLib\xerces-c_3_3-1feb7a07f17ef6e2a9dfc0d8e9682397.dll" />
+	  <None Remove="lib\MeshLib\zip-9669faaf9a1033d301e8c18b1496e7dd.dll" />
+	  <None Remove="lib\MeshLib\zip-9669faaf9a1033d301e8c18b1496e7dd.dll" />
+	  <None Remove="lib\MeshLib\zlib1-ba4d126d48970db18f494d09de7e449f.dll" />
+	  <None Remove="lib\MeshLib\zlib1-ba4d126d48970db18f494d09de7e449f.dll" />
+	  <None Remove="lib\MeshLib\zstd-806211ecfaf66b2b69ea8f91929f604a.dll" />
+	  <None Remove="lib\MeshLib\zstd-806211ecfaf66b2b69ea8f91929f604a.dll" />
+	</ItemGroup>
+
 
 	<ItemGroup>
-    <PackageReference Include="Grasshopper" Version="8.0.23304.9001" ExcludeAssets="runtime" />
-    <PackageReference Include="MeshLib" Version="3.0.8.247" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="9.0.10" />
+    <PackageReference Include="GDAL" Version="3.12.1" />
+    <PackageReference Include="GDAL.Native" Version="3.12.1" />
+    <PackageReference Include="Grasshopper" Version="8.29.26063.11001" ExcludeAssets="runtime" />
+    <PackageReference Include="MeshLib" Version="3.1.1.92" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="10.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="10.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.5" />
+    <PackageReference Include="OsmSharp" Version="6.2.0" />
+    <PackageReference Include="Remote.Linq.Newtonsoft.Json" Version="7.3.1" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.5" />
   </ItemGroup>
   
   <!-- For Windows only builds -->
@@ -82,7 +238,10 @@
     <!-- Rhino 8.10 and earlier -->
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net48" Version="1.0.3" ExcludeAssets="all" GeneratePathProperty="true" />
     <Reference Include="$(PkgMicrosoft_NETFramework_ReferenceAssemblies_net48)\build\.NETFramework\v4.8\System.Windows.Forms.dll" Private="False" />
-    <PackageReference Include="System.Drawing.Common" Version="7.0.0" ExcludeAssets="runtime" />
+    <PackageReference Include="System.Drawing.Common" Version="10.0.5" ExcludeAssets="runtime" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Heron\Heron\Heron.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Clipper2Lib">
@@ -90,6 +249,7 @@
     </Reference>
     <Reference Include="MRDotNet">
       <HintPath>lib\MeshLib\MRDotNet.dll</HintPath>
+      <Aliases>MRDotNet1</Aliases>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +264,9 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="lib\" />
   </ItemGroup>
 
   <Target Name="BuildYakPackage" AfterTargets="DispatchToInnerBuilds">
