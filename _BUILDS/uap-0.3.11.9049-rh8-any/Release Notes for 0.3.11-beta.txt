@@ -1,0 +1,17 @@
+UAP 0.3.11.9049-rh8-any
+
+[Rhino] Fixed AutoNames. Now deletes layers if they exist and remakes new ones with new colors.
+[Rhino] BOM Command fixed. Block names match description and amount.
+[Rhino] LayoutNames command fixed in 0.3.10-beta. Now works with pages moved around.
+[Rhino] BlocktoLayers command added.
+[Rhino] BOM Icon added.
+
+
+PTarmigan-GH Plugin
+[Grasshopper] Jarvis March Algorithm Component (JM_Convex Hull) created.
+[Grasshopper] JM Convex Hull icon created.
+[Grasshopper] MT_BooleanDifference Component created.
+[Grasshopper]  MT_BooleanDifference icon created.
+
+
+

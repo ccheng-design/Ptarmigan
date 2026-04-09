@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:wpml="http://www.dji.com/wpmz/1.0.2">
+  <Document>
+    <wpml:author>mavenRoute</wpml:author>
+    <wpml:createTime>1772926232293</wpml:createTime>
+    <wpml:updateTime>1772926232293</wpml:updateTime>
+    <wpml:missionConfig>
+      <wpml:flyToWaylineMode>safely</wpml:flyToWaylineMode>
+      <wpml:finishAction>goHome</wpml:finishAction>
+      <wpml:exitOnRCLost>executeLostAction</wpml:exitOnRCLost>
+      <wpml:executeRCLostAction>goBack</wpml:executeRCLostAction>
+      <wpml:globalTransitionalSpeed>3</wpml:globalTransitionalSpeed>
+      <wpml:droneInfo>
+        <wpml:droneEnumValue>68</wpml:droneEnumValue>
+        <wpml:droneSubEnumValue>0</wpml:droneSubEnumValue>
+      </wpml:droneInfo>
+    </wpml:missionConfig>
+  </Document>
+</kml>
