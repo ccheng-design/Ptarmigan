@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\meshbooleanintersection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|e:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\meshbooleansplit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\meshbooleansplit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|e:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\meshbooleanunion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\meshbooleanunion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -44,14 +40,14 @@
               "RelativeDocumentMoniker": "_Ptarmigan\\MeshBooleanIntersection.cs",
               "ToolTip": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MeshBooleanIntersection.cs",
               "RelativeToolTip": "_Ptarmigan\\MeshBooleanIntersection.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwIoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAI4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T04:57:47.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Shell.cs",
               "DocumentMoniker": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\Shell.cs",
               "RelativeDocumentMoniker": "_Ptarmigan\\Shell.cs",
@@ -64,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MeshBooleanUnion.cs",
               "DocumentMoniker": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MeshBooleanUnion.cs",
               "RelativeDocumentMoniker": "_Ptarmigan\\MeshBooleanUnion.cs",
@@ -77,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MeshBooleanDifference.cs",
               "DocumentMoniker": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MeshBooleanDifference.cs",
               "RelativeDocumentMoniker": "_Ptarmigan\\MeshBooleanDifference.cs",
@@ -97,40 +93,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "9ed65d95-c2dc-4325-bf8a-3a7af71eee22",
-        "Display": 1,
-        "X": 191,
-        "Y": 449,
-        "Width": 1596,
-        "Height": 675,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MeshBooleanSplit.cs",
-              "DocumentMoniker": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MeshBooleanSplit.cs",
-              "RelativeDocumentMoniker": "_Ptarmigan\\MeshBooleanSplit.cs",
-              "ToolTip": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MeshBooleanSplit.cs",
-              "RelativeToolTip": "_Ptarmigan\\MeshBooleanSplit.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T05:32:57.752Z",
-              "EditorCaption": ""
             }
           ]
         }
