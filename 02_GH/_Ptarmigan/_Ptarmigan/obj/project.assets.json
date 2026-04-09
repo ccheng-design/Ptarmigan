@@ -2140,15 +2140,6 @@
         "build": {
           "buildTransitive/net471/System.ValueTuple.targets": {}
         }
-      },
-      "Heron/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Heron.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Heron.dll": {}
-        }
       }
     },
     "net7.0": {
@@ -4711,15 +4702,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
-        }
-      },
-      "Heron/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Heron.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Heron.dll": {}
         }
       }
     },
@@ -7308,15 +7290,6 @@
         },
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
-        }
-      },
-      "Heron/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/Heron.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Heron.dll": {}
         }
       }
     }
@@ -11436,19 +11409,14 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
-    },
-    "Heron/1.0.0": {
-      "type": "project",
-      "path": "../../../../Heron/Heron/Heron.csproj",
-      "msbuildProject": "../../../../Heron/Heron/Heron.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
+      "C:\\Users\\C.Cheng\\Desktop\\Heron\\Heron\\Heron.csproj",
       "GDAL >= 3.12.1",
       "GDAL.Native >= 3.12.1",
       "Grasshopper >= 8.29.26063.11001",
-      "Heron >= 1.0.0",
       "MeshLib >= 3.1.1.92",
       "Microsoft.Extensions.Configuration >= 10.0.5",
       "Microsoft.Extensions.Configuration.Binder >= 10.0.5",
@@ -11462,10 +11430,10 @@
       "System.Configuration.ConfigurationManager >= 10.0.5"
     ],
     "net7.0": [
+      "C:\\Users\\C.Cheng\\Desktop\\Heron\\Heron\\Heron.csproj",
       "GDAL >= 3.12.1",
       "GDAL.Native >= 3.12.1",
       "Grasshopper >= 8.29.26063.11001",
-      "Heron >= 1.0.0",
       "MeshLib >= 3.1.1.92",
       "Microsoft.Extensions.Configuration >= 10.0.5",
       "Microsoft.Extensions.Configuration.Binder >= 10.0.5",
@@ -11481,10 +11449,10 @@
       "System.Drawing.Common >= 10.0.5"
     ],
     "net7.0-windows7.0": [
+      "C:\\Users\\C.Cheng\\Desktop\\Heron\\Heron\\Heron.csproj",
       "GDAL >= 3.12.1",
       "GDAL.Native >= 3.12.1",
       "Grasshopper >= 8.29.26063.11001",
-      "Heron >= 1.0.0",
       "MeshLib >= 3.1.1.92",
       "Microsoft.Extensions.Configuration >= 10.0.5",
       "Microsoft.Extensions.Configuration.Binder >= 10.0.5",
@@ -11499,24 +11467,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Clark Cheng\\.nuget\\packages\\": {},
+    "C:\\Users\\C.Cheng\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj",
+      "projectUniqueName": "C:\\Users\\C.Cheng\\Desktop\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj",
       "projectName": "_Ptarmigan",
-      "projectPath": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj",
-      "packagesPath": "C:\\Users\\Clark Cheng\\.nuget\\packages\\",
-      "outputPath": "E:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\obj\\",
+      "projectPath": "C:\\Users\\C.Cheng\\Desktop\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj",
+      "packagesPath": "C:\\Users\\C.Cheng\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\C.Cheng\\Desktop\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Clark Cheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\C.Cheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11527,30 +11495,31 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\Architectural Templates\\Heron\\Heron\\Heron.csproj": {
-              "projectPath": "E:\\Architectural Templates\\Heron\\Heron\\Heron.csproj"
+            "C:\\Users\\C.Cheng\\Desktop\\Heron\\Heron\\Heron.csproj": {
+              "projectPath": "C:\\Users\\C.Cheng\\Desktop\\Heron\\Heron\\Heron.csproj"
             }
           }
         },
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
           "projectReferences": {
-            "E:\\Architectural Templates\\Heron\\Heron\\Heron.csproj": {
-              "projectPath": "E:\\Architectural Templates\\Heron\\Heron\\Heron.csproj"
+            "C:\\Users\\C.Cheng\\Desktop\\Heron\\Heron\\Heron.csproj": {
+              "projectPath": "C:\\Users\\C.Cheng\\Desktop\\Heron\\Heron\\Heron.csproj"
             }
           }
         },
         "net48": {
           "targetAlias": "net48",
           "projectReferences": {
-            "E:\\Architectural Templates\\Heron\\Heron\\Heron.csproj": {
-              "projectPath": "E:\\Architectural Templates\\Heron\\Heron\\Heron.csproj"
+            "C:\\Users\\C.Cheng\\Desktop\\Heron\\Heron\\Heron.csproj": {
+              "projectPath": "C:\\Users\\C.Cheng\\Desktop\\Heron\\Heron\\Heron.csproj"
             }
           }
         }
@@ -11568,7 +11537,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net7.0": {
@@ -11654,26 +11623,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
       },
       "net7.0-windows7.0": {
         "targetAlias": "net7.0-windows",
@@ -11747,20 +11702,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.20, 7.0.20]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -11769,7 +11710,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
       },
       "net48": {
         "targetAlias": "net48",
@@ -11832,8 +11773,21 @@
             "version": "[10.0.5, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\C.Cheng\\Desktop\\Heron\\Heron\\Heron.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\C.Cheng\\Desktop\\Heron\\Heron\\Heron.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.8",
+        "net7.0",
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
 }
