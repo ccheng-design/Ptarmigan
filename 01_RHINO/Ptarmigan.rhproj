@@ -617,6 +617,24 @@
       },
       "title": "ResetPageViews",
       "uri": "_SOURCE CODE/ResetPageViews.py"
+    },
+    {
+      "id": "8626c463-f84a-462d-a6df-5f04f404fa24",
+      "language": {
+        "id": "mcneel.pythonnet.python",
+        "version": "3.9.10"
+      },
+      "title": "Scale1DIncrement",
+      "uri": "_SOURCE CODE/Scale1DIncrement.py"
+    },
+    {
+      "id": "aa7c95c7-b4f3-4bd0-8927-6d1f508b9a1c",
+      "language": {
+        "id": "mcneel.pythonnet.python",
+        "version": "3.9.10"
+      },
+      "title": "CameraPositionFromDetail",
+      "uri": "_SOURCE CODE/CameraPositionFromDetail.py"
     }
   ],
   "libraries": [
