@@ -32,9 +32,14 @@ import System.Collections.Generic
 import Rhino
 
 
+def SelDetailsInDoc():
 
 
-objs=rs.ObjectsByType(32768,True)
+    objs=rs.ObjectsByType(32768,True)
 
-if not objs:
-    print("None Selected")
+    if not objs:
+        print("None Selected")
+
+
+if __name__=="__main__":
+    SelDetailsInDoc()

@@ -15,60 +15,74 @@ import sys
 from fractions import Fraction
 from decimal import Decimal
 
-
-#Uses embedded text with attributes to define the scale factor
-rs.MessageBox("Select details and text in the same order!", buttons=0, title="DetailScaleFactor")
+def DetailScaleFactor():
 
 
-detailGet=rs.GetObjects("Get Details",filter=32768)
-description=rs.GetObjects("Get Text",filter=4096)
-
-#Exit clause
-if description or detailGet is None:
-    print("Nothing Selected")
+    #Uses embedded text with attributes to define the scale factor
+    rs.MessageBox("Select details and text in the same order!", buttons=0, title="DetailScaleFactor")
 
 
+    detailGet=rs.GetObjects("Get Details",filter=32768)
+    if detailGet is None:
+        return
 
-drawingScaleFactor=[]
-descriptionCount=[]
+    description=rs.GetObjects("Get Text",filter=4096)
+    if detailGet is None:
+        return
 
-#description count
-for i in description:
-    descriptionCount.append(i)
-
-#detail count
-detailGetCount=[]
-for i in detailGet:
-    detailGetCount.append(i)
+    #Exit clause
+    if description or detailGet is None:
+        print("Nothing Selected")
+        return
 
 
-print(len(descriptionCount))
-print(len(detailGetCount))
 
-if len(descriptionCount) != len(detailGetCount):
-    sys.exit()
+    drawingScaleFactor=[]
+    descriptionCount=[]
 
-print(detailGet)
-for i in detailGet:
-    detailObj=sc.doc.Objects.FindId(i)
+    #description count
+    for i in description:
+        descriptionCount.append(i)
 
-    #print(detailObj)
+    #detail count
+    detailGetCount=[]
+    for i in detailGet:
+        detailGetCount.append(i)
 
-    viewport=detailObj.DetailGeometry.PageToModelRatio
 
-    field='%<DetailScale("' + i.ToString() + '","'+ '#=1-0")>%'
-    print(field)
-    drawingScaleFactor.append(field)
+    print(len(descriptionCount))
+    print(len(detailGetCount))
 
+    if len(descriptionCount) != len(detailGetCount):
+        sys.exit()
+
+    print(detailGet)
+    for i in detailGet:
+
+        #Convert to Guid
+        detailObj=sc.doc.Objects.FindId(i)
+
+        #print(detailObj)
+
+        #DetailGeometry Class
+        viewport=detailObj.DetailGeometry.PageToModelRatio
+
+        #test=detailObj.PageToModelRatio
+
+        field='%<DetailScale("' + i.ToString() + '","'+ '#=1-0")>%'
+        print(field)
+        drawingScaleFactor.append(field)
+
+        
+
+    #print(description)
+    for i,j in zip(description,drawingScaleFactor):
     
+        print(j)
+        rs.SetUserText(i, "SCALE", j)
+        
 
-#print(description)
-for i,j in zip(description,drawingScaleFactor):
-  
-    print(j)
-    rs.SetUserText(i, "SCALE", j)
-    
-
-
+if __name__ =="__main__":
+    DetailScaleFactor()
 
 

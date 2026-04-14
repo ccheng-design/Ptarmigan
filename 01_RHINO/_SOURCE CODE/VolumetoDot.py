@@ -10,44 +10,51 @@ from System.Drawing import Color
 #Surface Volume
 #Gets the volume of each object and adds a text dot
 
-#filter goemetry types
-geo_types=rs.filter.polysurface | rs.filter.surface
+def VolumetoDot():
 
-volume=rs.GetObjects("Select PolySrf",preselect=True, filter=geo_types)
-if not volume: print("None Selected")
 
-else:
+    #filter goemetry types
+    geo_types=rs.filter.polysurface | rs.filter.surface
 
-    #creating list of volumes and open_srfs
-    volume_list=[]
-    open_polysrf_list=[]
+    volume=rs.GetObjects("Select PolySrf",preselect=True, filter=geo_types)
+    if not volume: print("None Selected")
 
-    for obj in volume:
-        #measure volume
-        a=rs.SurfaceVolume(obj)
+    else:
 
-        #mark objects red for all open polysrfs
-        if a==None:
-            bad=rs.ObjectColor(obj,Color.Red)
-            open_polysrf_list.append(bad)
+        #creating list of volumes and open_srfs
+        volume_list=[]
+        open_polysrf_list=[]
+
+        for obj in volume:
+            #measure volume
+            a=rs.SurfaceVolume(obj)
+
+            #mark objects red for all open polysrfs
+            if a==None:
+                bad=rs.ObjectColor(obj,Color.Red)
+                open_polysrf_list.append(bad)
+                
             
-        
-        else:
-            #centroid as a guid
-            centroid=rs.SurfaceVolumeCentroid(obj)
+            else:
+                #centroid as a guid
+                centroid=rs.SurfaceVolumeCentroid(obj)
 
-            #add to list for counting
-            volume_list.append(a[0])
-
-
-            #define string; can also use a f-string as well
-            txt_dot_string="Volume: "+str(round(a[0],3))+" cubic "+str(rs.UnitSystemName(False,False,False))
-            
-
-            #string vol_info="Volume", round(a[0],3)
-            rs.AddTextDot(txt_dot_string,centroid[0])
+                #add to list for counting
+                volume_list.append(a[0])
 
 
-    #Output stats for what worked/didnt work
-    print(len(volume_list), "objects were successfully calculated.", len(open_polysrf_list), "Are Marked in Red")
-    print("Objects in Red are Not Closed Polysurfaces")
+                #define string; can also use a f-string as well
+                txt_dot_string="Volume: "+str(round(a[0],3))+" cubic "+str(rs.UnitSystemName(False,False,False))
+                
+
+                #string vol_info="Volume", round(a[0],3)
+                rs.AddTextDot(txt_dot_string,centroid[0])
+
+
+        #Output stats for what worked/didnt work
+        print(len(volume_list), "objects were successfully calculated.", len(open_polysrf_list), "Are Marked in Red")
+        print("Objects in Red are Not Closed Polysurfaces")
+
+
+if __name__ == "__main__":
+    VolumetoDot()

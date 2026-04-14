@@ -31,20 +31,25 @@ import System
 import System.Collections.Generic
 import Rhino
 
-doc = Rhino.RhinoDoc.ActiveDoc
-#rs.ZoomExtents(all=True)
+def ResetPageViews():
 
-pageViews = sc.doc.Views.GetPageViews()
 
-for page in pageViews:
-    doc.Views.ActiveView=page
+    doc = Rhino.RhinoDoc.ActiveDoc
+    #rs.ZoomExtents(all=True)
 
-    #Creates rectangle
-    plane = rs.WorldXYPlane()
-    bb=rs.AddRectangle(plane,17,11)
-    rs.SelectObjects(bb)
-    rs.ZoomSelected()
-    rs.DeleteObjects(bb)
+    pageViews = sc.doc.Views.GetPageViews()
 
-    page.Redraw
+    for page in pageViews:
+        doc.Views.ActiveView=page
 
+        #Creates rectangle
+        plane = rs.WorldXYPlane()
+        bb=rs.AddRectangle(plane,17,11)
+        rs.SelectObjects(bb)
+        rs.ZoomSelected()
+        rs.DeleteObjects(bb)
+
+        page.Redraw
+
+if __name__ == "__main__":
+    ResetPageViews()
