@@ -635,6 +635,15 @@
       },
       "title": "CameraPositionFromDetail",
       "uri": "_SOURCE CODE/CameraPositionFromDetail.py"
+    },
+    {
+      "id": "35c7393c-b213-49fa-b489-e5b089750262",
+      "language": {
+        "id": "mcneel.pythonnet.python",
+        "version": "3.9.10"
+      },
+      "title": "ZoomExtentInDetail",
+      "uri": "_SOURCE CODE/ZoomExtentInDetail.py"
     }
   ],
   "libraries": [
