@@ -21,19 +21,17 @@ def DetailScaleFactor():
     #Uses embedded text with attributes to define the scale factor
     rs.MessageBox("Select details and text in the same order!", buttons=0, title="DetailScaleFactor")
 
-
+    #Exit clause
     detailGet=rs.GetObjects("Get Details",filter=32768)
     if detailGet is None:
         return
-
+    #Exit clause
     description=rs.GetObjects("Get Text",filter=4096)
     if detailGet is None:
         return
 
-    #Exit clause
-    if description or detailGet is None:
-        print("Nothing Selected")
-        return
+    
+
 
 
 
