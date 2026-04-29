@@ -30,29 +30,28 @@ A key part of this repo is the Grasshopper plugin **PTARMIGAN**, which includes 
 
 ### 🔧 Commands Included
 
-- `AutoName`
-- `BlocksToLayers`
-- `BOM`
-- `DetailDisplay`
-- `DetailLock`
-- `DetailScale`
-- `DetailScaleFactor`
-- `DetailUnlock`
-- `LayoutNames`
-- `MoveToNewLayer`
-- `NameToLayers`
-- `NamesToLayers`
-- `Ptarmigan`
-- `RandomColors`
-- `RevAlign`
-- `SelDetailsInDoc`
-- `SelSameArea`
-- `SelSameLength`
-- `ThankYou`
-- `UnhideAll`
-- `UP2`
-- `UP3`
-- `VolumeToDot`
+- AutoName
+- CopyViewFromDetail
+- DetailDisplay
+- DetailLock
+- DetailScale
+- DetailScaleFactor
+- DetailUnlock
+- LayoutNames
+- MoveToNewLayer
+- NamesToLayers
+- Random Colors
+- ResetPageViews
+- Scale1DIncrement
+- SelDetailsInDoc
+- SelSameArea
+- SelSameLength
+- Ptarmigan
+- UnHideAll
+- UP2
+- UP3
+- VolumeToDot
+- ZoomExtentInDetail
 
 
 More details and usage examples can be found in the 📖 **[Ptarmigan Documentation](https://clarkchengdesign.gitbook.io/home/)**
