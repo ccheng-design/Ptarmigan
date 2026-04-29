@@ -12,7 +12,7 @@ import Rhino
 import sys
 
 
-def CameraPositionFromDetail():
+def CopyViewFromDetail():
 
 
     detailRef=rs.GetObject("Get Reference Detail to Copy From",filter=32768,preselect=True)
@@ -90,4 +90,4 @@ def CameraPositionFromDetail():
     rs.DetailScale(i,1,scale)
 
 if __name__=="__main__":
-    CameraPositionFromDetail()
+    CopyViewFromDetail()
