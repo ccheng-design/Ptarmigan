@@ -1,0 +1,18 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6fc9394a-6461-41c5-999b-6ee471610e8b}") = "Ptarmigan", "Ptarmigan\Ptarmigan.csproj", "{838b0216-c608-4052-ba34-d6f407279bb6}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{838b0216-c608-4052-ba34-d6f407279bb6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838b0216-c608-4052-ba34-d6f407279bb6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838b0216-c608-4052-ba34-d6f407279bb6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838b0216-c608-4052-ba34-d6f407279bb6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
