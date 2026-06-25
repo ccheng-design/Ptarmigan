@@ -1,0 +1,30 @@
+<Fragment name="Settings">
+  <items count="26">
+    <item name="AutoUnblock" type_name="gh_string" type_code="10">false</item>
+    <item name="CheckLanguageTraits" type_name="gh_string" type_code="10">True</item>
+    <item name="CheckNewVersion" type_name="gh_string" type_code="10">false</item>
+    <item name="DevMode" type_name="gh_string" type_code="10">False</item>
+    <item name="DisableComponents" type_name="gh_string" type_code="10">False</item>
+    <item name="EnableHangProtection" type_name="gh_string" type_code="10">false</item>
+    <item name="HangAltFolder" type_name="gh_string" type_code="10"></item>
+    <item name="HangSaveDiagInfo" type_name="gh_string" type_code="10">True</item>
+    <item name="HangSaveLocation" type_name="gh_string" type_code="10">0</item>
+    <item name="HighlightChanges" type_name="gh_string" type_code="10">off</item>
+    <item name="HintOptionalParameter" type_name="gh_string" type_code="10">False</item>
+    <item name="IncludeComp" type_name="gh_string" type_code="10">true</item>
+    <item name="LangOverride" type_name="gh_string" type_code="10"></item>
+    <item name="PreferNeutralName" type_name="gh_string" type_code="10">True</item>
+    <item name="SkipRefCluster" type_name="gh_string" type_code="10">True</item>
+    <item name="UnblockMonitor" type_name="gh_string" type_code="10">default</item>
+    <item name="WarnIfOpenRecovery" type_name="gh_string" type_code="10">True</item>
+    <item name="feature_Advanced wire" type_name="gh_string" type_code="10">False</item>
+    <item name="feature_ClusterParamNameMonitor" type_name="gh_string" type_code="10">True</item>
+    <item name="feature_Drag Geometry" type_name="gh_string" type_code="10">False</item>
+    <item name="feature_InteractionCaptureFix" type_name="gh_string" type_code="10">False</item>
+    <item name="feature_Lazy Library Loader" type_name="gh_string" type_code="10">False</item>
+    <item name="feature_Overlay Info" type_name="gh_string" type_code="10">False</item>
+    <item name="feature_Param Content" type_name="gh_string" type_code="10">False</item>
+    <item name="feature_ProgressiveAutosave" type_name="gh_string" type_code="10">False</item>
+    <item name="feature_User Object Loader" type_name="gh_string" type_code="10">False</item>
+  </items>
+</Fragment>

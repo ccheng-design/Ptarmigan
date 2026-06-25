@@ -1,0 +1,269 @@
+<Fragment name="Settings">
+  <items count="91">
+    <item name="black.sel.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;35;0</ARGB>
+    </item>
+    <item name="black.sel.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;25;60;25</ARGB>
+    </item>
+    <item name="black.sel.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;190;250;180</ARGB>
+    </item>
+    <item name="black.std.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;0;0</ARGB>
+    </item>
+    <item name="black.std.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;50;50;50</ARGB>
+    </item>
+    <item name="black.std.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;255;255;255</ARGB>
+    </item>
+    <item name="blue.sel.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;5;90;55</ARGB>
+    </item>
+    <item name="blue.sel.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;70;220;100</ARGB>
+    </item>
+    <item name="blue.sel.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;0;0</ARGB>
+    </item>
+    <item name="blue.std.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;55;100</ARGB>
+    </item>
+    <item name="blue.std.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;90;115;235</ARGB>
+    </item>
+    <item name="blue.std.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;0;0</ARGB>
+    </item>
+    <item name="brown.sel.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;35;50;0</ARGB>
+    </item>
+    <item name="brown.sel.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;135;145;10</ARGB>
+    </item>
+    <item name="brown.sel.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;0;0</ARGB>
+    </item>
+    <item name="brown.std.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;50;20;0</ARGB>
+    </item>
+    <item name="brown.std.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;140;80;30</ARGB>
+    </item>
+    <item name="brown.std.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;0;0</ARGB>
+    </item>
+    <item name="canvas_backcolor" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;212;208;200</ARGB>
+    </item>
+    <item name="canvas_columnwidth" type_name="gh_int32" type_code="3">150</item>
+    <item name="canvas_edgecolor" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;0;0</ARGB>
+    </item>
+    <item name="canvas_gridcolor" type_name="gh_drawing_color" type_code="36">
+      <ARGB>30;0;0;0</ARGB>
+    </item>
+    <item name="canvas_monochromatic" type_name="gh_bool" type_code="1">false</item>
+    <item name="canvas_monocolor" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;255;255;255</ARGB>
+    </item>
+    <item name="canvas_rowheight" type_name="gh_int32" type_code="3">50</item>
+    <item name="canvas_shadecolor" type_name="gh_drawing_color" type_code="36">
+      <ARGB>80;0;0;0</ARGB>
+    </item>
+    <item name="canvas_shadowsize" type_name="gh_int32" type_code="3">30</item>
+    <item name="error.sel.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;50;0</ARGB>
+    </item>
+    <item name="error.sel.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;125;155;0</ARGB>
+    </item>
+    <item name="error.sel.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;255;255;255</ARGB>
+    </item>
+    <item name="error.std.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;60;0;0</ARGB>
+    </item>
+    <item name="error.std.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;200;0;0</ARGB>
+    </item>
+    <item name="error.std.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;0;0</ARGB>
+    </item>
+    <item name="grey.sel.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;35;0</ARGB>
+    </item>
+    <item name="grey.sel.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;120;180;120</ARGB>
+    </item>
+    <item name="grey.sel.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;20;0</ARGB>
+    </item>
+    <item name="grey.std.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;20;20;20</ARGB>
+    </item>
+    <item name="grey.std.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;150;150;150</ARGB>
+    </item>
+    <item name="grey.std.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;0;0</ARGB>
+    </item>
+    <item name="group_backcolor" type_name="gh_drawing_color" type_code="36">
+      <ARGB>150;170;135;255</ARGB>
+    </item>
+    <item name="hidden.sel.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;35;0</ARGB>
+    </item>
+    <item name="hidden.sel.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;80;180;10</ARGB>
+    </item>
+    <item name="hidden.sel.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;25;0</ARGB>
+    </item>
+    <item name="hidden.std.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;35;35;35</ARGB>
+    </item>
+    <item name="hidden.std.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;140;140;155</ARGB>
+    </item>
+    <item name="hidden.std.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;0;0</ARGB>
+    </item>
+    <item name="locked.sel.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;40;70;40</ARGB>
+    </item>
+    <item name="locked.sel.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;110;150;115</ARGB>
+    </item>
+    <item name="locked.sel.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;75;100;65</ARGB>
+    </item>
+    <item name="locked.std.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;90;90;90</ARGB>
+    </item>
+    <item name="locked.std.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;120;120;120</ARGB>
+    </item>
+    <item name="locked.std.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;70;70;70</ARGB>
+    </item>
+    <item name="normal.sel.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;50;0</ARGB>
+    </item>
+    <item name="normal.sel.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;130;215;50</ARGB>
+    </item>
+    <item name="normal.sel.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;25;0</ARGB>
+    </item>
+    <item name="normal.std.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;50;50;50</ARGB>
+    </item>
+    <item name="normal.std.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;200;200;200</ARGB>
+    </item>
+    <item name="normal.std.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;0;0</ARGB>
+    </item>
+    <item name="panel_backcolor" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;255;250;90</ARGB>
+    </item>
+    <item name="pink.sel.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;50;0</ARGB>
+    </item>
+    <item name="pink.sel.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;160;210;30</ARGB>
+    </item>
+    <item name="pink.sel.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;255;255;255</ARGB>
+    </item>
+    <item name="pink.std.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;100;0;50</ARGB>
+    </item>
+    <item name="pink.std.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;255;0;125</ARGB>
+    </item>
+    <item name="pink.std.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;0;0</ARGB>
+    </item>
+    <item name="trans.sel.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;10;65;25</ARGB>
+    </item>
+    <item name="trans.sel.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>125;75;225;125</ARGB>
+    </item>
+    <item name="trans.sel.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;30;15</ARGB>
+    </item>
+    <item name="trans.std.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;30;30;30</ARGB>
+    </item>
+    <item name="trans.std.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>100;200;200;200</ARGB>
+    </item>
+    <item name="trans.std.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;0;0</ARGB>
+    </item>
+    <item name="warning.sel.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;50;0</ARGB>
+    </item>
+    <item name="warning.sel.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;185;205;0</ARGB>
+    </item>
+    <item name="warning.sel.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;0;0</ARGB>
+    </item>
+    <item name="warning.std.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;80;10;0</ARGB>
+    </item>
+    <item name="warning.std.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;255;140;20</ARGB>
+    </item>
+    <item name="warning.std.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;0;0</ARGB>
+    </item>
+    <item name="white.sel.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;50;0</ARGB>
+    </item>
+    <item name="white.sel.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;130;215;50</ARGB>
+    </item>
+    <item name="white.sel.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;25;0</ARGB>
+    </item>
+    <item name="white.std.edge" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;50;50;50</ARGB>
+    </item>
+    <item name="white.std.fill" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;200;200;200</ARGB>
+    </item>
+    <item name="white.std.text" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;0;0</ARGB>
+    </item>
+    <item name="wire_default" type_name="gh_drawing_color" type_code="36">
+      <ARGB>150;0;0;0</ARGB>
+    </item>
+    <item name="wire_empty" type_name="gh_drawing_color" type_code="36">
+      <ARGB>180;255;60;0</ARGB>
+    </item>
+    <item name="wire_selected_a" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;125;210;40</ARGB>
+    </item>
+    <item name="wire_selected_b" type_name="gh_drawing_color" type_code="36">
+      <ARGB>50;0;0;0</ARGB>
+    </item>
+    <item name="zui_edgecolor" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;75;140;150</ARGB>
+    </item>
+    <item name="zui_edgehighlightcolor" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;60;135;180</ARGB>
+    </item>
+    <item name="zui_fillcolor" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;175;220;230</ARGB>
+    </item>
+    <item name="zui_fillhighlightcolor" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;170;210;255</ARGB>
+    </item>
+  </items>
+</Fragment>

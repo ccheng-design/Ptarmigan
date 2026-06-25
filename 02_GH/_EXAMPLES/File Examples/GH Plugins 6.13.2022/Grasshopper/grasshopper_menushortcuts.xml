@@ -1,0 +1,547 @@
+<Fragment name="Shortcuts">
+  <chunks count="100">
+    <chunk name="Item" index="0">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">File\New Document</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">N, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="1">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">File\Open Document…</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">O, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="2">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">File\Save Document</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">S, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="3">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">File\Save Document As…</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">S, Shift, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="4">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">File\Save Backup</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">S, Control, Alt</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="5">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">File\Export Quick Image...</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">Q, Shift, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="6">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">File\Export Hi-Res Image…</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="7">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">File\Document Properties…</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="8">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">File\Create User Object…</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="9">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">File\Show In Folder</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="10">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">File\Special Folders\Components Folder</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="11">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">File\Special Folders\Settings Folder</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="12">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">File\Special Folders\User Object Folder</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="13">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">File\Preferences…</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">P, Shift, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="14">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">File\Close</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">W, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="15">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Undo</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">Z, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="16">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Redo</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">Y, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="17">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Undo Server…</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="18">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Cut</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">X, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="19">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Copy</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">C, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="20">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Paste</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">V, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="21">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Paste In Place</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">V, Control, Alt</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="22">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Paste In Center</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">V, Shift, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="23">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Delete</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">Delete</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="24">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Select All</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">A, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="25">
+      <items count="3">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Deselect All</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">D, Control</item>
+        <item name="ShortcutText" type_name="gh_string" type_code="10">Ctrl+D, Escape</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="26">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Invert Selection</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">I, Shift, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="27">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Modify Selection\Grow Selection</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">A, Shift, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="28">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Modify Selection\Grow Upstream</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">Left, Shift, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="29">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Modify Selection\Grow Downstream</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">Right, Shift, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="30">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Modify Selection\Shift Upstream</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">Left, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="31">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Modify Selection\Shift Downstream</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">Right, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="32">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Arrange\Put To Back</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">B, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="33">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Arrange\Bring To Front</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">F, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="34">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Arrange\Move Backwards</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">B, Shift, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="35">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Arrange\Move Forwards</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">F, Shift, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="36">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Group</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">G, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="37">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Ungroup</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">G, Shift, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="38">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Cluster</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="39">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Find…</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">F3</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="40">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Edit\Create…</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">F4</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="41">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">View\Canvas Toolbar</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="42">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">View\Component Tabs</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="43">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">View\Panel Separators</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="44">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">View\Obscure Components</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="45">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">View\Data Viewer…</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="46">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">View\Store Current View…</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="47">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">View\Zoom\Zoom Selected</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="48">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">View\Zoom\Zoom Extents</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="49">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">View\Zoom\Focus Upper-Left</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="50">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">View\Zoom\Focus Upper-Right</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="51">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">View\Zoom\Focus Lower-Left</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="52">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">View\Zoom\Focus Lower-Right</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="53">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">View\Zoom\Zoom on Preview</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="54">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Display\Draw Icons</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="55">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Display\Draw Fancy Wires</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="56">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Display\Draw Full Names</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="57">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Display\Preview Mesh Settings\Disable Meshing</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="58">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Display\Preview Mesh Settings\Low Quality</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="59">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Display\Preview Mesh Settings\High Quality</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="60">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Display\Preview Mesh Settings\Document Quality</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="61">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Display\Preview Mesh Settings\Custom Quality</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="62">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Display\No Preview</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">D1, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="63">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Display\Wireframe Preview</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">D2, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="64">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Display\Shaded Preview</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">D3, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="65">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Display\Selected Only Preview</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="66">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Display\Preview Settings…</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="67">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Display\Preview Mesh Edges</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">M, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="68">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Display\Gumballs</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="69">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Solution\Recompute</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">F5</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="70">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Solution\Clear</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">F6</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="71">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Solution\Disable Solver</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="72">
+      <items count="3">
+        <item name="Path" type_name="gh_string" type_code="10">Solution\Bake Selected</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">Insert</item>
+        <item name="ShortcutText" type_name="gh_string" type_code="10">Insert</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="73">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Solution\Save State…</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="74">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Solution\Preview Selected On</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="75">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Solution\Preview Selected Off</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="76">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Solution\Toggle Preview</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">Q, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="77">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Solution\Enable Selected</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="78">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Solution\Disable Selected</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="79">
+      <items count="2">
+        <item name="Path" type_name="gh_string" type_code="10">Solution\Toggle Enable Selected</item>
+        <item name="Shortcut" type_name="gh_string" type_code="10">E, Control</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="80">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Internalize Geometry...</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="81">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Downgrade...</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="82">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Version Tracking\Remove from Current Script</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="83">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Version Tracking\Remove from Current Rhino File</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="84">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Param Access Overlay</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="85">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Param Content Hint</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="86">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Pick Connected Objects\Upstream</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="87">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Pick Connected Objects\Downstream</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="88">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Pick Connected Objects\Up and Down</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="89">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Pick Connected Objects\Source</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="90">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Pick Connected Objects\Sink</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="91">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Cluster Operations\Merge Identical Inputs</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="92">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Cluster Operations\Refresh Param Names</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="93">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Cluster Operations\Refresh Automatically</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="94">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Analyze Performance\Entire Document...</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="95">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Analyze Performance\Selected...</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="96">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Analyze Performance\Run &amp;&amp; Measure Selected</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="97">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Adjust Font Sizes...</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="98">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Settings\Remove All Highlights</item>
+      </items>
+    </chunk>
+    <chunk name="Item" index="99">
+      <items count="1">
+        <item name="Path" type_name="gh_string" type_code="10">Pancake\Settings\More settings...</item>
+      </items>
+    </chunk>
+  </chunks>
+</Fragment>

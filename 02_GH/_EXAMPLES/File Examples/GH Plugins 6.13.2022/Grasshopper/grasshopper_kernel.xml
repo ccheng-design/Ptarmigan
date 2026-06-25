@@ -1,0 +1,129 @@
+<Fragment name="Settings">
+  <items count="108">
+    <item name="Assemblies:COFF" type_name="gh_bool" type_code="1">false</item>
+    <item name="Assemblies:Folders" type_name="gh_string" type_code="10"></item>
+    <item name="Author:Address" type_name="gh_string" type_code="10"></item>
+    <item name="Author:Company" type_name="gh_string" type_code="10"></item>
+    <item name="Author:Copyright" type_name="gh_string" type_code="10"></item>
+    <item name="Author:EMail" type_name="gh_string" type_code="10"></item>
+    <item name="Author:Name" type_name="gh_string" type_code="10"></item>
+    <item name="Author:Phone" type_name="gh_string" type_code="10"></item>
+    <item name="Author:Website" type_name="gh_string" type_code="10"></item>
+    <item name="AutoSave:DataFlatten" type_name="gh_bool" type_code="1">true</item>
+    <item name="AutoSave:Enable" type_name="gh_bool" type_code="1">true</item>
+    <item name="AutoSave:ObjAdd" type_name="gh_bool" type_code="1">false</item>
+    <item name="AutoSave:ObjGeneric" type_name="gh_bool" type_code="1">true</item>
+    <item name="AutoSave:ObjRem" type_name="gh_bool" type_code="1">false</item>
+    <item name="AutoSave:Unload" type_name="gh_bool" type_code="1">true</item>
+    <item name="AutoSave:WireEvent" type_name="gh_bool" type_code="1">true</item>
+    <item name="Canvas:DrawIcons" type_name="gh_bool" type_code="1">true</item>
+    <item name="Canvas:FancyWires" type_name="gh_bool" type_code="1">true</item>
+    <item name="Canvas:FullNames" type_name="gh_bool" type_code="1">true</item>
+    <item name="Canvas:ObsoleteTags" type_name="gh_bool" type_code="1">true</item>
+    <item name="Canvas:PasteOffset" type_name="gh_drawing_size" type_code="32">
+      <W>10</W>
+      <H>10</H>
+    </item>
+    <item name="Canvas:RadialMenu" type_name="gh_bool" type_code="1">true</item>
+    <item name="Canvas:SearchMessage" type_name="gh_int32" type_code="3">0</item>
+    <item name="Canvas:SearchResults" type_name="gh_int32" type_code="3">12</item>
+    <item name="Canvas:SpaceIsRadial" type_name="gh_bool" type_code="1">false</item>
+    <item name="Canvas:ZuiZoomLevel" type_name="gh_double" type_code="6">3</item>
+    <item name="ColourPicker.DefaultSpace" type_name="gh_string" type_code="10">HSV</item>
+    <item name="Component:CascadeMenus" type_name="gh_bool" type_code="1">false</item>
+    <item name="Culture:Invariant" type_name="gh_bool" type_code="1">true</item>
+    <item name="DefaultPreviewColour" type_name="gh_drawing_color" type_code="36">
+      <ARGB>100;150;0;0</ARGB>
+    </item>
+    <item name="DefaultPreviewColourSelected" type_name="gh_drawing_color" type_code="36">
+      <ARGB>100;0;150;0</ARGB>
+    </item>
+    <item name="DocEditor:Location" type_name="gh_drawing_point" type_code="30">
+      <X>-8</X>
+      <Y>-8</Y>
+    </item>
+    <item name="DocEditor:Size" type_name="gh_drawing_size" type_code="32">
+      <W>1936</W>
+      <H>1056</H>
+    </item>
+    <item name="DocEditor:State" type_name="gh_int32" type_code="3">2</item>
+    <item name="FileParserFormats" type_name="gh_string" type_code="10">txt|dat|csv</item>
+    <item name="Font:Console" type_name="gh_string" type_code="10">Courier New</item>
+    <item name="Font:Script" type_name="gh_string" type_code="10">Microsoft Sans Serif</item>
+    <item name="Font:Standard" type_name="gh_string" type_code="10">Segoe UI</item>
+    <item name="Format:AssumeIntegers" type_name="gh_bool" type_code="1">true</item>
+    <item name="Format:DecimalDigits" type_name="gh_int32" type_code="3">6</item>
+    <item name="Format:ENotationLowerLimit" type_name="gh_int32" type_code="3">-5</item>
+    <item name="Format:ENotationUpperLimit" type_name="gh_int32" type_code="3">6</item>
+    <item name="Format:MultiplesOfPi" type_name="gh_bool" type_code="1">true</item>
+    <item name="Format:ScientificDigits" type_name="gh_int32" type_code="3">4</item>
+    <item name="Gradient:LinearDefault" type_name="gh_bool" type_code="1">false</item>
+    <item name="Load:Mechanism" type_name="gh_string" type_code="10"></item>
+    <item name="Load:Protection" type_name="gh_string" type_code="10"></item>
+    <item name="MRUTile0" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;0;120;0</ARGB>
+    </item>
+    <item name="MRUTile1" type_name="gh_drawing_color" type_code="36">
+      <ARGB>255;40;180;40</ARGB>
+    </item>
+    <item name="MRU_VisibleRecords" type_name="gh_int32" type_code="3">100</item>
+    <item name="NavigationPanDown" type_name="gh_int32" type_code="3">40</item>
+    <item name="NavigationPanLeft" type_name="gh_int32" type_code="3">37</item>
+    <item name="NavigationPanRight" type_name="gh_int32" type_code="3">39</item>
+    <item name="NavigationPanUp" type_name="gh_int32" type_code="3">38</item>
+    <item name="NavigationZoomIn" type_name="gh_int32" type_code="3">33</item>
+    <item name="NavigationZoomOut" type_name="gh_int32" type_code="3">34</item>
+    <item name="ObjectServer:TrackPluginLoading" type_name="gh_bool" type_code="1">true</item>
+    <item name="Preview:BumpDepthBuffer" type_name="gh_bool" type_code="1">false</item>
+    <item name="Preview:DrawMeshWires" type_name="gh_bool" type_code="1">false</item>
+    <item name="Preview:Gumballs" type_name="gh_bool" type_code="1">true</item>
+    <item name="Preview:PlaneRadius" type_name="gh_double" type_code="6">4</item>
+    <item name="Preview:PointStyle" type_name="gh_int32" type_code="3">3</item>
+    <item name="Preview:SelectionThickening" type_name="gh_int32" type_code="3">1</item>
+    <item name="PruderyLevel" type_name="gh_int32" type_code="3">1</item>
+    <item name="Ribbon.TooltipDelay" type_name="gh_int32" type_code="3">350</item>
+    <item name="Ribbon:DrawSeparators" type_name="gh_bool" type_code="1">true</item>
+    <item name="Ribbon:DrawTabIcons" type_name="gh_bool" type_code="1">false</item>
+    <item name="Ribbon:Height" type_name="gh_int32" type_code="3">99</item>
+    <item name="Ribbon:Show" type_name="gh_bool" type_code="1">true</item>
+    <item name="Ribbon:ShowObscure" type_name="gh_bool" type_code="1">false</item>
+    <item name="ScriptEditor:Font" type_name="gh_string" type_code="10"></item>
+    <item name="ScriptEditor:Height" type_name="gh_int32" type_code="3">500</item>
+    <item name="ScriptEditor:ShrinkOnDeactivate" type_name="gh_bool" type_code="1">true</item>
+    <item name="ScriptEditor:Width" type_name="gh_int32" type_code="3">700</item>
+    <item name="Solution:UndoRecord" type_name="gh_bool" type_code="1">true</item>
+    <item name="Sunglasses.DisplayCustomNicknames" type_name="gh_bool" type_code="1">false</item>
+    <item name="Sunglasses.DisplayNicknames" type_name="gh_bool" type_code="1">false</item>
+    <item name="Sunglasses.DisplayRichedAttributes" type_name="gh_bool" type_code="1">true</item>
+    <item name="Sunglasses.DrawNames" type_name="gh_bool" type_code="1">true</item>
+    <item name="Sunglasses.FilterComponents" type_name="gh_bool" type_code="1">true</item>
+    <item name="Sunglasses.FilterCustom" type_name="gh_string" type_code="10"></item>
+    <item name="Sunglasses.FilterGraphic" type_name="gh_bool" type_code="1">false</item>
+    <item name="Sunglasses.FilterParameters" type_name="gh_bool" type_code="1">true</item>
+    <item name="Sunglasses.FilterSpecial" type_name="gh_bool" type_code="1">true</item>
+    <item name="Sunglasses.Font" type_name="gh_string" type_code="10">Segoe UI: 8pt Italic</item>
+    <item name="Sunglasses.GroupsOnLowZoom " type_name="gh_bool" type_code="1">false</item>
+    <item name="Sunglasses.HideOnLowZoom " type_name="gh_bool" type_code="1">true</item>
+    <item name="TemplateFile" type_name="gh_string" type_code="10"></item>
+    <item name="Text2DTagSize" type_name="gh_int32" type_code="3">12</item>
+    <item name="TextRenderingHintCrisp" type_name="gh_int32" type_code="3">5</item>
+    <item name="TextRenderingHintSmooth" type_name="gh_int32" type_code="3">4</item>
+    <item name="Tooltip:WiggleRadius" type_name="gh_int32" type_code="3">0</item>
+    <item name="Tutorials:Show" type_name="gh_bool" type_code="1">true</item>
+    <item name="UserObjectDeleteWarning" type_name="gh_bool" type_code="1">true</item>
+    <item name="VariableParameterZuiMessage" type_name="gh_int32" type_code="3">0</item>
+    <item name="Widget.Align.Show" type_name="gh_bool" type_code="1">true</item>
+    <item name="Widget.Compass.DrawObjects" type_name="gh_bool" type_code="1">true</item>
+    <item name="Widget.Compass.DrawSelectionOnly" type_name="gh_bool" type_code="1">false</item>
+    <item name="Widget.Compass.Ratio.X" type_name="gh_double" type_code="6">1</item>
+    <item name="Widget.Compass.Ratio.Y" type_name="gh_double" type_code="6">1</item>
+    <item name="Widget.Compass.Show" type_name="gh_bool" type_code="1">true</item>
+    <item name="Widget.Markov.Corner" type_name="gh_int32" type_code="3">1</item>
+    <item name="Widget.Markov.Show" type_name="gh_bool" type_code="1">true</item>
+    <item name="Widget.Markov.Suggestions" type_name="gh_int32" type_code="3">5</item>
+    <item name="Widget.Messages.Show" type_name="gh_bool" type_code="1">true</item>
+    <item name="Widget.Profiler.Duration" type_name="gh_bool" type_code="1">true</item>
+    <item name="Widget.Profiler.Show" type_name="gh_bool" type_code="1">false</item>
+    <item name="Widget.Profiler.TimeThreshold" type_name="gh_int32" type_code="3">5</item>
+  </items>
+</Fragment>

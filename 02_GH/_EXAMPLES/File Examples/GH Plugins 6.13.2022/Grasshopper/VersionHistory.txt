@@ -1,0 +1,1540 @@
+﻿# Last updated on 20:15 30 July 2014
+# TypeOf+DirectCast seems WAY faster than TryCast/SelectCase with type id!
+# Fix for delete/backspace/rmb/enter problem.:
+# 1. Click - Show desktop button on taskbar (Rhino and Grasshopper window minimizes)
+# 2. Click one more time - Show desktop button (Rhino window restores, but Grasshopper window is not)
+# 3. Just double click Grasshopper window to maximize it, and the problem disappears.
+
+Version 0.9.0076
+  ● Added [Point Deform] component for changing the control-point locations of geometry (Transform.Morph dropdown).
+  ● Added [Bend Morph] component for bending geometry from lines to arcs (Transform.Morph dropdown).
+  ● Added component menu option to the [Entwine] component for grafting (instead of flattening) inputs.
+  ● Added [Move Away From] component for moving geometry away from other geometry (Transform.Euclidean dropdown).
+  ● Added Enable Solver UI to last chance autosave recovery window.
+  ● Added Peak Display to the Galapagos Fitness Landscape component.
+  ● Added Feature Display to the Galapagos Fitness Landscape component.
+  ● Added Slope Display to the Galapagos Fitness Landscape component.
+  ● Added Direction Display to the Galapagos Fitness Landscape component.
+  ● Added Remap Option to the Galapagos Fitness Landscape component.
+  ● Added contour accuracy options to Galapagos Fitness Landscape component.
+  ● Added Smooth Numbers component for interpolating numbers over time (Maths.Util dropdown).
+  ● Added Right Trigonometry component for solving right triangles (Maths.Trig dropdown).
+  ● Added Triangle Trigonometry component for solving generic triangles (Maths.Trig dropdown).
+  ● Added Centroid component for finding triangle centroids and medians (Maths.Trig dropdown).
+  ● Added CircumCentre component for finding triangle circumcentres and perpendiculars (Maths.Trig dropdown).
+  ● Added InCentre component for finding triangle incentres and angle bisectors (Maths.Trig dropdown).
+  ● Added Orthocentre component for finding triangle orthocentres and altitudes (Maths.Trig dropdown).
+  ● Added Curve Side component for determine on which side a curve a point lies (Curve.Analysis dropdown).
+  ● Added Plane Region component for finding convex regions bounded by planes (Intersect.Mathematical dropdown).
+  ● Added Point Deform component for modifying geometry via control-points (Transform.Morph dropdown).
+  ● Dragging individual components/parameters will now snap to horizontal wires.
+  ○ Using MRU tiles would always open the GH file on the main canvas, this is fixed.
+  ○ Canvas redraws would not work correctly if more than one canvas was active, this is fixed.
+  ○ Instantiating components using double-click would always insert the component on the main canvas, this is fixed.
+  ○ Drag and drop did not work by default for canvas instances, this is fixed.
+  ○ Cull Vertices component would sometimes fail due to index out of range errors, this is fixed.
+  ○ The [Arc](Plane, Radius, Angle) component would sometimes result in invalid arcs, this is fixed.
+  ○ Additional changes to make Grasshopper compatible with FIPS standards.
+  ○ [Surface|Line] intersection component did not correctly re-instate 'Limit First', this is fixed.
+  ○ [Surface|Line] component was incorrectly nicknamed SCX (c for curve), this is fixed.
+  ○ [Construct Mesh] would crash if topologically invalid faces were supplied, this is fixed.
+  ○ [Quadrangulate Mesh] had erroneous tooltip texts, this is fixed.
+  ○ The [Smaller Than] component did not handle comparisons with infinities correctly, this is fixed.
+  ○ The [Larger Than] component did not handle comparisons with infinities correctly, this is fixed.
+  ○ The [Equality] component did not handle comparisons with infinities correctly, this is fixed.
+  ○ The [Ellipse] component did not correctly compute focal points for negative radii, this is fixed.
+  ○ The [Cone] component did not handle negative radii correctly, this is fixed.
+  ○ The [Cone] component sometimes crashed when the radius was zero, this is probably fixed.
+  ○ The [Sphere] component did not handle negative radii correctly, this is fixed.
+  ○ The [Sphere] component sometimes crashed when the radius was zero, this is probably fixed.
+  ○ The [Cylinder] component did not handle negative radii correctly, this is fixed.
+  ○ The [Cylinder] component sometimes crashed when the radius was zero, this is probably fixed.
+  ○ The [Brep Topology] component did not output correct EF data, this is fixed.
+  ○ Integer conversion that exceeded the 32-bit integer range would crash, this is fixed.
+  ○ Curve|Plane intersections would return duplicate results on seam intersections, this is fixed.
+  ○ Curve|Line intersections would return duplicate results on seam intersections, this is fixed.
+  ○ Expressions entered in the Generic Data parameter 'Set Multiple' menu were parsed recursively, this is fixed.
+  ○ Changes to the MRU database would not immediately affect the Canvas MRU tiles, this is fixed.
+  ○ Groups containing empty subgroups would include (0,0) in their bounds, this is fixed.
+  ○ BeforeRunScript override inserts in C# scripts did not include method brackets, this is fixed.
+  ○ (Anti)parallel lines were not filtered in the Line|Line intersection component, this is fixed.
+  ○ Preview Plane Size setting was named confusingly, this is fixed.
+  ○ The [Bounds] component would output a weird domain when all numbers were nulls, this is fixed.
+  ○ Opening old GH files with Value Lists would not open with the correct item selected, this is fixed.
+
+Version 0.9.0075
+  ● Added value snapping to the number slider object (warning, lame UI).
+  ● Galapagos Fitness Landscape component now accepts -1 as Count input for perfect squares.
+  ○ On computers with FIPS security settings, Grasshopper would not load correctly, this is probably fixed.
+
+Version 0.9.0073
+  ○ Point Order display arrowheads would be much too big under certain conditions, this is fixed.
+  ○ Pull Point would not work on rectangles, this is fixed.
+
+Version 0.9.0072
+  ○ Expression functions would not load correctly, this is fixed.
+  ○ Surface Normal evaluation would not take orientation into account, this is fixed.
+
+Version 0.9.0071
+  ● A new Display tab has been created for components that show stuff, rather than do stuff.
+  ● [Blend Colours] component has been hidden, we recommend [Interpolate Data] instead.
+  ● [Point List] and [Point Order] components have superceded the original [Point List] component.
+  ● [List Item] retrieval performance is now much better for large amounts of indices.
+  ● Added [Linear Dimension] component (Display.Dimensions panel).
+  ● Added [Aligned Dimension] component (Display.Dimensions panel).
+  ● Added [Line Dimension] component (Display.Dimensions panel).
+  ● Added [Marker Dimension] component (Display.Dimensions panel).
+  ● Added [Angular Dimension] component (Display.Dimensions panel).
+  ● Added [Arc Dimension] component (Display.Dimensions panel).
+  ● Added [Circular Dimension] component (Display.Dimensions dropdown).
+  ● Added [Serial Dimemension] component (Display.Dimensions dropdown).
+  ● Scribble objects no longer rotate by default when dragged.
+  ● Scribble objects can now be realistically dragged by holding SHIFT.
+  ○ Persistent Data stored in generic parameters would sometimes fail to deserialize, this is fixed.
+
+Version 0.9.0070
+  ● Added Galapagos Fitness Function display component to Params.Util panel.
+  ○ Polycurves would not automatically convert to arcs and circles, this is fixed.
+  ○ Align Planes did not gracefully handle null data in the input data, this is fixed.
+  ○ The 'S' input for the remap component was erroneously marked 'Optional', this is fixed.
+  ○ The [Evaluate Length] component would have confusing warning messages, this is fixed.
+
+Version 0.9.0069
+  ○ Cull Duplicates would fail if the first two points in the list were coincident within tolerance, this is fixed.
+  ○ Enabling Cluster Content Preview would not take affect until after the next solution, this is fixed.
+  ○ Adjust Seam component would result in awkward curve domains, this is fixed.
+  ○ Local parameter expression replacement was case-sensitive, this is fixed.
+
+Version 0.9.0068
+  ● All expressions inside parameters now use 'x' as the variable instead of the nickname. Old files should be converted automatically.
+  ○ GetDataTree method calls with mismatched parameter access would display the wrong error message, this is fixed.
+  ○ Menu items on submenus that are disabled due to document states could not be triggered by shortcuts or buttons, this is fixed.
+  ○ Lofting would fail with zero-length start and end profiles, this is fixed (they are now treated as points).
+  ○ When lofting failed due to invalid profile curves, the error message was useless, this is fixed.
+  ○ Under rare conditions null entries in persistent data would cause the Manage X Collection window to crash, this is fixed.
+  ○ Mouse Leave events on the Expression Editor window would sometimes cause a crash due to null timers, this is fixed.
+  ○ Offsetting curves would sometimes result in superfluous control points, this is fixed.
+  ○ Trim Solid would fail if one of the trimming shapes did not intersect the base shape, this is fixed.
+  ○ Solid Difference would fail if one of the trimming shapes did not intersect the base shape, this is fixed.
+  ○ The annealing history curve in the Galapagos window would sometimes crash on repaint, this is fixed.
+  ○ Having a (partially) transparent background colour for a Text Panel would crash the panel editor window, this is fixed.
+  ○ The Evaluate component would crash when editing an expression with coincident variable names, this is fixed.
+
+Version 0.9.0066
+  ○ Mesh Welding would result in incorrect normals, this is fixed.
+  ○ Ribbon Layout was utterly broken, this is fixed.
+  ○ Mesh Quad constructor component used unhelpful default values, this is fixed.
+  ○ Baking Text Tags would not use bake properties this is fixed.
+  ○ Baking Text Tags would not transfer colour from tag to textdot, this is fixed.
+  ○ Legacy Script components are now fully hidden and can no longer be created anew.
+
+Version 0.9.0065
+#  ‼ Grasshopper now runs as part of Rhino6 only.
+#  ‼ Grasshopper Assembly version numbers are now synchronized with Rhino6 versioning.
+#  ● Grasshopper no longer has a custom license agreement.
+#  ● Grasshopper no longer tests for new versions online.
+  ● The Remote Control panel is back. You can show it from the Grasshopper View menu.
+  ● Expression components with no inputs will now output the expression as text instead of failing.
+  ○ It could take a long time to show object context menus if there were many warnings/errors, this is fixed.
+  ○ Clusters without any objects other than input and output hooks would crash when the tooltip was shown, this is fixed.
+  ○ Plugging a cluster input directly into a cluster output would result in lockdown, this is fixed.
+  ○ Variable Parameter addition was always shown when there were no input or output parameters, this is fixed.
+  ○ Project Along used a one-degree angle tolerance which was too loose. This is now 0.01 degrees.
+  ○ The Addition component would not allow the renaming of input parameters, this is fixed.
+  ○ 3rd party GHA files with incorrect GUID notation in the assembly info would prevent saving, this is fixed.
+
+Version 0.9.0064
+  ● Remap Component has been replaced by a new one with additional clipped output.
+  ● Floating Point parameters with coordinate data now have gumballs when selected.
+  ● Gumball and Meshing options were added to preferences, Viewport category.
+  ● Tree selector patterns (as used in Split Tree component) now supports sequence notation.
+  ● Split Tree component now also supports item index split logic.
+
+Version 0.9.0062
+  ● Text Tag 3D now has justification options.
+  ● Component run count is now included in Component tooltips.
+  ● Polygon Center component now also returns the area centroid for flat polygons.
+  ● Added Recursive Replace menu option to the Text Replacement component.
+  ● C# and VB script components now have the option to remove the [out] parameter.
+  ● The Path Mapper now transmits data without changes if there is no mapping.
+  ● The Path Mapper now has preset example mappings available from the menu.
+  ● The Path Mapper no longer asks for confirmation when setting a mapping from the menu.
+  ○ Tapping ALT wouldn't flip Moses interaction direction, this is fixed.
+  ○ Partition List component would fail on zero-length partitions, this is fixed.
+  ○ Partition List component would fail on negative-length partitions, this is fixed.
+  ○ WorldXZ planes would not format correctly, this is fixed.
+  ○ XZY point mask could not be selected from the parameter menu, this is fixed.
+
+Version 0.9.0061
+  ○ Added SDK legacy patches for reading and writing Python script components.
+
+Version 0.9.0060
+  ● Added Move To Plane component for putting objects onto a plane (Transform.Euclidean dropdown).
+  ● Added Box Mapping component for moving geometry from one box into another (Transform.Affine dropdown).
+  ● Added Rectangle Mapping component for moving geometry from one rectangle into another (Transform.Affine dropdown).
+  ● Added Triangle Mapping component for moving geometry from one triangle into another (Transform.Affine dropdown).
+  ● Added (unfinished) Box Slits component for cutting sliding gaps into intersecting boxes (Intersect.Shape dropdown).
+  ● Added (unfinished) Region Slits component for cutting sliding gaps into intersecting regions (Intersect.Shape dropdown).
+  ○ Import Coordinates did not work, this is fixed.
+  ○ Synchronize option on File Path parameter had the wrong icon, this is fixed.
+  ○ Dash Curve would sometimes fail on valid inputs, this is fixed.
+  ○ Autoconversion from surfaces, breps, boxes and meshes to numbers was incorrect, this is fixed.
+  ○ Jump objects always belonged to the same jump group, this is fixed.
+  ○ File data retrieval for MRU GH/GHX files could take a long time over a network, this is fixed.
+  ○ Writing large collections of persistent data to a GH/GHX file would take a long time, this is fixed.
+
+Version 0.9.0058
+  ● Added Clear Solution menu item to Solution menu for erasing all existing data.
+  ○ Baking did not work for Dot Display, this is fixed.
+  ○ Baking did not work for Point List, this is fixed.
+  ○ The Perp Frames component would always display a warning if align=false, this is fixed.
+  ○ Panel streaming would not take effect until the next solution, this is fixed.
+  ○ Panel fonts were not deserialized, this is fixed.
+  ○ Cluster Parameters inherited locked nickname UI from target parameters, this is fixed.
+
+Version 0.9.0056
+  ○ Plug-in versioning was not correct, this is fixed.
+
+Version 0.9.0055
+  ● Added Remove All to the Galapagos input menu. 
+  ● Added SetSliderValue() method to the RhinoScript interface.
+  ● Added SetSliderRangeAndValue() method to the RhinoScript interface.
+  ○ Galapagos Object did not display implied slider nicknames in the disconnect menu, this is fixed.
+  ○ AutoSave did not work, this is fixed.
+  ○ Tab in the Panel Editor Window would not actually insert a TAB character, this is fixed.
+  ○ Saving a new document would not update window title, this is fixed.
+  ○ Zoom factors set from the toolbar would not be saved, this is fixed.
+  ○ Some VisualARQ components would not load due to SDK breaks, these have been fixed.
+
+Version 0.9.0054
+  ● Added Project Along component for directional planar projections (Transform.Affine dropdown).
+  ● Added Rotate Vector component for rotating geometry from one direction to another (Transform.Euclidean dropdown).
+  ● Added default values for absolute and angle tolerance in the Curve To Polyline component.
+  ● Added Version option to Quick Image Export.
+  ○ Pressing Delete while a textbox is active on the canvas would execute the Delete menu item, this is fixed.
+  ○ The new Pull Point component was much slower than the old one, this is fixed.
+  ○ Arrow and Delete keys did not work for Slider and Scroller on-canvas edit boxes, this is fixed.
+  ○ Ctrl+Alt info mode would hide the Rhino window sometimes on exit, this is fixed.
+  ○ Addition component did not add vectors to points, this is fixed.
+
+Version 0.9.0053
+  ● Added Brep Split component (Intersect.Shape dropdown).
+  ○ 3DM import layer filter did not work, this is fixed.
+  ○ Component Aliases were never loaded, this is fixed.
+  ○ Script components would not work without any RunScript code, this is fixed.
+  ○ Text Format component would skip the first formatting item, this is fixed.
+
+Version 0.9.0052
+  ○ Warnings and Errors from 3rd party GHA components compiled for older versions would not show, this is fixed.
+  ○ Double clicking on Text Panels would not work if the panel background was partially transparent, this is fixed.
+  ○ Editing Text Panels would crash if the panel background was partially transparent, this is fixed.
+  ○ Trim Tree component would not work, this is fixed.
+  ○ AssignDataToParameter() RhinoScript method did not work correctly when assigning strings, this is fixed.
+
+Version 0.9.0051
+  ‼ This release uses the new Rhino Installer Engine. Manually uninstall your old version first.
+  ‼ This release of Grasshopper will no longer work on Rhino4. Rhino5 is required.
+  ‼ Lolcats are no more. Cheezburger.com has changed their servers and all the urls are invalid.
+  ● A lot of component input parameters now have default values.
+  ● The term 'String' has been replaced with the term 'Text'.
+  ● Several other nomenclature changes have been made in an attempt at increasing self-documentation and standardisation.
+  ● Reorganised the components in the Sets.Tree panel and normalised nomenclature a bit.
+  ● Several components have been moved into the dropdown panels, cleaning up the default layout.
+  ● Jagged edges are now drawn more consistently when there are no inputs or outputs.
+  ● The main window is now only hidden during picking operations if it obscures Rhino viewports.
+  ● The Recent File Timeline in the File menu now has tooltips for files.
+  ● Added Export Quick Image feature for saving the canvas image (File menu).
+  ● Added Template File support to the Preferences (Files category).
+  ● Added Tiles with recently used files to the Canvas when no document is loaded.
+  ● Added per-GHA load protection options.
+  ● Added per-GHA load mechanism options.
+  ● Any component input parameter can now be designated as 'Principal Parameter' via its context menu.
+  ● Sliders now inherit their default nickname from recipient parameters.
+  ● Scrollers now inherit their default nickname from recipient parameters.
+  ● Pressing Shift or Control now reverses direction for jump objects.
+  ● Jump Objects now display the target nickname in their tooltips.
+  ● The canvas now appears blue when editing a cluster.
+  ● Parameter Disconnect menu has been cleaned up.
+  ● Number Sliders with expressions now include the unprocessed value during grip dragging.
+  ● Number sliders with expressions now support text input for the processed numbers.
+  ● Extrusions will now be loaded by the Geometry Pipeline as Breps.
+  ● When the category tabs are too wide for the main window, they will now shrink rather than scroll.
+  ● Added Icon Display to the category tabs (icons can be disabled via the tab popup menu and via the preferences).
+  ● Added Category Icon option to Ribbon preferences (Interface.Ribbon section).
+  ● Tab Grip areas now have tooltips which show partial tab content.
+  ● Slider instantiation from popup insert window now accepts A<B in addition to A<B<C formats.
+  ● Slider instantiation from popup insert window now accepts A..B and A..B..C formats.
+  ● Clocks can be instantiated from the popup insert window using HH:mm or HH:mm:ss formats.
+  ● Calendars can be instantiated from the popup insert window using dd/MM or dd/MM/YYYY formats.
+  ● Point parameters can be instantiated from the popup insert window using X,Y[,Z] notation.
+  ● Ctrl+Scrolling now changes the font size in script editor windows.
+  ● The VB/C# script components now have cleaner template code.
+  ● The VB/C# script components now have different private members, providing easier access to useful objects.
+  ● Added BeforeRunScript and AfterRunScript overrides to the VB and C# script template.
+  ● Added Before/After Solution Template button to the script editor.
+  ● Added Preview Template button to the script editor.
+  ● Added RunScript button to the script editor.
+  ● Added a Font Picker button to the script editor.
+  ● 3rd party GHA libraries without assembly info are now displayed on the banner anyway.
+  ● The GHA library info window accessible from the Banner now shows how a GHA was loaded.
+  ● The GHA library info window accessible from the Banner now provides Load Protection options.
+  ● The GHA library info window accessible from the Banner now provides Load Mechanism options.
+  ● Added a section to the Preferences which provides access to plug-in load protection (Solver section).
+  ● Added a section to the Preferences which provides access to plug-in load mechanisms (Solver section).
+  ● Added a numeric formatting section to the Preferences (Display section).
+  ● Added Colour Wheel object for generating colour palettes (Params.Input dropdown).
+  ● Added Clock object for setting times (Params.Input dropdown).
+  ● Added Calendar object for setting dates (Params.Input dropdown).
+  ● Added Cherry Picker object for manually selecting individual items from data-trees (Params.Util dropdown).
+  ● Added Culture data type and parameter for specifying language specific formatting (Params.Primitive dropdown).
+  ● Added Import XYZ component for parsing text files containing points (Params.Input dropdown).
+  ● Added Import 3DM component for importing geometry from 3DM files (Params.Input dropdown).
+  ● Added Import SHP component for importing GIS data from SHP files (Params.Input dropdown).
+  ● Added Import Image component for importing image data as coloured meshes (Params.Input dropdown).
+  ● Added Import PDB component for importing Protein Data Bank molecules (Params.Input dropdown).
+  ● Added Atom Data component for extracting detailed information about atoms (Params.Input dropdown).
+  ● Point XYZ and Decompose Point have been reverted to the older style without plane [S] input.
+  ● Added Plane Coordinates for extracting point coordinates in a custom axis system (Vector.Plane dropdown).
+  ● Added Dot Display component (Vector.Point dropdown).
+  ● Added Date & Time component (Maths.Time panel).
+  ● Added Date Calendar component (Maths.Time dropdown).
+  ● Added Adjust Date component (Math.Time dropdown).
+  ● Added Deconstruct Date component (Maths.Time dropdown).
+  ● Added Time component (Maths.Time panel).
+  ● Added Smooth Time component (Math.Time dropdown).
+  ● Added Combine Date component (Math.Time dropdown).
+  ● Added Interpolate Time component (Math.Time dropdown).
+  ● Added Time Range component (Math.Time dropdown).
+  ● Added Blur Numbers component for averaging a list of numbers (Math.Util dropdown).
+  ● Added Integer Channels option to the ARGB Split component.
+  ● Added Unflatten Tree component for reversing a flattening operation (Sets.Tree panel).
+  ● Added Trim Tree component for merging the outermost branches of data trees (Sets.Tree panel).
+  ● Added Match Tree component for making trees look alike (Sets.Tree dropdown).
+  ● Added a Deconstruct Rectangle component (Curve.Analysis dropdown).
+  ● Added Tween Curves component (Curve.Spline dropdown).
+  ● Added Tangent Curve component for interpolating curves through many tangent points (Curve.Spline dropdown).
+  ● Added Curve To Polyline component for converting splines to polyline segments (Curve.Util dropdown).
+  ● Added an Inside component for testing shape/brep inclusion (Surface.Analysis dropdown).
+  ● Added Plane Through Shape component for creating a plane which exceeds any shape (Surface.Primitive dropdown).
+  ● Added a Box Rectangle component that defines a box by rectangle and height (Surface.Primitive dropdown).
+  ● Added an Extrude Along Curve component (Surface.Freeform dropdown).
+  ● Added Patch component (Surface.Freeform dropdown).
+  ● Added Fragment Patch component for filling closed polylines (Surface.Freeform dropdown).
+  ● Added Network Surface component (Surface.Freeform panel).
+  ● Added Pipe Variable component (Surface.Freeform dropdown).
+  ● Added Ruled Surface component (Surface.Freeform dropdown).
+  ● Added Cap Holes component for capping non-planar holes in breps (Surface.Util dropdown).
+  ● Added Mesh Sphere Ex component for creating spheres out of square patches (Mesh.Primitive dropdown).
+  ● Added Mesh Spray component for colouring meshes with seed points (Mesh.Primitive dropdown).
+  ● Added Weld Mesh component for welding creased mesh edges (Mesh.Utility dropdown).
+  ● Added Unweld Mesh component for unwelding high angle mesh edges (Mesh.Utility dropdown).
+  ● Added Boundary Volume component (similar to the Rhino _CreateSolid command) (Intersect.Shape dropdown).
+  ● Added Rectangle Mapping component for transforming geometry from one rectangle into another (Transform.Affine dropdown).
+  ● Added Box Mapping component for transforming geometry from one box into another (Transform.Affine dropdown).
+  ● Added Linear Array component for creating geometry arrays (Transform.Array panel).
+  ● Added Rectangular Array component for creating geometry arrays (Transform.Array panel).
+  ● Added Polar Array component for creating geometry arrays (Transform.Array panel).
+  ● Added Curve Array component for creating geometry arrays (Transform.Array panel).
+  ● Added Box Array component for creating geometry arrays (Transform.Array dropdown).
+  ● Added Kaleidoscope component for polar arrays with alternate mirroring (Transform.Array dropdown).
+  ● Added Culture input to the String Format component.
+  ● Added Culture input to the String Sort component.
+  ● Added Culture input to the String Casing component.
+  ● Added Sequence UI mode to Value List object.
+  ● Added Cycle UI mode to Value List object.
+  ● Added Check List UI mode to Value List object.
+  ● Value List text editor now accepts names without values.
+  ● Added variable output parameter ZUI to the List Item component.
+  ● The Addition component has been replaced by a new one that supports multiple inputs.
+  ● Trigonometry components (Sin, Cos, Tan, Sinc,..., CoTangent) now have Degree options for their inputs.
+  ● Custom Preview component now has a Viewport Filter option for restricting preview to specific viewports.
+  ● The Center component has been replaced with Deconstruct Arc.
+  ● Sweep1 and Sweep2 components now use Rhino5 SDK methods.
+  ● Pipe component now uses Rhino5 SDK methods.
+  ● Indices input of the List Replace component is now optional.
+  ● 2D Voronoi component now has a Rectangle as boundary input instead of a Box.
+  ● PullPoint has been replaced by a new, faster component.
+  ● PullPoint now has a component option for the Closest setting.
+  ● Flip Curve component now distinguishes between linear and curved guide curves.
+  ● Key/Value Search now tells you which key wasn't found rather than a generic warning.
+  ○ Sort Along Curve component was broken, this is fixed.
+  ○ Curve|Plane intersection would fail if there was no intersection, this is fixed.
+  ○ Sift Pattern output parameters could not be removed, this is fixed.
+  ○ Combine Data input parameters could not be removed, this is fixed.
+  ○ Combine Data would not work correctly on more than two inputs, this is fixed.
+  ○ Nulls in internalised data would not be deserialized, this is fixed.
+  ○ Cluster Disentangle menu was locked when the entanglement count was 2, this is fixed.
+  ○ Clusters would not serialize author data, this is fixed.
+  ○ Capsules with more than zero but less than four sharp corners would not draw correctly, this is fixed.
+  ○ Markov Widget would suggest obsolete components, this is fixed.
+  ○ Spatial OcTrees would crash if there were a large amount of coincident nodes.
+  ○ Document thumbnails were not updated unless the MDI menu was shown, this is fixed.
+  ○ Grasshopper tooltips would not show correctly when displayed from a menu, this is fixed.
+  ○ Control Knob decimal settings could not be adjusted via the editor, this is fixed.
+  ○ Expression component ran slower than in previous versions, this is fixed.
+  ○ Grasshopper preview geometry would be visible in OGL Material previews, this is fixed.
+  ○ Pipes would often be inside-out, this appears to be fixed.
+  ○ PullPoint did not work on boxes, this is fixed.
+  ○ The '&' symbol in the popup search box would insert an obsolete component, this is fixed.
+  ○ Concatenation component initialization strings were not properly parsed, this is fixed.
+  ○ Trim Solid did not remove faces inside the trimmer shapes, this is fixed.
+  ○ Mesh Edges were always drawn when meshes were inside a Geometry or Generic param, this is fixed.
+  ○ GrasshopperImageStitcher.exe would crash on large hi-res images, this is fixed.
+  ○ GrasshopperImageStitcher.exe would not have feedback in case things went south, this is fixed.
+  ○ Ampersands in Tab dropdowns were not visible, this is fixed.
+  ○ Data Viewer target cones were sometimes drawn without anti-aliasing, this is fixed.
+  ○ Image Gallery would something crash when images were being accessed from two different threads, this is fixed.
+  ○ There were typos in the Quadrangulate component, these are fixed.
+  ○ Random Reduce has a much faster algorithm, though the result will not be the same as before.
+  ○ VB and C# script components would take a long time to show large scripts, this is fixed.
+  ○ Grasshopper font picker would not jump to the currently selected font, this is fixed.
+  ○ Thumbnail document previews now have a single background colour to improve readability.
+  ○ Pull Point would return nonsensical values if all pull operations failed, this is fixed.
+  ○ CS1702 compiler warning was only ignored if the error message was in English, this is fixed.
+  ○ Vector Display components would still draw previews if they were disabled, this is fixed.
+  ○ The Plane output for the [Is Planar] component could be far away from the surface, this is fixed.
+  ○ Outputting a Rhino.Geometry.Matrix with a single row or column would not work in a script, this is fixed.
+  ○ Unitizing Vector Parameters would affect upstream parameters, this is fixed.
+  ○ Non case-sensitive string matching would not work if neither a regex nor a pattern were provided. This is fixed.
+  ○ Clusters would skip iterations when an input value was null. This is fixed.
+  ○ Clusters referencing files in non-exitent folders would not deserialize, this is fixed.
+  ○ Dial Knob would crash the display if the user filter was not a valid formatting string. This is fixed.
+  ○ Planar Srf (now called Boundary Surface) created trimmed surfaces even when it didn't have to, this is fixed.
+  ○ Undo records associated with components would not automaticall recompute input parameters, this is fixed.
+  ○ Tabbing through text fields in the Author Preferences did not work, this is fixed.
+  ○ "as list" and "as tree" parameter tooltip suffixes were shown even for floating parameters, this is fixed.
+  ○ Non-Uniform scaling transformations would not format correctly, this is fixed.
+
+Version 0.9.0014
+  ● Added an Ungroup item to the Edit menu.
+  ● Components from the Maths.Boolean panel have been moved into the Operators dropdown.
+  ● Added Create Matrix component (Maths.Matrix panel).
+  ● Added Display Matrix component (Maths.Matrix panel).
+  ● Added Decompose Matrix component (Maths.Matrix dropdown).
+  ● Added Invert Matrix component (Maths.Matrix dropdown).
+  ● Added Transpose Matrix component (Maths.Matrix dropdown).
+  ● Added Swap Columns component (Maths.Matrix dropdown).
+  ● Added Swap Rows component (Maths.Matrix dropdown).
+  ● Added Tree Statistics component (Sets.Tree dropdown).
+  ● Parameter options have been grouped in parameter pop-up menus.
+  ● Angle parameters now accept values in degrees when enabled in the popup menu.
+  ○ Opening a Grasshopper file would solve it twice, this is fixed.
+  ○ Voronoi 3D component would result in invalid breps, this is fixed.
+  ○ Rectangle and Polygon components did not have a default value for radius, this is fixed.
+  ○ Events from Rhino were sometimes handled during solutions, resulting in a breakpoint message, this is fixed.
+  ○ Persistent data saved by Grasshopper 0.9.0006 and earlier would not deserialize correctly, this is fixed.
+  ○ Face Vertices component didn't work, this is fixed.
+  
+Version 0.9.0012
+  ● Added Invert Tranformation component (Transform.Util panel).
+  ● Added Author settings to the Preferences.
+  ● Cluster author data is now inherited from the global Author settings.
+  ○ Prune did not work as advertised, this is fixed.
+  ○ Image Gallery component would not properly deserialize, this is fixed.
+  ○ SortPoints did not work, this is fixed.
+  ○ Generic and Geometry parameter would not always retain persistent data, this is fixed.
+  ○ Sphere 4Pt didn't work correctly, this is fixed.
+
+Version 0.9.0010
+  ○ Some UI element was hard-coded to a file on the disk, this is fixed.
+  ○ GHA Files were compared using a hashing algorithm that is not available on all versions of Windows, this is fixed.
+
+Version 0.9.0009
+  ● Added Jump object for quickly navigating across a Canvas (Params.Util dropdown).
+  ● Added Relative Differences component which is basically the inverse of Mass Addition (Math.Operators dropdown).
+  ● Added tooltip wiggle controls to the Preferences window, Interface section.
+  ● 'Draw Full Names' now also attempts to change the display of existing components, but only in the active document.
+  ● Drag+Dropping GHA, GHPY and GHUSER files onto the canvas now puts the original file into the bin.
+  ● Replaced Set Union component with a new one that has variable input parameters.
+  ● Replaced Set Intersection component with a new one that has variable input parameters.
+  ● Replaced And and Ternary And components with a single new one that has variable input parameters.
+  ● Replaced Or and Ternary Or components with a single new one that has variable input parameters.
+  ● Replaced Concatenate component with a new one that has variable input parameters.
+  ● Concatenate component now has a segment join option available via the component menu.
+  ● Added Digit options to the Transform Matrix Display object.
+  ● Integer parameters which represent options now have more informative context menus.
+  ○ Computer mice with smooth scrolling would not zoom well, this is fixed.
+  ○ Previewable parameters with a lot of consecutive null items would crash, this is fixed.
+  ○ Identical GHA files would collide during the loading process, this is handled.
+  ○ GHA files with identical names would collide during the loading process, this is handled.
+  ○ Solver Undo setting was not persistent, this is fixed.
+  ○ Widget ZUI Zoom setting was not persistent, this is fixed.
+  ○ Markov Widget Corner setting was not persistent, this is fixed.
+  ○ Markov Widget Suggestion Count setting was not persistent, this is fixed.
+  ○ Drag and Drop on Document and Template preview materials wasn't recorded, this is fixed.
+  ○ AssignDataToParameter() COM-Access method was broken, this is fixed.
+  ○ Geometry and Generic parameters with persistent data would not deserialize correctly, this is fixed.
+  ○ Operator shortcuts via the Canvas popup instantiation menu no longer assigned data to the second parameter, this is fixed.
+  ○ Cull Duplicates component did not always show the correct label upon deserialization, this is fixed.
+  ○ Legacy VB/C# components would not correctly deserialize List access on input parameters, this is fixed.
+  ○ Cloud Display component would still display old sprites on disconnect, this is fixed.
+  ○ Minor changes to a document would trigger lengthy preview cache updates, slowing Grasshopper down. This is fixed.
+  ○ Sphere 4Pt did not work correctly, this it fixed.
+  ○ Failed data conversions in parameters would result in missing entries, this is fixed.
+  ○ Text Tag components (2D & 3D) would not bake via the component menu, this is fixed.
+
+Version 0.9.0006
+  ● When inserting parameters using the ZUI icons, the new parameter will inherit the wire display from its neighbours.
+  ○ Local data would not be read from files saved with earlier versions. This is fixed.
+  ○ Bar Graphs had missing input grips, this is fixed.
+  ○ Colour Swatches had missing output grips, this is fixed.
+  ○ Cross Reference component would display an error if no inputs were connected, this is fixed.
+
+Version 0.9.0005
+  ‼ Data Trees are now constructed differently in some cases, this may break files that depend on specific data tree layouts.
+  ‼ File format forwards compatibility has been broken. You may not be able to open files saved with 0.9.0005 on earlier versions.
+  ‼ Parts of the Grasshopper SDK have been broken. You may not be able to load GHA files compiled for earlier versions.
+  ‼ Component Data Matching menu items are no longer available, please use the dedicated matching components.
+  ‼ Components with one-shot option input parameters have almost all been replaced with components that have options in the menu.
+  ‼ AutoSaving behaviour has been redesigned to hopefully provide less fragile protection against data-loss.
+  ● 2600+ LolCats, but I stopped adding them as ICanHasCheezBurger is no longer fun.
+  ● Standard windows tooltips will be on screen for a longer period than the Windows default of five seconds.
+  ● Grasshopper will now load GHA files that are part of RHI installer packages.
+  ● Internal parameter data (aka 'persistent data') now supports data trees.
+  ● Set Multiple XXXX menu items that used a multi-line textbox now support data path lines.
+  ● Manage XXXX collection window now supports data path entries.
+  ● Moved a lot of components into the dropdown panels, reducing the default tab layout.
+  ● Ctrl+Alt and Shift+Ctrl+Alt Info modes now also highlight components on ribbon dropdowns.
+  ● It is now possible to create multiple new wires with a right-mouse-click during the new wire tool.
+  ● Added Preview Mesh quality settings to the Canvas Toolbar and Display menu.
+  ● Added AutoSave folder item to the File->Special Folders menu.
+  ● AutoSave settings now have buttons for deleting autosave files.
+  ● When a file is opened and a matching AutoSave file exists, options will be displayed.
+  ● Removed the Data Matching event checkbox from the AutoSave settings.
+  ● Added AutoSave folder options to the AutoSave settings.
+  ● Added Point Preview flavour menu item to the Display menu.
+  ● Shift+Click on a tab component icon now starts a component aggregate.
+  ● Clicking on the canvas instantiates the oldest component in an aggregate.
+  ● Shift+Clicking on the canvas instantiates all components in an aggregate.
+  ● Press Escape to destroy a component aggregate.
+  ● Alt+LeftClick on the canvas now starts the Split tool which pushes apart the objects on either side of the mouse.
+  ● MultiSave exit dialog now closes automatically when all documents have been saved.
+  ● Added Zooming widgets settings to the preferences Widget category for controlling ZUI display thresholds.
+  ● Added Context Menus settings to the preferences GUI category for enabled component cascading submenus.
+  ● Moved AutoSave and MRU preferences into a single category called Files.
+  ● Improved scrolling on the Preferences window.
+  ● Clusters can now be password protected.
+  ● Cluster data is now encrypted when a password has been set.
+  ● Clusters now have an option to include preview geometry of their content.
+  ● Clusters can now be edited properly.
+  ● Cluster hooks inherit data from the parent cluster during editing.
+  ● Copied clusters in the same file will update when one of them is changed (they are 'entangled').
+  ● Cluster tooltips now show information about entangled instances of a cluster in the document.
+  ● Cluster tooltips now show Author information.
+  ● Cluster tooltips now show whether a password has been set.
+  ● Cluster tooltips now have blurred content previews when a password has been set.
+  ● Clusters can now reference gh/ghx files.
+  ● Clusters can now reference ghcluster files.
+  ● Added *.ghcluster file type for cluster storage. *.ghcluster files retain author information and password protection.
+  ● Components with no runtime warnings or errors no longer have a "No message" entry in their menu.
+  ● Brep|Line intersection component no longer has a Limit First input param, this is now a component menu option.
+  ● Curve|Line intersection component no longer has a Limit First input param, this is now a component menu option.
+  ● Surface|Line intersection component no longer has a Limit First input param, this is now a component menu option.
+  ● Random component no longer has an Integers input param, this is now a component menu option.
+  ● Tree Branch component now has a 'Maintain Paths' component menu option.
+  ● BoundingBox component no longer has a Union input param, this is now a component menu option.
+  ● When connecting a Param Viewer to a new parameter, it will automatically resize if the size change isn't large.
+  ● Added Data Dam object to delay data across a network (Params.Special dropdown).
+  ● Added Interpolate Data component for sub-sampling collections of data (Math.Util dropdown).
+  ● Added Sift Pattern component for splitting data without messing with the item index (Sets.List panel).
+  ● Added Combine Data component for merging multiple streams with nulls (Sets.List panel).
+  ● Added Partition List component for breaking up lists into smaller lists (Sets.List dropdown).
+  ● Added Match String component for comparing strings against patterns (Sets.String dropdown).
+  ● Added String Distance component for computing Levenshtein distances between strings (Sets.Strings dropdown).
+  ● Added Format component for creating formatted strings (Sets.Strings dropdown).
+  ● Graft component has been replaced with a new one with additional component menu options (Sets.Tree panel).
+  ● Added To Polar component for transcribing XYZ points to plane Phi/Theta/R coordinates (Vector.Point dropdown).
+  ● Added Cloud Display component for displaying point data as fuzzy clouds (Vector.Point dropdown).
+  ● Added Sort Along Curve component for sorting points using curves as guides (Vector.Point dropdown).
+  ● Added Barycentric Point component for creating points using barycentric coordinates (Vector.Point dropdown).
+  ● Added Point Groups component for finding proximal clusters in point collections (Vector.Point dropdown).
+  ● Added Populate Geometry component for distributing points on different shapes (Vector.Grid dropdown).
+  ● All Population components now use a faster algorithm.
+  ● Added Project Point component (Vector.Point dropdown).
+  ● Added Blend Curve component for G0~G2 blends (Curve.Spline panel).
+  ● Added Blend Curve Through Point component for G1~G2 blends (Curve.Spline dropdown).
+  ● Added Connect Curves component for blending multiple curves into one (Curve.Spline dropdown).
+  ● Added Curve Length Domain component for measuring lengths of sub-domains (Curve.Analysis panel).
+  ● Added Curve Length Parameter component for measuring lengths to and from parameters (Curve.Analysis dropdown).
+  ● Added Segment Lengths component for finding shortest and longest segments in a curve (Curve.Analysis dropdown).
+  ● Added Containment Ex component for testing a point against multiple regions (Curve.Analysis dropdown).
+  ● Evaluate Curve component has been replaced with another one that outputs kink angles rather than lengths (Curve.Analysis panel).
+  ● Curve Derivatives component has been replaced with another one that has variable output parameters (Curve.Analysis dropdown).
+  ● Curve Derivatives component now displays the derivative vectors in the Rhino viewport.
+  ● Added Pull Curve component for pulling curves onto surfaces (Curve.Util dropdown).
+  ● Added Intersect Multiple Curves component (Intersect.Physical dropdown).
+  ● Added Matrix Data Type and Matrix Parameter (Params.Primitive dropdown).
+  ● Added Field Data Type and Field Parameter (Params.Geometry dropdown).
+  ● Replaced Boolean Toggle object with a new one (Params.Input panel).
+  ● Added a Button object for temporarily toggling a value (Params.Input dropdown).
+  ● Added Point Charge component (Vector.Field panel).
+  ● Added Line Charge component (Vector.Field panel).
+  ● Added Vector Force component (Vector.Field dropdown).
+  ● Added Spin Force component (Vector.Field dropdown).
+  ● Added Merge Fields component (Vector.Field panel).
+  ● Added Break Field component (Vector.Field panel).
+  ● Added Evaluate Field component (Vector.Field panel).
+  ● Added Field Line component (note: this one is unfinished) (Vector.Field panel).
+  ● Added Field Direction Display component (Vector.Field dropdown).
+  ● Added Field Perpendicular Display component (Vector.Field dropdown).
+  ● Added Field Scalar Display component (Vector.Field dropdown).
+  ● Added Field Tensor Display component (Vector.Field dropdown).
+  ● Added Adjust Plane component for modifying plane z-axes (Vector.Plane dropdown).
+  ● Added Cull Duplicate Points component (Vector.Point dropdown).
+  ● Added Evaluate component to replace all old expression components (Math.Script panel).
+  ● Added Expression component which evaluates an internal expression (Math.Script panel).
+  ● Added Short List component for equalizing list lengths (Sets.List panel).
+  ● Added Long List component for equalizing list lengths (Sets.List dropdown).
+  ● Added Cross Reference component for creating combinations of data (Sets.List panel).
+  ● Added Replace Nulls component for replacing null and invalid data (Sets.List dropdown).
+  ● Added Inside Multiple component for testing point inclusion with multiple breps (Surface.Analysis dropdown).
+  ● Added Collision component for testing one-to-many collisions (Intersect.Physical dropdown).
+  ● Added Collision component for testing many-to-many collisions (Intersect.Physical dropdown).
+  ● Added Mesh Inclusion component for testing point|mesh inclusion (Mesh.Analysis panel).
+  ● Added Mesh Closest Point component for finding the point on a mesh closest to another point (Mesh.Analysis panel).
+  ● Added Evaluate Mesh component for sampling position, normal and colour at a mesh parameter (Mesh.Analysis panel).
+  ● Added Face Boundaries component for converting mesh faces into polylines (Mesh.Analysis panel).
+  ● Added Mesh Edges component for extracting mesh edge lines (Mesh.Analysis panel).
+  ● Replaced Mesh Plane component with one that takes a rectangle (Mesh.Primitive panel).
+  ● Added Blur Mesh component for averaging mesh vertex colours (Math.Util dropdown).
+  ● Added Simple Mesh component for creating a minimal Brep representation (Mesh.Util dropdown).
+  ● Added Knot Style input for the Interpolate Curve component.
+  ● Added Knot Style input for the Interpolate Tangents Curve component.
+  ● Added four different display styles to the Legend object (accessible via the component menu).
+  ● Double clicking the Legend object toggles discrete vs. smooth display styles.
+  ● Added an extra input to the legend component which allows legend drawing in 3D.
+  ● Replaced Containment component with more sensible values for inside/coincident/outside.
+  ● Replaced the Recursive Voronoi component with a better one.
+  ● Convex Hull component will now solve for 2 points.
+  ● MultiDimensional Sliders can now be part of states.
+  ● Value Lists can now be part of states.
+  ● Control Knobs can now be part of states.
+  ● Geometry Pipeline object now has a Locked filter, available via the popup menu.
+  ● Geometry Pipeline object now has a Hidden filter, available via the popup menu.
+  ● Geometry Pipeline object now has a 'Group By Layer' option, available via the popup menu.
+  ● Geometry Pipeline object now has a 'Group By Type' option, available via the popup menu.
+  ● In Rhino5, the Zoom Extents command will now include Grasshopper preview geometry.
+  ● Expression input parameters can now have names like "Name (n)", where the text in brackets becomes the variable name.
+  ● Script input parameters can now have names like "Name (n)", where the text in brackets becomes the variable name.
+  ● Script output parameters can now have names like "Name (n)", where the text in brackets becomes the variable name.
+  ● VB/C# script components now have tooltip override fields in the context menu.
+  ● Parameter nicknames that collide with language keywords are now automatically modified in Script components.
+  ● Script Cache recovery for VB/C# components now displays the list of cached scripts much quicker.
+  ● VB/C# script editor now has a button for inserting skeleton Preview overrides.
+  ● Added Wrap option to Text Panel entries. When Wrap is off, items will be trimmed using ellipses.
+  ● Added NickName support to Knobs.
+  ● Added a grip region for Knob tuning.
+  ● Added a specific window for changing Knob settings.
+  ● Copy to Windows Clipboard now tries a total of 10 times if there's an access failure.
+  ● Copy to Windows Clipboard now copies to internal Grasshopper clipboard on prolonged failure.
+  ● Aborted solutions now clear whatever data is stored inside whatever component was solving when the Escape key went down.
+  ● The state of the Escape key is now also monitored during data conversions, making Escape behaviour more reliable.
+  ● Rearranged the Params.Special panel into Input and Util panels.
+  ● Rearranged the Sets.String panel.
+  ● File Reader component now reads per line files in a more efficient manner.
+  ● Parameter modifier icons are now drawn as vectors rather than bitmaps (good for hi-res export).
+  ● Component specific options and settings are now displayed as tags underneath components.
+  ● Markov Widget tooltip now shows component information rather than widget information.
+  ● Grips, Text and Capsule highlights on the canvas are now drawn using time-based rather than zoom-based transparency.
+  ● Parameter icons now fade in/out using time-based rather than zoom-based transparency.
+  ● Component icons now fade in/out using time-based rather than zoom-based transparency.
+  ● Histograms now fade in/out using time-based rather than zoom-based transparency.
+  ● Pie charts now fade in/out using time-based rather than zoom-based transparency.
+  ● Boolean Toggles now fade in/out using time-based rather than zoom-based transparency.
+  ● Timers now fade in/out using time-based rather than zoom-based transparency.
+  ● Data Dam objects now fade in/out using time-based rather than zoom-based transparency.
+  ● Cluster Input Hooks now fade in/out using time-based rather than zoom-based transparency.
+  ● Cluster Output Hooks now fade in/out using time-based rather than zoom-based transparency.
+  ● Colour Picker objects now fade in/out using time-based rather than zoom-based transparency.
+  ● Image Samplers now fade in/out using time-based rather than zoom-based transparency.
+  ● Legends now fade in/out using time-based rather than zoom-based transparency.
+  ● Data Recorders now fade in/out using time-based rather than zoom-based transparency.
+  ● Number Dials now fade in/out using time-based rather than zoom-based transparency.
+  ● Number Sliders now fade in/out using time-based rather than zoom-based transparency.
+  ○ Components with Preview=Off would not display in selected only mode, this is fixed.
+  ○ Instantiating number sliders via the popup box would not work if the first number was negative, this is fixed.
+  ○ Copy to Windows Clipboard would not fail gracefully on error, this is fixed.
+  ○ Interpolate Curve component would not warn on invalid degrees, this is fixed.
+  ○ Knob menu control was not correctly initialized, this is fixed.
+  ○ Knob menu control did not correctly respond to Limit On/Off, this is fixed.
+  ○ Curve Discontinuity component would sometimes return invalid results for C1 discontinuities, this is fixed.
+  ○ Certain exotic cases of Data Matching and Input Access would yield faulty output data trees, this is fixed.
+  ○ Expressions in Point parameters would affect shared instances of points, this is fixed.
+  ○ Editor window would not reflect saved/unsaved state of the loaded document, this is fixed.
+  ○ MultiDimensional Slider would not undo on grip drags, this is fixed.
+  ○ Image Sampler would not behave nicely when an image file went missing sometimes, this is fixed.
+  ○ Upgrader for Null Item component generated an invalid result, this is fixed.
+  ○ Text Panels would not display a scrollbar for local text, this is fixed.
+  ○ Vector Display component would remain visible after disconnecting, this is fixed.
+  ○ Vector Display Ex component would remain visible after disconnecting, this is fixed.
+  ○ Adding or removing output parameters from VB/C# script would not update the script, this is fixed.
+  ○ A CCX overlap intersection would sometimes result in erroneous parameters, this is fixed.
+  ○ The tooltip over the abort icon would not show, this is fixed.
+  ○ The canvas wouldn't always redraw when the solver was locked, this is fixed.
+  ○ Transform Parameter Set menu items did nothing, they are now greyed out.
+  ○ Occlusion Component would always return a null topology, this is fixed.
+  ○ Group crossing selection would fail on concave group outlines, this is fixed.
+  ○ Transform input parameters on components would have an empty transform by default, this is fixed.
+  ○ Sweeps sometimes outputted surfaces with internal kinks, this is fixed.
+  ○ Output parameters that output lists now have tooltip suffixes indicating them as such.
+  ○ VB/C# script with no input parameter failed to run, this is fixed.
+  ○ Tooltip title text for components and parameters was basically unreadable, this is fixed.
+  ○ Transform component claimed "Mirrored Geometry" as an output, this is fixed.
+  ○ Align Planes would output null values, this is fixed.
+  ○ Flip curve component now has a different alignment algorithm for guide curves.
+  ○ Panel Editor would fail to load when a certain Font was missing from the system, this is fixed.
+  ○ Popup Component Insertion window would crash under certain conditions, this is fixed.
+  ○ Timers that went through the clipboard would still target the original objects, this is fixed.
+  ○ Group Tags would sometimes be clipped at Hi-Res export boundaries, this is fixed.
+  ○ Obsolete components would be visible in the PopUp search if they were accessed via an alias, this is fixed.
+  ○ Referenced geometry which no longer exists in Rhino is now stored as a null rather than invalid item.
+
+Version 0.8.0066
+  ● VB and C# script components now have 'Destroy Caches' menu item that erases all recorded compiler data.
+  ● VB and C# script components now also cache compiler errors and warnings.
+  ● VB and C# script component code editor now caches the 10 most recent source codes.
+  ○ Mesh Volume computation was broken on Rhino4, this is fixed.
+  ○ VB and C# scripts would not update on parameter addition or removal, this is fixed.
+  ○ Similarity component did not work well with negative numbers, this is fixed.
+  ○ Display adjustment for curves was not working, this is fixed.
+  ○ VB/C# script code changes were delayed until after autosave, this is fixed.
+  ○ VB/C# scripts would not be re-evaluated after certain breaking changes, this is fixed.
+  ○ VB/C# script editor would not save the code when the target object has been modified, this is fixed.
+  ○ Rail Revolution component did not work, this is fixed.
+  ○ Changing expressions on output parameters did not result in an update, this is fixed.
+  ○ Changing Normalise flags on curve output parameters did not result in an update, this is fixed.
+  ○ Changing Normalise flags on surface output parameters did not result in an update, this is fixed.
+  ○ Changing Unitize flags on vector output parameters did not result in an update, this is fixed.
+  ○ Changing Invert flags on boolean output parameters did not result in an update, this is fixed.
+  ○ Undo/Redo events that affect output parameter post processes would not cause updates, this is fixed.
+  ○ Script components in User Objects and Clusters were not deserializing correctly, this is hopefully fixed.
+  ○ GH/GHX document ids were not deserialized, this is fixed.
+  ○ User Objects with an unset subcategory caused a failure in the Ribbon, this is fixed.
+  ○ Radial Grids would omit the row of points along the boundary of the grid, this is fixed.
+
+Version 0.8.0065
+  ○ Expressions would not work, this is fixed.
+  ○ Tooltip layout was incorrect, this is fixed.
+  ○ Fonts that do not support regular styling would crash in the font previewer, this is fixed.
+
+Version 0.8.0064
+  ● Sliders can now be instantiated with limits using a "min<value<max" notation.
+  ● Text panels now have less contrasting title blocks. 
+  ● Text panels now have left, top and right margins accessible at high zoom levels.
+  ● Text panels now have buttons that appear at high zoom levels for several properties.
+  ● Text Tag 2D component now has a colour input.
+  ● Text Tag 3D component now has a colour input.
+  ● Added Extremes component for finding minima and maxima amongst variable collections (Math.Util dropdown).
+  ● Added Entwine component for flattening and merging a variable collection of data streams (Sets.Tree dropdown).
+  ● Added Find Domain component useful for categorizing numbers (Math.Domain).
+  ● Added Vector Display Ex component which offers more control over display (Vector.Vector panel).
+  ● Added Key/Value Search component for matching generic data with key values (Sets.Sets dropdown).
+  ● Added Characters component for extracting individual characters from a string (Sets.String dropdown).
+  ● Added Consecutive Domains component for converting lists of numbers into domain blocks (Math.Domain dropdown).
+  ● Added Font settings to the preferences window (at the moment Script and Console fonts are rarely used).
+  ● IsoVist components now accept lines, curves, planes, boxes, surfaces, breps and meshes as obstacles.
+  ● IsoVist components now output an obstacle index rather than a hit/miss boolean.
+  ● Added 'Overlay Graphics' section to the Preferences (Interface section).
+  ● VB and C# script components now cache compiled assemblies.
+  ● VB and C# assembly references window has been redesigned (more to come).
+  ● VB and C# missing references are now handled more gracefully.
+  ○ Tuned up 3D Voronoi slicing algorithm, probably still bugs left.
+  ○ Number Slider would only deserialize three decimal places, this is fixed.
+  ○ The tooltip would sometimes be shown behind other windows, this is hopefully fixed.
+
+Version 0.8.0063
+  ● Menu ShortCut preferences now have top-level menu names to the left of the list.
+  ● Added a Voronoi Cell component (Mesh.Triangulation panel).
+  ● Added a 3D Voronoi component (Mesh.Triangulation panel).
+  ● Added a Closest Points component (Vector.Point dropdown).
+  ● GeometryPipeline object now has a blank type filter by default.
+  ● Output and Floating parameters now have Disconnect Recipients items in the menu.
+  ● A default content filter level is now assumed rather than requested.
+  ○ GeometryPipeline object would sometimes recompute from within a solution, this is fixed.
+  ○ Cap Planar Holes component would return null if the brep was already closed, this is fixed.
+  ○ The Null Item component would always return the wrong answer for validity, this is fixed.
+  ○ Due to a Rhino SDK break some serious bugs crept into Grasshopper when running on Rhino5, these should be fixed.
+  ○ Baking list of groups would result in faulty one-directional selection inclusions in Rhino, this is fixed.
+  ○ GeometryPipeline object would ignore hidden objects, this is fixed.
+  ○ Disconnecting parameter sources via the menu would not undo, this is fixed.
+  ○ Pipe would create inside/out breps, this is hopefully fixed.
+  ○ Colour Picker objects would not remember their colour, this is fixed.
+
+Version 0.8.0062
+  ● Added Content Filter section to the Preferences (Interface section).
+  ● All users will be asked to specify the level of content filtering in the Grasshopper GUI.
+  ● Added Geometry Pipeline object for live object updates (Params.Geometry panel).
+  ● Added Circle Tan Tan component (Curve.Primitive dropdown).
+  ● Added Circle Tan Tan Tan component (Curve.Primitive dropdown).
+  ● Components which have been superceded by newer versions are now marked "Old".
+  ● Added "Show Full Name" item to View menu.
+  ● Coordinate Masks now support all possible permutations of x, y & z.
+  ● Coordinate masks can now be created from text.
+  ● The Stream Filter component now shows which index is streaming.
+  ● Decompose Point component now has a Plane input.
+  ● Point XYZ component now has a Plane input.
+  ● Message Balloons are now drawn in screen space.
+  ● Added an "Upgrade Legacy Components" item to the Solution menu.
+  ● Added auto-upgrade behaviour to VB component.
+  ● Added auto-upgrade behaviour to C# component.
+  ● Added auto-upgrade behaviour to Sort component.
+  ● Added auto-upgrade behaviour to Clean Tree component.
+  ● Added auto-upgrade behaviour to Simplify Tree component.
+  ● Added auto-upgrade behaviour to Flatten Tree component.
+  ● Added auto-upgrade behaviour to Explode Tree component.
+  ● Added auto-upgrade behaviour to Weave component.
+  ● Added auto-upgrade behaviour to Null Item component.
+  ● Added auto-upgrade behaviour to Curve Closed component.
+  ● Added auto-upgrade behaviour to Polygon Center component.
+  ● Isocurve component now limits isocurves to the trimmed region.
+  ○ Internalise wouldn't work on Point parameters, this is fixed.
+  ○ Large strings in tooltips would not display in a useful fashion, this is fixed.
+  ○ The Canvas Radial menu would pop up if space was pressed while inside a nested textbox, this is fixed.
+  ○ Internalise data would fail to disassociate references in certain cases, this is fixed.
+
+Version 0.8.0061
+  ○ User Objects would fail to deserialize themselves miserably, this is (hopefully) fixed.
+  ○ Set Multiple Curves would only allow you to select one, this is fixed.
+
+Version 0.8.0060
+  ‼ File format forwards compatibility has been broken. You might not be able to open files saved with 0.8.0060 on earlier versions.
+  ● Added new Variable Parameter management (VPM) interface. Zoom in on components to get access to the new UI.
+  ● Grasshopper solutions now run (by default) inside a Rhino undo record in case geometry is added to the scene.
+  ● Added Solver category to Grasshopper preferences.
+  ● Added Enable Solver checkbox to preferences window.
+  ● Added Solver Undo checkbox to preferences window.
+  ● Added Randomize options to the Gene-List object.
+  ● Gene-Lists can now be saved in solution states.
+  ● Gene-Lists now have init codes.
+  ● Added a Colour Picker object (Params.Special dropdown).
+  ● Added Points To Numbers component (Vector.Point dropdown).
+  ● Added Numbers To Points component (Vector.Point dropdown).
+  ● Added Weighted Average component (Math.Util dropdown).
+  ● Added Populate 2D component (Vector.Grids panel).
+  ● Added Populate 3D component (Vector.Grids panel).
+  ● Added 'Internalise Data' menu item to parameter menus.
+  ● Added intrinsic serialization support for Curves, Breps, Surfaces & Meshes.
+  ● Curve getter now supports both Reference and Copy modes.
+  ● Surface getter now supports both Reference and Copy modes.
+  ● Brep getter now supports both Reference and Copy modes.
+  ● Mesh getter now supports both Reference and Copy modes.
+  ● Vector Display colours are now always affected by the Selected state.
+  ● Added Default arrow head size option to the Vector Display component menu.
+  ● Added Screen arrow head size option to the Vector Display component menu.
+  ● Added Relative arrow head size option to the Vector Display component menu.
+  ● Added Screen size scroller to the Vector Display component menu.
+  ● Added Relative size scroller to the Vector Display component menu.
+  ● Explode Tree component now implements the new VPM for output parameters.
+  ● Explode Tree component now has a "Match Outputs" menu item that creates all required outputs.
+  ● Explode Tree component now displays the data paths for each output.
+  ● Merge component now implements the new VPM for input parameters.
+  ● Merge component now automatically adds an additional input when the bottom-most input is connected.
+  ● Stream Filter component now implements the new VPM for input parameters.
+  ● Stream Gate component now implements the new VPM for output parameters.
+  ● Weave component now implements the new VPM for input parameters.
+  ● Pick'N'Choose component now implements the new VPM for input parameters.
+  ● Sort component now implements the new VPM for input parameters.
+  ● Sort component now has improved input/output name matching.
+  ● VB and C# components now implement the new VPM for input and output parameters.
+  ● It is now possible to zoom in on the canvas to 5000% instead of 1000%.
+  ● The middle mouse button no longer deselects anything when it pops up the radial menu.
+  ● Rotation transform formatting now includes axes descriptions in case of orthogonal axes.
+  ○ Exported Help topics would have an incorrect HTML header, this is fixed.
+  ○ Catenaries wouldn't solve correctly when distance between end-points was large, this is fixed. 
+  ○ Unsolved catenaries would result in a triangle chain with incorrect length, this is fixed.
+  ○ Mesh Smooth motion limit was reset per smoothing iteration, this is fixed.
+  ○ Certain types of canvas view animations were jittery, this is fixed.
+  
+Version 0.8.0053
+  ● Added an Edit→Create menu item that shows the Component Search popup on the canvas.
+  ● Untrimmed single surfaces are now meshed with slightly higher quality settings.
+
+Version 0.8.0052
+  ● Create Set component now also outputs an Index map.
+  ● Integer Division now has initialization code support.
+  ● Typing a double quote (") into the Popup Search box will now always create a Text Panel.
+  ● Typing a double slash (//) into the Popup Search box will now always create a Text Panel.
+  ● Typing a tilde symbol (~) into the Popup Search box will now always create a Scribble.
+  ● Typing a number into the Popup Search box will now always create a Number Slider.
+  ● Typing a plus symbol (+) into the Popup Search box will now always create an Addition component.
+  ● Typing a minus symbol (-) into the Popup Search box will now always create a Subtraction component.
+  ● Typing an asterisk symbol (*) into the Popup Search box will now always create a Multiplication component.
+  ● Typing a slash symbol (/) into the Popup Search box will now always create a Division component.
+  ● Typing a backslash symbol (\) into the Popup Search box will now always create an Integer Division component.
+  ● Typing a percent symbol (%) into the Popup Search box will now always create a Modulus component.
+  ● Typing an ampersand symbol (&) into the Popup Search box will now always create a Concatenation component.
+  ● Added a GeneList object to Galapagos to allow for declaration of a large number of solver variables.
+  ● Expressions now automatically evaluate strings that are used as variables.
+  ● Added menu shortcut UI to preferences (Interface section).
+  ● All components and parameters on the component tabs now have an alias menu item.
+  ● The Custom Preview component now draws its geometry differently when selected.
+  ● Added Cull Vertices component (Mesh.Util panel).
+  ● Added Delete Vertices component (Mesh.Util panel).
+  ● Added canvas panning navigation via the arrow keys.
+  ● Added canvas zooming navigation via the PageUp/PageDown keys.
+  ○ Toggle Enabled menu didn't work, this is fixed.
+  ○ Default Material Preview colours were both set to red, this is fixed.
+  ○ Recompute item in Legacy menu was only enabled when objects were selected, this is fixed.
+  ○ Canvas tooltips might stick around after an object has been cut or deleted, this is fixed.
+  ○ Baking via the Radial Menu would happen twice under certain conditions, this is fixed.
+  ○ Power operator component failed for integers with non-positive exponents, this is fixed.
+  ○ XOR gate component was returning the inverted result, this is fixed.
+  ○ Parameter Simplify Post-Process would fail under certain conditions, this is fixed.
+
+Version 0.8.0051
+  ● 2000+ LolCats.
+  ● Added Toggle Enable menu item to the Solution menu.
+  ● Toggle Preview shortcut is now Ctrl+Q, shortcuts for Preview On and Preview Off have been removed.
+  ● Toggle Enabled shortcut is now Ctrl+E, shortcuts for Enabled On and Enabled Off have been removed.
+  ● Added a Description output to the Null Item component that provides additional information regarding invalidness.
+  ● Show All Components menu item has been renamed to Show Obscure Components.
+  ● Obscure components are now always stacked along the right edges of panels and groups.
+  ● When the Grasshopper tool panels are too narrow to show all icons, obscure components are now hidden first.
+  ● Re-organized the Mesh Tab.
+  ● Added Mesh Face Circles component (Mesh.Analysis panel).
+  ● Added Mesh Face Normals component (Mesh.Analysis panel).
+  ● Added Mesh Cull Faces component (Mesh.Util panel).
+  ● Added Mesh Delete Faces component (Mesh.Util panel).
+  ● Added Triangulate Mesh component (Mesh.Util panel).
+  ● Added Quadrangulate Mesh component (Mesh.Util panel).
+  ● Added Stack Data component (Sets.Sequence dropdown).
+  ● Added Contour component (Intersect.Mathematical dropdown).
+  ● Added Contour (Ex) component (Intersect.Mathematical dropdown).
+  ● Added Curve Contour component (Curve.Division dropdown).
+  ● Added Curve Contour (Ex) component (Curve.Division dropdown).
+  ● Added Rectangle 2-Point component (Curve.Primitive dropdown).
+  ● Added Shift Path component as per Studio Mode request (Sets.Tree dropdown).
+  ● The Mesh Face Parameter is now available on the Params.Geometry dropdown.
+  ● The Mesh Face Parameter can now hold persistent data.
+  ● Added persistent targeting mode to the Data Viewer window (this is the default).
+  ● It is now possible to open more than one Data Viewer window.
+  ● Selected Data Viewers now draw pink cones around their targets.
+  ● Pressing MMB for the Radial menu now always selects the object underneath the cursor.
+  ● Radial menu and Legacy menu are now both active all the time.
+  ● Radial menu no longer closes when the MMB is released within the bounds.
+  ● Radial menu now also pops up on SpaceBar, provided the cursor is above the canvas.
+  ● Galapagos no longer has a Maximum Iteration Limit for the Evolutionary Solver.
+  ● Galapagos now has optional time-based limits for all solvers.
+  ● Galapagos now has a second solver, modeled on Simulated Annealing stochastics.
+  ● Galapagos options UI has been redesigned, Mutation editor is gone for now.
+  ● Galapagos numeric settings now change colour to indicate sensible value ranges.
+  ● Galapagos numeric settings now have presets (in pop-up menus) for most scrollers.
+  ● Galapagos Genome Parameter menu has been beefed up.
+  ● Cursor wrapping during panning drags now takes both the Canvas and the Screen edges into account.
+  ● Groups now have an Ungroup menu item.
+  ● Groups now have an Add To Group menu item.
+  ● Groups now have a Remove From Group menu item.
+  ● Operator and Function components now try to do a better job of handling Text inputs.
+  ● Added AssignDataToParameter() method to the Grasshopper RhinoScript object.
+  ● Added BakeDataInObject() method to the Grasshopper RhinoScript object.
+  ● Added RunSolver() method to the Grasshopper RhinoScript object.
+  ● Volume components now have warnings for non-solid geometry.
+  ● When a Grasshopper group is baked, the resulting objects are also grouped in Rhino.
+  ● Radial menu now always selects only the object under the cursor.
+  ● Version History window now uses HTML formatted text.
+  ● Added Zoom to Preview button to Canvas toolbar zoom icon.
+  ● Timers now have a 'Remove Target' menu item.
+  ● Timers should now only fire when their own schedule expires.
+  ○ Galapagos object tooltips did not reflect newest features, this is fixed.
+  ○ Expressions that contained string literals starting with operator symbols would fail, this is fixed.
+  ○ Data viewer automatic targeting was very fragile, this is fixed.
+  ○ Output Parameter names were drawn too close to the Component, this is fixed.
+  ○ Expressions were missing from output parameters, this is fixed.
+  ○ Toggle Preview menu item didn't do anything, this is fixed.
+  ○ Ribbon Layout Editor would not include components that were on the dropdown only, this is fixed.
+  ○ Curve output parameters did not have the Normalise menu item, this is fixed.
+  ○ Surface output parameters did not have the Normalise menu item, this is fixed.
+  ○ Value Tracker object did not display correctly, this is fixed.
+  ○ Legend Object layout was totally hosed, this is fixed.
+  ○ Script inputs that used a System.Guid type hint would not convert from referenced geometry, this is fixed.
+  ○ Path Wrapping with the Relative Tree item components did not work correctly, this is fixed (fingers crossed).
+  ○ Extreme tags in the Quick Graph were drawn in the wrong rectangle, this is fixed.
+  ○ Digit Scrollers would not repaint on MouseUp, this is fixed.
+  ○ Restoring states would recompute for every slider, this is fixed.
+  
+Version 0.8.0050
+  ‼ File format forwards compatibility has been broken. You will not be able to open files saved with 0.8.0050 on earlier versions.
+  ‼ This release contains many breaking changes and GHA libraries compiled for older versions may not work anymore.
+  ● Grasshopper Binary files (*.gh) are now saved as compressed data.
+  ● Grasshopper Binary files (*.gh) are now the default format.
+  ● Support for ancient versions of the Text Panel (still called Post-It from back then) has been removed.
+  ● Support for ancient versions of the Path Mapper (still called Path Lexer from back then) has been removed.
+  ● Placeholders for ancient versions of the Graph Mapper have been removed.
+  ● Gradient input parameters now show state tag icons (Reversed, Flatten etc.).
+  ● Geometry Cache name changes are now updated on every key press.
+  ● Geometry Cache name changes can now be cancelled with Escape.
+  ● Geometry Cache name changes can now be undone.
+  ● Mesh|Mesh intersection component now uses a different algorithm. The old behaviour is still available from the component menu.
+  ● Warning and Error balloons are now drawn as part of a Canvas Widget and will no longer show up in the Hi-Res image export.
+  ● Galapagos now accepts multiple fitness values. The true fitness will be the average of the collection.
+  ● Galapagos wires are drawn much fainter when the Galapagos object is unselected.
+  ● Medium fast redraw mode in Galapagos now immediately redraws instead of at the end of each generation.
+  ● Redesigned all Grasshopper file format icons and added larger size icons for high-dpi explorer views.
+  ● Redesigned the Most Recently Used files menu, it should now display much quicker.
+  ● Compass widget has been rewritten in an attempt to increase display performance.
+  ● Added preferences section for Compass widget.
+  ● Added preferences section for Align widget.
+  ● Added preferences section for Default Preview colours.
+  ● Added preferences section for Document Preview colours.
+  ● Added preferences section for the Most Recently Used files menu.
+  ● The Area component now accepts Breps, Meshes and Planar Closed Curves.
+  ● The Area Centroid component now accepts Breps, Meshes and Planar Closed Curves.
+  ● The Volume component now accepts Breps and Meshes.
+  ● The Volume Centroid component now accepts Breps and Meshes.
+  ● Added Merge Faces component (Surface.Util panel).
+  ● Added a Mesh Smooth component (Mesh.Util panel).
+  ● Added a Curve Seam component (Curve.Util panel).
+  ● Added Interpolate Curve With Tangents component (Curve.Spline dropdown).
+  ● Added GrasshopperFolders command to open Settings, Components and UserObject folders without loading the core plugin.
+  ● The window that reports on certain Loading Errors now has a Copy button.
+  ● Added Simplify post-process filter to parameters (in addition to Reverse, Flatten and Graft).
+  ● Parameter post processes (Reverse, Flatten, Graft & Simplify) can now also be assigned to output parameters.
+  ● Version History window now has formatting (not happy with this, I'm working on something better).
+  ● The Process Info window is gone.
+  ● Main menu has been redesigned.
+  ● Canvas toolbar has been redesigned.
+  ● Canvas context menu has been replaced by a Radial Menu.
+  ● Canvas now has a radial menu which will pop up on Middle Mouse Button clicks.
+  ● It's possible to switch between Radial and Legacy menus in the Preferences (Interface.Canvas section).
+  ● 'Save As Copy' feature has been replaced by 'Save Backup' which is a GUI-less save including date+time stamp.
+  ● Added a 'Show in Folder' item to the File menu.
+  ● AutoSave settings are no longer available from the File menu, you now need to use the Preferences.
+  ● Selection shifts now also modify the view so you can use Ctrl+Left and Ctrl+Right to navigate up and downstream.
+  ● Mesh Edge display can now be toggled with Ctrl+M.
+  ● Preview modes now have shortcuts (Ctrl+1 = no preview, Ctrl+2 = wireframe, Ctrl+3 = shaded).
+  ● Solution States now have a default name.
+  ● Data Viewer window now responds to all required events.
+  ● Data Viewer window can now handle input and output parameters as well.
+  ● Canvas Navigation pane can now be dragged using the icon in the upper left corner.
+  ● The Persistent Data Editor has been redesigned.
+  ● It's now possible to select multiple items in the Persistent Data Editor list and edit their properties.
+  ● It's now possible to drag multiple items at the same time in the Persistent Data Editor list.
+  ● Item addition to the Persistent Data Editor is much improved.
+  ● The Persistent Data Editor is now non-modal.
+  ○ The Canvas would remain black upon maximizing the Rhino window, this is fixed.
+  ○ Sliders would cause multiple updates under certain conditions, this is fixed.
+  ○ Digit Scrollers would cause multiple updates under certain conditions, this is fixed.
+  ○ Pipes were inside out. This is fixed.
+  ○ The curve component would not adjust invalid nurbs degrees, this is fixed.
+  ○ Curves referencing Brep edges failed to load, this is fixed.
+  ○ Points referencing Brep edges failed to load, this is fixed.
+  ○ Referenced dlls in the VB/C# components sometimes resulted in invalid imports statements, this is fixed.
+  ○ Pasting geometry in Rhino would cause a recompute of the Grasshopper solution, this is fixed.
+  ○ Importing a file into the Rhino document would cause a recompute of the Grasshopper solution, this is fixed.
+  ○ Galapagos would trigger superfluous solutions, this is fixed.
+  ○ Mesh Solid Difference had a wrong name and description, this is fixed.
+  ○ Several menu items were not greyed out despite not being usable, this is fixed.
+  ○ The position and size of the Grasshopper window failed to get stored on Rhino shutdown, this is fixed.
+  ○ The Persistent Data Editor would crash on parameters that did not support data proxies, this is fixed.
+  
+Version 0.8.0013
+  ● Added Data limit to the Data Recorder object.
+  ○ Fixed a typo in the CurvatureGraph component.
+  ○ ValueList would not show the active value, this is fixed.
+
+Version 0.8.0012
+  ● All component icons have been reviewed and adjusted in case of stylistic discrepancies.
+  ● Added an Edge Average output to the polygon center point component (better average).
+  ● Added Data Recorder object (Params.Special dropdown).
+  ● Added Area Moments component (Surface.Analysis panel).
+  ● Added Volume Moments component (Surface.Analysis panel).
+  ● Added Curve Torsion component (Curve.Analysis dropdown).
+  ● Added Curve Derivatives component (Curve.Analysis dropdown).
+  ● Bake Window Display Mode selector now shows all available modes.
+  ○ Fixed a bug in the Bake Window Display Mode selection.
+
+Version 0.8.0011
+  ● Object Info marker location is now limited to the visible canvas region.
+  ● Added a Ctrl+Alt+Shift override to save the Grasshopper window + info markers as an image.
+  ● Added Modified Arc component (Curve.Primitive dropdown).
+  ● Added Point/Circle tangent lines component (Curve.Primitive dropdown).
+  ● Added External Tangent Lines component (Curve.Primitive dropdown).
+  ● Added Internal Tangent Lines component (Curve.Primitive dropdown).
+  ● Added Find Similar Member component (Sets.Sets dropdown).
+  ● Beefed up GHA loading error messages.
+  ● Added initial custom Ribbon Layout mechanism and editor.
+  ● Added Geometry Cache object (Params.Geometry dropdown).
+  ● Added automatic closed, planar curve to mesh conversion.
+  ● Added MeshSplit component (Intersect.Boolean panel).
+  ● Added type groups to the GHA info dialog.
+  ○ Output parameter naming for Tree Explode was inconsistent, this is fixed.
+  ○ The Value List object has an improved selection UI.
+  ○ Intersect.Boolean panel has been renamed to Intersect.Shape.
+  ○ Loose curve offset algorithm has been completely rewritten, expect possible breaking changes.
+  
+Version 0.8.0010
+  ● Added a first attempt at a half-way decent Preferences interface (Window menu).
+  ● String matching algorithm rewritten in an attempt to improve Popup search fidelity. 
+  ● Windows linked to the Grasshopper main window will no longer be repositioned when  Ctrl is down.
+  ● The Extend Curve component now accepts negative lengths in order to trim the curve.
+  ● Added Fit Line to Points component (Curve.Primitive dropdown)
+  ● Added Fit Circle to Points component (Curve.Primitive dropdown)
+  ● AutoSave file format is now customizable through the new Settings interface.
+  ● Mouse scroll wheel can now be used to adjust slider controls (not Number Slider objects).
+  ● Added tooltips to the Popup Search box.
+  ● Added Info Mode to the Canvas (hold Ctrl+Alt) which highlights components on the canvas and component palette.
+  ● Added initialization code to the Cull Nth component.
+  ● Added initialization code to the Cull Index component.
+  ● Added initialization code to the Random Reduce component.
+  ● Added initialization code to the Duplicate component.
+  ● Added initialization code to the List Item component.
+  ● Added initialization code to the Repeat Data component.
+  ● Added initialization code to the Shift List component.
+  ● Added initialization code to the Split List component.
+  ● Added initialization code to the Sequence component.
+  ● Added initialization code to the Constant E component.
+  ● Added initialization code to the Constant Epsilon component.
+  ● Added initialization code to the Factorial component.
+  ● Added initialization code to the Fibonacci component.
+  ● Added initialization code to the Golden Ratio component.
+  ● Added initialization code to the Constant Pi component.
+  ● Added initialization code to the Random component.
+  ● Added initialization code to the Range component.
+  ● Added initialization code to the Series component.
+  ● Added initialization code to the Square component.
+  ● Added initialization code to the Square Root component.
+  ● Added initialization code to the Cube component.
+  ● Added initialization code to the Cube Root component.
+  ● Added initialization code to the Log10 component.
+  ● Added initialization code to the Log component.
+  ● Added initialization code to the Exponent component.
+  ● Added initialization code to the Power of 2 component.
+  ● Added initialization code to the Power of 10 component.
+  ● Added initialization code to the Sine component.
+  ● Added initialization code to the Sinc component.
+  ● Added initialization code to the Cosine component.
+  ● Added initialization code to the Tangent component.
+  ● Added initialization code to the ArcSine component.
+  ● Added initialization code to the ArcCosine component.
+  ● Added initialization code to the ArcTangent component.
+  ● Added initialization code to the Secant component.
+  ● Added initialization code to the Cosecant component.
+  ● Added initialization code to the Cotangent component.
+  ● Added initialization code to the One over X component.
+  ● Added initialization code to the Absolute component.
+  ● Added initialization code to the Sign component.
+  ● Added initialization code to the ToDegrees component.
+  ● Added initialization code to the ToRadians component.
+  ● Added initialization code to the N-Base log component.
+  ● Added initialization code to the Smaller Than component.
+  ● Added initialization code to the Larger Than component.
+  ● Added initialization code to the Equal To component.
+  ● Added initialization code to the Similar To component.
+  ● Added initialization code to the Addition component.
+  ● Added initialization code to the Subtraction component.
+  ● Added initialization code to the Multiplication component.
+  ● Added initialization code to the Division component.
+  ● Added initialization code to the Integer Division component.
+  ● Added initialization code to the Minimum component.
+  ● Added initialization code to the Maximum component.
+  ● Added initialization code to the Modulus component.
+  ● Added initialization code to the Power component.
+  ● Added initialization code to the Concatenate component.
+  ● Added initialization code to the String Split component.
+  ● Added initialization code to the String Join component.
+  ● Added initialization code to the Evaluate Length component.
+  ● Added initialization code to the Circle component.
+  ● Added initialization code to the Circle CNR component.
+  ● Added initialization code to the Arc component.
+  ● Added initialization code to the Curve component.
+  ● Added initialization code to the Interpolated Curve component.
+  ● Added initialization code to the Offset Curve component.
+  ● Added initialization code to the Offset Curve Loose component.
+  ● Added initialization code to the Offset Curve On Surface component.
+  ● Added initialization code to the Extend Curve component.
+  ● Added initialization code to the Catenary component.
+  ● Added initialization code to the Line SDL component.
+  ● Added initialization code to the Fillet component.
+  ● Added initialization code to the Fillet Distance component.
+  ● Added initialization code to the Move component.
+  ● Added initialization code to the Scale component.
+  ● Added initialization code to the Mesh Plane component.
+  ● Added initialization code to the Mesh Box component.
+  ● Added initialization code to the Mesh Sphere component.
+  ● Added initialization code to the Sphere component.
+  ● Added initialization code to the Surface Offset component.
+  ● Added initialization code to the Surface Offset Loose component.
+  ● Added initialization code to the Divide Curve component.
+  ● Added initialization code to the Divide Curve Length component.
+  ● Added initialization code to the Divide Curve Distance component.
+  ● Added initialization code to the Curve Frames component.
+  ● Added initialization code to the Curve Perpendicular Frames component.
+  ● Added initialization code to the Square Grid component.
+  ● Added initialization code to the Rectangular Grid component.
+  ● Added initialization code to the Vector Amplitude component.
+  ○ Sliders would cause too many solve events when controlled externally, this is fixed.
+  ○ The Canvas went black when Galapagos was in fast display modes, this is fixed.
+  ○ AutoSave documents are now deleted when the document is closed from the MDI menu.
+
+Version 0.8.0009
+  ○ The One-Over-X component would always return the highest possible number, this is fixed.
+  ○ Text content of Text Panels would progressively fade-out, this is fixed.
+  ○ Fixed a serious crash bug in the Curve Offset SDK function.
+
+Version 0.8.0008
+  ● Added a Mesh|Mesh intersection component.
+  ● Added a Mesh|Curve intersection component.
+  ● Added a Replace List component (Sets.List dropdown)
+  ● Added Integer Division component (Math.Operator dropdown)
+  ● Added ToRadians component (Math.Trig dropdown)
+  ● Added ToDegrees component (Math.Trig dropdown)
+  ● Added Cube component (Math.Polynomials dropdown)
+  ● Added CubeRoot component (Math.Polynomials dropdown)
+  ● Added Round component which exposes Round, Ceiling and Floor functions (Math.Util dropdown)
+  ● Added Negative component (Math.Operators dropdown)
+  ● Added Absolute component (Math.Operators dropdown)
+  ● Added 'One over X' component (Math.Polynomials dropdown)
+  ● Updated to Quantum Whale code editor version 1.62
+  ● Added String Sort component (Sets.Strings dropdown)
+  ● Added Create Set component (Sets.Sets panel)
+  ● Added Set Union component (Sets.Sets panel)
+  ● Added Set Difference component (Sets.Sets panel)
+  ● Added Set Symmetric Difference component (Sets.Sets dropdown)
+  ● Added Set Intersection component (Sets.Sets panel)
+  ● Added Set Carthesian Product component (Sets.Sets panel)
+  ● Added SubSet test component (Sets.Sets panel)
+  ● Added Disjoint Set test component (Sets.Sets dropdown)
+  ● Added Set Majority component (Sets.Sets dropdown)
+  ● Added Set Member Index component (Sets.Sets dropdown)
+  ● Added Set Replace Member component (Sets.Sets dropdown)
+  ● Added Set Remove Consecutive Identical Members component (Sets.Sets dropdown)
+  ● Added Mass Multiplication component (Math.Operators dropdown)
+  ● Simplify Tree component now by default collapses *all* coincident path elements.
+  ● Casting error messages are now vaguely less geeky.
+  ● Added polygon center component (Curve.Analysis dropdown).
+  ● Font Defaults are now copied from the OS Fonts.
+  ● Slider Initialization codes can now be used to specify decimal places.
+  ● Profiler widget now displays long time spans in seconds, minutes and hours.
+  ● Added an IsoVist component (Intersect.Mathematical panel)
+  ● Added an IsoVist Ray component (Intersect.Mathematical panel)
+  ● MRU missing file checks are now threaded to prevent UI delays when files are located on slow media.
+  ● Expression Editor has been redesigned. 
+  ● Slider Component popup has been redesigned.
+  ● Slider Components now have customizable grip-styles (accessible via popup only)
+  ● Slider Components are now 20 pixels wider by default than before.
+  ● Slider Controls now draw focus rectangle to indicate caret capture.
+  ● Slider Control text input is now automatically activated by a keypress when the slider has focus.
+  ● Slider Controls that are locked are now rendered greyed out.
+  ● Tumbler Controls now draw themselves in 3D style when they are focused.
+  ● Tumbler Control text input is now automatically activated by a keypress when the slider has focus.
+  ● Tumbler Controls that are locked are now rendered greyed out.
+  ● Generic Data parameters now allow setting multiple items via the menu.
+  ● Text display has been rewritten for Text Panels and Param Viewers, making it faster.
+  ● Null items in Text Panels are now drawn transparently.
+  ● Empty strings in Text Panels are now drawn transparently as "<empty>".
+  ● Path mapping operations that do not involve List Indices are faster.
+  ○ Point Parameters could not be baked from the toolbar, this is fixed.
+  ○ Negative slider initialization codes would result in erroneous limits, this is fixed.
+  ○ Fixed a bug with the normal vector output of the Spherical Cloud component.
+  ○ ASCII control code characters in strings prevented ghx serialization, this is fixed. 
+  ○ Fixed several bugs with ReadFile component custom parser scripts.
+  ○ Fixed a bug (without introducing other ones I hope) with screwed up output data trees in case of partial path overlaps.
+  ○ Empty branches would get skipped by the PathMapper, this is fixed.
+  ○ Transform multiplication was the wrong way 'round, this is fixed.
+  ○ There was (at least one) bug in the Curve Offset direction code, it got fixed.
+  ○ Fixed a bug with the Convex Hull algorithm (while inebriated on Tokaj no less).
+
+Version 0.8.0007
+  ● The slider popup editor now has fields for Name and Expression.
+  ● Digit scrollers now have a text input button for single click text input.
+  ● Digit scrollers and Sliders embedded in menus can now be double-clicked for text input.
+  ● Text input fields for digit scrollers and slider now have OK and Cancel buttons.
+  ● Slider Expressions now use "x" as the expression variable instead of the Slider Name.
+  ○ Adding and removing objects while large groups were present was slow, this is fixed.
+  ○ Recursive curve explode didn't work, this is fixed.
+  ○ Kinks in nurbscurves were sometimes ignored by Curve Explode, this is fixed.
+  ○ Curve fillets wouldn't work on curve seams, this is fixed.
+  ○ Expressions could not handle single opening bracket string literals, this is fixed.
+  ○ Coarse mesh settings preset component didn't work, this is fixed.
+  ○ Long paths in the Last Ditch Save dialog were sometimes only partially displayed, this is fixed.
+
+Version 0.8.0006
+  ● Image Sampler 'Save In File' icon is now drawn unscaled.
+  ○ Fixed a bug in the Image Sampler.
+  ○ Curve Self Intersection only reported the first parameter at an intersection, this is fixed.
+  ○ Expressions entered in Number and Integer parameters were not evaluated fully, this is fixed.
+
+Version 0.8.0005
+  ● 1500+ Lolcats!
+  ● The deep-down-display-plumbing has been rewritten. The Grasshopper canvas is now drawn on the screen in a completely different fashion, be on the lookout for weird behaviour and novel crashes.
+  ● Added customizable display threshold to profiler widget.
+  ● Added a Reverse option on all parameters in addition to Flatten and Graft.
+  ● Added constant info to the PathMapper mask dialog.
+  ● Added 'Copy Content' and 'Copy Data Only' menu items to the text panel.
+  ● Improved add-on icon placement on the banner.
+  ● Rewrote Colour Picker control from scratch.
+  ● Rewrote Number Slider control from scratch.
+  ● Added a new Digit Scroller control to replace all standard windows numeric up/down controls.
+  ● Added a new Digit Scroller control as a special object.
+  ● Added a new data type for groups of geometric objects.
+  ● Added Create Group component (Transform tab).
+  ● Added Destroy Group component (Transform tab).
+  ● Added Merge Group component (Transform tab).
+  ● Added Split Group component (Transform tab).
+  ● Added a Transform Matrix type and parameter.
+  ● Added Compound Transform component (Transform tab).
+  ● Added Split Transform component (Transform tab).
+  ● Added generic Transform component (Transform tab).
+  ● Added Transform Matrix display object (Transform tab).
+  ● All Transform components now output Transformation data.
+  ● All Transform components geometry inputs are now optional.
+  ● Double clicking on the trackbar portion of a slider now pops up an input textbox.
+  ● Added a Settings browser window (File menu). Note that this is not supposed to be a true Settings interface.
+  ● Solution states can now be deleted as well as created.
+  ● Changes to solution states are now recorded in the undo stack.
+  ● When toolbar icon panels are fully collapsed, they are now wide enough to read the panel name.
+  ● Added FilletCurve component for individual fillets.
+  ● Sliders with expressions now show the processed value.
+  ● Added a Value List object to the Params.Special panel.
+  ● Added System.Linq and System.Xml.Linq namespaces to the VB/C# references.
+  ● The Image Sampler can now save the image data in the ghx file.
+  ● Added an image gallery object (Params.Special tab, dropdown portion only).
+  ○ Fixed a problem with the popup search box not showing up sometimes.
+  ○ Floating parameter icons now center themselves in the space left over by the state tags.
+  ○ 'Export Hi-Res' menu item is now disabled if no document is loaded.
+  ○ Fixed a problem with tooltips on the Grasshopper banner assembly icons.
+  ○ Parameter flatten settings were not recorded in the undo-stack, this is fixed.
+  ○ Parameter graft settings were not recorded in the undo-stack, this is fixed.
+  ○ Fixed a bug with Curve|Line intersection and degenerate curve boundingboxes.
+  ○ Fixed a bug in the Shatter Curve component (thank you to])
+  ○ Scribble drags were not recorded by Undo, this is fixed.
+  ○ Scribble property changes were not recorded by Undo, this is fixed.
+
+Version 0.8.0004
+  ● Improved Drag+Drop GUI for gh and ghx files.
+  ● Added undo recording to Curve Point Component drags.
+  ● Added Ctrl+Enter and Shift+Enter overloads for setting persistent data via parameter menus.
+  ● Slider Animations can now be aborted with Escape.
+  ● Added non-functional Manage-List GUI to the Generic parameter.
+  ● Added more smarts to the automatic cluster input/output lists.
+  ● Added Ctrl+W shortcut to Close document menu item.
+  ● Explode Tree component now uses base-zero numbering in the output.
+  ● Arc3Pt and ArcSED components now output lines if the input is co-linear.
+  ○ Fixed sticky settings not being recorded when Rhino is shut down while Grasshopper is still running.
+  ○ Fixed a bug with Curve -> Interval auto-casting.
+  ○ Fixed tooltips showing for hidden widgets.
+  ○ Fixed a bug with Cluster output parameter sorting.
+  ○ Boxes would not bake if the axis intervals were reversed, this is fixed.
+
+Version 0.8.0003
+  ● Added proper tooltip formatting for Expression Variants.
+  ● Added more icon feedback to preview modes.
+  ○ Fixed flat Box to Brep conversions.
+  ○ Fixed Nurbs Curve to GH_Curve conversions.
+  ○ Fixed a bug with lingering previews on disabled objects.
+  ○ Fixed yet another bug with Curve offsetting.
+  ○ Layers in the undo stack would still show up in the Bake Dialog. This is now fixed.
+  ○ Fixed a bug in Sweep2.
+
+Version 0.8.0002
+  ● !! This release is build against .NET 3.5 instead of 2.0 !!
+  ● Added conditional If(condition, A, B) method to the Grasshopper expression language.
+  ● Added Rectangle geometric primitive.
+  ● Added Rectangle3d to the Script type hints.
+  ● Added a FilePath parameter.
+  ● Rectangle and Rectangle 3pt now output Rectangles when appropriate.
+  ● Grid Components now output Rectangles.
+  ● Added a Substrate Component (based on original idea by J. Tarbell).
+  ● Added a FitCrv component.
+  ● Added a Pick'n'Choose component to combine multiple lists into one.
+  ● Added a Collapse Polyline component.
+  ● Added a Planar Surface component.
+  ● Added a Radial Grid component.
+  ● Added zero-length segment removal to the old Polyline component.
+  ● Added two Relative Tree Item components, bit experimental, not sure where to go with this yet.
+  ● Added a Selected-Only filter to the Grasshopper preview.
+  ● Added wire display properties to all floating and input parameters.
+  ● Added Close Document button to the MDI menu.
+  ● Autopanning is now triggered both by Canvas edges and Screen edges.
+  ● Added customized cursors to the Galapagos Genome Linker.
+  ● Rewrote the Timer object. Be on the lookout for breaking behaviour and new bugs.
+  ● Added a new Ctrl+Shift rewiring editing mode for parameter wires.
+  ● Redesigned a bunch of Cursors and removed support for Windows pre-NT cursors.
+  ● Wire Action cursors are now visible before the action begins (i.e. when the mouse hovers over a grip).
+  ● Cursor Resources are now cached instead of loaded from the disk.
+  ● Improved Abort icon mouse blocking.
+  ● Rewrote all casting logic to use jump-tables for better performance. Watch out for bugs in data conversion.
+  ● Removed a lot of (over?)cautious validity tests for geometry inputs.
+  ● Twisted Box parameters are now Bake-Aware.
+  ● Updated the QWhale libraries, typing VB and C# code should be somewhat less frustrating.
+  ○ Fixed a bug with multi-line tooltip description layouts.
+  ○ Fixed a bug with surface reparameterization.
+  ○ Fixed the selection rectangle not being visible when no document is loaded.
+  ○ Fixed the Find function short-cut display in the Canvas popup menu.
+  ○ Fixed a bug with AHSL colour components and hue values out of the 0.0~1.0 range.
+  ○ Fixed a bug with Point parameter expression (de)serialization.
+  ○ Fixed a bug with Surface Normal evaluation and flipped surfaces.
+  ○ Fixed a bug with the Bake dialog.
+  ○ Fixed a core SDK problem with the curve offset algorithms.
+  ○ Fixed a bug with number slider menus not working over the rail box.
+  ○ Fixed a potential crash case with the Grasshopper Banner and invalid Library Icons.
+  ○ Fixed a bug with Tiled sampling in the Image Sampler.
+  ○ Fixed excessive undo event recording during Alt+Arrow nudging of Components.
+
+Version 0.8.0001
+  ● Added a new Cluster Object. This is very young code, expect big (quite possibly breaking) changes in the future.
+  ● Added auto-panning to Drag Object and Draw Wire interactions.
+  ● Added canvas curl UI for drag+drop options.
+  ● Added default values to the Quad-Face and Tri-Face components.
+  ● Added a Tree Split component for separating out branches.
+  ● Drag+Drop with text content now creates a new Panel.
+  ● Curve data can now convert from a Surface/Brep with a single closed edge loop.
+  ● Added runtime message balloon feedback.
+  ● VB and C# script components now update immediately when typehints are changed.
+  ● VB and C# script components now update immediately when input parameter access is changed.
+  ● MoveForward and MoveBackwards arrange options are now available.
+  ● Added a Grasshopper Version field to the status bar.
+  ● GraphMapper can now adjust intervals, points and vectors in addition to just numbers.
+  ● Parameter disconnection menu items now highlight the connection in question on mouse-over.
+  ○ The menu short-cuts for Find and Move Forward were both Ctrl+F. Find is now F3.
+  ○ Any Undo operation would wreck the Redo stack, this no longer happens.
+  ○ Fixed a bug with automatic tooltip resizing.
+  ○ Fixed an erroneous "app" autocomplete member in the C# and VB script members.
+  ○ Fixed a bug in the CurveCurve intersection SDK code that occured with overlaps.
+  ○ Fixed a bug in the PointList display component with stale point data.
+  ○ Fixed a nasty bug with stale document caches and undo/redo.
+  ○ Custom Preview Meshes would always draw wires regardless of the Grasshopper view setting. This is fixed.
+
+Version 0.7.0057
+  ○ Fixed a serious bug with Grasshopper Clipboard interaction.
+
+Version 0.7.0056
+  ● String Join component J input is now optional.
+  ● Added a 'show-loaded-libraries' toggle to the Grasshopper Banner.
+  ● Added Find to the edit menu. Ctrl+F now opens the Find dialog.
+  ● Added three feedback modes to the Galapagos process.
+  ● Added an extra folder in the Grasshopper Roaming Application Data folder for custom components.
+  ● Added an extra menu item in the File menu to open the new custom roaming components folder.
+  ● Added file system directory autocompletion in GrasshopperDeveloperSettings dialog.
+  ● Added GIF, TIFF and EXIF image file formats to drag+drop component icon overrides.
+  ● Added Drag+Drop for GHUSER and GHA files to the Canvas.
+  ● Added docking options to Markov Widget.
+  ● Invalid folder paths are now no longer stripped from the GrasshopperDeveloperSettings dialog.
+  ○ Fixed yet another bug with the Insert component. Can't seem to get this one right.
+  ○ Fixed a serious bug with Disposed Tooltip access.
+  ○ Fixed a problem with dragged icon overrides not being deletable while Grasshopper is running.
+  ○ Fixed a bug with the Galapagos threshold fitness termination and Minimize.
+  ○ Fixed a bug in Galapagos that prevented the fittest genome to be re-instated upon solver completion.
+  ○ Fixed a bug with the ImageSampler drag+drop image replacement.
+  ○ The ghx document modified flag was set too often causing unnecessary save prompts.
+  ○ The Rhino5 SDK was broken with the Rhino5 Beta release of October 29th 2010, this caused several components to stop working.
+  
+Version 0.7.0055
+  ● Galapagos can now start a solution from the initial slider layout.
+  ● Galapagos can now start a solution from a selected genome.
+  ● Added a Mutate override button to the Galapagos solver process.
+  ● Added Save, Load and Defaults to the Galapagos settings UI.
+  ● Added Curve Extremes component.
+  ● Added [Set All Sliders] item to Galapagos Gene input menu.
+  ● Added [Set Selected Sliders] item to Galapagos Gene input menu.
+  ● Added auto-mutators which are triggered by low bio-diversity.
+  ● Added feedback enable/disable button to the Galapagos window to speed up the process.
+  ● Added direct colour casts to the Shader type. I.e. shaders can now construct themselves from colour names.
+  ● Added a Surface Split component.
+  ○ Fixed missing undo event for grouping.
+  ○ Fixed missing undo event with the slider popup editor.
+  ○ Fixed String to Interval conversion not dealing with all formats.
+  ○ Fixed chain inversion bug with Catenary component.
+  ○ Changed Galapagos controls background and foreground colour defaults.
+  
+Version 0.7.0054
+  ● Added Nurbs Curve Knot Vector component.
+  ● Added an Item Index component.
+  ● Changed the InsertList component logic to be more flexible and predictable.
+  ● Grasshopper geometry is no longer encased in bounding box markers.
+  ● Added more selection and navigation mechanisms to Galapagos interface.
+  ● Added founder population boost factor to Galapagos.
+  ● Added avoidance and collision algorithms to the Galapagos genome factory.
+  ● Galapagos species and population viewers now support multiple generations.
+  ● Galapagos can now use output parameters as fitness values as well as floating parameters.
+  ● Galapagos genome map now properly displays parental and dead-end genomes all the time.
+  ● Galapagos can now maximize, minimize and optimize genome fitness values.
+  ● The viewport now remains responsive while Galapagos is running.
+  ○ Fixed arrow key navigation in the Galapagos Species Statistics viewer.
+  ○ Fixed a bug with input parameter visual tags and erroneous grip locations.
+  ○ Fixed a bug with the Curve Frames component.
+  ○ Fixed Grasshopper preview geometry being visible in Page Layout views.
+  
+Version 0.7.0053
+  ● Made object dragging more robust when groups are involved.
+  ● Added a Knot-Vector output to the Curve Points component.
+  ● Added a Curve Control Polygon component.
+  ● Added a Nurbs Curve component.
+  ● Added visual parameter state tags to replace textual nickname mods.
+  ● Added faint display mode for non-active Galapagos wires.
+  ○ Fixed missing 'back port' for the obsolete Pipe component.
+  ○ Fixed fundamental bug in the Insert List component.
+  ○ Fixed a bug with the Divide Surface component.
+  ○ Fixed a bug with the Sketch interaction object being prematurely destroyed.
+  ○ Fixed a bug with Script inputs not being properly duplicated.
+  ○ Fixed missing Undo events for slider changes.
+  ○ Fixed missing Undo events for bargraph changes.
+  ○ Fixed missing Undo events for switch changes.
+  ○ Fixed missing Undo events for colour picker changes.
+  ○ Fixed missing Undo events for gradient changes.
+  ○ Fixed missing Undo events for graphmapper changes.
+  ○ Fixed missing Undo events for group changes.
+  ○ Fixed a bug in the Power component that occured with Integers only.
+  ○ Fixed UI colours in Galapagos window to adhere to the active Windows Theme.
+  
+Version 0.7.0052
+  ● Added copy mode to Drag tool (press Alt to enable/disable copy).
+  ● Added Ctrl+Tab document cycling.
+  ● Added UI mode to View menu which includes all DropDown components on the main toolbars.
+  ● Added MeshShadow component.
+  ● Added MeshSplitPlane component.
+  ● Added MeshSplitDisjoint component.
+  ● Added MeshJoin component.
+  ● Added MeshBooleanUnion component.
+  ● Added MeshBooleanDifference component.
+  ● Added MeshBooleanIntersection component.
+  ● Added Set Default item to panel menu to set global panel background colours.
+  ● Put the Default Panel fill colour into the grasshopper_gui.xml Skin file.
+  ○ Fixed a bug with the aligned BoundingBox component.
+  ○ Fixed a bug with the slider numeric input and numpad keys.
+  ○ Fixed a bug with the slider numeric input and combination keypresses.
+  ○ Past Escape presses would trigger the abort state, this is now fixed.
+  
+Version 0.7.0049
+  ● Added DoubleClick and KeyDown triggered text input for active slider controls (such as in the colour picker).
+  ● Added Rectangle3Pt component.
+  ● Added Line4Pt component.
+  ● Added Line between planes component.
+  ● Added rudimentary Abort logic for solutions triggered by an Escape press.
+  ● The F5 and the Recompute buttons now ignore the Locked state.
+  ● Put the Default Group fill colour into the grasshopper_gui.xml Skin file.
+  ● Added menu item to groups to set the current group fill as the default.
+  ● Added arrow indicators for Flattened and Grafted parameters.
+  ● Added additional error trapping logic to the plug-in loading sequence.
+  ○ Fixed a problem with the Obsolete Vector Mass Addition components.
+  ○ Fixed a bug when baking Generic parameters that contained non-bakeable data.
+  ○ Fixed View rays intersecting with coincident geometry in the Occlusion component.
+  ○ Fixed Lambert shading option in the Exposure component not doing anything.
+  ○ Fixed a bug in the Truncate component.
+  
+Version 0.7.0048
+  ● Added Shift and/or Control action to the Selected Preview Zoom function.
+  ● Added Mesh|Plane intersection component.
+  ● Added Line|Line intersection component.
+  ○ Fixed RMB incorrectly opening download page on auto-update icon while the tooltip balloon is visible.
+  ○ Fixed a bug with parameter flattening and empty warnings disappearing.
+  ○ Fixed baking attributes not being applied to all baked objects.
+
+Version 0.7.0047
+  ● Added Left, Center and Right alignment options for textpanels.
+  ● Added Zoom to Selected Preview Geometry toolbar button and menu item.
+  ● Added Auto-Update notify icon balloon click event for direct download.
+  ● Auto-Update notify icon now only requires a single click to open the download page.
+  ● Auto-Update notify icon now disappears when the download page is visited.
+  ○ Grasshopper was referencing the wrong QWhale libraries and the VB/C# code editor would fail.
+  
+Version 0.7.0046
+  ● Added Version History record for automatic updates.
+  ● Added Graft option to all parameters (in addition to Flatten option).
+  ● Added Drag+Drop component icon replace handler (only works for 24x24 pixel images).
+  ● Added Version History item to Grasshopper Help menu.
+  ● Added ComboBoxes to the User Object editor to provide the existing Category and SubCategory fields.
+  ○ Fixed names of Brep Edges component outputs (Naked and Interior were swapped).
+  ○ Fixed some undo events not being recorded properly.
+  ○ Fixed tooltip layout bug.
+  ○ Fixed ANSI to UTF8 conversion for S3 server data files.

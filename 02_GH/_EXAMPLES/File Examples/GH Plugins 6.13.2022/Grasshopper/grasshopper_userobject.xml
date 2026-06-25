@@ -1,0 +1,9 @@
+<Fragment name="Settings">
+  <items count="5">
+    <item name="DefaultCategory" type_name="gh_string" type_code="10">QLAB</item>
+    <item name="DefaultDropDown" type_name="gh_bool" type_code="1">false</item>
+    <item name="DefaultHidden" type_name="gh_bool" type_code="1">false</item>
+    <item name="DefaultSection" type_name="gh_int32" type_code="3">7</item>
+    <item name="DefaultSubCategory" type_name="gh_string" type_code="10">NOT Sum3D</item>
+  </items>
+</Fragment>

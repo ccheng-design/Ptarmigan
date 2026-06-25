@@ -1,0 +1,22 @@
+<Fragment name="Settings">
+  <items count="18">
+    <item name="CropX0" type_name="gh_double" type_code="6">0.10014619883040936</item>
+    <item name="CropX1" type_name="gh_double" type_code="6">0.89985380116959068</item>
+    <item name="CropY0" type_name="gh_double" type_code="6">0.10023584905660378</item>
+    <item name="CropY1" type_name="gh_double" type_code="6">0.89976415094339623</item>
+    <item name="FocusA" type_name="gh_double" type_code="6">0</item>
+    <item name="FocusH" type_name="gh_double" type_code="6">0.25</item>
+    <item name="FocusW" type_name="gh_double" type_code="6">0.25</item>
+    <item name="FocusX" type_name="gh_double" type_code="6">0.35</item>
+    <item name="FocusY" type_name="gh_double" type_code="6">0.34999999999999992</item>
+    <item name="ShowCroppingFrame" type_name="gh_bool" type_code="1">false</item>
+    <item name="ShowFocusFrame" type_name="gh_bool" type_code="1">false</item>
+    <item name="ShowVersion" type_name="gh_bool" type_code="1">false</item>
+    <item name="ShowViewportFrame" type_name="gh_bool" type_code="1">false</item>
+    <item name="ViewportA" type_name="gh_double" type_code="6">0</item>
+    <item name="ViewportH" type_name="gh_double" type_code="6">0.15</item>
+    <item name="ViewportW" type_name="gh_double" type_code="6">0.15</item>
+    <item name="ViewportX" type_name="gh_double" type_code="6">0.65</item>
+    <item name="ViewportY" type_name="gh_double" type_code="6">0.65</item>
+  </items>
+</Fragment>
