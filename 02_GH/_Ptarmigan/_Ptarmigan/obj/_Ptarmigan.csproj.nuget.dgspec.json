@@ -1,40 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj": {}
+    "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj": {}
   },
   "projects": {
-    "D:\\Architectural Templates\\Heron\\Heron\\Heron.csproj": {
+    "G:\\Architectural Templates\\Heron\\Heron\\Heron.csproj": {
       "restore": {
-        "projectUniqueName": "D:\\Architectural Templates\\Heron\\Heron\\Heron.csproj",
+        "projectUniqueName": "G:\\Architectural Templates\\Heron\\Heron\\Heron.csproj",
         "projectName": "Heron",
-        "projectPath": "D:\\Architectural Templates\\Heron\\Heron\\Heron.csproj",
+        "projectPath": "G:\\Architectural Templates\\Heron\\Heron\\Heron.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
+            "framework": "net48",
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
-        "net48": {}
+        "net48": {
+          "framework": "net48"
+        }
       }
     },
-    "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj": {
+    "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj",
+        "projectUniqueName": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj",
         "projectName": "_Ptarmigan",
-        "projectPath": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj",
-        "packagesPath": "C:\\Users\\Clark\\.nuget\\packages\\",
-        "outputPath": "D:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\obj\\",
+        "projectPath": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\_Ptarmigan.csproj",
+        "packagesPath": "C:\\Users\\Clark Cheng\\.nuget\\packages\\",
+        "outputPath": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Clark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Clark Cheng\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -48,27 +51,30 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "D:\\Architectural Templates\\Heron\\Heron\\Heron.csproj": {
-                "projectPath": "D:\\Architectural Templates\\Heron\\Heron\\Heron.csproj"
-              }
-            }
-          },
-          "net7.0-windows7.0": {
-            "targetAlias": "net7.0-windows",
-            "projectReferences": {
-              "D:\\Architectural Templates\\Heron\\Heron\\Heron.csproj": {
-                "projectPath": "D:\\Architectural Templates\\Heron\\Heron\\Heron.csproj"
-              }
-            }
-          },
           "net48": {
+            "framework": "net48",
             "targetAlias": "net48",
             "projectReferences": {
-              "D:\\Architectural Templates\\Heron\\Heron\\Heron.csproj": {
-                "projectPath": "D:\\Architectural Templates\\Heron\\Heron\\Heron.csproj"
+              "G:\\Architectural Templates\\Heron\\Heron\\Heron.csproj": {
+                "projectPath": "G:\\Architectural Templates\\Heron\\Heron\\Heron.csproj"
+              }
+            }
+          },
+          "net7.0": {
+            "framework": "net7.0",
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "G:\\Architectural Templates\\Heron\\Heron\\Heron.csproj": {
+                "projectPath": "G:\\Architectural Templates\\Heron\\Heron\\Heron.csproj"
+              }
+            }
+          },
+          "net7.0-windows": {
+            "framework": "net7.0-windows7.0",
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {
+              "G:\\Architectural Templates\\Heron\\Heron\\Heron.csproj": {
+                "projectPath": "G:\\Architectural Templates\\Heron\\Heron\\Heron.csproj"
               }
             }
           }
@@ -86,10 +92,75 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
+        "net48": {
+          "framework": "net48",
+          "targetAlias": "net48",
+          "dependencies": {
+            "GDAL": {
+              "target": "Package",
+              "version": "[3.12.1, )"
+            },
+            "GDAL.Native": {
+              "target": "Package",
+              "version": "[3.12.1, )"
+            },
+            "Grasshopper": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[8.29.26063.11001, )"
+            },
+            "MeshLib": {
+              "target": "Package",
+              "version": "[3.1.1.92, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "OsmSharp": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Remote.Linq.Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\RuntimeIdentifierGraph.json"
+        },
         "net7.0": {
+          "framework": "net7.0",
           "targetAlias": "net7.0",
           "dependencies": {
             "GDAL": {
@@ -191,9 +262,10 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\RuntimeIdentifierGraph.json"
         },
-        "net7.0-windows7.0": {
+        "net7.0-windows": {
+          "framework": "net7.0-windows7.0",
           "targetAlias": "net7.0-windows",
           "dependencies": {
             "GDAL": {
@@ -287,70 +359,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
-        },
-        "net48": {
-          "targetAlias": "net48",
-          "dependencies": {
-            "GDAL": {
-              "target": "Package",
-              "version": "[3.12.1, )"
-            },
-            "GDAL.Native": {
-              "target": "Package",
-              "version": "[3.12.1, )"
-            },
-            "Grasshopper": {
-              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "target": "Package",
-              "version": "[8.29.26063.11001, )"
-            },
-            "MeshLib": {
-              "target": "Package",
-              "version": "[3.1.1.92, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[10.0.5, )"
-            },
-            "Microsoft.Extensions.Configuration.Binder": {
-              "target": "Package",
-              "version": "[10.0.5, )"
-            },
-            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
-              "target": "Package",
-              "version": "[10.0.5, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[10.0.5, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[10.0.5, )"
-            },
-            "Microsoft.Extensions.Options": {
-              "target": "Package",
-              "version": "[10.0.5, )"
-            },
-            "Microsoft.Extensions.Options.ConfigurationExtensions": {
-              "target": "Package",
-              "version": "[10.0.5, )"
-            },
-            "OsmSharp": {
-              "target": "Package",
-              "version": "[6.2.0, )"
-            },
-            "Remote.Linq.Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[7.3.1, )"
-            },
-            "System.Configuration.ConfigurationManager": {
-              "target": "Package",
-              "version": "[10.0.5, )"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
