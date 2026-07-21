@@ -13,20 +13,10 @@
     <SourceRoot Include="C:\Users\Clark Cheng\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
-  <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)rhinocommon\8.29.26063.11001\buildTransitive\net7.0\RhinoCommon.props" Condition="Exists('$(NuGetPackageRoot)rhinocommon\8.29.26063.11001\buildTransitive\net7.0\RhinoCommon.props')" />
   </ImportGroup>
-  <ImportGroup Condition=" '$(TargetFramework)' == 'net7.0-windows' AND '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)rhinocommon\8.29.26063.11001\buildTransitive\net7.0\RhinoCommon.props" Condition="Exists('$(NuGetPackageRoot)rhinocommon\8.29.26063.11001\buildTransitive\net7.0\RhinoCommon.props')" />
-  </ImportGroup>
-  <PropertyGroup Condition=" '$(TargetFramework)' == 'net48' AND '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgGDAL Condition=" '$(PkgGDAL)' == '' ">C:\Users\Clark Cheng\.nuget\packages\gdal\3.12.1</PkgGDAL>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0' AND '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_NETFramework_ReferenceAssemblies_net48 Condition=" '$(PkgMicrosoft_NETFramework_ReferenceAssemblies_net48)' == '' ">C:\Users\Clark Cheng\.nuget\packages\microsoft.netframework.referenceassemblies.net48\1.0.3</PkgMicrosoft_NETFramework_ReferenceAssemblies_net48>
-    <PkgGDAL Condition=" '$(PkgGDAL)' == '' ">C:\Users\Clark Cheng\.nuget\packages\gdal\3.12.1</PkgGDAL>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(TargetFramework)' == 'net7.0-windows' AND '$(ExcludeRestorePackageImports)' != 'true' ">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgGDAL Condition=" '$(PkgGDAL)' == '' ">C:\Users\Clark Cheng\.nuget\packages\gdal\3.12.1</PkgGDAL>
   </PropertyGroup>
 </Project>

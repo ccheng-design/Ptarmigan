@@ -3,116 +3,79 @@
   "WorkspaceRootPath": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|g:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\houdiniexportobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\houdiniexportobj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|g:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\jm_convex hull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\jm_convex hull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|g:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\seteap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\seteap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|g:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\isquad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\isquad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|g:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\istriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\istriangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|g:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\meshbooleandifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\meshbooleandifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|g:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\polylineoffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\polylineoffset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|g:\\architectural templates\\ptarmigan\\02_gh\\_ptarmigan\\_ptarmigan\\mt_booleandifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4E59E71-76EA-446A-8443-F440FE5247D3}|_Ptarmigan\\_Ptarmigan.csproj|solutionrelative:_ptarmigan\\mt_booleandifference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SetEAP.cs",
-              "DocumentMoniker": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\SetEAP.cs",
-              "RelativeDocumentMoniker": "_Ptarmigan\\SetEAP.cs",
-              "ToolTip": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\SetEAP.cs",
-              "RelativeToolTip": "_Ptarmigan\\SetEAP.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T12:50:19.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "JM_Convex Hull.cs",
               "DocumentMoniker": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\JM_Convex Hull.cs",
               "RelativeDocumentMoniker": "_Ptarmigan\\JM_Convex Hull.cs",
               "ToolTip": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\JM_Convex Hull.cs",
               "RelativeToolTip": "_Ptarmigan\\JM_Convex Hull.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwEMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T17:21:43.245Z",
+              "WhenOpened": "2026-07-20T08:46:48.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HoudiniExportObj.cs",
+              "DocumentMoniker": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\HoudiniExportObj.cs",
+              "RelativeDocumentMoniker": "_Ptarmigan\\HoudiniExportObj.cs",
+              "ToolTip": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\HoudiniExportObj.cs",
+              "RelativeToolTip": "_Ptarmigan\\HoudiniExportObj.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwDEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T08:39:14.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PolylineOffset.cs",
-              "DocumentMoniker": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\PolylineOffset.cs",
-              "RelativeDocumentMoniker": "_Ptarmigan\\PolylineOffset.cs",
-              "ToolTip": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\PolylineOffset.cs",
-              "RelativeToolTip": "_Ptarmigan\\PolylineOffset.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T17:21:38.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MT_BooleanDifference.cs",
-              "DocumentMoniker": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MT_BooleanDifference.cs",
-              "RelativeDocumentMoniker": "_Ptarmigan\\MT_BooleanDifference.cs",
-              "ToolTip": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MT_BooleanDifference.cs",
-              "RelativeToolTip": "_Ptarmigan\\MT_BooleanDifference.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAQwJQAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T17:21:04.024Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MeshBooleanDifference.cs",
-              "DocumentMoniker": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MeshBooleanDifference.cs",
-              "RelativeDocumentMoniker": "_Ptarmigan\\MeshBooleanDifference.cs",
-              "ToolTip": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\MeshBooleanDifference.cs",
-              "RelativeToolTip": "_Ptarmigan\\MeshBooleanDifference.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAswIcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-30T17:20:57.974Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "IsTriangle.cs",
               "DocumentMoniker": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\IsTriangle.cs",
               "RelativeDocumentMoniker": "_Ptarmigan\\IsTriangle.cs",
               "ToolTip": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\IsTriangle.cs",
               "RelativeToolTip": "_Ptarmigan\\IsTriangle.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T19:34:43.374Z"
+              "WhenOpened": "2026-07-20T08:23:32.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IsQuad.cs",
+              "DocumentMoniker": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\IsQuad.cs",
+              "RelativeDocumentMoniker": "_Ptarmigan\\IsQuad.cs",
+              "ToolTip": "G:\\Architectural Templates\\Ptarmigan\\02_GH\\_Ptarmigan\\_Ptarmigan\\IsQuad.cs",
+              "RelativeToolTip": "_Ptarmigan\\IsQuad.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T08:16:19.54Z"
             }
           ]
         }
