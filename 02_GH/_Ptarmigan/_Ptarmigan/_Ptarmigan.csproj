@@ -251,6 +251,9 @@
       <HintPath>lib\MeshLib\MRDotNet.dll</HintPath>
       <Aliases>MRDotNet1</Aliases>
     </Reference>
+    <Reference Include="Sharp3DBinPacking">
+      <HintPath>lib\Sharp3DBinPacking.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Properties\Settings.Designer.cs">
@@ -264,9 +267,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="lib\" />
   </ItemGroup>
 
   <Target Name="BuildYakPackage" AfterTargets="DispatchToInnerBuilds">

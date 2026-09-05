@@ -27,9 +27,14 @@ namespace _Ptarmigan
         /// </summary>
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {
-            pManager.AddGeometryParameter("Geometry", "G", "Geometry to Nest", GH_ParamAccess.list);
-            pManager.AddBoxParameter("Box", "B", "Box for Nesting", GH_ParamAccess.item);
-            pManager.AddNumberParameter("Spacing", "S", "Spacing Between Parts", GH_ParamAccess.item, 0.1);
+            pManager.AddGeometryParameter("Geometry", "G", "Geometry to nest: meshes and/or breps. Each item is packed by its world axis-aligned bounding box.", GH_ParamAccess.list);
+            pManager.AddBoxParameter("Box", "B", "Container box to nest into.", GH_ParamAccess.item);
+            pManager.AddNumberParameter("Spacing", "S", "Spacing: minimum gap between items and to the container walls, in model units.", GH_ParamAccess.item, 0.1);
+            pManager.AddBooleanParameter("Run", "R", "Set to True to Run Iteration Counts; Default is False", GH_ParamAccess.item, false);
+            pManager.AddNumberParameter("Iteration", "Iter", "Number of Iterations to Run; Set to 0 to Run constantly", GH_ParamAccess.item, 1);
+            pManager.AddNumberParameter("Seed", "S", "Randomize the iterations", GH_ParamAccess.item, 1);
+            pManager.AddNumberParameter("Mutation", "M", "Mutation(0 - 100): % noise applied to the packing order each attempt. 0 = pure optimization.", GH_ParamAccess.item, 0);
+            pManager.AddNumberParameter("Population", "P", "packing attempts per solve tick.", GH_ParamAccess.item, 5);
         }
 
         /// <summary>
