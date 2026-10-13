@@ -42,9 +42,14 @@ def ResetPageViews():
     for page in pageViews:
         doc.Views.ActiveView=page
 
+
+        height = page.PageHeight
+        width = page.PageWidth
+        print(height)
+
         #Creates rectangle
         plane = rs.WorldXYPlane()
-        bb=rs.AddRectangle(plane,17,11)
+        bb=rs.AddRectangle(plane,width,height)
         rs.SelectObjects(bb)
         rs.ZoomSelected()
         rs.DeleteObjects(bb)
