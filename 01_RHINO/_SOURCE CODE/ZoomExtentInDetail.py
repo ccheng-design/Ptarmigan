@@ -55,8 +55,8 @@ def ZoomExtentInDetail():
         mode = choose_option()
 
     details=[]
-    SF = [4,8,12,16,24,32,48,64,96,128,192,384]
-    DS = []
+    SF = [1,2,4,8,12,16,24,32,48,64,96,128,192,384]
+    DS = [1,2,4,8,12,16,24,32,48,64,96,128,192,384]
 
 
     #RECIPROCAL OF THE SCALE FACTOR TO DRAWING SCALE FACTOR (FRACTIONAL)
@@ -96,6 +96,7 @@ def ZoomExtentInDetail():
 
             scaleFactor = ZSdetailScale.DetailGeometry.PageToModelRatio
             print("ROUND DOWN", scaleFactor)
+
             roundedSF = min(x for x in DS if x >= scaleFactor)
             print(roundedSF)
 
