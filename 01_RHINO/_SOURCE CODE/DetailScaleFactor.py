@@ -53,6 +53,7 @@ def DetailScaleFactor():
 
     if len(descriptionCount) != len(detailGetCount):
         sys.exit()
+        print("Selection Number has Mismatch!")
 
     print(detailGet)
     for i in detailGet:
@@ -64,8 +65,11 @@ def DetailScaleFactor():
 
         #DetailGeometry Class
         viewport=detailObj.DetailGeometry.PageToModelRatio
+        print(viewport)
 
         #test=detailObj.PageToModelRatio
+
+        #FUTURE: Make it to where if the scale factor is not a normal one, it outputs text, "SCALED"
 
         field='%<DetailScale("' + i.ToString() + '","'+ '#=1-0")>%'
         print(field)
